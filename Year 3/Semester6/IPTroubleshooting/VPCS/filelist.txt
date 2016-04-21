@@ -1,0 +1,11 @@
+VPCS package file list and md5
+
+1. vpcs32       d781926b1e3bf6e0549de77a0fc6f239 linux 32bit
+2. vpcs64       252af7844db821fdecd786aae12595f6 linux 64bit 
+3. vpcs.osx     33ecc2fa9bef119702a045a39ea8ac62 OSX
+4. vpcs.exe     e77cb4143b44c592167c30f245728002 windows
+5. cygwin1.dll  bc68345f873de78310d324320e82fe65
+6. startup.vpc                                   startup file
+7. readme_cn.txt
+8. readme.txt
+9. filelist.txt

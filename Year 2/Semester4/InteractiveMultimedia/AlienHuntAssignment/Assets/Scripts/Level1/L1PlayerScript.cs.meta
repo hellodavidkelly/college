@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 35327ed40eee847eb94c505371d0fef5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - EnginePart: {instanceID: 0}
+  - FoundKey: {instanceID: 0}
+  - fadingMessagePrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

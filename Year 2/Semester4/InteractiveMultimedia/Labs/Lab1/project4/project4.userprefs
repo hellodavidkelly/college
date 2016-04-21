@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../GravityGuy/Assets/Scripts/GameGUI.cs">
+    <Files>
+      <File FileName="../../../GravityGuy/Assets/Scripts/player.cs" Line="5" Column="1" />
+      <File FileName="../../../GravityGuy/Assets/Scripts/GameGUI.cs" Line="7" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

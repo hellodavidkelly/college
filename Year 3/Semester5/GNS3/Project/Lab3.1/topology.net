@@ -1,0 +1,50 @@
+autostart = False
+version = 0.8.7
+[127.0.0.1:7200]
+    workingdir = /tmp
+    udp = 10001
+    [[2691]]
+        image = /Users/mjrbronchaus/Desktop/College/Semester5/GNS3/IOS/c2691-adventerprisek9-mz.124-23.bin
+        idlepc = 0x60a48df4
+        sparsemem = True
+        ghostios = True
+    [[ETHSW SW1]]
+        1 = access 1 R1 f0/0
+        2 = access 1 R2 f0/0
+        3 = access 1 R3 f0/0
+        x = -49.5
+        y = -23.0
+        z = 1.0
+    [[ROUTER R1]]
+        model = 2691
+        console = 2103
+        aux = 2503
+        cnfg = configs/R1.cfg
+        wic0/0 = WIC-2T
+        s0/0 = R2 s0/0
+        f0/0 = SW1 1
+        x = -268.0
+        y = 55.0
+        z = 1.0
+    [[ROUTER R2]]
+        model = 2691
+        console = 2104
+        aux = 2504
+        cnfg = configs/R2.cfg
+        wic0/0 = WIC-2T
+        s0/0 = R1 s0/0
+        f0/0 = SW1 2
+        x = -36.0
+        y = -180.0
+        z = 1.0
+    [[ROUTER R3]]
+        model = 2691
+        console = 2105
+        aux = 2505
+        cnfg = configs/R3.cfg
+        f0/0 = SW1 3
+        x = 152.0
+        y = 56.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs

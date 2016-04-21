@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+body,form,.button,input,textarea,select {
+	background:PaleGreen;
+	color:Black;
+}
+input,textarea,select,option {
+	border-style:inset;
+	border-color:SpringGreen;
+}
+fieldset {
+	border-style:outset;
+	border-color:PaleGreen;
+	background:SpringGreen;
+}
+fieldset.centered {
+	text-align:center;
+	margin-top:0.5em;
+}
+#header_fieldset  {
+	display:block;
+	float:left;
+}
+legend {
+	text-align:center;
+	color:Black;
+	font-weight: bold;
+}
+div.personal, div.horse_details, div.additional {
+	display: block;
+}
+div.tick , div.performance{
+	display:inline;
+	float:left;
+}
+label {
+	color:Black;
+	margin-left:1em;
+}
+label:after { 
+content: ": " 
+}
+label.personal {
+	width:70px;
+	float:left;
+}
+label.horse_details {
+	width:45px;
+	float:left;
+}
+label.additional {
+	width:210px;
+	float:left;
+}
+input.button{
+	border-style:outset;
+	border-color:SpringGreen;
+	background:PaleGreen;
+}
+li {
+	color:Red;
+	margin-left:1em;
+}
+
+
+
+

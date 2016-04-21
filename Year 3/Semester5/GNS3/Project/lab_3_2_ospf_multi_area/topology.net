@@ -1,0 +1,117 @@
+autostart = False
+version = 0.8.6
+[127.0.0.1:7200]
+    workingdir = /tmp
+    udp = 10001
+    [[2691]]
+        image = /home/martin/Dropbox/itb/_semester_5/Advanced_Switching_and_Routing/gns3/Images/c2691-adventerprisek9-mz.124-23.bin
+        idlepc = 0x60a4a19c
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R1]]
+        model = 2691
+        console = 2101
+        aux = 2501
+        cnfg = configs/R1.cfg
+        wic0/0 = WIC-2T
+        s0/0 = R2 s0/0
+        x = -179.0
+        y = 41.0
+        z = 1.0
+    [[ROUTER R2]]
+        model = 2691
+        console = 2102
+        aux = 2502
+        cnfg = configs/R2.cfg
+        wic0/0 = WIC-2T
+        s0/0 = R1 s0/0
+        s0/1 = R3 s0/1
+        x = -39.0
+        y = -232.0
+        z = 1.0
+        hx = 23.5
+        hy = 41.0
+    [[ROUTER R3]]
+        model = 2691
+        console = 2103
+        aux = 2503
+        cnfg = configs/R3.cfg
+        wic0/0 = WIC-2T
+        s0/1 = R2 s0/1
+        x = 215.0
+        y = -181.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    [[NOTE 1]]
+        text = "lo2: 10.1.2.1/24"
+        x = -158.0
+        y = -224.0
+    [[NOTE 2]]
+        text = "lo1: 10.1.1.1/24"
+        x = -195.0
+        y = 90.0
+    [[NOTE 3]]
+        text = "DCE"
+        x = -106.0
+        y = 12.0
+    [[NOTE 4]]
+        text = "lo3: 10.1.3.1/24"
+        x = 201.0
+        y = -136.0
+    [[NOTE 5]]
+        text = "lo20: 172.20.200.1/24"
+        x = 284.0
+        y = -168.0
+    [[NOTE 6]]
+        text = "DCE"
+        x = 48.0
+        y = -233.0
+    [[NOTE 7]]
+        text = "area 0"
+        x = -205.0
+        y = -203.0
+        color = "#00ff00"
+    [[NOTE 8]]
+        text = ".1"
+        x = -124.0
+        y = 12.0
+    [[NOTE 9]]
+        text = ".2"
+        x = -24.0
+        y = -175.0
+    [[NOTE 10]]
+        text = "area 23\nNSSA"
+        x = 209.0
+        y = -339.0
+        color = "#55ffff"
+    [[NOTE 11]]
+        text = "10.1.12.0/24"
+        x = -183.0
+        y = -89.0
+    [[NOTE 12]]
+        text = "10.1.23.0/24"
+        x = 82.0
+        y = -223.0
+    [[NOTE 13]]
+        text = ".2"
+        x = 33.0
+        y = -233.0
+    [[NOTE 14]]
+        text = ".3"
+        x = 195.0
+        y = -201.0
+    [[SHAPE 1]]
+        type = ellipse
+        x = -278.0
+        y = -246.0
+        width = 323.0
+        height = 387.0
+        border_color = "#aaff7f"
+    [[SHAPE 2]]
+        type = ellipse
+        x = 14.0
+        y = -342.0
+        width = 441.0
+        height = 285.0
+        border_color = "#55ffff"

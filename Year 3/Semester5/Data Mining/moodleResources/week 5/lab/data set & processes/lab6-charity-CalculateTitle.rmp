@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process version="5.1.011">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="5.1.011" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true" height="481" width="701">
+      <operator activated="true" class="retrieve" compatibility="5.1.011" expanded="true" height="60" name="Retrieve" width="90" x="45" y="30">
+        <parameter key="repository_entry" value="data/charityWithMissing"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="5.1.011" expanded="true" height="76" name="Remove hasChildren" width="90" x="179" y="30">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="HasChildren"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="true"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="5.1.011" expanded="true" height="76" name="Select Missing Titles" width="90" x="112" y="210">
+        <parameter key="condition_class" value="missing_attributes"/>
+        <parameter key="parameter_string" value="Title=&quot;&quot;"/>
+        <parameter key="invert_filter" value="false"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="5.1.011" expanded="true" height="76" name="Select Rows NOT missing title" width="90" x="246" y="375">
+        <parameter key="condition_class" value="missing_attributes"/>
+        <parameter key="invert_filter" value="true"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="5.1.011" expanded="true" height="76" name="Females with Title Missing" width="90" x="295" y="138">
+        <parameter key="condition_class" value="attribute_value_filter"/>
+        <parameter key="parameter_string" value="Gender=Female"/>
+        <parameter key="invert_filter" value="false"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="5.1.011" expanded="true" height="76" name="Males with missint Title" width="90" x="288" y="273">
+        <parameter key="condition_class" value="attribute_value_filter"/>
+        <parameter key="parameter_string" value="Gender=Female"/>
+        <parameter key="invert_filter" value="true"/>
+      </operator>
+      <operator activated="true" class="replace_missing_values" compatibility="5.1.011" expanded="true" height="94" name="Fill Title with MRS" width="90" x="447" y="120">
+        <parameter key="return_preprocessing_model" value="false"/>
+        <parameter key="create_view" value="false"/>
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Title"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="default" value="value"/>
+        <list key="columns"/>
+        <parameter key="replenishment_value" value="MRS"/>
+      </operator>
+      <operator activated="true" class="replace_missing_values" compatibility="5.1.011" expanded="true" height="94" name="Fill Title with MR" width="90" x="447" y="255">
+        <parameter key="return_preprocessing_model" value="false"/>
+        <parameter key="create_view" value="false"/>
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Title"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="default" value="value"/>
+        <list key="columns"/>
+        <parameter key="replenishment_value" value="MR"/>
+      </operator>
+      <operator activated="true" class="append" compatibility="5.1.011" expanded="true" height="112" name="Append - combine three subsets" width="90" x="581" y="255">
+        <parameter key="datamanagement" value="double_array"/>
+        <parameter key="merge_type" value="all"/>
+      </operator>
+      <connect from_op="Retrieve" from_port="output" to_op="Remove hasChildren" to_port="example set input"/>
+      <connect from_op="Remove hasChildren" from_port="example set output" to_op="Select Missing Titles" to_port="example set input"/>
+      <connect from_op="Select Missing Titles" from_port="example set output" to_op="Females with Title Missing" to_port="example set input"/>
+      <connect from_op="Select Missing Titles" from_port="original" to_op="Select Rows NOT missing title" to_port="example set input"/>
+      <connect from_op="Select Rows NOT missing title" from_port="example set output" to_op="Append - combine three subsets" to_port="example set 3"/>
+      <connect from_op="Females with Title Missing" from_port="example set output" to_op="Fill Title with MRS" to_port="example set input"/>
+      <connect from_op="Females with Title Missing" from_port="original" to_op="Males with missint Title" to_port="example set input"/>
+      <connect from_op="Males with missint Title" from_port="example set output" to_op="Fill Title with MR" to_port="example set input"/>
+      <connect from_op="Fill Title with MRS" from_port="example set output" to_op="Append - combine three subsets" to_port="example set 1"/>
+      <connect from_op="Fill Title with MR" from_port="example set output" to_op="Append - combine three subsets" to_port="example set 2"/>
+      <connect from_op="Append - combine three subsets" from_port="merged set" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="198"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+    </process>
+  </operator>
+</process>

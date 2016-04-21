@@ -1,0 +1,49 @@
+// J7_1_VP.cg Vertex Program: vertex lighting 
+
+void main(
+	float4 iPosition	: 	POSITION, 
+	float4 iNormal    	: 	NORMAL,
+out float4 oPosition 	: 	POSITION, 
+out float4 oColor 		: 	COLOR, 
+uniform float4x4 			modelView,
+uniform float4x4 			modelViewProjection,
+uniform float4x4 			inverseTranspose,
+uniform float3 				La,
+uniform float3 				Ld,
+uniform float3 				Ls,
+uniform float3 				lightPosition,
+uniform float3 				eyePosition,
+uniform float3 				Me,
+uniform float3 				Ma,
+uniform float3 				Md,
+uniform float3 				Ms,
+uniform float  				shininess
+) {
+  //calculate light source direction
+  float4 vPosition = mul(modelView, iPosition); 
+  float3 P = vPosition.xyz;
+  float3 L = normalize(lightPosition - P);
+  
+  //calculate vertex normal
+  float4 hN = mul(inverseTranspose, iNormal);
+  float3 N = normalize(hN.xyz);   
+   
+  //calculate emission and ambient components
+  float3 Ie = Me; 
+  float3 Ia = La*Ma; 
+  
+  // calculate diffuse component
+  float cosNL = max(dot(N, L), 0); 
+  float3 Id = Md * Ld * cosNL;
+  
+  // calculate specular component
+  float3 V = normalize(eyePosition - P);
+  float3 H = normalize(L + V);
+  float cosNH = max(dot(N, H), 0); 
+  if (cosNL==0) cosNH = 0; 
+  float3 Is = Ms * Ls * pow(cosNH, shininess); 
+
+  oColor.xyz = Ie + Ia + Id + Is;
+  oPosition = mul(modelViewProjection, iPosition);
+}
+

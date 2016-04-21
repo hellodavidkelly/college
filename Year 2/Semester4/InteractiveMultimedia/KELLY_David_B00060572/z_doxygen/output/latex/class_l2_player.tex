@@ -1,0 +1,97 @@
+\hypertarget{class_l2_player}{\section{L2\-Player Class Reference}
+\label{class_l2_player}\index{L2\-Player@{L2\-Player}}
+}
+
+
+Class that controls the \hyperlink{class_player}{Player} on level 2.  
+
+
+Inheritance diagram for L2\-Player\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_l2_player}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_l2_player_abf85322d2af4412614e90db0f177e5d7}{Get\-Parts\-Left} ()
+\item 
+int \hyperlink{class_l2_player_a0f061ad122d98387a8d1a5ab10a10a01}{Get\-Lives\-Left} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_l2_player_ab1c41d90971c87411a23f19185c8df71}{float {\bfseries delay\-Between\-Deaths} = 0.\-5f}\label{class_l2_player_ab1c41d90971c87411a23f19185c8df71}
+
+\item 
+Audio\-Clip \hyperlink{class_l2_player_ae6acf2430aa6da4b449caa58077c1db7}{Engine\-Part}
+\item 
+Audio\-Clip \hyperlink{class_l2_player_a3fc2b5fdbd62fe694a1f20a6f085a43f}{Die}
+\item 
+Game\-Object \hyperlink{class_l2_player_ac539a32388cdac6aa327d71b6646727b}{fading\-Message\-Prefab}
+\item 
+string \hyperlink{class_l2_player_ac303dbde290736bcbe225855c71e3dc4}{engine\-Part} = \char`\"{}(message to appear)\char`\"{}
+\item 
+string \hyperlink{class_l2_player_a354ec1eb77d1e1bceac1ea9f0205dab9}{died} = \char`\"{}(message to appear)\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class that controls the \hyperlink{class_player}{Player} on level 2. 
+
+\begin{DoxyAuthor}{Author}
+David Kelly 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\-0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+20/4/14 
+\end{DoxyDate}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_l2_player_a0f061ad122d98387a8d1a5ab10a10a01}{\index{L2\-Player@{L2\-Player}!Get\-Lives\-Left@{Get\-Lives\-Left}}
+\index{Get\-Lives\-Left@{Get\-Lives\-Left}!L2Player@{L2\-Player}}
+\subsubsection[{Get\-Lives\-Left}]{\setlength{\rightskip}{0pt plus 5cm}int L2\-Player.\-Get\-Lives\-Left (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_l2_player_a0f061ad122d98387a8d1a5ab10a10a01}
+\begin{DoxyReturn}{Returns}
+The number of lives the player has left in the level 
+\end{DoxyReturn}
+\hypertarget{class_l2_player_abf85322d2af4412614e90db0f177e5d7}{\index{L2\-Player@{L2\-Player}!Get\-Parts\-Left@{Get\-Parts\-Left}}
+\index{Get\-Parts\-Left@{Get\-Parts\-Left}!L2Player@{L2\-Player}}
+\subsubsection[{Get\-Parts\-Left}]{\setlength{\rightskip}{0pt plus 5cm}int L2\-Player.\-Get\-Parts\-Left (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_l2_player_abf85322d2af4412614e90db0f177e5d7}
+\begin{DoxyReturn}{Returns}
+The number of parts left to collect in the level 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_l2_player_a3fc2b5fdbd62fe694a1f20a6f085a43f}{\index{L2\-Player@{L2\-Player}!Die@{Die}}
+\index{Die@{Die}!L2Player@{L2\-Player}}
+\subsubsection[{Die}]{\setlength{\rightskip}{0pt plus 5cm}Audio\-Clip L2\-Player.\-Die}}\label{class_l2_player_a3fc2b5fdbd62fe694a1f20a6f085a43f}
+Reference to an audio source that will play when a Badguy is collided with \hypertarget{class_l2_player_a354ec1eb77d1e1bceac1ea9f0205dab9}{\index{L2\-Player@{L2\-Player}!died@{died}}
+\index{died@{died}!L2Player@{L2\-Player}}
+\subsubsection[{died}]{\setlength{\rightskip}{0pt plus 5cm}string L2\-Player.\-died = \char`\"{}(message to appear)\char`\"{}}}\label{class_l2_player_a354ec1eb77d1e1bceac1ea9f0205dab9}
+Reference to the message entered \hypertarget{class_l2_player_ae6acf2430aa6da4b449caa58077c1db7}{\index{L2\-Player@{L2\-Player}!Engine\-Part@{Engine\-Part}}
+\index{Engine\-Part@{Engine\-Part}!L2Player@{L2\-Player}}
+\subsubsection[{Engine\-Part}]{\setlength{\rightskip}{0pt plus 5cm}Audio\-Clip L2\-Player.\-Engine\-Part}}\label{class_l2_player_ae6acf2430aa6da4b449caa58077c1db7}
+Reference to an audio source that will play when an engine part is collided with \hypertarget{class_l2_player_ac303dbde290736bcbe225855c71e3dc4}{\index{L2\-Player@{L2\-Player}!engine\-Part@{engine\-Part}}
+\index{engine\-Part@{engine\-Part}!L2Player@{L2\-Player}}
+\subsubsection[{engine\-Part}]{\setlength{\rightskip}{0pt plus 5cm}string L2\-Player.\-engine\-Part = \char`\"{}(message to appear)\char`\"{}}}\label{class_l2_player_ac303dbde290736bcbe225855c71e3dc4}
+Reference to the message entered \hypertarget{class_l2_player_ac539a32388cdac6aa327d71b6646727b}{\index{L2\-Player@{L2\-Player}!fading\-Message\-Prefab@{fading\-Message\-Prefab}}
+\index{fading\-Message\-Prefab@{fading\-Message\-Prefab}!L2Player@{L2\-Player}}
+\subsubsection[{fading\-Message\-Prefab}]{\setlength{\rightskip}{0pt plus 5cm}Game\-Object L2\-Player.\-fading\-Message\-Prefab}}\label{class_l2_player_ac539a32388cdac6aa327d71b6646727b}
+Creating a message prefab reference 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+L2\-Player.\-cs\end{DoxyCompactItemize}

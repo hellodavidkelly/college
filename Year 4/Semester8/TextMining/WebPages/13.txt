@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="../Templates/current_stu_index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Institute of Technology Blanchardstown :: Current Students</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="meta" -->
+<meta name="description" content="Current Students" />
+<meta name="keywords" content="Current Students" />
+<meta name="author" content="ITB - http://www.itb.ie/" />
+<!-- InstanceEndEditable -->
+<link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="../ssi/css/screen.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/large.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/larger.css" title="larger" />
+<link rel="stylesheet" type="text/css" media="print" href="../ssi/css/print.css" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie7.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie6.css" /><![endif]-->
+
+<script type="text/javascript" src="../ssi/js/styleswitcher.js"></script>
+
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #669900;
+}
+.style2 {font-size: 12px}
+.style3 {color: #333333}
+.style4 {
+	font-size: 12px;
+	color: #333333;
+}
+-->
+</style>
+<!-- InstanceEndEditable -->
+</head>
+<body id="current_students" class="bg_sp">
+
+<!-- open page container -->
+<div id="contain">
+	<!-- start header -->
+			<!--this is the top menu bar and banner -->
+
+	
+	<!-- start header -->
+	<div id="header">
+		<div id="logo"><a href="../homepage.asp" title="ITB homepage" accesskey="0"><img src="../images/itb_logo.gif" alt="Institute of Technology Blanchardstown" width="300" height="83" border="0" /></a></div>
+		<div id="top">
+			<div class="hd_250"><ul><li id="nav_cf"><a title="Course Finder" href="../CourseFinder/index.html">Course Finder</a></li>
+			<li id="nav_hta"><a title="How to Apply" href="../HowtoApply/howtoapply.html">How to Apply</a></li>
+			</ul></div>
+			<br class="clear" />
+			<div class="hd_660">
+				<ul>
+					<li id="nav_home"><a title="Home" href="../homepage.asp">Home</a></li>
+					<li id="nav_about"><a title="About ITB" href="../AboutITB/index.html">About ITB</a></li>
+					<!--<li id="nav_cs"><a title="Current Students" href="../CurrentStudents/index.html">Current Students</a></li>-->
+					<li id="nav_ns"><a title="News & Events" href="../NewsEvents/newsdetailmore.asp">News &amp; Events</a></li>
+					<li id="nav_library"><a title="Library" href="http://www.blanchlib.itb.ie/" target="_blank">Library</a></li>
+					<li id="nav_intranet"><a title="Intranet" href="http://elan:8888" target="_blank">Intranet</a></li>
+					<li id="nav_careers"><a title="Careers at ITB" href="../Vacancies/index.html">Careers at ITB</a></li>
+					<li id="nav_map"><a title="Our Location" href="../Location/howtogetthere.html">Our Location</a></li>
+					<li id="nav_sd"><a title="Staff Directory" href="../StaffDirectory/staffdirectory.asp">Staff Directory</a></li>
+				</ul>
+			</div>
+			<br class="clear" />
+		</div>
+	</div>
+	<!-- stop header -->
+	<!-- start nav/search -->
+	<div id="nav_search">
+        <!-- start navigation -->
+        <div id="navigation">
+            <ul>
+                <li id="nav_study"><a title="Study at ITB" href="../StudyatITB/index.html">Study at ITB</a></li>
+                 <li id="nav_cs"><a title="Study at ITB" href="../CurrentStudents/index.html">Current Students</a></li>
+                <li id="nav_cslife"><a title="Campus & Student Life" href="../CampusStudentLife/index.html">Campus  Life</a></li>
+                <li id="nav_research"><a title="Research at ITB" href="../ResearchatITB/index.html">Research</a></li>
+                <li id="nav_ii"><a title="Industry & Innovation" href="../IndustryInnovation/index.html">Industry &amp; Innovation</a></li>
+            </ul>
+        </div>
+        <!-- stop navigation -->
+        <!-- start search -->
+        <div id="search">
+        <!--<form action="#" method="get" class="frmSearch">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="search_term" name="search_term" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>-->
+		
+		<!--<form action="../search/search.asp" method="get" class="frmSearch" name="form1">-->
+		<form action="../search/search.asp" method="get" class="frmSearch" name="form1">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="strp" name="target" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>
+		
+		
+		
+        </div>
+        <!-- stop search -->
+        <br class="clear" />
+	</div>
+	
+	
+	<!-- end of virtual directory -->
+	<!-- stop nav/search -->
+	<div class="hr_block"><hr /></div>
+	<!-- start content area -->
+	<div id="content_wide">
+		<!-- start left column -->
+		<div id="col_220l">
+			<h1>Current Students  </h1>
+			<!-- start secondary nav -->
+			<div id="subnav">
+				<ul>
+                	<li><a href="schedule.html">Schedule Week 1</a></li>
+                    <li><a href="feesgrants.html">Fees & Grants Information</a></li>
+                    <li><a href="onlinereg.html">Online Registration</a></li>
+                    <li><a href="https://ssb.ancheim.ie/itb/app/twbkwbis.P_WWWLogin" target="_blank">Pay Fees Online</a></li>
+                    <li><a href="https://www.outlook.com/student.itb.ie" target="_blank">Student Email</a></li>
+					<li><a href="sid.html">Student Information Desk</a></li>
+					<li><a href="gardavetting.html">Garda Vetting</a></li>
+					<!--<li><a href="https://ssb.ancheim.ie/itb/app/twbkwbis.P_WWWLogin" target="_blank">Pay Fees Online</a></li>-->
+					<li><a href="timetable.html">Timetables</a></li>
+					<li><a href="http://moodle.itb.ie">Moodle </a></li>
+					<li><a href="passwordrecovery.html">Password Recovery</a></li>
+					<li><a href="studentsupport.html">Student Support</a></li>
+					<li><a href="careersservice.html">Careers Service</a></li>
+					<li><a href="exams.html">Exams</a></li>
+					<li><a href="erasmus.html">Erasmus Programme</a></li>
+					<li><a href="electives.html">Electives</a></li>
+				</ul>
+			</div>
+			<br />
+		</div>
+		<!-- stop left column -->
+		<!-- start centre column -->
+		<div id="col_700">
+			<div class="grey_block">
+				<p class="font_11"><a href="javascript:window.print();"><img src="../images/icon_print.gif" alt="Print" width="25" height="17" class="vertical_align_images" /> Print Page</a> | <a href="javascript:setActiveStyleSheet('default');">A</a> | <a href="javascript:setActiveStyleSheet('large');" class="med">A</a> | <a href="javascript:setActiveStyleSheet('larger');" class="lrg">A</a></p>
+				<h2>Overview</h2>
+			</div>
+            <!-- start breadcrumb -->
+			<!-- InstanceBeginEditable name="breadcrumb" -->
+            <div id="breadcrumb">
+                 <p style="margin-bottom: 0"><a href="../homepage.asp">Home &gt; </a><a href="index.html">Current Students </a>&gt;</p>
+          </div>
+		  <!-- InstanceEndEditable -->
+            <!-- stop breadcrumb -->
+			<!-- start content area -->
+			<div class="pad_content"><div id="content">
+
+<h3><!-- InstanceBeginEditable name="Sub Title" -->FULL TIME COURSES - ACADEMIC CALENDAR 2015 / 2016<br />
+<!-- InstanceEndEditable --></h3>
+<!-- InstanceBeginEditable name="BodyText" -->
+<table border="0" cellspacing="0" cellpadding="0" width="600" summary="calendar of events" class="table_type1">
+<tr class="table_header">
+    <th width="150">DATE</th>
+    <th>EVENT</th>
+</tr>
+<tr>
+    <td colspan="2"><strong>Semester 1 </strong></td>
+</tr>
+<tr>
+<td valign="top">08/09/15</td>
+<td valign="top"><p class="style2" style="margin-top: 0; margin-bottom: 0">Start of Winter Semester.</p>
+  <p class="style2" style="margin-top: 0; margin-bottom: 0;">Induction &amp; Registration commences for all Full time 1st Year students. </p></td>
+</tr>
+<tr>
+<td valign="top">14/09/15</td>
+<td valign="top">Classes resume for all other students </td>
+</tr>
+<tr>
+  <td valign="top">26/10/15</td>
+  <td valign="top">Bank Holiday </td>
+</tr>
+<tr>
+<td valign="top">27/10/15 - 30/10/15</td>
+<td valign="top"><p class="style4">Student Project / Reading Week</p></td>
+</tr>
+<tr>
+<td valign="top">06/11/15</td>
+<td valign="top">Conferring</td>
+</tr>
+<tr>
+<td valign="top">21/12/15 - 06/01/16</td>
+<td valign="top">Revision Week / Christmas Break </td>
+</tr>
+<tr>
+  <td valign="top">07/01/16 - 15/01/16</td>
+  <td valign="top">Winter Semester Examinations </td>
+</tr>
+<tr>
+<td colspan="2"><strong>Semester 2 </strong></td>
+</tr>
+<tr>
+<td valign="top">25/01/16</td>
+<td valign="top">Start of Spring Semester </td>
+</tr>
+<tr>
+<td valign="top">17/03/16</td>
+<td valign="top">St. Patrick's Day Holiday </td>
+</tr>
+<tr>
+<td valign="top">21/03/16 - 01/04/16</td>
+<td valign="top"><span class="style3"> Easter Break / Reading Week </span></td>
+</tr>
+<tr>
+<td valign="top">02/05/16</td>
+<td valign="top">Bank Holiday</td>
+</tr>
+<tr>
+<td valign="top">03/05/16 - 06/05/16</td>
+<td valign="top">Revision Week </td>
+</tr>
+<tr>
+<td valign="top">09/05/16 - 17/05/16</td>
+<td valign="top">Spring Semester Examinations</td>
+</tr>
+<tr>
+<td valign="top">06/06/16</td>
+<td valign="top">Bank  Holiday </td>
+</tr>
+<tr>
+  <td valign="top">14/06/16</td>
+  <td valign="top">Results Published </td>
+</tr>
+<tr>
+  <td valign="top">14/06/16 - 20/06/16</td>
+  <td valign="top">Exam Reviews / Discussion/Review Recheck Applications </td>
+</tr>
+<tr>
+<td colspan="2"><strong>Autumn Examinations 2016</strong></td>
+</tr>
+<tr>
+  <td valign="top">01/08/16</td>
+  <td valign="top">Bank Holiday </td>
+</tr>
+<tr>
+<td valign="top">15/08/16 - 19/08/16</td>
+<td valign="top">Winter Semester  Repeat Examinations*</td>
+</tr>
+<tr>
+<td valign="top">22/08/16 - 26/08/16</td>
+<td valign="top">Spring Semester Repeat Examinations*</td>
+</tr>
+</table>
+<p class="style1"><a name="PTAcademicCalendar" id="PTAcademicCalendar"></a><a href="#PTAcademicCalendar">PART TIME COURSES - ACADEMIC CALENDAR 2015 / 2016</a></p>
+<table width="600" border="0" cellpadding="0" cellspacing="0" class="table_type1" summary="calendar of events">
+  <tr class="table_header">
+    <th width="150">DATE</th>
+    <th>EVENT</th>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Semester 1 </strong></td>
+  </tr>
+  <tr>
+    <td valign="top">21/09/15 </td>
+    <td valign="top"><p class="style2" style="margin-top: 0; margin-bottom: 0">Registration and Start of Part-time Courses </p>
+        </td>
+  </tr>
+  <tr>
+    <td valign="top">26/10/15</td>
+    <td valign="top">Bank Holiday </td>
+  </tr>
+  <tr>
+    <td valign="top">27/10/15 - 30/10/15</td>
+    <td valign="top">Student Project / Reading Week </td>
+  </tr>
+  <tr>
+    <td valign="top">06/11/15</td>
+    <td valign="top">Conferring</td>
+  </tr>
+  <tr>
+    <td valign="top">21/12/15 - 06/01/16</td>
+    <td valign="top">Revision Week / Christmas Break </td>
+  </tr>
+  <tr>
+    <td valign="top">07/01/16 - 15/01/16</td>
+    <td valign="top">Winter Semester Examinations </td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Semester 2</strong></td>
+  </tr>
+  <tr>
+    <td valign="top">01/02/16</td>
+    <td valign="top"><p class="style2" style="margin-top: 0; margin-bottom: 0">Start of Part-time Courses </p>
+      </td>
+  </tr>
+  <tr>
+    <td valign="top">17/03/16</td>
+    <td valign="top">St. Patrick's Day Holiday </td>
+  </tr>
+  <tr>
+    <td valign="top">21/03/16 - 01/04/16</td>
+    <td valign="top">Easter Break / Reading Week </td>
+  </tr>
+  <tr>
+    <td valign="top">02/05/16</td>
+    <td valign="top">Bank Holiday</td>
+  </tr>
+  <tr>
+    <td valign="top">03/05/16 - 06/05/16</td>
+    <td valign="top">Revision Week </td>
+  </tr>
+  <tr>
+    <td valign="top">09/05/16 - 17/05/16</td>
+    <td valign="top"> Spring Semester Examinations</td>
+  </tr>
+  <tr>
+    <td valign="top">06/06/16</td>
+    <td valign="top">Bank Holiday </td>
+  </tr>
+  <tr>
+    <td valign="top">14/06/16</td>
+    <td valign="top">Results Published </td>
+  </tr>
+  <tr>
+    <td valign="top">14/06/16 - 20/06/16</td>
+    <td valign="top">Exam Reviews / Discussions/ Review Recheck Applications </td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Autumn Examinations 2016</strong></td>
+  </tr>
+  <tr>
+    <td valign="top">15/08/16 - 19/08/16</td>
+    <td valign="top">Winter Semester Repeat Examinations*</td>
+  </tr>
+  <tr>
+    <td valign="top">22/08/16 - 26/08/16</td>
+    <td valign="top">Spring Semester Repeat Examinations*</td>
+  </tr>
+</table>
+<p style="margin-top: 0;"><span class="style1"><a name="Apprentice" id="Apprentice"></a><a href="#Apprentice">Apprentice Programme  ACADEMIC CALENDAR 2015 / 2016</a></span></p>
+<table width="600" border="0" cellpadding="0" cellspacing="0" class="table_type1" summary="calendar of events">
+  <tr class="table_header">
+    <th width="150">DATE</th>
+    <th>EVENT</th>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Term 1 </strong></td>
+  </tr>
+  <tr>
+    <td valign="top">21/09/15</td>
+    <td valign="top"><p class="style2" style="margin-top: 0; margin-bottom: 0">Start of 10 &amp; 11 Week blocks </p>
+        </td>
+  </tr>
+  <tr>
+    <td valign="top">27/11/15</td>
+    <td valign="top">End of 10 Week blocks </td>
+  </tr>
+  <tr>
+    <td valign="top">04/12/15</td>
+    <td valign="top">End of 11 Week blocks </td>
+  </tr>
+  <tr>
+    <td valign="top">11/12/15</td>
+    <td valign="top">Exam Board Meeting </td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Term 2 </strong></td>
+  </tr>
+  <tr>
+    <td valign="top">04/01/16</td>
+    <td valign="top"><p class="style2" style="margin-top: 0; margin-bottom: 0">Start of 10 &amp; 11 Week blocks </p>
+        </td>
+  </tr>
+  <tr>
+    <td valign="top">11/03/16</td>
+    <td valign="top">End of 10 Week blocks </td>
+  </tr>
+  <tr>
+    <td valign="top">18/03/16</td>
+    <td valign="top">End of 11 Week blocks </td>
+  </tr>
+  <tr>
+    <td valign="top">08/04/16</td>
+    <td valign="top">Exam Board Meeting </td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Term 3 </strong></td>
+  </tr>
+  <tr>
+    <td valign="top">04/04/16</td>
+    <td valign="top"><span class="style2">Start of 10 &amp; 11 Week blocks </span></td>
+  </tr>
+  <tr>
+    <td valign="top">10/06/16</td>
+    <td valign="top">End of 10 Week blocks </td>
+  </tr>
+  <tr>
+    <td valign="top">17/06/16</td>
+    <td valign="top">End of 11 Week blocks </td>
+  </tr>
+  <tr>
+    <td valign="top">17/06/16</td>
+    <td valign="top">Exam Board Meeting</td>
+  </tr>
+</table>
+<p style="margin-bottom: 0;">&nbsp;<em>Note : All dates  are provisional  and subject to change at the discretion of the Institute. </em></p>
+<p><em>* Where a module runs in the winter and spring semester, the repeat examination may be scheduled once only, in week 1 of the repeat examinations. </em></p>
+<!-- InstanceEndEditable -->
+			</div></div>
+			<!-- stop content area -->
+		</div>
+		<!-- stop centre column -->
+		<br class="clear" />
+	</div>
+	<!-- stop content area -->
+	<!-- start footer -->
+	<div id="footer">
+		<div class="foot_507">
+			<div style="float:right;width:249px;"><img src="../files/eu-sfp.gif" alt="Ireland's EU Structural Funds Programme" width="168" height="57" /><img src="../images/StructFund.jpg" alt="European Social Fund" width="76" height="70" style="margin-right:5px;" /></div>
+			<p>&copy; Institi&uacute;id Teicneola&iacute;ochta, Baile Bhlains&eacute;ir, B&oacute;thar Bhaile Bhlains&eacute;ir Thuaidh,<br />Baile &Aacute;tha Cliath 15</p>
+			<ul><li id="nav_disclaimer"><a title="Disclaimer" href="../Disclaimer/index.html">Disclaimer</a></li>
+			<li id="nav_sitemap"><a title="Sitemap" href="../Sitemap/index.html">Sitemap</a></li>
+			<li id="nav_access"><a title="Accessibility" href="../Accessibility/index.html">Accessibility</a></li>
+			</ul>
+		</div>
+		<div class="foot_427"><p>Institute of Technology Blanchardstown, Blanchardstown Road North, Dublin 15</p><p>Tel: +353 (1) 8851000 |  Fax: +353 (1) 8851001 | Email: <a href="mailto:info@itb.ie">info@itb.ie</a></p>
+		<p><a href="../Disclaimer/cookie.html">Cookie Policy</a></p>
+		</div>
+	</div>
+
+	<!-- stop footer -->
+</div>
+<!-- close page container -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6699818-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

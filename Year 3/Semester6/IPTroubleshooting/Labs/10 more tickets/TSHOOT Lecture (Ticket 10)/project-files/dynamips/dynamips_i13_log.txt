@@ -1,0 +1,21 @@
+Apr 19 15:55:26.477 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 19 15:55:26.479 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55900.
+Apr 19 15:55:26.972 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 19 15:55:26.974 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 19 15:55:27.004 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Michael\GNS3\projects\TSHOOT Lecture (Ticket 2)\project-files\dynamips 
+Apr 19 15:55:27.004 GENERAL: working_dir=C:\Users\Michael\GNS3\projects\TSHOOT Lecture (Ticket 2)\project-files\dynamips
+Apr 19 15:55:27.039 HYPERVISOR: exec_cmd: frsw create FRSwitch 
+Apr 19 15:55:27.584 HYPERVISOR: exec_cmd: nio create_udp nio_udp22 10024 127.0.0.1 10025 
+Apr 19 15:55:27.679 HYPERVISOR: exec_cmd: nio create_udp nio_udp25 10026 127.0.0.1 10027 
+Apr 19 15:55:27.729 HYPERVISOR: exec_cmd: nio create_udp nio_udp27 10028 127.0.0.1 10029 
+Apr 19 15:55:27.777 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp27 102 nio_udp22 201 
+Apr 19 15:55:27.809 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp22 201 nio_udp27 102 
+Apr 19 15:55:27.894 HYPERVISOR: exec_cmd: nio create_udp nio_udp31 10030 127.0.0.1 10031 
+Apr 19 15:55:27.919 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp31 302 nio_udp22 203 
+Apr 19 15:55:27.944 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp22 203 nio_udp31 302 
+Apr 19 15:55:27.992 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp31 304 nio_udp25 403 
+Apr 19 15:55:28.037 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp25 403 nio_udp31 304 
+Apr 19 16:16:12.654 HYPERVISOR: exec_cmd: frsw delete FRSwitch 
+Apr 19 16:16:12.764 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 19 16:16:13.046 HYPERVISOR: Stopped.
+Apr 19 16:16:13.056 GENERAL: reset done.

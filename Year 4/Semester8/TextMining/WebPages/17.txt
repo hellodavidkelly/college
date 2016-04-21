@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="../Templates/study_itb_newStu.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Institute of Technology Blanchardstown :: Study at ITB :: New Students</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="meta" -->
+<meta name="description" content="[publisher desc]" />
+<meta name="keywords" content="[publisher custom1]" />
+<meta name="author" content="Strata3 - http://www.strata3.com/" />
+<!-- InstanceEndEditable -->
+<link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="../ssi/css/screen.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/large.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/larger.css" title="larger" />
+<link rel="stylesheet" type="text/css" media="print" href="../ssi/css/print.css" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie7.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie6.css" /><![endif]-->
+
+<script type="text/javascript" src="../ssi/js/styleswitcher.js"></script>
+
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.style2 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #669900;
+}
+.style21 {font-size: 13px}
+.style31 {font-size: 13px; font-style: italic; }
+.style40 {color: #333333}
+.style43 {font-size: 13px; font-weight: bold; color: #333333; }
+.style44 {color: #333333; font-size: 13px;}
+-->
+</style>
+<!-- InstanceEndEditable -->
+</head>
+<body id="study" class="bg_sp">
+
+<!-- open page container -->
+<div id="contain">
+	<!--this is the top menu bar and banner -->
+
+	
+	<!-- start header -->
+	<div id="header">
+		<div id="logo"><a href="../homepage.asp" title="ITB homepage" accesskey="0"><img src="../images/itb_logo.gif" alt="Institute of Technology Blanchardstown" width="300" height="83" border="0" /></a></div>
+		<div id="top">
+			<div class="hd_250"><ul><li id="nav_cf"><a title="Course Finder" href="../CourseFinder/index.html">Course Finder</a></li>
+			<li id="nav_hta"><a title="How to Apply" href="../HowtoApply/howtoapply.html">How to Apply</a></li>
+			</ul></div>
+			<br class="clear" />
+			<div class="hd_660">
+				<ul>
+					<li id="nav_home"><a title="Home" href="../homepage.asp">Home</a></li>
+					<li id="nav_about"><a title="About ITB" href="../AboutITB/index.html">About ITB</a></li>
+					<!--<li id="nav_cs"><a title="Current Students" href="../CurrentStudents/index.html">Current Students</a></li>-->
+					<li id="nav_ns"><a title="News & Events" href="../NewsEvents/newsdetailmore.asp">News &amp; Events</a></li>
+					<li id="nav_library"><a title="Library" href="http://www.blanchlib.itb.ie/" target="_blank">Library</a></li>
+					<li id="nav_intranet"><a title="Intranet" href="http://elan:8888" target="_blank">Intranet</a></li>
+					<li id="nav_careers"><a title="Careers at ITB" href="../Vacancies/index.html">Careers at ITB</a></li>
+					<li id="nav_map"><a title="Our Location" href="../Location/howtogetthere.html">Our Location</a></li>
+					<li id="nav_sd"><a title="Staff Directory" href="../StaffDirectory/staffdirectory.asp">Staff Directory</a></li>
+				</ul>
+			</div>
+			<br class="clear" />
+		</div>
+	</div>
+	<!-- stop header -->
+	<!-- start nav/search -->
+	<div id="nav_search">
+        <!-- start navigation -->
+        <div id="navigation">
+            <ul>
+                <li id="nav_study"><a title="Study at ITB" href="../StudyatITB/index.html">Study at ITB</a></li>
+                 <li id="nav_cs"><a title="Study at ITB" href="../CurrentStudents/index.html">Current Students</a></li>
+                <li id="nav_cslife"><a title="Campus & Student Life" href="../CampusStudentLife/index.html">Campus  Life</a></li>
+                <li id="nav_research"><a title="Research at ITB" href="../ResearchatITB/index.html">Research</a></li>
+                <li id="nav_ii"><a title="Industry & Innovation" href="../IndustryInnovation/index.html">Industry &amp; Innovation</a></li>
+            </ul>
+        </div>
+        <!-- stop navigation -->
+        <!-- start search -->
+        <div id="search">
+        <!--<form action="#" method="get" class="frmSearch">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="search_term" name="search_term" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>-->
+		
+		<!--<form action="../search/search.asp" method="get" class="frmSearch" name="form1">-->
+		<form action="../search/search.asp" method="get" class="frmSearch" name="form1">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="strp" name="target" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>
+		
+		
+		
+        </div>
+        <!-- stop search -->
+        <br class="clear" />
+	</div>
+	
+	
+	<!-- end of virtual directory -->
+	<!-- stop nav/search -->
+	<div class="hr_block"><hr /></div>
+	<!-- start content area -->
+	<div id="content_sub">
+		<!-- start left column -->
+		<div id="col_220l">
+			<h1>Study at ITB</h1>
+			<!-- start secondary nav -->
+			<div id="subnav">
+				<ul>
+                    <li><a href="newstudents.html" class="active">What's New</a></li>
+                    <li><a href="whyitb.html">Why choose ITB?</a></li>
+					<li><a href="appliedsocialstudies.html">Applied Social Studies</a></li>
+					<li><a href="apprenticeships.html">Apprenticeships &amp; Trades</a></li>
+					<li><a href="business.html">Business</a></li>
+					<li><a href="communityandyouthdevelopment.html">Community and Youth Development</a></li>
+					<li><a href="computing.html">Computing</a></li>
+					<li><a href="creativedigitalmedia.html">Creative Digital Media</a></li>
+					<li><a href="earlychild.html">Early Childhood Care & Education</a></li>
+					<li><a href="engineering.html">Engineering</a></li>
+					<li><a href="horticulture.html">Horticulture</a></li>
+					<li><a href="languages.html">Languages</a></li>
+					
+                	<li><a href="sportsmanagementandcoaching.html">Sports Management and Coaching</a></li>
+					<li><a href="postgraduate.html">Postgraduate Courses</a></li>
+					<li><a href="internationalstudents.html">International Students</a></li>
+					
+					<!--<li>&nbsp;</li>-->
+				</ul>
+				<br />
+				<ul>			
+              
+                    <li><a href="accessoffice.html">Access Office</a></li>
+				</ul>
+			</div>
+			<!-- stop secondary nav -->
+			<!-- start important links -->
+			<ul class="keylinks">
+				<li><a href="../HowtoApply/howtoapply.html">How to apply</a></li>
+				<li><a href="../Prospectus/prospectus.html">Request a Prospectus</a></li>
+				<li><a href="../Testimonials/testimonials.html">What our students say</a></li>
+				<li><a href="../ContactUs/contactus.html">Contact Us </a></li>
+			</ul>
+			<!-- stop important links -->
+			<br />
+		</div>
+		<!-- stop left column -->
+		<!-- start centre column -->
+		<div id="col_480">
+			<div class="grey_block">
+				<p class="font_11"><a href="javascript:window.print();"><img src="../images/icon_print.gif" alt="Print" width="25" height="17" class="vertical_align_images" /> Print Page</a> | <a href="javascript:setActiveStyleSheet('default');">A</a> | <a href="javascript:setActiveStyleSheet('large');" class="med">A</a> | <a href="javascript:setActiveStyleSheet('larger');" class="lrg">A</a></p>
+				
+				<h2>What's New </h2>
+				
+			</div>
+            <!-- start breadcrumb -->
+			<!-- InstanceBeginEditable name="breadcrumb" -->
+          <div id="breadcrumb">
+                 <p style="margin-bottom: 0"><a href="../homepage.asp">Home &gt;</a> <a href="index.html">Study at ITB &gt;</a> <a href="newstudents.html">What's New </a> </p>
+          </div>
+		  <!-- InstanceEndEditable -->
+            <!-- stop breadcrumb -->
+			<!-- start content area -->
+			<div class="pad_content"><div id="content">
+
+<h3><!-- InstanceBeginEditable name="SubTitle" -->What's New for 2016 / 2017 ?  <!-- InstanceEndEditable --></h3>
+<!-- InstanceBeginEditable name="BodyText" -->
+<p class="style2"><span class="style40">To view  minimum points for entry to Year 1 of our Undergraduate Programmes in 2015</span><a href="documents/CAORound1MinimumPointsAugust2015.pdf"> Click here </a></p>
+<p class="style43">For more detailed information about points, see the <a href="http://www.cao.ie/index.php?page=points"> CAO website</a></p>
+<p class="style43">See our <a href="documents/12789_FT_prospecuts_2016_17_web_001.pdf">2016/ 2017 Full Time Course Prospectus </a></p>
+<p class="style43">For detailed information on the programme content of each course visit <a href="http://courses.itb.ie/">http://courses.itb.ie/</a></p>
+<p class="style2">Our below Programmes have been renamed and restructured but their CAO Codes remain the same : </p>
+<p class="style44"> BN025 Bachelor of Arts in Social and Community Development is now <strong>Bachelor of Arts in Community and Youth Development </strong></p>
+<p class="style44"> BN115 Bachelor of Arts (Honours) in Social and Community Development is now <strong>Bachelor of Arts (Honours) in Community and Youth Development </strong></p>
+<p class="style44"> BN001 Higher Certificate in Engineering in Electronics and Computer Engineering is now <strong>Higher Certificate in Engineering in Computer Engineering</strong> </p>
+<p class="style44"> BN009 Bachelor of Engineering in Mechatronics is now <strong>Bachelor of Engineering in Mechatronic Engineering </strong></p>
+<p class="style44"> BN121 Bachelor of Engineering (Honours) in Mechatronics is now <strong>Bachelor of Engineering (Honours) in Mechatronic Engineering </strong></p>
+<p class="style44">&nbsp;</p>
+<p><strong><span class="style31">It is  possible  to progress to NFQ Level 8 on all of our courses.</span></strong></p>
+<p>&nbsp;</p>
+<p class="text_green style21" style="margin-bottom: 0;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	</strong></p>
+<p class="text_green style21" style="margin-top: 0;"><strong>FETAC's New Scoring System </strong></p>
+<p style="margin-bottom: 0;"><span style="font-family:arial;color:rgb(51, 51, 51);">For entry into ITB,  all FETAC level 5 and level 6 awards are scored to deliver a maximum of 400 CAO points.</span></p>
+<p>FETAC is currently undergoing a major restructuring and recoding systems of its awards so for the most current and up-to-date information please see <a href="../HowtoApply/fetac.html"><strong>www.itb.ie/fetac </strong></a></p>
+<p class="style31"><strong>There is a  FETAC quota in place for entry on our Applied Social Studies in Social Care courses. </strong></p>
+<!-- InstanceEndEditable -->
+
+
+			</div>
+			</div>
+			<!-- stop content area -->
+		</div>
+		<!-- stop centre column -->
+		<!-- start right column -->
+		<div id="col_220r">
+			<!-- start subpage banner -->
+			<div id="banner_sp">&nbsp;</div>
+			<!-- stop subpage banner -->
+			<!-- start what our students say -->
+			<div class="callout">
+				<h2 class="call">What our students say...</h2>
+				<!-- InstanceBeginEditable name="StudentSays" --><img src="images/KarlCleverdon_000.JPG" alt="Carl Cleverdon" width="150" height="94" />
+<p class="font_11" style="margin-bottom: 0"><em>"</em><span style="font-family:Times New Roman;font-size:11px;"><span style="font-family:arial;color:black;"><em><span style="color:#333333;">I'm self employed and it was getting slow so rather than sitting around doing nothing I decided to upskill. When I looked on job searches for Electricians there were 4 jobs nationwide and&nbsp; when I looked for Electrical Engineers there were probably 404. I had everything except the qualification so this course was part of getting that. The college has very good facilities, workshops are well maintained with lots of equipment.</span></em></span></span><em>"</em><br />
+              <br />
+              <strong>Carl Cleverdon</strong>,<br />
+              <a href="../Testimonials/engineering.html">Mechatronics</a></p>
+		    <!-- InstanceEndEditable -->
+			</div>
+			<!-- start what our students say -->
+			<!-- start map link -->
+			<div class="callout">
+				<a href="../Location/howtogetthere.html"><img src="../files/area_map.gif" alt="Area / Transport Map" width="150" height="106" class="imageblock" /></a>			</div>
+			<!-- start map link -->
+			<br />
+		</div>
+		<!-- stop right column -->
+		<br class="clear" />
+	</div>
+	<!-- stop content area -->
+	<!-- start footer -->
+	<div id="footer">
+		<div class="foot_507">
+			<div style="float:right;width:249px;"><img src="../files/eu-sfp.gif" alt="Ireland's EU Structural Funds Programme" width="168" height="57" /><img src="../images/StructFund.jpg" alt="European Social Fund" width="76" height="70" style="margin-right:5px;" /></div>
+			<p>&copy; Institi&uacute;id Teicneola&iacute;ochta, Baile Bhlains&eacute;ir, B&oacute;thar Bhaile Bhlains&eacute;ir Thuaidh,<br />Baile &Aacute;tha Cliath 15</p>
+			<ul><li id="nav_disclaimer"><a title="Disclaimer" href="../Disclaimer/index.html">Disclaimer</a></li>
+			<li id="nav_sitemap"><a title="Sitemap" href="../Sitemap/index.html">Sitemap</a></li>
+			<li id="nav_access"><a title="Accessibility" href="../Accessibility/index.html">Accessibility</a></li>
+			</ul>
+		</div>
+		<div class="foot_427"><p>Institute of Technology Blanchardstown, Blanchardstown Road North, Dublin 15</p><p>Tel: +353 (1) 8851000 |  Fax: +353 (1) 8851001 | Email: <a href="mailto:info@itb.ie">info@itb.ie</a></p>
+		<p><a href="../Disclaimer/cookie.html">Cookie Policy</a></p>
+		</div>
+	</div>
+
+	<!-- stop footer -->
+</div>
+<!-- close page container -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6699818-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

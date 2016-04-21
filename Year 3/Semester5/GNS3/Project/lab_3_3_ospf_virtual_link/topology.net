@@ -1,0 +1,129 @@
+autostart = False
+version = 0.8.7
+[127.0.0.1:7200]
+    workingdir = C:\Users\Student\AppData\Local\Temp
+    udp = 10001
+    [[2691]]
+        image = C:\Users\Student\GNS3\Images\c2691-adventerprisek9-mz.124-23.bin
+        idlepc = 0x60a4a19c
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R1]]
+        model = 2691
+        console = 2103
+        aux = 2503
+        cnfg = configs\R1.cfg
+        wic0/0 = WIC-2T
+        s0/0 = R2 s0/0
+        x = -768.0
+        y = -134.0
+        z = 1.0
+        hx = 67.5
+        hy = -8.0
+    [[ROUTER R2]]
+        model = 2691
+        console = 2104
+        aux = 2504
+        cnfg = configs\R2.cfg
+        wic0/0 = WIC-2T
+        s0/0 = R1 s0/0
+        s0/1 = R3 s0/1
+        x = -643.0
+        y = -425.0
+        z = 1.0
+    [[ROUTER R3]]
+        model = 2691
+        console = 2105
+        aux = 2505
+        cnfg = configs\R3.cfg
+        wic0/0 = WIC-2T
+        s0/1 = R2 s0/1
+        x = -502.0
+        y = -175.0
+        z = 1.0
+        hx = -25.5
+        hy = 5.0
+[GNS3-DATA]
+    configs = configs
+    [[NOTE 1]]
+        text = "Lo100: 192.168.100.1/24\nLo101: 192.168.101.1/24\nLo102: 192.168.102.1/24\nLo103: 192.168.103.1/24"
+        x = -561.0
+        y = -103.0
+    [[NOTE 2]]
+        text = "Lo3: 10.1.3/24"
+        x = -433.0
+        y = -168.0
+    [[NOTE 3]]
+        text = "10.1.23/24"
+        x = -468.0
+        y = -275.0
+    [[NOTE 4]]
+        text = "S0/1 .3"
+        x = -484.0
+        y = -200.0
+    [[NOTE 5]]
+        text = "S0/1 DCE .2"
+        x = -577.0
+        y = -394.0
+    [[NOTE 6]]
+        text = "Lo2: 10.1.2.1/24"
+        x = -765.0
+        y = -421.0
+    [[NOTE 7]]
+        text = "S0/0 .2"
+        x = -684.0
+        y = -382.0
+    [[NOTE 8]]
+        text = "S0/0 DCE .1"
+        x = -808.0
+        y = -167.0
+    [[NOTE 9]]
+        text = "10.1.12.0/24"
+        x = -771.0
+        y = -286.0
+    [[NOTE 10]]
+        text = "Lo1:10.1.1.1/24"
+        x = -880.0
+        y = -127.0
+    [[NOTE 11]]
+        text = "Internet\nLo30: 172.30.30.1/30"
+        x = -771.0
+        y = -90.0
+    [[NOTE 12]]
+        text = "Area 100"
+        x = -513.0
+        y = -2.0
+        color = "#aa5500"
+    [[NOTE 13]]
+        text = "Area 23"
+        x = -409.0
+        y = -360.0
+        color = "#00aa00"
+    [[NOTE 14]]
+        text = "Area 0"
+        x = -860.0
+        y = -347.0
+        color = "#0055ff"
+    [[SHAPE 1]]
+        type = ellipse
+        x = -587.0
+        y = -139.0
+        width = 221.0
+        height = 167.0
+        border_color = "#aa5500"
+    [[SHAPE 2]]
+        type = ellipse
+        x = -501.0
+        y = -519.0
+        width = 417.900107681
+        height = 240.0
+        rotate = 45
+        border_color = "#00aa00"
+    [[SHAPE 3]]
+        type = ellipse
+        x = -768.0
+        y = -518.0
+        width = 244.0
+        height = 450.211431703
+        rotate = 30
+        border_color = "#0055ff"

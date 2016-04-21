@@ -1,0 +1,84 @@
+package Client;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+import java.util.Vector;
+
+import javax.swing.*;
+
+import Client.ChatClient;
+import Server.ChatServerIF;
+
+public class ChatClientDriver extends JFrame{
+	//Creating global varibles for initialised values
+	static String messageHolder;
+	static ChatClient cli;
+	static ChatServerIF chatServer;
+
+	//Create the components of the GUI
+	static String userName;
+	private JTextField userText;
+	private static JTextArea chatWindow;
+	private static String message = "";	
+	
+	//Create the constructor to assemble GUI
+	ChatClientDriver(){
+		super(getUsername());
+		chatWindow = new JTextArea("Waiting for Message...");
+		userText = new JTextField("Enter Message...");
+		userText.setEditable(true);
+		userText.addActionListener(
+				new ActionListener(){
+					public void actionPerformed(ActionEvent event){
+						try {
+							//Send the users message entered to the chat server
+							chatServer.broadcastMessage(userName+": "+ event.getActionCommand());
+						} catch (RemoteException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+						//Reset the text field to blank
+						userText.setText("");
+					}
+				}
+		);
+		add(userText, BorderLayout.SOUTH);
+		//Add scroll pane to allow old messages to be seen
+		add(new JScrollPane(chatWindow), BorderLayout.CENTER);
+		setSize(420,220);
+		setVisible(true);
+		setResizable(false);
+		setLocation(0,300);
+		chatWindow.setForeground(Color.ORANGE);
+		chatWindow.setBackground(Color.DARK_GRAY);
+		chatWindow.setEditable(false);
+	}
+	
+	//Get the users name for title of frame and output of messages
+	public static String getUsername(){
+		userName = JOptionPane.showInputDialog("Enter Username");
+		return userName;
+	}
+	
+	//Add the users message to the screen via the Client class 
+	public static void getMessage(String msg){
+		chatWindow.append(msg+"\n");
+	}
+	
+	public static void main(String[] args) throws MalformedURLException, RemoteException, NotBoundException {
+		//instantiate the GUI 
+		ChatClientDriver chat = new ChatClientDriver();
+		String chatServerURL = "rmi://localhost/RMIChatServer";
+		chatServer = (ChatServerIF) Naming.lookup(chatServerURL);
+		cli = new ChatClient(userName, chatServer);
+		new Thread(cli).start();
+	}
+
+}

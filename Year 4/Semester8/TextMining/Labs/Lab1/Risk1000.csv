@@ -1,0 +1,1001 @@
+AGE;INCOME;GENDER;MARITAL;NUMKIDS;NUMCARDS;HOWPAID;MORTGAGE;STORECAR;LOANS;ID;RISK
+44.0;59944.0;m;married  ;1.0;2.0;monthly;y;2.0;0.0;100756.0;good risk 
+34.0;59508.0;m;married  ;1.0;1.0;monthly;y;2.0;1.0;100418.0;good risk 
+34.0;59463.0;m;married  ;0.0;2.0;monthly;y;1.0;1.0;100416.0;bad loss  
+43.0;57598.0;f;married  ;1.0;1.0;monthly;y;1.0;1.0;100725.0;good risk 
+37.0;57004.0;f;married  ;1.0;1.0;monthly;y;2.0;0.0;100524.0;good risk 
+39.0;56523.0;m;married  ;1.0;1.0;monthly;y;2.0;0.0;100591.0;good risk 
+41.0;56470.0;m;married  ;0.0;2.0;monthly;y;1.0;0.0;100670.0;bad loss  
+30.0;56087.0;f;married  ;0.0;1.0;monthly;y;1.0;1.0;100292.0;bad profit
+38.0;55565.0;m;married  ;1.0;2.0;monthly;y;1.0;0.0;100570.0;good risk 
+36.0;55554.0;f;married  ;0.0;1.0;monthly;y;1.0;0.0;100347.0;good risk 
+34.0;55497.0;m;married  ;1.0;1.0;monthly;y;2.0;1.0;100425.0;bad profit
+36.0;55421.0;m;married  ;0.0;2.0;monthly;y;2.0;0.0;100494.0;good risk 
+35.0;54673.0;f;married  ;1.0;2.0;monthly;y;2.0;1.0;100450.0;bad profit
+33.0;54603.0;f;married  ;1.0;2.0;monthly;y;1.0;1.0;100386.0;good risk 
+33.0;54013.0;f;married  ;0.0;1.0;monthly;y;2.0;0.0;100383.0;good risk 
+45.0;53842.0;f;married  ;0.0;2.0;monthly;y;1.0;0.0;100795.0;good risk 
+35.0;53201.0;m;married  ;0.0;1.0;monthly;y;2.0;0.0;100448.0;good risk 
+39.0;52495.0;f;married  ;1.0;2.0;monthly;y;1.0;1.0;100599.0;good risk 
+36.0;51939.0;m;married  ;0.0;1.0;monthly;y;1.0;0.0;100727.0;bad profit
+44.0;51724.0;m;married  ;1.0;1.0;monthly;y;2.0;1.0;100767.0;bad loss  
+26.0;51561.0;m;married  ;0.0;2.0;monthly;y;1.0;0.0;100697.0;good risk 
+39.0;50445.0;m;married  ;0.0;1.0;monthly;y;2.0;1.0;100593.0;bad loss  
+31.0;50295.0;f;married  ;1.0;1.0;monthly;y;1.0;0.0;100322.0;bad profit
+40.0;50199.0;f;married  ;0.0;1.0;monthly;y;2.0;0.0;100628.0;bad profit
+32.0;49745.0;m;married  ;0.0;1.0;monthly;y;2.0;1.0;100344.0;bad loss  
+35.0;49600.0;m;married  ;1.0;2.0;monthly;y;2.0;1.0;100622.0;good risk 
+39.0;49415.0;m;married  ;0.0;1.0;monthly;y;1.0;0.0;100605.0;good risk 
+34.0;49007.0;m;married  ;1.0;1.0;monthly;y;1.0;0.0;100423.0;bad profit
+45.0;48607.0;f;married  ;1.0;2.0;monthly;y;2.0;1.0;100802.0;good risk 
+29.0;47111.0;m;married  ;0.0;2.0;monthly;y;2.0;1.0;100798.0;good risk 
+35.0;47026.0;m;married  ;1.0;2.0;monthly;y;1.0;0.0;100456.0;good risk 
+36.0;46785.0;f;married  ;1.0;1.0;monthly;y;2.0;1.0;100491.0;bad profit
+35.0;46645.0;m;married  ;1.0;1.0;monthly;y;2.0;0.0;100458.0;bad loss  
+42.0;46119.0;m;married  ;1.0;1.0;monthly;y;2.0;0.0;100707.0;good risk 
+36.0;45970.0;m;married  ;0.0;1.0;monthly;y;1.0;0.0;100468.0;good risk 
+36.0;45673.0;m;married  ;0.0;1.0;monthly;y;2.0;0.0;100485.0;good risk 
+42.0;45584.0;f;married  ;1.0;1.0;monthly;y;1.0;0.0;100679.0;good risk 
+39.0;45537.0;m;married  ;0.0;2.0;monthly;y;1.0;1.0;100600.0;good risk 
+40.0;45463.0;m;married  ;0.0;2.0;monthly;y;2.0;1.0;100618.0;good risk 
+43.0;45390.0;f;married  ;0.0;2.0;monthly;y;2.0;0.0;100722.0;good risk 
+37.0;44936.0;f;married  ;1.0;1.0;monthly;y;1.0;0.0;100523.0;bad profit
+30.0;44756.0;f;married  ;1.0;1.0;monthly;y;2.0;1.0;100279.0;good risk 
+40.0;44671.0;f;married  ;1.0;2.0;monthly;y;2.0;1.0;100627.0;good risk 
+39.0;44378.0;f;married  ;1.0;2.0;monthly;y;2.0;0.0;100586.0;good risk 
+38.0;44272.0;f;married  ;0.0;1.0;monthly;y;1.0;1.0;100548.0;good risk 
+32.0;44230.0;f;married  ;1.0;2.0;monthly;y;1.0;0.0;100792.0;bad profit
+36.0;44048.0;m;married  ;1.0;1.0;monthly;y;2.0;0.0;100465.0;good risk 
+41.0;44039.0;f;married  ;1.0;2.0;monthly;y;2.0;1.0;100635.0;good risk 
+44.0;44005.0;m;married  ;1.0;2.0;monthly;y;1.0;1.0;100736.0;bad profit
+35.0;43890.0;f;married  ;0.0;2.0;monthly;y;1.0;1.0;100439.0;bad profit
+35.0;43888.0;m;married  ;0.0;1.0;monthly;y;2.0;1.0;100444.0;bad loss  
+35.0;43799.0;m;married  ;1.0;1.0;monthly;y;2.0;0.0;100454.0;good risk 
+36.0;43761.0;f;married  ;0.0;1.0;monthly;y;1.0;0.0;100477.0;bad loss  
+42.0;43651.0;f;married  ;1.0;2.0;monthly;y;2.0;1.0;100704.0;good risk 
+41.0;43648.0;f;married  ;1.0;1.0;monthly;y;2.0;1.0;100645.0;good risk 
+37.0;43408.0;f;married  ;0.0;2.0;monthly;y;2.0;0.0;100519.0;bad loss  
+31.0;43330.0;m;married  ;0.0;1.0;monthly;y;1.0;1.0;100311.0;bad profit
+37.0;43303.0;m;married  ;0.0;2.0;monthly;y;2.0;1.0;100530.0;good risk 
+31.0;43043.0;f;married  ;1.0;1.0;monthly;y;1.0;1.0;100316.0;bad loss  
+38.0;42953.0;m;married  ;1.0;2.0;monthly;y;1.0;0.0;100552.0;good risk 
+30.0;42926.0;m;married  ;0.0;1.0;monthly;y;1.0;0.0;100290.0;good risk 
+42.0;42909.0;m;married  ;1.0;1.0;monthly;y;1.0;0.0;100699.0;bad profit
+30.0;42899.0;m;married  ;1.0;1.0;monthly;y;1.0;1.0;100750.0;bad loss  
+37.0;42884.0;m;married  ;0.0;1.0;monthly;y;2.0;0.0;100517.0;good risk 
+35.0;42719.0;m;married  ;0.0;1.0;monthly;y;1.0;1.0;100447.0;bad profit
+43.0;42715.0;m;married  ;0.0;1.0;monthly;y;1.0;0.0;100723.0;bad profit
+41.0;42658.0;f;married  ;1.0;2.0;monthly;y;2.0;0.0;100651.0;good risk 
+39.0;42652.0;m;married  ;0.0;1.0;monthly;y;1.0;1.0;100582.0;good risk 
+30.0;42647.0;f;married  ;0.0;2.0;monthly;y;1.0;0.0;100286.0;bad profit
+39.0;42574.0;f;married  ;0.0;2.0;monthly;y;2.0;0.0;100576.0;good risk 
+40.0;42544.0;f;married  ;0.0;2.0;monthly;y;2.0;0.0;100613.0;good risk 
+36.0;42522.0;m;married  ;0.0;2.0;monthly;y;2.0;0.0;100480.0;good risk 
+41.0;42519.0;m;married  ;1.0;1.0;monthly;y;1.0;1.0;100634.0;bad profit
+32.0;42389.0;m;married  ;0.0;1.0;monthly;y;2.0;0.0;100332.0;good risk 
+45.0;42334.0;f;married  ;0.0;1.0;monthly;y;1.0;0.0;100779.0;good risk 
+41.0;42241.0;f;married  ;0.0;2.0;monthly;y;2.0;0.0;100649.0;good risk 
+33.0;42234.0;m;married  ;1.0;2.0;monthly;y;2.0;1.0;100371.0;bad loss  
+34.0;42206.0;m;married  ;1.0;1.0;monthly;y;1.0;0.0;100408.0;good risk 
+36.0;42091.0;f;married  ;0.0;1.0;monthly;y;1.0;0.0;100498.0;good risk 
+44.0;42078.0;m;married  ;0.0;2.0;monthly;y;2.0;1.0;100747.0;good risk 
+30.0;42053.0;f;married  ;0.0;2.0;monthly;y;2.0;1.0;100298.0;bad profit
+30.0;41965.0;f;married  ;1.0;1.0;monthly;y;2.0;0.0;100299.0;bad loss  
+30.0;41935.0;m;married  ;0.0;2.0;monthly;y;2.0;0.0;100291.0;good risk 
+41.0;41876.0;f;married  ;1.0;2.0;monthly;y;2.0;0.0;100656.0;bad profit
+36.0;41834.0;m;married  ;0.0;1.0;monthly;y;2.0;0.0;100464.0;good risk 
+44.0;41750.0;f;married  ;0.0;1.0;monthly;y;2.0;0.0;100762.0;good risk 
+34.0;41704.0;f;married  ;0.0;2.0;monthly;y;1.0;1.0;100397.0;good risk 
+26.0;41696.0;f;married  ;1.0;1.0;monthly;y;2.0;0.0;100669.0;bad profit
+45.0;41676.0;f;married  ;1.0;2.0;monthly;y;1.0;0.0;100788.0;bad loss  
+30.0;41624.0;m;married  ;0.0;2.0;monthly;y;1.0;1.0;100278.0;good risk 
+36.0;41530.0;m;married  ;1.0;1.0;monthly;y;1.0;0.0;100484.0;bad profit
+31.0;41513.0;f;married  ;1.0;2.0;monthly;y;1.0;1.0;100309.0;good risk 
+31.0;41169.0;f;married  ;1.0;2.0;monthly;y;1.0;1.0;100315.0;good risk 
+41.0;41095.0;f;married  ;0.0;1.0;monthly;y;2.0;0.0;100639.0;good risk 
+30.0;41068.0;m;married  ;1.0;1.0;monthly;y;2.0;1.0;100287.0;good risk 
+40.0;40912.0;m;married  ;0.0;1.0;monthly;y;1.0;0.0;100610.0;good risk 
+38.0;40904.0;m;married  ;0.0;2.0;monthly;y;2.0;1.0;100544.0;good risk 
+32.0;40782.0;f;married  ;0.0;2.0;monthly;y;2.0;0.0;100336.0;good risk 
+43.0;40728.0;m;married  ;1.0;1.0;monthly;y;1.0;1.0;100717.0;bad profit
+31.0;40653.0;f;married  ;0.0;2.0;monthly;y;1.0;0.0;100307.0;good risk 
+27.0;40626.0;m;married  ;1.0;2.0;monthly;y;1.0;0.0;100689.0;good risk 
+30.0;40583.0;m;married  ;1.0;2.0;monthly;y;2.0;1.0;100296.0;bad profit
+32.0;40543.0;f;married  ;1.0;1.0;monthly;y;1.0;0.0;100341.0;bad loss  
+44.0;40425.0;m;married  ;0.0;1.0;monthly;y;1.0;1.0;100738.0;bad loss  
+37.0;40398.0;m;married  ;0.0;2.0;monthly;y;2.0;1.0;100538.0;good risk 
+38.0;39925.0;m;single   ;0.0;1.0;monthly;y;2.0;0.0;100178.0;bad loss  
+32.0;39416.0;f;married  ;1.0;1.0;monthly;y;2.0;1.0;100778.0;good risk 
+28.0;39379.0;f;single   ;0.0;0.0;monthly;y;2.0;0.0;100255.0;good risk 
+39.0;39326.0;f;single   ;0.0;1.0;monthly;y;0.0;0.0;100191.0;good risk 
+28.0;39121.0;f;single   ;0.0;0.0;monthly;y;2.0;0.0;100047.0;good risk 
+33.0;39024.0;f;single   ;0.0;0.0;monthly;y;1.0;0.0;100108.0;bad profit
+32.0;38537.0;f;married  ;1.0;1.0;monthly;y;1.0;0.0;100327.0;good risk 
+37.0;37520.0;m;single   ;0.0;1.0;monthly;y;1.0;0.0;100269.0;good risk 
+36.0;37476.0;m;single   ;0.0;0.0;monthly;y;1.0;0.0;100145.0;good risk 
+27.0;36852.0;f;married  ;0.0;2.0;monthly;y;1.0;0.0;100772.0;good risk 
+45.0;36276.0;f;single   ;0.0;1.0;monthly;y;2.0;0.0;100270.0;good risk 
+43.0;36255.0;m;married  ;0.0;2.0;monthly;y;2.0;1.0;100709.0;good risk 
+44.0;36163.0;f;single   ;0.0;1.0;monthly;y;1.0;0.0;100253.0;bad loss  
+41.0;36154.0;f;single   ;0.0;1.0;monthly;y;2.0;0.0;100221.0;bad loss  
+35.0;35875.0;f;single   ;0.0;1.0;monthly;y;0.0;0.0;100131.0;good risk 
+33.0;35731.0;f;single   ;0.0;1.0;monthly;y;1.0;0.0;100103.0;bad profit
+31.0;34845.0;m;single   ;0.0;1.0;monthly;y;0.0;0.0;100254.0;bad loss  
+39.0;34345.0;m;single   ;0.0;1.0;monthly;y;0.0;0.0;100185.0;good risk 
+30.0;34328.0;f;single   ;0.0;0.0;monthly;y;2.0;0.0;100074.0;good risk 
+39.0;34252.0;f;single   ;0.0;1.0;monthly;y;0.0;0.0;100182.0;bad loss  
+38.0;34115.0;m;single   ;0.0;1.0;monthly;y;2.0;0.0;100017.0;bad profit
+29.0;33987.0;f;single   ;0.0;0.0;monthly;y;2.0;0.0;100018.0;bad loss  
+39.0;33911.0;m;single   ;0.0;0.0;monthly;y;2.0;0.0;100190.0;bad loss  
+31.0;33747.0;f;single   ;0.0;0.0;monthly;y;1.0;0.0;100242.0;bad loss  
+35.0;33740.0;m;single   ;0.0;0.0;monthly;y;1.0;0.0;100126.0;good risk 
+44.0;33454.0;m;married  ;0.0;1.0;monthly;y;1.0;1.0;100734.0;good risk 
+39.0;33299.0;m;single   ;0.0;1.0;monthly;y;1.0;0.0;100187.0;good risk 
+28.0;33220.0;m;single   ;0.0;0.0;monthly;y;0.0;0.0;100046.0;good risk 
+35.0;32977.0;m;married  ;0.0;2.0;monthly;y;1.0;1.0;100773.0;good risk 
+25.0;32876.0;f;single   ;0.0;0.0;monthly;y;1.0;0.0;100006.0;good risk 
+26.0;32851.0;f;single   ;0.0;0.0;monthly;y;0.0;0.0;100029.0;bad profit
+25.0;32662.0;m;single   ;0.0;0.0;monthly;y;2.0;0.0;100003.0;bad profit
+26.0;32644.0;f;single   ;0.0;1.0;monthly;y;1.0;0.0;100023.0;bad profit
+41.0;32643.0;f;single   ;0.0;0.0;monthly;y;2.0;0.0;100225.0;bad loss  
+43.0;32569.0;f;single   ;0.0;1.0;monthly;y;0.0;0.0;100239.0;good risk 
+40.0;32543.0;f;single   ;0.0;0.0;monthly;y;0.0;0.0;100204.0;bad loss  
+37.0;32472.0;f;single   ;0.0;0.0;monthly;y;2.0;0.0;100152.0;good risk 
+25.0;32461.0;m;single   ;0.0;0.0;monthly;y;2.0;0.0;100008.0;good risk 
+38.0;32363.0;f;married  ;0.0;1.0;monthly;y;2.0;0.0;100540.0;good risk 
+36.0;32056.0;m;single   ;0.0;0.0;monthly;y;1.0;0.0;100141.0;good risk 
+33.0;31868.0;m;single   ;0.0;0.0;monthly;y;0.0;0.0;100099.0;good risk 
+37.0;31798.0;f;single   ;0.0;1.0;monthly;y;2.0;0.0;100154.0;bad profit
+32.0;31778.0;f;single   ;0.0;1.0;monthly;y;1.0;0.0;100091.0;good risk 
+28.0;31731.0;m;single   ;0.0;0.0;monthly;y;2.0;0.0;100040.0;good risk 
+28.0;31625.0;f;single   ;0.0;0.0;monthly;y;0.0;0.0;100044.0;bad profit
+38.0;31523.0;f;single   ;0.0;0.0;monthly;y;2.0;0.0;100167.0;good risk 
+29.0;31519.0;f;single   ;0.0;1.0;monthly;y;0.0;0.0;100053.0;good risk 
+35.0;31454.0;m;single   ;0.0;1.0;monthly;y;0.0;0.0;100251.0;bad loss  
+33.0;31453.0;m;married  ;1.0;2.0;monthly;y;1.0;0.0;100358.0;good risk 
+28.0;31347.0;f;single   ;0.0;1.0;monthly;y;0.0;0.0;100045.0;good risk 
+34.0;31218.0;f;single   ;0.0;1.0;monthly;y;2.0;0.0;100110.0;good risk 
+43.0;30788.0;f;married  ;1.0;2.0;monthly;y;2.0;1.0;100712.0;good risk 
+42.0;30580.0;m;single   ;0.0;0.0;monthly;y;1.0;0.0;100229.0;good risk 
+34.0;30436.0;m;single   ;0.0;0.0;monthly;y;1.0;0.0;100115.0;good risk 
+35.0;30422.0;f;single   ;0.0;1.0;monthly;y;0.0;0.0;100133.0;good risk 
+35.0;30256.0;f;single   ;0.0;0.0;monthly;y;0.0;0.0;100124.0;good risk 
+41.0;30060.0;f;single   ;0.0;0.0;monthly;y;2.0;0.0;100218.0;good risk 
+47.0;29997.0;m;divsepwid;2.0;5.0;weekly ;y;3.0;2.0;103479.0;bad profit
+42.0;29963.0;f;married  ;3.0;4.0;monthly;y;4.0;2.0;103829.0;bad loss  
+50.0;29934.0;m;divsepwid;4.0;6.0;weekly ;y;5.0;3.0;103733.0;bad profit
+30.0;29933.0;m;single   ;0.0;1.0;monthly;y;2.0;0.0;100064.0;good risk 
+32.0;29892.0;f;single   ;0.0;0.0;monthly;y;0.0;0.0;100004.0;good risk 
+43.0;29870.0;f;married  ;2.0;3.0;monthly;y;4.0;1.0;103853.0;bad loss  
+41.0;29860.0;m;divsepwid;2.0;5.0;weekly ;n;3.0;3.0;103013.0;good risk 
+50.0;29843.0;m;divsepwid;2.0;6.0;weekly ;n;5.0;2.0;103714.0;bad profit
+45.0;29840.0;m;divsepwid;3.0;6.0;weekly ;y;4.0;3.0;103341.0;bad profit
+50.0;29822.0;f;married  ;2.0;3.0;weekly ;y;4.0;2.0;104102.0;bad loss  
+40.0;29816.0;m;married  ;0.0;2.0;monthly;y;1.0;0.0;100607.0;bad loss  
+26.0;29810.0;m;single   ;0.0;1.0;monthly;y;0.0;0.0;100263.0;bad loss  
+49.0;29747.0;m;divsepwid;4.0;6.0;weekly ;y;3.0;2.0;103660.0;bad profit
+44.0;29735.0;m;divsepwid;3.0;6.0;weekly ;y;5.0;3.0;103264.0;good risk 
+42.0;29687.0;f;divsepwid;2.0;5.0;weekly ;n;4.0;2.0;103076.0;bad loss  
+43.0;29600.0;f;single   ;0.0;1.0;monthly;y;2.0;0.0;100237.0;bad profit
+42.0;29540.0;f;divsepwid;3.0;5.0;weekly ;y;4.0;2.0;103065.0;bad profit
+42.0;29465.0;f;divsepwid;4.0;5.0;weekly ;y;5.0;3.0;103098.0;bad loss  
+30.0;29438.0;m;divsepwid;4.0;6.0;weekly ;y;4.0;2.0;103575.0;good risk 
+46.0;29425.0;m;divsepwid;3.0;6.0;weekly ;y;4.0;2.0;103411.0;bad profit
+47.0;29413.0;m;divsepwid;3.0;5.0;weekly ;y;3.0;2.0;103484.0;bad loss  
+40.0;29412.0;f;married  ;2.0;4.0;monthly;y;4.0;2.0;103771.0;bad loss  
+45.0;29382.0;f;single   ;0.0;1.0;monthly;y;2.0;0.0;100266.0;good risk 
+42.0;29351.0;m;married  ;2.0;4.0;monthly;y;4.0;2.0;103824.0;bad loss  
+46.0;29349.0;f;divsepwid;3.0;5.0;weekly ;y;3.0;2.0;103420.0;bad profit
+47.0;29337.0;f;married  ;3.0;4.0;monthly;y;4.0;2.0;103998.0;bad loss  
+42.0;29308.0;f;divsepwid;3.0;5.0;weekly ;y;4.0;3.0;103066.0;bad loss  
+30.0;29306.0;m;single   ;0.0;0.0;monthly;y;2.0;0.0;100075.0;bad loss  
+43.0;29298.0;m;divsepwid;3.0;6.0;weekly ;n;5.0;3.0;103160.0;bad profit
+46.0;29273.0;m;divsepwid;4.0;5.0;weekly ;y;3.0;2.0;103425.0;bad profit
+29.0;29233.0;m;divsepwid;2.0;6.0;weekly ;n;4.0;3.0;103155.0;bad profit
+50.0;29168.0;m;married  ;2.0;4.0;monthly;y;5.0;1.0;104107.0;bad loss  
+47.0;29095.0;m;divsepwid;2.0;5.0;weekly ;n;3.0;2.0;103481.0;bad profit
+44.0;29089.0;f;married  ;2.0;4.0;weekly ;y;4.0;1.0;103894.0;bad loss  
+38.0;29060.0;m;divsepwid;3.0;5.0;weekly ;n;5.0;2.0;103421.0;bad profit
+27.0;29041.0;f;married  ;3.0;4.0;monthly;y;5.0;1.0;103905.0;bad loss  
+44.0;29011.0;m;single   ;0.0;1.0;monthly;y;2.0;0.0;100259.0;good risk 
+41.0;29004.0;m;divsepwid;2.0;6.0;weekly ;n;4.0;2.0;103007.0;bad profit
+47.0;28983.0;m;married  ;2.0;4.0;monthly;y;5.0;1.0;104002.0;bad loss  
+29.0;28952.0;f;married  ;3.0;3.0;monthly;y;4.0;1.0;103931.0;bad loss  
+43.0;28905.0;f;divsepwid;3.0;6.0;weekly ;n;5.0;2.0;103164.0;bad loss  
+46.0;28899.0;f;divsepwid;2.0;5.0;weekly ;n;3.0;2.0;103426.0;bad profit
+26.0;28852.0;m;single   ;0.0;1.0;monthly;y;2.0;0.0;100019.0;good risk 
+40.0;28835.0;f;single   ;0.0;1.0;monthly;y;2.0;0.0;100198.0;good risk 
+31.0;28802.0;f;married  ;3.0;4.0;monthly;y;5.0;2.0;103830.0;bad loss  
+49.0;28771.0;m;divsepwid;2.0;5.0;weekly ;n;5.0;3.0;103646.0;bad profit
+46.0;28735.0;m;married  ;3.0;4.0;weekly ;y;4.0;2.0;103970.0;bad loss  
+40.0;28714.0;m;divsepwid;3.0;5.0;weekly ;n;5.0;2.0;102930.0;bad loss  
+47.0;28671.0;m;divsepwid;4.0;5.0;weekly ;y;4.0;2.0;103493.0;good risk 
+43.0;28631.0;f;married  ;2.0;4.0;monthly;y;5.0;2.0;103863.0;bad loss  
+46.0;28626.0;m;married  ;2.0;3.0;weekly ;y;4.0;2.0;103965.0;bad loss  
+44.0;28617.0;f;divsepwid;3.0;5.0;weekly ;n;5.0;2.0;103252.0;bad loss  
+47.0;28553.0;m;divsepwid;3.0;5.0;weekly ;y;4.0;2.0;103491.0;bad profit
+49.0;28549.0;f;divsepwid;3.0;5.0;weekly ;n;3.0;3.0;103657.0;bad profit
+43.0;28507.0;f;married  ;3.0;3.0;monthly;y;5.0;1.0;103869.0;bad loss  
+31.0;28474.0;m;divsepwid;2.0;5.0;weekly ;n;3.0;3.0;103644.0;bad profit
+40.0;28455.0;f;divsepwid;3.0;6.0;weekly ;y;4.0;2.0;102915.0;bad profit
+48.0;28331.0;f;divsepwid;3.0;5.0;weekly ;y;3.0;2.0;103570.0;bad profit
+47.0;28331.0;m;divsepwid;3.0;6.0;weekly ;n;3.0;3.0;103518.0;bad profit
+48.0;28252.0;m;divsepwid;2.0;5.0;weekly ;y;4.0;2.0;103568.0;bad loss  
+37.0;28180.0;f;divsepwid;4.0;6.0;weekly ;y;4.0;2.0;103162.0;bad loss  
+41.0;28156.0;m;married  ;3.0;4.0;weekly ;y;4.0;1.0;103799.0;bad loss  
+48.0;28115.0;m;divsepwid;2.0;5.0;weekly ;y;4.0;2.0;103582.0;bad loss  
+25.0;28085.0;f;single   ;0.0;1.0;monthly;y;1.0;0.0;100001.0;good risk 
+48.0;28060.0;m;divsepwid;2.0;6.0;weekly ;n;5.0;3.0;103597.0;good risk 
+39.0;28050.0;m;single   ;0.0;0.0;monthly;y;2.0;0.0;100193.0;bad profit
+38.0;28036.0;m;single   ;0.0;1.0;monthly;y;2.0;0.0;100165.0;good risk 
+41.0;28000.0;f;married  ;2.0;4.0;weekly ;y;5.0;1.0;103795.0;bad loss  
+25.0;27987.0;f;single   ;0.0;1.0;monthly;y;2.0;0.0;100013.0;bad loss  
+25.0;27956.0;f;single   ;0.0;0.0;monthly;y;1.0;0.0;100012.0;good risk 
+37.0;27941.0;f;single   ;0.0;1.0;monthly;y;1.0;0.0;100159.0;good risk 
+38.0;27913.0;f;single   ;0.0;0.0;monthly;y;1.0;0.0;100174.0;bad profit
+45.0;27892.0;m;married  ;2.0;4.0;weekly ;y;5.0;2.0;103929.0;bad loss  
+48.0;27873.0;f;married  ;3.0;4.0;monthly;y;4.0;1.0;104036.0;bad loss  
+31.0;27862.0;f;divsepwid;4.0;5.0;weekly ;y;3.0;2.0;103485.0;bad loss  
+49.0;27860.0;f;divsepwid;3.0;6.0;weekly ;n;4.0;3.0;103658.0;bad profit
+45.0;27859.0;m;divsepwid;2.0;6.0;weekly ;y;5.0;3.0;103326.0;good risk 
+44.0;27849.0;m;single   ;0.0;1.0;monthly;y;1.0;0.0;100256.0;good risk 
+26.0;27819.0;f;single   ;0.0;0.0;monthly;y;1.0;0.0;100027.0;good risk 
+42.0;27796.0;m;divsepwid;2.0;6.0;weekly ;n;5.0;2.0;103064.0;bad loss  
+45.0;27778.0;m;divsepwid;3.0;5.0;weekly ;n;4.0;3.0;103314.0;bad profit
+35.0;27706.0;m;single   ;0.0;1.0;monthly;y;2.0;0.0;100128.0;good risk 
+43.0;27669.0;f;divsepwid;3.0;6.0;weekly ;n;5.0;3.0;103165.0;bad loss  
+36.0;27658.0;m;single   ;0.0;1.0;monthly;y;0.0;0.0;100236.0;good risk 
+34.0;27647.0;f;married  ;2.0;4.0;monthly;y;4.0;2.0;104067.0;bad profit
+29.0;27632.0;f;single   ;0.0;1.0;monthly;y;1.0;0.0;100060.0;bad loss  
+44.0;27619.0;m;married  ;2.0;3.0;monthly;y;4.0;1.0;103897.0;bad loss  
+49.0;27591.0;m;divsepwid;2.0;5.0;weekly ;n;5.0;2.0;103645.0;good risk 
+44.0;27566.0;f;divsepwid;4.0;6.0;weekly ;y;5.0;3.0;103250.0;bad profit
+34.0;27530.0;f;single   ;0.0;0.0;monthly;y;0.0;0.0;100120.0;good risk 
+39.0;27523.0;f;single   ;0.0;1.0;monthly;y;2.0;0.0;100183.0;good risk 
+50.0;27519.0;m;divsepwid;3.0;6.0;weekly ;n;3.0;2.0;103740.0;bad profit
+43.0;27517.0;m;married  ;2.0;4.0;weekly ;y;5.0;2.0;103867.0;bad loss  
+49.0;27450.0;f;divsepwid;2.0;5.0;weekly ;n;3.0;3.0;103650.0;bad loss  
+49.0;27438.0;m;divsepwid;4.0;5.0;weekly ;n;5.0;3.0;103655.0;bad profit
+50.0;27381.0;f;divsepwid;4.0;6.0;weekly ;y;4.0;2.0;103726.0;bad profit
+26.0;27332.0;f;single   ;0.0;0.0;monthly;y;0.0;0.0;100020.0;good risk 
+44.0;27283.0;f;divsepwid;4.0;6.0;weekly ;n;5.0;2.0;103235.0;bad loss  
+44.0;27233.0;f;married  ;3.0;4.0;weekly ;y;4.0;1.0;103899.0;bad loss  
+38.0;27196.0;f;divsepwid;4.0;6.0;weekly ;y;5.0;3.0;103506.0;bad loss  
+45.0;27195.0;m;divsepwid;3.0;6.0;weekly ;n;4.0;2.0;103315.0;bad loss  
+42.0;27164.0;m;divsepwid;2.0;6.0;weekly ;y;3.0;2.0;103088.0;bad loss  
+28.0;27161.0;m;divsepwid;2.0;5.0;weekly ;y;4.0;2.0;103236.0;good risk 
+50.0;27094.0;m;divsepwid;2.0;6.0;weekly ;y;3.0;3.0;103737.0;bad profit
+48.0;27077.0;m;married  ;2.0;4.0;weekly ;y;4.0;1.0;104042.0;bad loss  
+43.0;27077.0;f;married  ;3.0;4.0;monthly;y;4.0;1.0;103860.0;bad loss  
+40.0;27061.0;f;divsepwid;4.0;6.0;weekly ;y;4.0;3.0;102913.0;bad loss  
+48.0;27045.0;f;divsepwid;4.0;5.0;weekly ;n;4.0;3.0;103594.0;good risk 
+32.0;27026.0;m;single   ;0.0;0.0;monthly;y;0.0;0.0;100086.0;good risk 
+49.0;26968.0;m;married  ;3.0;4.0;weekly ;y;5.0;1.0;104073.0;bad loss  
+43.0;26943.0;f;divsepwid;3.0;5.0;weekly ;n;3.0;2.0;103174.0;bad loss  
+38.0;26865.0;m;divsepwid;2.0;5.0;weekly ;n;5.0;2.0;103087.0;good risk 
+42.0;26806.0;m;divsepwid;2.0;6.0;weekly ;y;5.0;2.0;103078.0;bad loss  
+41.0;26750.0;m;divsepwid;4.0;5.0;weekly ;y;4.0;2.0;102999.0;good risk 
+46.0;26741.0;f;divsepwid;4.0;5.0;weekly ;n;3.0;3.0;103416.0;bad profit
+41.0;26736.0;m;divsepwid;2.0;5.0;weekly ;n;4.0;2.0;103005.0;good risk 
+33.0;26725.0;f;divsepwid;2.0;5.0;weekly ;y;5.0;3.0;103258.0;bad profit
+45.0;26710.0;f;divsepwid;2.0;5.0;weekly ;y;5.0;2.0;103335.0;bad profit
+30.0;26602.0;m;single   ;0.0;0.0;monthly;y;2.0;0.0;100063.0;good risk 
+38.0;26594.0;f;divsepwid;4.0;6.0;weekly ;y;5.0;2.0;103671.0;good risk 
+45.0;26575.0;m;married  ;3.0;4.0;monthly;y;4.0;2.0;103940.0;bad profit
+50.0;26561.0;f;divsepwid;3.0;5.0;weekly ;n;3.0;2.0;103724.0;bad profit
+40.0;26528.0;m;single   ;0.0;1.0;monthly;y;1.0;0.0;100203.0;good risk 
+44.0;26430.0;f;married  ;3.0;3.0;monthly;y;5.0;1.0;103896.0;bad loss  
+42.0;26375.0;f;married  ;3.0;3.0;weekly ;y;4.0;1.0;103831.0;bad profit
+45.0;26307.0;f;divsepwid;2.0;5.0;weekly ;n;4.0;2.0;103319.0;bad loss  
+36.0;26243.0;f;single   ;0.0;0.0;monthly;y;0.0;0.0;100136.0;good risk 
+44.0;26233.0;m;divsepwid;3.0;6.0;weekly ;y;3.0;3.0;103240.0;good risk 
+48.0;26193.0;f;divsepwid;2.0;5.0;weekly ;n;3.0;2.0;103596.0;bad loss  
+26.0;26175.0;f;single   ;0.0;1.0;monthly;y;2.0;0.0;100021.0;good risk 
+47.0;26152.0;f;divsepwid;2.0;5.0;weekly ;y;4.0;3.0;103480.0;bad profit
+45.0;26125.0;f;married  ;3.0;3.0;weekly ;y;4.0;1.0;103948.0;bad loss  
+47.0;26081.0;f;divsepwid;2.0;5.0;weekly ;n;3.0;3.0;103508.0;bad profit
+42.0;26056.0;f;divsepwid;4.0;6.0;weekly ;y;3.0;2.0;103094.0;good risk 
+38.0;26028.0;m;single   ;0.0;0.0;monthly;y;1.0;0.0;100169.0;good risk 
+47.0;26023.0;m;married  ;2.0;4.0;monthly;y;4.0;1.0;104001.0;bad loss  
+44.0;25971.0;f;divsepwid;4.0;5.0;weekly ;n;3.0;3.0;103254.0;bad profit
+31.0;25970.0;m;married  ;3.0;3.0;monthly;y;5.0;2.0;103932.0;bad loss  
+43.0;25916.0;m;married  ;3.0;3.0;weekly ;y;5.0;1.0;103866.0;bad loss  
+43.0;25838.0;f;divsepwid;2.0;6.0;weekly ;n;5.0;2.0;103172.0;good risk 
+33.0;25747.0;f;single   ;0.0;1.0;monthly;y;0.0;0.0;100098.0;good risk 
+44.0;25666.0;m;divsepwid;4.0;5.0;weekly ;n;4.0;2.0;103255.0;bad profit
+48.0;25613.0;f;married  ;2.0;4.0;weekly ;y;5.0;1.0;104035.0;bad loss  
+40.0;25607.0;f;divsepwid;2.0;6.0;weekly ;y;3.0;3.0;102921.0;good risk 
+41.0;25541.0;f;married  ;2.0;3.0;monthly;y;5.0;1.0;103797.0;bad loss  
+33.0;25460.0;m;divsepwid;3.0;5.0;weekly ;n;5.0;3.0;103081.0;bad profit
+46.0;25397.0;f;married  ;3.0;4.0;weekly ;y;5.0;1.0;103974.0;bad loss  
+49.0;25361.0;m;divsepwid;2.0;6.0;weekly ;y;5.0;3.0;103647.0;bad loss  
+47.0;25342.0;m;married  ;3.0;3.0;weekly ;y;4.0;2.0;104008.0;bad loss  
+43.0;25327.0;f;divsepwid;2.0;6.0;weekly ;y;4.0;3.0;103148.0;good risk 
+30.0;25288.0;m;divsepwid;2.0;5.0;weekly ;y;3.0;2.0;103012.0;bad profit
+34.0;25276.0;f;single   ;0.0;1.0;monthly;y;1.0;0.0;100114.0;good risk 
+44.0;25188.0;m;divsepwid;4.0;5.0;weekly ;n;5.0;3.0;103243.0;bad profit
+47.0;25126.0;m;divsepwid;2.0;6.0;weekly ;y;3.0;2.0;103490.0;bad profit
+44.0;25124.0;f;divsepwid;3.0;6.0;weekly ;y;3.0;2.0;103246.0;bad loss  
+48.0;25035.0;m;married  ;3.0;4.0;weekly ;y;4.0;2.0;104046.0;bad loss  
+35.0;24999.0;m;single   ;0.0;3.0;weekly ;y;1.0;1.0;102531.0;bad profit
+49.0;24991.0;m;married  ;3.0;4.0;monthly;y;5.0;2.0;104062.0;bad loss  
+41.0;24990.0;m;married  ;3.0;3.0;monthly;y;4.0;2.0;103787.0;bad loss  
+42.0;24979.0;f;divsepwid;2.0;5.0;weekly ;y;5.0;3.0;103040.0;bad loss  
+23.0;24974.0;m;single   ;1.0;1.0;weekly ;y;2.0;1.0;102506.0;bad profit
+20.0;24968.0;m;single   ;0.0;3.0;weekly ;y;1.0;1.0;102069.0;bad loss  
+37.0;24944.0;m;married  ;1.0;0.0;monthly;y;2.0;2.0;101495.0;bad profit
+22.0;24931.0;f;married  ;1.0;0.0;weekly ;y;3.0;1.0;101498.0;bad profit
+33.0;24927.0;m;single   ;0.0;2.0;weekly ;n;3.0;1.0;102216.0;bad profit
+20.0;24926.0;f;married  ;2.0;2.0;weekly ;y;2.0;2.0;101249.0;bad profit
+19.0;24920.0;m;married  ;2.0;1.0;monthly;y;2.0;1.0;101081.0;bad loss  
+25.0;24904.0;m;single   ;0.0;1.0;weekly ;n;3.0;1.0;102808.0;bad profit
+20.0;24886.0;m;married  ;1.0;2.0;monthly;y;3.0;1.0;101228.0;bad profit
+24.0;24877.0;m;married  ;1.0;0.0;monthly;y;1.0;2.0;101790.0;bad profit
+25.0;24870.0;f;single   ;0.0;1.0;monthly;n;3.0;1.0;102826.0;bad profit
+25.0;24860.0;f;single   ;1.0;3.0;monthly;n;1.0;1.0;102836.0;bad profit
+24.0;24854.0;f;married  ;1.0;1.0;monthly;y;1.0;2.0;101810.0;bad profit
+30.0;24839.0;m;divsepwid;4.0;6.0;weekly ;n;3.0;2.0;103296.0;good risk 
+21.0;24823.0;f;married  ;1.0;0.0;weekly ;y;2.0;1.0;101373.0;bad profit
+24.0;24814.0;m;single   ;1.0;1.0;monthly;y;1.0;1.0;102702.0;bad profit
+33.0;24809.0;m;divsepwid;2.0;6.0;weekly ;n;3.0;3.0;103373.0;bad loss  
+25.0;24789.0;m;married  ;2.0;2.0;weekly ;y;2.0;2.0;101965.0;bad profit
+20.0;24780.0;f;single   ;0.0;3.0;weekly ;y;1.0;1.0;102080.0;bad profit
+21.0;24775.0;m;married  ;1.0;1.0;monthly;y;2.0;1.0;101396.0;good risk 
+22.0;24758.0;m;married  ;1.0;2.0;weekly ;y;1.0;1.0;101528.0;bad profit
+24.0;24749.0;m;single   ;1.0;1.0;weekly ;y;2.0;1.0;102692.0;bad profit
+23.0;24730.0;f;married  ;2.0;1.0;weekly ;y;2.0;1.0;101659.0;bad profit
+50.0;24718.0;m;divsepwid;3.0;6.0;weekly ;y;5.0;3.0;103696.0;good risk 
+23.0;24718.0;f;married  ;1.0;0.0;monthly;y;1.0;2.0;101675.0;bad profit
+42.0;24703.0;f;divsepwid;3.0;6.0;weekly ;n;3.0;3.0;103043.0;bad loss  
+23.0;24695.0;m;married  ;1.0;1.0;weekly ;y;3.0;1.0;101685.0;bad loss  
+22.0;24692.0;f;married  ;2.0;2.0;weekly ;y;1.0;1.0;101569.0;bad profit
+22.0;24676.0;f;married  ;1.0;0.0;monthly;y;3.0;1.0;101504.0;good risk 
+23.0;24674.0;m;married  ;1.0;1.0;weekly ;y;2.0;1.0;101647.0;bad profit
+30.0;24668.0;f;married  ;3.0;3.0;weekly ;y;4.0;1.0;103820.0;bad loss  
+41.0;24665.0;m;divsepwid;4.0;5.0;weekly ;y;4.0;2.0;102970.0;bad loss  
+23.0;24665.0;f;married  ;1.0;2.0;monthly;y;1.0;2.0;101694.0;bad profit
+34.0;24661.0;f;married  ;1.0;2.0;monthly;y;3.0;1.0;101527.0;bad profit
+37.0;24659.0;f;single   ;1.0;3.0;monthly;y;3.0;1.0;102570.0;bad profit
+21.0;24656.0;f;married  ;1.0;0.0;monthly;y;3.0;2.0;101390.0;bad profit
+23.0;24650.0;f;married  ;2.0;2.0;weekly ;y;3.0;2.0;101703.0;bad profit
+21.0;24644.0;m;single   ;1.0;2.0;weekly ;y;3.0;1.0;102251.0;bad profit
+22.0;24642.0;m;married  ;2.0;2.0;weekly ;y;2.0;1.0;101523.0;bad profit
+22.0;24635.0;f;married  ;2.0;1.0;monthly;y;3.0;2.0;101549.0;bad profit
+20.0;24633.0;m;married  ;2.0;1.0;monthly;y;2.0;2.0;101208.0;bad profit
+22.0;24632.0;m;single   ;0.0;3.0;weekly ;n;2.0;1.0;102371.0;bad profit
+27.0;24629.0;m;single   ;1.0;3.0;weekly ;y;3.0;1.0;102392.0;bad profit
+23.0;24612.0;f;single   ;0.0;3.0;weekly ;y;1.0;1.0;102551.0;bad profit
+24.0;24591.0;f;single   ;0.0;2.0;monthly;n;3.0;1.0;102724.0;bad profit
+22.0;24587.0;f;single   ;0.0;1.0;weekly ;y;2.0;1.0;102418.0;bad loss  
+21.0;24579.0;f;single   ;1.0;3.0;weekly ;n;2.0;1.0;102259.0;bad profit
+24.0;24577.0;m;married  ;1.0;2.0;weekly ;y;3.0;1.0;101806.0;bad profit
+23.0;24570.0;m;single   ;0.0;2.0;weekly ;y;1.0;1.0;102521.0;bad profit
+33.0;24557.0;f;divsepwid;2.0;6.0;weekly ;n;4.0;3.0;103215.0;good risk 
+46.0;24549.0;f;divsepwid;2.0;5.0;weekly ;n;4.0;2.0;103371.0;bad profit
+23.0;24539.0;f;married  ;2.0;0.0;weekly ;y;1.0;2.0;101642.0;bad profit
+23.0;24535.0;m;single   ;0.0;2.0;monthly;y;3.0;1.0;102512.0;bad profit
+22.0;24529.0;f;single   ;0.0;3.0;monthly;y;2.0;1.0;102387.0;good risk 
+23.0;24527.0;m;married  ;1.0;2.0;weekly ;y;3.0;2.0;101649.0;bad profit
+20.0;24526.0;m;single   ;0.0;1.0;monthly;y;1.0;1.0;102107.0;bad profit
+21.0;24512.0;f;married  ;2.0;2.0;weekly ;y;3.0;2.0;101405.0;bad profit
+19.0;24497.0;m;married  ;2.0;2.0;weekly ;y;1.0;1.0;101067.0;bad profit
+20.0;24490.0;m;married  ;1.0;2.0;weekly ;y;1.0;2.0;101230.0;bad profit
+25.0;24489.0;f;single   ;1.0;3.0;weekly ;n;1.0;1.0;102805.0;bad profit
+49.0;24487.0;m;divsepwid;3.0;5.0;weekly ;n;4.0;2.0;103638.0;good risk 
+19.0;24465.0;f;married  ;1.0;2.0;monthly;y;1.0;1.0;101096.0;bad profit
+23.0;24460.0;f;single   ;0.0;3.0;weekly ;y;1.0;1.0;102573.0;bad profit
+30.0;24450.0;f;single   ;0.0;2.0;monthly;n;3.0;1.0;102110.0;bad profit
+18.0;24429.0;f;married  ;2.0;2.0;weekly ;y;1.0;2.0;100934.0;bad profit
+20.0;24421.0;m;single   ;1.0;2.0;weekly ;n;3.0;1.0;102072.0;bad profit
+21.0;24394.0;m;single   ;0.0;1.0;weekly ;y;1.0;1.0;102268.0;bad profit
+40.0;24392.0;f;divsepwid;3.0;5.0;weekly ;y;4.0;2.0;102893.0;bad profit
+32.0;24374.0;f;single   ;1.0;1.0;monthly;n;3.0;1.0;102685.0;bad profit
+47.0;24373.0;f;divsepwid;3.0;6.0;weekly ;n;3.0;3.0;103472.0;good risk 
+37.0;24363.0;m;divsepwid;4.0;5.0;weekly ;n;3.0;2.0;102971.0;bad loss  
+27.0;24362.0;f;divsepwid;3.0;6.0;weekly ;n;3.0;2.0;103558.0;bad profit
+28.0;24332.0;f;married  ;1.0;0.0;weekly ;y;3.0;1.0;100922.0;bad profit
+28.0;24328.0;m;married  ;1.0;2.0;weekly ;y;3.0;2.0;101355.0;bad profit
+23.0;24316.0;f;single   ;0.0;3.0;weekly ;n;2.0;1.0;102540.0;good risk 
+25.0;24312.0;f;married  ;2.0;0.0;monthly;y;1.0;2.0;101938.0;bad profit
+31.0;24311.0;f;single   ;0.0;3.0;monthly;n;1.0;1.0;102726.0;bad loss  
+41.0;24304.0;m;married  ;2.0;4.0;monthly;y;5.0;1.0;103793.0;bad loss  
+36.0;24271.0;m;married  ;1.0;0.0;weekly ;y;3.0;2.0;101830.0;bad profit
+21.0;24247.0;m;married  ;1.0;1.0;monthly;y;1.0;2.0;101361.0;bad profit
+18.0;24241.0;m;married  ;2.0;2.0;monthly;y;1.0;2.0;100933.0;bad profit
+20.0;24240.0;f;single   ;1.0;2.0;weekly ;y;2.0;1.0;102120.0;bad profit
+24.0;24227.0;m;married  ;1.0;0.0;weekly ;y;2.0;1.0;101829.0;bad profit
+21.0;24220.0;m;single   ;0.0;3.0;monthly;n;2.0;1.0;102253.0;bad loss  
+41.0;24219.0;m;divsepwid;4.0;6.0;weekly ;y;5.0;3.0;102972.0;bad loss  
+46.0;24211.0;m;divsepwid;4.0;5.0;weekly ;n;3.0;2.0;103389.0;bad loss  
+23.0;24210.0;f;married  ;2.0;2.0;monthly;y;2.0;1.0;101643.0;bad profit
+34.0;24203.0;f;married  ;3.0;3.0;weekly ;y;4.0;1.0;103785.0;bad loss  
+22.0;24164.0;m;married  ;1.0;2.0;weekly ;y;2.0;2.0;101566.0;bad profit
+49.0;24162.0;f;divsepwid;2.0;5.0;weekly ;y;4.0;2.0;103623.0;bad profit
+23.0;24157.0;m;single   ;0.0;2.0;monthly;y;1.0;1.0;102563.0;bad profit
+20.0;24148.0;m;single   ;0.0;3.0;weekly ;y;1.0;1.0;102105.0;bad loss  
+27.0;24132.0;m;single   ;1.0;1.0;monthly;y;3.0;1.0;102844.0;bad profit
+44.0;24121.0;f;married  ;3.0;4.0;weekly ;y;4.0;1.0;103883.0;bad loss  
+20.0;24118.0;f;married  ;1.0;2.0;weekly ;y;2.0;2.0;101223.0;bad profit
+37.0;24112.0;m;single   ;1.0;3.0;monthly;y;3.0;1.0;102121.0;bad profit
+23.0;24092.0;m;married  ;2.0;2.0;weekly ;y;2.0;2.0;101645.0;bad profit
+20.0;24081.0;f;married  ;2.0;2.0;weekly ;y;3.0;2.0;101240.0;bad profit
+23.0;24076.0;m;single   ;0.0;3.0;monthly;n;2.0;1.0;102529.0;bad profit
+22.0;24074.0;m;single   ;1.0;1.0;weekly ;n;2.0;1.0;102372.0;bad profit
+25.0;24069.0;f;single   ;0.0;1.0;monthly;n;1.0;1.0;102848.0;bad profit
+22.0;24053.0;f;married  ;1.0;0.0;monthly;y;1.0;1.0;101511.0;bad profit
+50.0;24052.0;f;married  ;2.0;4.0;weekly ;y;5.0;1.0;104094.0;bad loss  
+46.0;24039.0;f;married  ;3.0;4.0;weekly ;y;4.0;1.0;103959.0;good risk 
+46.0;24037.0;f;divsepwid;2.0;5.0;weekly ;n;5.0;3.0;103372.0;bad profit
+47.0;24025.0;f;married  ;3.0;3.0;weekly ;y;4.0;1.0;103988.0;bad loss  
+30.0;24013.0;f;married  ;2.0;4.0;weekly ;y;5.0;2.0;104058.0;bad loss  
+23.0;24008.0;m;single   ;0.0;3.0;monthly;n;2.0;1.0;102550.0;bad profit
+24.0;24005.0;m;married  ;1.0;2.0;monthly;y;2.0;1.0;101793.0;bad profit
+21.0;23997.0;m;married  ;1.0;2.0;monthly;y;3.0;1.0;101354.0;bad profit
+27.0;23982.0;m;married  ;1.0;0.0;weekly ;y;2.0;1.0;100897.0;bad profit
+21.0;23975.0;f;single   ;1.0;3.0;monthly;n;2.0;1.0;102234.0;bad profit
+50.0;23952.0;f;divsepwid;2.0;6.0;weekly ;n;3.0;3.0;103704.0;bad loss  
+23.0;23950.0;m;single   ;1.0;3.0;monthly;n;1.0;1.0;102555.0;bad profit
+49.0;23949.0;f;married  ;3.0;4.0;monthly;y;5.0;1.0;104065.0;bad loss  
+18.0;23946.0;f;married  ;2.0;0.0;monthly;y;3.0;2.0;100900.0;bad loss  
+47.0;23940.0;m;divsepwid;2.0;5.0;weekly ;n;5.0;3.0;103468.0;bad profit
+20.0;23921.0;m;married  ;1.0;2.0;weekly ;y;1.0;1.0;101221.0;bad profit
+22.0;23919.0;m;married  ;1.0;1.0;weekly ;y;3.0;1.0;101563.0;bad profit
+21.0;23909.0;m;married  ;2.0;2.0;weekly ;y;3.0;1.0;101358.0;bad profit
+22.0;23893.0;m;single   ;1.0;2.0;monthly;n;1.0;1.0;102406.0;bad loss  
+40.0;23874.0;m;divsepwid;4.0;6.0;weekly ;n;5.0;2.0;102902.0;bad loss  
+33.0;23845.0;m;single   ;1.0;1.0;monthly;y;2.0;1.0;102364.0;bad profit
+44.0;23843.0;f;married  ;3.0;4.0;weekly ;y;4.0;2.0;103884.0;bad loss  
+47.0;23838.0;f;divsepwid;2.0;6.0;weekly ;y;3.0;2.0;103469.0;good risk 
+23.0;23834.0;f;married  ;2.0;1.0;weekly ;y;3.0;1.0;101653.0;good risk 
+21.0;23834.0;m;married  ;2.0;2.0;weekly ;y;3.0;1.0;101404.0;bad profit
+20.0;23834.0;f;married  ;1.0;1.0;weekly ;y;1.0;1.0;101210.0;bad profit
+44.0;23830.0;m;married  ;3.0;3.0;monthly;y;5.0;1.0;103893.0;bad loss  
+23.0;23830.0;f;single   ;1.0;2.0;monthly;n;3.0;1.0;102577.0;bad profit
+33.0;23828.0;f;single   ;1.0;3.0;monthly;n;2.0;1.0;102545.0;bad profit
+35.0;23825.0;f;married  ;1.0;1.0;weekly ;y;2.0;2.0;101382.0;good risk 
+19.0;23816.0;f;married  ;1.0;0.0;monthly;y;1.0;2.0;101068.0;bad loss  
+18.0;23796.0;m;married  ;2.0;2.0;weekly ;y;3.0;1.0;100928.0;bad profit
+23.0;23774.0;m;single   ;1.0;1.0;weekly ;y;2.0;1.0;102569.0;bad profit
+22.0;23772.0;m;married  ;1.0;2.0;weekly ;y;1.0;1.0;101515.0;bad profit
+20.0;23766.0;m;single   ;1.0;2.0;monthly;n;2.0;1.0;102119.0;bad profit
+20.0;23755.0;m;married  ;1.0;0.0;monthly;y;3.0;2.0;101242.0;bad profit
+40.0;23746.0;f;divsepwid;2.0;5.0;weekly ;y;5.0;2.0;102891.0;bad profit
+44.0;23742.0;f;married  ;3.0;3.0;weekly ;y;5.0;1.0;103889.0;bad loss  
+30.0;23740.0;m;married  ;2.0;0.0;monthly;y;2.0;1.0;101500.0;bad profit
+25.0;23714.0;f;married  ;2.0;1.0;monthly;y;2.0;1.0;101954.0;bad profit
+24.0;23703.0;m;married  ;2.0;1.0;weekly ;y;3.0;2.0;101833.0;bad profit
+48.0;23688.0;m;divsepwid;4.0;6.0;weekly ;n;3.0;3.0;103553.0;good risk 
+37.0;23684.0;m;married  ;2.0;3.0;weekly ;y;5.0;1.0;103762.0;bad loss  
+23.0;23682.0;m;single   ;0.0;1.0;weekly ;y;3.0;1.0;102535.0;bad profit
+25.0;23671.0;f;married  ;1.0;2.0;weekly ;y;3.0;2.0;101953.0;bad profit
+30.0;23662.0;f;single   ;1.0;2.0;weekly ;n;2.0;1.0;102219.0;bad profit
+23.0;23661.0;m;single   ;0.0;1.0;weekly ;n;2.0;1.0;102500.0;bad profit
+49.0;23648.0;f;married  ;3.0;4.0;weekly ;y;4.0;2.0;104061.0;bad loss  
+21.0;23641.0;f;single   ;0.0;3.0;monthly;y;3.0;1.0;102262.0;bad profit
+31.0;23612.0;f;married  ;2.0;0.0;monthly;y;2.0;1.0;101972.0;bad profit
+20.0;23600.0;m;married  ;2.0;1.0;weekly ;y;1.0;1.0;101255.0;bad profit
+20.0;23599.0;m;married  ;2.0;2.0;monthly;y;1.0;2.0;101256.0;bad profit
+47.0;23590.0;m;divsepwid;4.0;6.0;weekly ;n;4.0;2.0;103467.0;good risk 
+23.0;23586.0;f;single   ;1.0;2.0;monthly;y;1.0;1.0;102524.0;bad profit
+50.0;23585.0;m;married  ;3.0;4.0;weekly ;y;4.0;2.0;104097.0;bad loss  
+23.0;23581.0;f;married  ;1.0;1.0;weekly ;y;1.0;2.0;101654.0;bad profit
+21.0;23570.0;f;married  ;2.0;0.0;monthly;y;2.0;2.0;101399.0;bad loss  
+24.0;23566.0;m;married  ;2.0;0.0;weekly ;y;3.0;2.0;101794.0;bad profit
+50.0;23565.0;f;divsepwid;2.0;6.0;weekly ;y;4.0;3.0;103699.0;good risk 
+41.0;23546.0;f;married  ;2.0;4.0;weekly ;y;5.0;1.0;103792.0;bad loss  
+23.0;23527.0;m;married  ;1.0;2.0;weekly ;y;1.0;2.0;101691.0;good risk 
+42.0;23524.0;m;divsepwid;3.0;6.0;weekly ;y;3.0;2.0;103057.0;good risk 
+23.0;23522.0;f;single   ;1.0;2.0;weekly ;n;1.0;1.0;102544.0;bad profit
+25.0;23515.0;m;married  ;1.0;2.0;monthly;y;2.0;2.0;101982.0;bad profit
+21.0;23514.0;f;married  ;1.0;2.0;monthly;y;3.0;1.0;101393.0;bad profit
+45.0;23511.0;f;divsepwid;4.0;5.0;weekly ;y;3.0;2.0;103293.0;bad loss  
+24.0;23507.0;m;single   ;0.0;3.0;monthly;y;1.0;1.0;102707.0;bad profit
+45.0;23493.0;m;divsepwid;3.0;6.0;weekly ;n;5.0;2.0;103292.0;bad profit
+22.0;23492.0;f;single   ;0.0;3.0;weekly ;y;2.0;1.0;102361.0;bad profit
+23.0;23481.0;f;married  ;2.0;0.0;weekly ;y;2.0;2.0;101692.0;bad profit
+24.0;23475.0;m;single   ;0.0;3.0;monthly;n;2.0;1.0;102678.0;bad profit
+24.0;23469.0;f;single   ;0.0;2.0;weekly ;n;3.0;1.0;102706.0;bad profit
+25.0;23465.0;f;married  ;1.0;2.0;monthly;y;2.0;1.0;101952.0;bad profit
+21.0;23452.0;m;single   ;1.0;1.0;weekly ;n;2.0;1.0;102264.0;bad profit
+23.0;23443.0;m;married  ;2.0;1.0;weekly ;y;1.0;2.0;101700.0;bad profit
+48.0;23439.0;f;divsepwid;3.0;5.0;weekly ;y;5.0;3.0;103548.0;bad profit
+42.0;23414.0;m;married  ;3.0;3.0;monthly;y;4.0;2.0;103817.0;bad loss  
+43.0;23413.0;m;divsepwid;3.0;6.0;weekly ;n;4.0;3.0;103136.0;good risk 
+37.0;23406.0;f;married  ;2.0;0.0;weekly ;y;1.0;2.0;101106.0;bad profit
+25.0;23397.0;m;married  ;1.0;1.0;monthly;y;3.0;1.0;101950.0;bad profit
+34.0;23395.0;m;single   ;1.0;2.0;monthly;n;3.0;1.0;102525.0;bad profit
+32.0;23388.0;m;married  ;1.0;1.0;weekly ;y;2.0;1.0;101251.0;bad profit
+18.0;23387.0;f;married  ;1.0;0.0;weekly ;y;3.0;2.0;100898.0;bad profit
+22.0;23386.0;m;married  ;1.0;1.0;weekly ;y;1.0;2.0;101553.0;bad loss  
+49.0;23383.0;m;divsepwid;4.0;6.0;weekly ;n;4.0;3.0;103642.0;bad profit
+30.0;23381.0;m;married  ;2.0;1.0;weekly ;y;2.0;2.0;101518.0;bad profit
+20.0;23379.0;f;single   ;0.0;2.0;monthly;n;1.0;1.0;102078.0;bad profit
+23.0;23378.0;f;single   ;0.0;1.0;weekly ;y;1.0;1.0;102534.0;bad profit
+44.0;23371.0;m;divsepwid;3.0;5.0;weekly ;n;4.0;2.0;103210.0;bad loss  
+31.0;23345.0;f;divsepwid;4.0;5.0;weekly ;n;5.0;3.0;103702.0;good risk 
+19.0;23343.0;m;married  ;2.0;1.0;monthly;y;2.0;2.0;101075.0;bad profit
+25.0;23333.0;f;single   ;0.0;2.0;weekly ;n;1.0;1.0;102842.0;bad profit
+24.0;23331.0;m;single   ;1.0;2.0;weekly ;y;3.0;1.0;102712.0;bad profit
+45.0;23329.0;f;divsepwid;2.0;5.0;weekly ;y;3.0;3.0;103288.0;bad loss  
+25.0;23329.0;m;married  ;2.0;2.0;weekly ;y;3.0;1.0;101966.0;bad profit
+40.0;23321.0;f;divsepwid;2.0;5.0;weekly ;n;4.0;3.0;102899.0;bad profit
+30.0;23318.0;f;divsepwid;3.0;5.0;weekly ;y;4.0;3.0;103056.0;good risk 
+18.0;23317.0;f;married  ;2.0;0.0;weekly ;y;1.0;1.0;100918.0;bad loss  
+21.0;23315.0;f;married  ;2.0;1.0;weekly ;y;2.0;2.0;101379.0;bad profit
+22.0;23305.0;f;married  ;2.0;1.0;weekly ;y;1.0;1.0;101510.0;bad profit
+21.0;23305.0;m;married  ;2.0;1.0;weekly ;y;2.0;2.0;101371.0;bad profit
+23.0;23299.0;m;married  ;1.0;2.0;monthly;y;3.0;1.0;101663.0;bad profit
+38.0;23244.0;m;divsepwid;4.0;5.0;weekly ;y;4.0;3.0;103697.0;bad profit
+49.0;23230.0;f;divsepwid;2.0;5.0;weekly ;y;3.0;2.0;103630.0;bad loss  
+25.0;23227.0;f;single   ;0.0;1.0;monthly;y;2.0;1.0;102859.0;bad profit
+21.0;23202.0;m;married  ;2.0;2.0;weekly ;y;3.0;1.0;101389.0;bad profit
+37.0;23201.0;f;married  ;2.0;2.0;weekly ;y;1.0;1.0;101842.0;bad profit
+26.0;23194.0;f;single   ;1.0;2.0;weekly ;n;1.0;1.0;102835.0;bad profit
+20.0;23182.0;f;single   ;1.0;1.0;monthly;y;2.0;1.0;102117.0;bad profit
+23.0;23175.0;f;married  ;2.0;0.0;weekly ;y;2.0;1.0;101665.0;bad profit
+22.0;23154.0;f;single   ;1.0;1.0;monthly;n;3.0;1.0;102420.0;good risk 
+40.0;23152.0;f;divsepwid;4.0;6.0;weekly ;n;3.0;2.0;102890.0;bad profit
+22.0;23152.0;f;married  ;1.0;2.0;monthly;y;1.0;2.0;101555.0;bad profit
+19.0;23137.0;f;married  ;2.0;2.0;monthly;y;3.0;1.0;101084.0;bad profit
+48.0;23130.0;m;divsepwid;2.0;5.0;weekly ;y;3.0;2.0;103546.0;bad profit
+22.0;23099.0;f;single   ;1.0;1.0;weekly ;y;1.0;1.0;102404.0;bad profit
+32.0;23097.0;f;married  ;1.0;1.0;monthly;y;3.0;2.0;101407.0;bad profit
+19.0;23086.0;m;married  ;1.0;1.0;weekly ;y;2.0;2.0;101045.0;bad profit
+24.0;23069.0;f;single   ;0.0;2.0;weekly ;n;1.0;1.0;102725.0;bad profit
+20.0;23064.0;f;single   ;1.0;3.0;monthly;n;2.0;1.0;102115.0;bad profit
+23.0;23042.0;m;single   ;0.0;3.0;monthly;y;2.0;1.0;102549.0;bad profit
+25.0;23040.0;m;single   ;0.0;3.0;monthly;n;2.0;1.0;102864.0;bad profit
+21.0;23039.0;m;single   ;1.0;2.0;weekly ;n;2.0;1.0;102240.0;bad profit
+20.0;23038.0;f;single   ;1.0;1.0;weekly ;n;1.0;1.0;102082.0;bad profit
+21.0;23031.0;m;married  ;1.0;2.0;monthly;y;2.0;2.0;101392.0;bad profit
+20.0;23025.0;m;single   ;0.0;1.0;weekly ;n;1.0;1.0;102109.0;good risk 
+19.0;23023.0;f;married  ;2.0;1.0;weekly ;y;2.0;2.0;101083.0;bad profit
+21.0;23021.0;m;married  ;2.0;1.0;weekly ;y;3.0;1.0;101402.0;bad profit
+22.0;23009.0;m;married  ;1.0;0.0;monthly;y;3.0;2.0;101552.0;bad profit
+22.0;23006.0;f;single   ;1.0;1.0;weekly ;y;1.0;1.0;102421.0;bad profit
+32.0;23001.0;m;single   ;1.0;2.0;weekly ;n;1.0;1.0;102693.0;bad profit
+21.0;22994.0;m;single   ;1.0;1.0;weekly ;n;1.0;1.0;102174.0;bad profit
+23.0;22952.0;f;single   ;1.0;1.0;monthly;y;1.0;1.0;102466.0;bad profit
+18.0;22950.0;m;married  ;1.0;0.0;monthly;y;1.0;2.0;100880.0;bad profit
+19.0;22940.0;m;married  ;2.0;1.0;monthly;y;2.0;1.0;100998.0;bad profit
+40.0;22930.0;f;married  ;3.0;4.0;weekly ;y;5.0;1.0;103746.0;bad loss  
+30.0;22889.0;m;married  ;2.0;1.0;monthly;y;3.0;1.0;101426.0;bad profit
+26.0;22884.0;f;married  ;2.0;0.0;monthly;y;3.0;2.0;101037.0;bad loss  
+22.0;22882.0;m;single   ;0.0;2.0;monthly;n;2.0;1.0;102303.0;bad profit
+45.0;22877.0;f;divsepwid;4.0;6.0;weekly ;n;4.0;3.0;103287.0;bad profit
+24.0;22877.0;m;married  ;2.0;0.0;monthly;y;1.0;1.0;101767.0;bad profit
+30.0;22845.0;m;single   ;1.0;1.0;monthly;y;2.0;1.0;102487.0;bad profit
+35.0;22844.0;f;divsepwid;3.0;5.0;weekly ;n;3.0;2.0;103359.0;good risk 
+22.0;22833.0;f;single   ;0.0;2.0;monthly;y;2.0;1.0;102313.0;bad profit
+24.0;22830.0;f;married  ;1.0;1.0;weekly ;y;1.0;2.0;101771.0;bad profit
+20.0;22821.0;f;single   ;0.0;1.0;weekly ;n;3.0;1.0;102000.0;bad profit
+21.0;22818.0;m;single   ;1.0;1.0;monthly;n;1.0;1.0;102181.0;bad profit
+18.0;22817.0;m;married  ;1.0;2.0;monthly;y;2.0;1.0;100817.0;bad loss  
+38.0;22812.0;m;married  ;1.0;0.0;weekly ;y;3.0;1.0;100953.0;bad profit
+24.0;22810.0;f;single   ;0.0;1.0;weekly ;n;3.0;1.0;102616.0;bad profit
+19.0;22807.0;f;married  ;1.0;0.0;monthly;y;3.0;1.0;100952.0;bad profit
+44.0;22801.0;f;divsepwid;3.0;6.0;weekly ;y;5.0;3.0;103205.0;good risk 
+41.0;22793.0;f;divsepwid;2.0;5.0;weekly ;y;5.0;3.0;102955.0;bad loss  
+48.0;22760.0;m;divsepwid;2.0;5.0;weekly ;y;4.0;3.0;103531.0;bad loss  
+30.0;22756.0;m;divsepwid;4.0;5.0;weekly ;n;5.0;3.0;103457.0;bad profit
+22.0;22725.0;f;single   ;1.0;3.0;weekly ;y;1.0;1.0;102358.0;bad profit
+25.0;22710.0;f;married  ;1.0;1.0;weekly ;y;2.0;1.0;101857.0;bad profit
+18.0;22707.0;m;married  ;1.0;1.0;weekly ;y;3.0;1.0;100821.0;good risk 
+20.0;22694.0;f;married  ;1.0;0.0;monthly;y;2.0;1.0;101193.0;bad profit
+19.0;22685.0;m;married  ;2.0;2.0;monthly;y;2.0;1.0;100959.0;bad profit
+48.0;22673.0;f;divsepwid;2.0;5.0;weekly ;n;3.0;2.0;103532.0;bad profit
+18.0;22668.0;m;married  ;2.0;0.0;monthly;y;3.0;2.0;100870.0;bad profit
+42.0;22651.0;m;divsepwid;2.0;6.0;weekly ;y;4.0;3.0;103035.0;good risk 
+20.0;22650.0;m;married  ;1.0;0.0;weekly ;y;3.0;1.0;101150.0;good risk 
+41.0;22638.0;f;divsepwid;2.0;6.0;weekly ;n;4.0;2.0;102946.0;bad profit
+20.0;22618.0;m;single   ;1.0;1.0;monthly;n;3.0;1.0;102021.0;bad profit
+32.0;22615.0;m;married  ;2.0;2.0;monthly;y;3.0;2.0;101769.0;bad profit
+22.0;22602.0;m;married  ;2.0;0.0;monthly;y;2.0;1.0;101489.0;bad profit
+19.0;22585.0;f;married  ;1.0;2.0;monthly;y;2.0;2.0;100993.0;bad profit
+46.0;22584.0;m;divsepwid;4.0;6.0;weekly ;n;5.0;2.0;103364.0;bad profit
+32.0;22496.0;m;married  ;1.0;1.0;monthly;y;1.0;2.0;101460.0;bad profit
+49.0;22487.0;m;divsepwid;4.0;5.0;weekly ;n;5.0;2.0;103620.0;bad profit
+25.0;22486.0;f;married  ;2.0;0.0;weekly ;y;1.0;1.0;101881.0;bad profit
+24.0;22483.0;f;married  ;1.0;2.0;weekly ;y;2.0;1.0;101766.0;bad profit
+43.0;22475.0;f;married  ;3.0;3.0;monthly;y;4.0;2.0;103841.0;bad loss  
+48.0;22464.0;m;divsepwid;4.0;5.0;weekly ;y;4.0;2.0;103538.0;bad profit
+18.0;22456.0;m;married  ;2.0;1.0;weekly ;y;2.0;1.0;100850.0;bad profit
+24.0;22383.0;m;single   ;0.0;1.0;monthly;y;1.0;1.0;102644.0;bad loss  
+33.0;22379.0;f;married  ;1.0;0.0;monthly;y;1.0;1.0;101785.0;bad profit
+34.0;22375.0;m;married  ;1.0;2.0;weekly ;y;3.0;2.0;101421.0;bad profit
+35.0;22374.0;m;single   ;1.0;2.0;weekly ;y;3.0;1.0;102014.0;bad loss  
+36.0;22366.0;f;married  ;1.0;1.0;weekly ;y;1.0;1.0;100857.0;bad profit
+44.0;22353.0;f;married  ;3.0;4.0;monthly;y;4.0;1.0;103880.0;bad profit
+38.0;22331.0;m;married  ;1.0;0.0;monthly;y;3.0;2.0;101744.0;bad profit
+20.0;22277.0;f;single   ;1.0;2.0;monthly;y;3.0;1.0;101996.0;bad profit
+22.0;22253.0;f;single   ;0.0;1.0;weekly ;n;3.0;1.0;102285.0;bad profit
+50.0;22238.0;f;divsepwid;4.0;5.0;weekly ;n;4.0;3.0;103690.0;good risk 
+22.0;22232.0;f;married  ;2.0;2.0;weekly ;y;2.0;2.0;101438.0;bad profit
+18.0;22231.0;m;married  ;2.0;0.0;weekly ;y;1.0;2.0;100871.0;bad profit
+22.0;22228.0;f;single   ;0.0;1.0;monthly;n;1.0;1.0;102292.0;bad profit
+36.0;22218.0;f;married  ;1.0;0.0;monthly;y;2.0;2.0;101147.0;bad profit
+22.0;22217.0;f;single   ;0.0;1.0;monthly;y;3.0;1.0;102327.0;bad profit
+20.0;22171.0;f;married  ;2.0;0.0;monthly;y;3.0;2.0;101137.0;bad profit
+25.0;22166.0;f;married  ;1.0;1.0;monthly;y;2.0;1.0;101862.0;bad profit
+25.0;22163.0;m;single   ;1.0;2.0;weekly ;y;1.0;1.0;102764.0;bad profit
+23.0;22138.0;f;married  ;1.0;2.0;monthly;y;2.0;2.0;101630.0;bad profit
+37.0;22121.0;f;single   ;1.0;2.0;weekly ;y;2.0;1.0;102297.0;bad profit
+33.0;22091.0;f;divsepwid;4.0;6.0;weekly ;y;4.0;2.0;103622.0;good risk 
+43.0;22087.0;m;divsepwid;3.0;6.0;weekly ;y;4.0;3.0;103119.0;bad loss  
+19.0;22082.0;m;married  ;1.0;1.0;weekly ;y;3.0;2.0;100983.0;bad profit
+28.0;22070.0;f;married  ;1.0;2.0;weekly ;y;2.0;1.0;101631.0;bad profit
+20.0;22041.0;f;single   ;1.0;3.0;weekly ;y;1.0;1.0;102043.0;bad profit
+24.0;22033.0;f;single   ;0.0;3.0;weekly ;n;2.0;1.0;102649.0;bad profit
+19.0;22029.0;f;married  ;1.0;2.0;monthly;y;1.0;1.0;101004.0;bad profit
+49.0;22026.0;f;divsepwid;2.0;5.0;weekly ;y;4.0;3.0;103608.0;bad profit
+22.0;22013.0;f;single   ;1.0;1.0;monthly;n;3.0;1.0;102295.0;bad profit
+22.0;22007.0;f;married  ;1.0;0.0;monthly;y;2.0;2.0;101448.0;bad profit
+24.0;22005.0;f;single   ;1.0;3.0;monthly;n;1.0;1.0;102653.0;bad profit
+20.0;21936.0;m;married  ;2.0;2.0;monthly;y;2.0;1.0;101153.0;bad profit
+20.0;21928.0;m;single   ;1.0;2.0;weekly ;n;2.0;1.0;102008.0;bad profit
+22.0;21914.0;m;married  ;1.0;1.0;weekly ;y;1.0;1.0;101487.0;bad loss  
+21.0;21875.0;f;single   ;1.0;3.0;weekly ;y;2.0;1.0;102205.0;bad profit
+47.0;21870.0;m;divsepwid;3.0;5.0;weekly ;n;5.0;2.0;103451.0;bad loss  
+27.0;21854.0;m;married  ;2.0;0.0;monthly;y;1.0;1.0;101600.0;bad profit
+23.0;21848.0;f;married  ;1.0;1.0;weekly ;y;1.0;2.0;101635.0;bad profit
+38.0;21843.0;m;single   ;1.0;1.0;monthly;y;2.0;1.0;102323.0;bad profit
+23.0;21832.0;m;single   ;0.0;3.0;monthly;n;3.0;1.0;102462.0;bad profit
+23.0;21821.0;f;married  ;1.0;1.0;weekly ;y;3.0;2.0;101628.0;bad profit
+28.0;21757.0;f;married  ;1.0;2.0;monthly;y;1.0;2.0;101581.0;bad profit
+30.0;21737.0;f;divsepwid;4.0;5.0;weekly ;n;5.0;2.0;103691.0;bad loss  
+45.0;21732.0;f;divsepwid;2.0;6.0;weekly ;y;3.0;3.0;103281.0;bad profit
+24.0;21731.0;f;married  ;1.0;1.0;weekly ;y;1.0;1.0;101770.0;bad profit
+20.0;21720.0;m;single   ;1.0;2.0;monthly;n;1.0;1.0;102040.0;bad profit
+25.0;21708.0;m;single   ;0.0;1.0;weekly ;n;3.0;1.0;102790.0;bad profit
+27.0;21696.0;f;married  ;2.0;2.0;weekly ;y;1.0;2.0;101784.0;bad profit
+21.0;21692.0;f;married  ;1.0;1.0;monthly;y;2.0;1.0;101292.0;bad profit
+47.0;21681.0;m;married  ;3.0;3.0;weekly ;y;4.0;1.0;103981.0;bad loss  
+44.0;21673.0;m;married  ;3.0;3.0;monthly;y;4.0;2.0;103875.0;bad profit
+40.0;21650.0;m;divsepwid;4.0;5.0;weekly ;y;5.0;3.0;102883.0;bad profit
+38.0;21620.0;f;single   ;1.0;3.0;weekly ;y;1.0;1.0;102213.0;bad profit
+23.0;21620.0;m;single   ;1.0;1.0;monthly;y;3.0;1.0;102494.0;bad profit
+27.0;21616.0;m;married  ;2.0;2.0;monthly;y;3.0;2.0;101146.0;bad profit
+26.0;21610.0;m;single   ;1.0;1.0;monthly;y;1.0;1.0;102795.0;bad loss  
+19.0;21580.0;f;married  ;1.0;0.0;weekly ;y;2.0;1.0;101000.0;bad profit
+36.0;21560.0;m;divsepwid;3.0;6.0;weekly ;y;4.0;2.0;103689.0;good risk 
+35.0;21544.0;m;single   ;0.0;2.0;monthly;n;2.0;1.0;102443.0;bad profit
+20.0;21536.0;m;married  ;2.0;1.0;weekly ;y;1.0;2.0;101164.0;bad profit
+18.0;21530.0;m;married  ;2.0;2.0;monthly;y;3.0;2.0;100830.0;bad profit
+43.0;21527.0;f;divsepwid;4.0;5.0;weekly ;y;5.0;3.0;103121.0;good risk 
+20.0;21524.0;f;married  ;2.0;1.0;monthly;y;3.0;2.0;101196.0;bad profit
+41.0;21522.0;f;divsepwid;4.0;5.0;weekly ;y;3.0;3.0;102952.0;bad profit
+41.0;21520.0;m;divsepwid;4.0;5.0;weekly ;y;5.0;2.0;102962.0;bad loss  
+28.0;21488.0;m;single   ;1.0;2.0;weekly ;y;1.0;1.0;102480.0;bad profit
+38.0;21479.0;f;single   ;0.0;1.0;weekly ;n;1.0;1.0;101999.0;bad profit
+19.0;21478.0;f;married  ;2.0;0.0;monthly;y;1.0;2.0;100995.0;bad profit
+25.0;21477.0;f;single   ;0.0;2.0;weekly ;y;1.0;1.0;102748.0;bad profit
+21.0;21475.0;f;married  ;2.0;2.0;weekly ;y;3.0;2.0;101334.0;bad profit
+22.0;21421.0;f;single   ;0.0;2.0;monthly;n;2.0;1.0;102294.0;bad loss  
+23.0;21406.0;m;married  ;1.0;2.0;weekly ;y;2.0;2.0;101636.0;bad profit
+21.0;21394.0;m;married  ;1.0;2.0;monthly;y;1.0;1.0;101314.0;bad profit
+23.0;21383.0;m;single   ;0.0;2.0;monthly;n;2.0;1.0;102431.0;bad profit
+21.0;21369.0;m;single   ;1.0;1.0;weekly ;y;3.0;1.0;102173.0;bad profit
+41.0;21365.0;f;divsepwid;4.0;5.0;weekly ;y;4.0;3.0;102961.0;bad profit
+24.0;21337.0;f;married  ;1.0;0.0;weekly ;y;1.0;1.0;101736.0;bad profit
+25.0;21324.0;f;single   ;1.0;2.0;weekly ;n;2.0;1.0;102766.0;bad profit
+22.0;21324.0;f;single   ;0.0;1.0;weekly ;n;2.0;1.0;102341.0;bad profit
+45.0;21320.0;f;married  ;2.0;3.0;monthly;y;5.0;1.0;103916.0;bad loss  
+20.0;21317.0;m;married  ;1.0;2.0;monthly;y;3.0;1.0;101136.0;bad profit
+47.0;21290.0;f;married  ;3.0;4.0;monthly;y;5.0;2.0;103984.0;bad loss  
+36.0;21261.0;f;single   ;0.0;2.0;monthly;n;1.0;1.0;102461.0;bad profit
+21.0;21238.0;m;single   ;1.0;1.0;monthly;n;3.0;1.0;102162.0;bad profit
+50.0;21236.0;m;married  ;3.0;4.0;monthly;y;4.0;2.0;104088.0;bad loss  
+28.0;21231.0;f;single   ;0.0;3.0;monthly;y;2.0;1.0;102154.0;bad profit
+22.0;21221.0;f;single   ;0.0;3.0;monthly;n;3.0;1.0;102317.0;bad profit
+29.0;21217.0;m;married  ;1.0;1.0;monthly;y;2.0;1.0;101885.0;bad profit
+35.0;21204.0;f;divsepwid;4.0;5.0;weekly ;n;4.0;3.0;103683.0;bad loss  
+45.0;21192.0;f;divsepwid;3.0;6.0;weekly ;n;3.0;3.0;103279.0;bad profit
+22.0;21190.0;f;married  ;2.0;2.0;monthly;y;2.0;2.0;101473.0;bad profit
+50.0;21184.0;f;married  ;3.0;3.0;monthly;y;5.0;1.0;104092.0;bad loss  
+46.0;21157.0;f;married  ;3.0;3.0;monthly;y;5.0;2.0;103952.0;bad loss  
+23.0;21155.0;f;single   ;0.0;2.0;weekly ;y;1.0;1.0;102444.0;bad profit
+18.0;21151.0;f;married  ;2.0;0.0;monthly;y;1.0;2.0;100859.0;bad profit
+48.0;21141.0;f;divsepwid;4.0;6.0;weekly ;y;3.0;2.0;103544.0;bad profit
+19.0;21136.0;f;married  ;1.0;2.0;weekly ;y;1.0;1.0;101012.0;bad profit
+19.0;21121.0;m;married  ;2.0;2.0;weekly ;y;3.0;1.0;100979.0;bad profit
+36.0;21109.0;f;single   ;0.0;1.0;weekly ;n;1.0;1.0;102593.0;bad profit
+24.0;21108.0;m;single   ;1.0;1.0;weekly ;y;2.0;1.0;102626.0;bad profit
+20.0;21080.0;f;single   ;0.0;1.0;monthly;y;2.0;1.0;102017.0;bad profit
+23.0;21035.0;f;single   ;1.0;1.0;monthly;n;1.0;1.0;102478.0;bad profit
+50.0;21032.0;f;divsepwid;4.0;6.0;weekly ;y;3.0;3.0;103684.0;bad profit
+35.0;21023.0;m;married  ;1.0;1.0;monthly;y;1.0;1.0;101855.0;bad profit
+26.0;21018.0;m;married  ;1.0;1.0;monthly;y;3.0;2.0;101909.0;bad profit
+30.0;21014.0;f;married  ;1.0;2.0;monthly;y;3.0;1.0;101284.0;bad profit
+25.0;20979.0;m;married  ;2.0;1.0;monthly;y;1.0;2.0;101882.0;bad profit
+18.0;20977.0;f;married  ;2.0;1.0;monthly;y;3.0;1.0;100861.0;bad profit
+32.0;20971.0;m;single   ;1.0;2.0;weekly ;y;3.0;1.0;102049.0;bad profit
+49.0;20963.0;f;divsepwid;3.0;5.0;weekly ;n;3.0;3.0;103618.0;bad profit
+20.0;20961.0;m;single   ;1.0;3.0;monthly;y;2.0;1.0;102022.0;bad profit
+25.0;20942.0;f;single   ;1.0;2.0;monthly;n;3.0;1.0;102772.0;bad profit
+19.0;20903.0;f;married  ;2.0;0.0;weekly ;y;3.0;1.0;100968.0;bad profit
+20.0;20874.0;m;married  ;1.0;1.0;weekly ;y;3.0;2.0;101126.0;bad profit
+36.0;20865.0;f;married  ;1.0;2.0;weekly ;y;3.0;2.0;101913.0;bad profit
+24.0;20859.0;f;married  ;1.0;2.0;weekly ;y;2.0;2.0;101740.0;bad profit
+25.0;20837.0;m;single   ;1.0;2.0;monthly;n;1.0;1.0;102763.0;bad loss  
+36.0;20830.0;f;married  ;1.0;0.0;monthly;y;1.0;2.0;101281.0;bad profit
+36.0;20829.0;m;single   ;0.0;2.0;weekly ;n;3.0;1.0;102185.0;bad profit
+21.0;20815.0;m;married  ;2.0;2.0;weekly ;y;2.0;1.0;101302.0;bad profit
+18.0;20808.0;m;married  ;2.0;1.0;weekly ;y;2.0;2.0;100844.0;bad profit
+44.0;20792.0;f;married  ;2.0;3.0;weekly ;y;4.0;2.0;103877.0;bad loss  
+29.0;20785.0;f;single   ;0.0;3.0;weekly ;y;2.0;1.0;102187.0;bad profit
+23.0;20777.0;m;single   ;0.0;1.0;weekly ;n;2.0;1.0;102460.0;bad profit
+47.0;20772.0;f;married  ;2.0;4.0;weekly ;y;5.0;2.0;103978.0;bad loss  
+44.0;20714.0;f;divsepwid;4.0;6.0;weekly ;n;4.0;3.0;103198.0;good risk 
+25.0;20696.0;f;married  ;1.0;0.0;monthly;y;1.0;1.0;101891.0;bad profit
+47.0;20680.0;m;divsepwid;4.0;5.0;weekly ;n;3.0;3.0;103454.0;bad profit
+18.0;20671.0;m;married  ;1.0;1.0;weekly ;y;2.0;1.0;100815.0;bad profit
+22.0;20670.0;m;single   ;0.0;3.0;weekly ;y;3.0;1.0;102331.0;bad profit
+42.0;20621.0;m;married  ;2.0;4.0;weekly ;y;4.0;2.0;103807.0;bad loss  
+18.0;20602.0;m;married  ;2.0;1.0;weekly ;y;1.0;1.0;100862.0;bad profit
+24.0;20592.0;f;married  ;1.0;0.0;monthly;y;1.0;2.0;101721.0;bad profit
+40.0;20588.0;m;married  ;3.0;4.0;weekly ;y;4.0;2.0;103752.0;bad loss  
+30.0;20588.0;m;single   ;0.0;3.0;weekly ;y;1.0;1.0;102788.0;bad profit
+23.0;20580.0;m;married  ;1.0;0.0;monthly;y;2.0;2.0;101589.0;bad profit
+25.0;20568.0;m;married  ;2.0;1.0;weekly ;y;3.0;1.0;101915.0;bad profit
+18.0;20568.0;m;married  ;2.0;1.0;weekly ;y;3.0;2.0;100845.0;bad profit
+40.0;20563.0;f;married  ;3.0;4.0;weekly ;y;5.0;2.0;103747.0;bad loss  
+24.0;20559.0;f;single   ;0.0;2.0;weekly ;n;3.0;1.0;102623.0;bad profit
+23.0;20559.0;f;single   ;0.0;1.0;weekly ;n;3.0;1.0;102485.0;bad profit
+22.0;20555.0;m;married  ;1.0;0.0;monthly;y;2.0;1.0;101485.0;bad profit
+30.0;20546.0;m;married  ;1.0;2.0;weekly ;y;1.0;1.0;101019.0;bad profit
+26.0;20542.0;m;single   ;0.0;1.0;weekly ;y;2.0;1.0;102328.0;bad profit
+22.0;20536.0;m;single   ;1.0;1.0;monthly;n;3.0;1.0;102335.0;bad profit
+36.0;20528.0;f;single   ;1.0;3.0;weekly ;y;1.0;1.0;102793.0;bad profit
+23.0;20526.0;m;single   ;0.0;2.0;monthly;y;1.0;1.0;102451.0;bad profit
+42.0;20495.0;f;divsepwid;4.0;5.0;weekly ;y;3.0;2.0;103038.0;good risk 
+23.0;20486.0;f;single   ;1.0;2.0;monthly;y;3.0;1.0;102459.0;bad profit
+40.0;20478.0;m;divsepwid;4.0;5.0;weekly ;n;5.0;2.0;102875.0;bad profit
+22.0;20477.0;f;single   ;0.0;2.0;weekly ;y;2.0;1.0;102347.0;bad profit
+25.0;20473.0;m;single   ;1.0;1.0;weekly ;n;2.0;1.0;102789.0;bad profit
+19.0;20468.0;f;married  ;1.0;2.0;weekly ;y;2.0;1.0;100956.0;bad profit
+20.0;20453.0;m;married  ;1.0;2.0;weekly ;y;1.0;1.0;101160.0;bad profit
+21.0;20448.0;m;married  ;1.0;0.0;weekly ;y;2.0;2.0;101288.0;bad profit
+29.0;20444.0;f;married  ;1.0;2.0;monthly;y;3.0;1.0;101159.0;bad loss  
+38.0;20422.0;f;divsepwid;2.0;6.0;weekly ;n;3.0;3.0;103193.0;bad profit
+33.0;20417.0;m;married  ;2.0;0.0;weekly ;y;1.0;1.0;100997.0;bad profit
+22.0;20410.0;m;married  ;2.0;0.0;monthly;y;1.0;2.0;101422.0;bad profit
+20.0;20385.0;m;single   ;1.0;1.0;weekly ;y;2.0;1.0;101995.0;bad profit
+22.0;20376.0;m;married  ;2.0;2.0;monthly;y;2.0;2.0;101419.0;bad profit
+21.0;20375.0;m;married  ;2.0;1.0;monthly;y;3.0;1.0;101318.0;bad loss  
+36.0;20371.0;f;married  ;2.0;0.0;monthly;y;1.0;2.0;101443.0;bad profit
+22.0;20363.0;f;single   ;0.0;1.0;monthly;y;2.0;1.0;102300.0;bad profit
+34.0;20362.0;f;single   ;0.0;3.0;monthly;y;1.0;1.0;102753.0;bad profit
+38.0;20355.0;f;married  ;2.0;0.0;weekly ;y;3.0;2.0;100849.0;bad profit
+21.0;20349.0;m;single   ;1.0;3.0;weekly ;y;2.0;1.0;102165.0;bad profit
+23.0;20323.0;f;single   ;1.0;1.0;monthly;y;2.0;1.0;102438.0;bad profit
+20.0;20322.0;f;married  ;1.0;0.0;monthly;y;3.0;1.0;101155.0;bad loss  
+49.0;20310.0;f;divsepwid;2.0;5.0;weekly ;n;3.0;2.0;103614.0;bad profit
+21.0;20310.0;m;single   ;0.0;1.0;weekly ;n;2.0;1.0;102192.0;bad profit
+43.0;20294.0;f;divsepwid;4.0;6.0;weekly ;n;5.0;3.0;103115.0;bad profit
+38.0;20287.0;m;single   ;1.0;2.0;monthly;n;3.0;1.0;102343.0;bad loss  
+21.0;20281.0;m;married  ;2.0;2.0;weekly ;y;2.0;2.0;101303.0;bad profit
+22.0;20274.0;f;married  ;2.0;2.0;weekly ;y;3.0;1.0;101456.0;bad loss  
+29.0;20269.0;m;married  ;2.0;4.0;weekly ;y;4.0;1.0;104083.0;bad loss  
+20.0;20252.0;f;married  ;1.0;1.0;weekly ;y;2.0;2.0;101125.0;bad profit
+22.0;20238.0;m;single   ;0.0;2.0;weekly ;y;1.0;1.0;102316.0;bad profit
+21.0;20198.0;m;married  ;2.0;0.0;weekly ;y;3.0;1.0;101330.0;bad profit
+24.0;20194.0;f;single   ;1.0;2.0;weekly ;n;1.0;1.0;102643.0;bad profit
+19.0;20191.0;m;married  ;2.0;2.0;monthly;y;3.0;2.0;100987.0;bad profit
+32.0;20187.0;f;married  ;2.0;1.0;monthly;y;3.0;2.0;101190.0;bad profit
+20.0;20186.0;m;single   ;0.0;3.0;monthly;y;2.0;1.0;102012.0;bad profit
+44.0;20184.0;m;divsepwid;3.0;6.0;weekly ;y;3.0;3.0;103194.0;bad loss  
+20.0;20175.0;f;single   ;0.0;3.0;monthly;n;2.0;1.0;102047.0;bad profit
+21.0;20166.0;f;married  ;2.0;2.0;weekly ;y;2.0;2.0;101343.0;bad profit
+44.0;20163.0;f;divsepwid;4.0;5.0;weekly ;n;5.0;2.0;103208.0;bad profit
+35.0;20161.0;f;single   ;0.0;1.0;monthly;n;2.0;1.0;102340.0;bad loss  
+23.0;20158.0;m;married  ;1.0;0.0;weekly ;y;3.0;2.0;101579.0;bad profit
+44.0;20150.0;m;married  ;2.0;4.0;monthly;y;5.0;1.0;103873.0;bad loss  
+24.0;20146.0;m;single   ;0.0;1.0;weekly ;y;1.0;1.0;102592.0;bad profit
+25.0;20137.0;f;married  ;1.0;0.0;weekly ;y;3.0;1.0;101884.0;bad profit
+22.0;20084.0;m;single   ;1.0;2.0;monthly;y;1.0;1.0;102349.0;bad profit
+22.0;20075.0;m;single   ;1.0;3.0;monthly;n;3.0;1.0;102307.0;bad profit
+48.0;20066.0;m;divsepwid;3.0;5.0;weekly ;y;5.0;2.0;103535.0;bad loss  
+38.0;20063.0;m;single   ;0.0;2.0;weekly ;n;1.0;1.0;102662.0;bad profit
+24.0;20002.0;m;single   ;0.0;2.0;weekly ;n;3.0;1.0;102617.0;bad profit
+29.0;19950.0;m;divsepwid;4.0;6.0;weekly ;n;4.0;2.0;103352.0;bad profit
+49.0;19863.0;f;divsepwid;2.0;5.0;weekly ;n;4.0;3.0;103601.0;bad loss  
+36.0;19811.0;f;single   ;1.0;3.0;monthly;n;2.0;1.0;102589.0;bad profit
+42.0;19697.0;f;divsepwid;4.0;5.0;weekly ;n;4.0;3.0;103027.0;bad loss  
+46.0;19688.0;m;divsepwid;4.0;6.0;weekly ;y;3.0;2.0;103351.0;bad profit
+23.0;19617.0;f;married  ;1.0;2.0;monthly;y;3.0;1.0;101572.0;bad profit
+44.0;19543.0;f;divsepwid;4.0;5.0;weekly ;y;4.0;2.0;103186.0;bad loss  
+38.0;19109.0;m;married  ;1.0;0.0;monthly;y;3.0;2.0;101409.0;bad profit
+30.0;18997.0;f;married  ;2.0;2.0;monthly;y;3.0;2.0;101542.0;bad profit
+33.0;18977.0;f;married  ;2.0;2.0;monthly;y;2.0;1.0;100839.0;bad profit
+19.0;18976.0;f;married  ;1.0;1.0;weekly ;y;1.0;1.0;101002.0;bad profit
+22.0;18971.0;m;married  ;2.0;1.0;weekly ;y;2.0;1.0;101502.0;bad profit
+23.0;18967.0;m;single   ;1.0;1.0;monthly;y;1.0;1.0;102522.0;bad profit
+43.0;18958.0;m;divsepwid;3.0;5.0;weekly ;n;4.0;3.0;103118.0;good risk 
+48.0;18947.0;m;divsepwid;2.0;6.0;weekly ;n;5.0;3.0;103525.0;bad profit
+31.0;18943.0;f;married  ;2.0;1.0;monthly;y;2.0;1.0;101074.0;bad profit
+34.0;18914.0;f;married  ;1.0;2.0;monthly;y;1.0;2.0;101946.0;bad profit
+28.0;18885.0;m;divsepwid;4.0;6.0;weekly ;y;5.0;3.0;103606.0;good risk 
+27.0;18759.0;m;single   ;1.0;1.0;weekly ;y;3.0;1.0;101988.0;bad profit
+22.0;18755.0;m;married  ;2.0;1.0;monthly;y;1.0;1.0;101538.0;bad profit
+33.0;18749.0;m;married  ;2.0;3.0;monthly;y;5.0;1.0;104026.0;bad loss  
+19.0;18734.0;m;married  ;2.0;0.0;weekly ;y;1.0;2.0;101006.0;bad profit
+21.0;18719.0;m;single   ;0.0;3.0;monthly;y;3.0;1.0;102273.0;bad profit
+20.0;18706.0;f;single   ;0.0;1.0;monthly;y;2.0;1.0;102108.0;bad profit
+28.0;18680.0;f;single   ;0.0;3.0;weekly ;n;3.0;1.0;102749.0;bad profit
+48.0;18677.0;f;divsepwid;2.0;5.0;weekly ;y;3.0;3.0;103522.0;bad profit
+32.0;18672.0;f;married  ;1.0;1.0;weekly ;y;1.0;2.0;101762.0;bad profit
+38.0;18651.0;m;married  ;1.0;0.0;weekly ;y;1.0;2.0;101925.0;bad profit
+42.0;18577.0;m;divsepwid;4.0;5.0;weekly ;n;4.0;3.0;103058.0;bad loss  
+44.0;18576.0;m;divsepwid;4.0;6.0;weekly ;n;5.0;2.0;103190.0;bad loss  
+21.0;18569.0;m;single   ;0.0;1.0;weekly ;n;1.0;1.0;102170.0;bad profit
+24.0;18557.0;f;single   ;1.0;3.0;weekly ;y;3.0;1.0;102591.0;bad profit
+22.0;18547.0;m;married  ;2.0;0.0;weekly ;y;2.0;1.0;101537.0;bad profit
+41.0;18531.0;m;divsepwid;2.0;5.0;weekly ;y;5.0;3.0;102973.0;bad profit
+50.0;18506.0;f;divsepwid;2.0;5.0;weekly ;y;4.0;2.0;103686.0;bad profit
+32.0;18482.0;m;married  ;1.0;2.0;weekly ;y;3.0;1.0;100904.0;bad profit
+25.0;18450.0;f;single   ;0.0;2.0;weekly ;y;2.0;1.0;102779.0;bad profit
+40.0;18441.0;f;married  ;2.0;3.0;weekly ;y;4.0;1.0;103761.0;bad loss  
+47.0;18401.0;f;married  ;3.0;4.0;weekly ;y;4.0;1.0;103986.0;bad loss  
+35.0;18369.0;f;married  ;2.0;4.0;weekly ;y;5.0;1.0;103812.0;bad loss  
+22.0;18362.0;f;married  ;2.0;1.0;weekly ;y;1.0;2.0;101435.0;bad profit
+48.0;18342.0;m;married  ;2.0;4.0;weekly ;y;4.0;1.0;104009.0;bad profit
+33.0;18322.0;m;married  ;1.0;1.0;monthly;y;3.0;2.0;101327.0;bad profit
+47.0;18305.0;m;married  ;2.0;4.0;weekly ;y;5.0;2.0;103990.0;bad loss  
+49.0;18284.0;m;divsepwid;2.0;6.0;weekly ;y;4.0;2.0;103609.0;good risk 
+50.0;18283.0;f;divsepwid;4.0;6.0;weekly ;y;5.0;2.0;103709.0;bad profit
+36.0;18279.0;f;married  ;1.0;2.0;monthly;y;1.0;2.0;101629.0;bad profit
+46.0;18242.0;f;divsepwid;4.0;6.0;weekly ;y;3.0;3.0;103363.0;good risk 
+50.0;18231.0;f;divsepwid;2.0;5.0;weekly ;y;4.0;2.0;103672.0;bad profit
+27.0;18217.0;m;divsepwid;3.0;6.0;weekly ;n;3.0;2.0;103349.0;bad loss  
+47.0;18211.0;m;divsepwid;2.0;5.0;weekly ;y;5.0;2.0;103460.0;bad loss  
+20.0;18188.0;m;single   ;0.0;3.0;monthly;n;1.0;1.0;102020.0;bad profit
+44.0;18179.0;m;divsepwid;2.0;6.0;weekly ;y;4.0;2.0;103180.0;bad profit
+44.0;18147.0;m;divsepwid;3.0;5.0;weekly ;n;5.0;3.0;103184.0;bad profit
+20.0;18110.0;m;single   ;1.0;3.0;monthly;n;1.0;1.0;102037.0;bad profit
+37.0;18105.0;f;married  ;2.0;1.0;weekly ;y;3.0;2.0;101713.0;bad loss  
+25.0;18105.0;m;married  ;1.0;1.0;weekly ;y;2.0;2.0;101933.0;bad profit
+21.0;18084.0;m;single   ;0.0;1.0;weekly ;n;2.0;1.0;102146.0;bad profit
+44.0;18031.0;m;married  ;3.0;3.0;weekly ;y;4.0;2.0;103872.0;bad loss  
+38.0;18025.0;f;married  ;2.0;4.0;monthly;y;4.0;1.0;103870.0;bad loss  
+42.0;18023.0;m;divsepwid;4.0;6.0;weekly ;y;4.0;2.0;103028.0;bad profit
+23.0;18013.0;f;single   ;0.0;3.0;monthly;y;2.0;1.0;102539.0;bad profit
+25.0;18012.0;f;married  ;2.0;0.0;weekly ;y;1.0;1.0;101973.0;bad profit
+24.0;18008.0;m;married  ;1.0;0.0;weekly ;y;2.0;2.0;101745.0;bad profit
+20.0;18005.0;f;married  ;1.0;0.0;weekly ;y;2.0;2.0;101227.0;bad profit
+23.0;17999.0;f;married  ;1.0;2.0;monthly;y;2.0;1.0;101610.0;bad profit
+25.0;17979.0;m;married  ;1.0;0.0;monthly;y;2.0;1.0;101907.0;bad profit
+34.0;17977.0;f;married  ;3.0;3.0;weekly ;y;5.0;2.0;103776.0;bad loss  
+30.0;17962.0;m;divsepwid;3.0;6.0;weekly ;y;3.0;3.0;103619.0;good risk 
+22.0;17917.0;m;single   ;1.0;1.0;weekly ;y;2.0;1.0;102382.0;bad profit
+34.0;17891.0;f;married  ;1.0;1.0;weekly ;y;1.0;2.0;101724.0;good risk 
+25.0;17858.0;f;married  ;2.0;2.0;monthly;y;3.0;1.0;101916.0;bad profit
+46.0;17843.0;f;divsepwid;2.0;6.0;weekly ;n;5.0;3.0;103396.0;good risk 
+50.0;17821.0;f;married  ;3.0;3.0;monthly;y;5.0;1.0;104093.0;bad loss  
+22.0;17794.0;f;married  ;1.0;2.0;monthly;y;2.0;2.0;101514.0;bad profit
+27.0;17780.0;m;divsepwid;4.0;6.0;weekly ;n;4.0;3.0;103126.0;bad profit
+24.0;17776.0;f;single   ;0.0;1.0;weekly ;n;1.0;1.0;102675.0;bad profit
+19.0;17766.0;f;married  ;1.0;1.0;monthly;y;2.0;1.0;101044.0;bad profit
+35.0;17753.0;f;single   ;1.0;3.0;monthly;y;2.0;1.0;102510.0;bad profit
+25.0;17733.0;f;single   ;0.0;3.0;weekly ;n;2.0;1.0;102865.0;bad profit
+19.0;17722.0;m;married  ;2.0;0.0;monthly;y;3.0;1.0;101005.0;bad profit
+21.0;17700.0;f;single   ;0.0;3.0;monthly;n;1.0;1.0;102139.0;bad profit
+43.0;17698.0;f;divsepwid;4.0;6.0;weekly ;y;4.0;2.0;103138.0;good risk 
+23.0;17681.0;m;single   ;1.0;1.0;monthly;y;2.0;1.0;102517.0;bad profit
+43.0;17641.0;f;married  ;2.0;4.0;weekly ;y;4.0;1.0;103839.0;bad loss  
+31.0;17624.0;m;married  ;1.0;0.0;weekly ;y;3.0;2.0;100889.0;bad profit
+20.0;17619.0;f;single   ;0.0;3.0;monthly;n;1.0;1.0;102025.0;bad profit
+19.0;17611.0;f;married  ;1.0;2.0;weekly ;y;2.0;2.0;101099.0;bad loss  
+25.0;17572.0;m;single   ;0.0;1.0;monthly;n;2.0;1.0;102733.0;bad profit
+20.0;17570.0;f;single   ;0.0;3.0;monthly;n;3.0;1.0;102068.0;bad loss  
+46.0;17567.0;f;divsepwid;2.0;6.0;weekly ;n;4.0;2.0;103347.0;good risk 
+50.0;17560.0;m;married  ;2.0;3.0;weekly ;y;5.0;2.0;104084.0;bad profit
+22.0;17512.0;m;single   ;1.0;1.0;weekly ;y;2.0;1.0;102422.0;bad profit
+33.0;17511.0;f;divsepwid;2.0;6.0;weekly ;n;5.0;3.0;103024.0;bad loss  
+21.0;17496.0;f;married  ;2.0;2.0;monthly;y;1.0;2.0;101296.0;bad profit
+45.0;17446.0;f;married  ;2.0;3.0;weekly ;y;5.0;1.0;103920.0;bad loss  
+45.0;17444.0;m;divsepwid;4.0;6.0;weekly ;y;4.0;3.0;103286.0;bad loss  
+46.0;17430.0;f;divsepwid;2.0;5.0;weekly ;y;4.0;2.0;103344.0;bad loss  
+24.0;17425.0;m;married  ;2.0;2.0;weekly ;y;3.0;2.0;101789.0;bad profit
+20.0;17394.0;m;married  ;1.0;2.0;weekly ;y;3.0;1.0;101224.0;bad profit
+42.0;17351.0;f;married  ;3.0;3.0;weekly ;y;5.0;1.0;103823.0;bad loss  
+21.0;17234.0;m;single   ;1.0;1.0;monthly;n;2.0;1.0;102148.0;bad profit
+22.0;17231.0;m;single   ;1.0;1.0;weekly ;y;3.0;1.0;102281.0;good risk 
+45.0;17204.0;f;divsepwid;2.0;5.0;weekly ;n;5.0;3.0;103289.0;bad loss  
+47.0;17184.0;m;divsepwid;2.0;6.0;weekly ;n;4.0;3.0;103516.0;bad profit
+44.0;17170.0;m;divsepwid;3.0;5.0;weekly ;y;3.0;2.0;103182.0;bad profit
+19.0;17168.0;m;married  ;1.0;0.0;monthly;y;2.0;1.0;100990.0;bad profit
+42.0;17145.0;m;divsepwid;2.0;6.0;weekly ;n;5.0;2.0;103023.0;bad loss  
+37.0;17091.0;f;divsepwid;2.0;6.0;weekly ;n;4.0;2.0;103022.0;bad loss  
+49.0;17072.0;m;divsepwid;4.0;6.0;weekly ;y;4.0;2.0;103629.0;bad loss  
+24.0;17065.0;m;married  ;2.0;0.0;monthly;y;1.0;1.0;101801.0;bad loss  
+19.0;17006.0;f;married  ;1.0;2.0;weekly ;y;3.0;2.0;100994.0;bad profit
+27.0;16994.0;f;married  ;1.0;0.0;weekly ;y;3.0;1.0;101410.0;bad profit
+20.0;16951.0;m;married  ;2.0;0.0;monthly;y;2.0;2.0;101263.0;bad profit
+24.0;16938.0;m;married  ;1.0;1.0;monthly;y;3.0;2.0;101747.0;bad profit
+28.0;16932.0;m;divsepwid;4.0;5.0;weekly ;n;4.0;3.0;103187.0;bad profit
+42.0;16930.0;m;divsepwid;3.0;5.0;weekly ;n;5.0;3.0;103048.0;bad profit
+19.0;16873.0;f;married  ;1.0;0.0;weekly ;y;2.0;2.0;101105.0;bad profit
+34.0;16843.0;m;divsepwid;3.0;6.0;weekly ;n;3.0;2.0;103423.0;good risk 
+18.0;16823.0;m;married  ;1.0;1.0;weekly ;y;3.0;1.0;100902.0;bad profit
+32.0;16819.0;f;divsepwid;4.0;5.0;weekly ;y;4.0;2.0;103375.0;good risk 
+34.0;16786.0;m;divsepwid;4.0;5.0;weekly ;n;4.0;2.0;102940.0;bad profit
+24.0;16770.0;f;married  ;2.0;2.0;weekly ;y;2.0;2.0;101716.0;bad profit
+24.0;16766.0;m;single   ;0.0;3.0;monthly;n;2.0;1.0;102629.0;bad profit
+50.0;16760.0;f;divsepwid;3.0;6.0;weekly ;n;3.0;2.0;103706.0;bad loss  
+44.0;16753.0;f;divsepwid;2.0;6.0;weekly ;y;3.0;2.0;103179.0;bad loss  
+24.0;16749.0;m;married  ;1.0;1.0;monthly;y;3.0;2.0;101717.0;bad profit
+22.0;16743.0;f;married  ;1.0;1.0;weekly ;y;1.0;1.0;101451.0;bad profit
+24.0;16726.0;m;married  ;1.0;2.0;monthly;y;2.0;2.0;101708.0;bad profit
+20.0;16716.0;f;married  ;2.0;1.0;monthly;y;2.0;1.0;101245.0;bad profit
+35.0;16698.0;f;single   ;0.0;3.0;monthly;n;1.0;1.0;102046.0;bad profit
+22.0;16693.0;f;single   ;0.0;1.0;monthly;y;1.0;1.0;102278.0;bad profit
+21.0;16652.0;m;single   ;0.0;3.0;weekly ;y;1.0;1.0;102186.0;bad profit
+25.0;16601.0;f;single   ;0.0;2.0;weekly ;y;1.0;1.0;102849.0;bad profit
+31.0;16552.0;f;married  ;2.0;0.0;monthly;y;1.0;1.0;101506.0;bad profit
+40.0;16523.0;m;divsepwid;3.0;6.0;weekly ;y;4.0;2.0;102873.0;bad loss  
+48.0;16504.0;f;married  ;2.0;3.0;monthly;y;4.0;2.0;104011.0;bad loss  
+34.0;16487.0;m;single   ;1.0;3.0;weekly ;n;3.0;1.0;101998.0;bad profit
+45.0;16485.0;m;divsepwid;2.0;6.0;weekly ;y;3.0;3.0;103276.0;bad profit
+18.0;16471.0;f;married  ;2.0;0.0;monthly;y;3.0;1.0;100860.0;bad profit
+22.0;16443.0;f;single   ;0.0;1.0;monthly;y;3.0;1.0;102393.0;bad profit
+45.0;16406.0;f;divsepwid;2.0;6.0;weekly ;y;4.0;3.0;103306.0;bad profit
+22.0;16326.0;m;single   ;0.0;2.0;monthly;y;2.0;1.0;102346.0;bad profit
+23.0;16324.0;m;married  ;1.0;1.0;weekly ;y;3.0;2.0;101639.0;bad profit
+46.0;16318.0;f;divsepwid;2.0;6.0;weekly ;y;4.0;3.0;103354.0;bad profit
+46.0;16316.0;f;divsepwid;3.0;5.0;weekly ;y;3.0;2.0;103381.0;bad loss  
+42.0;16252.0;m;divsepwid;3.0;6.0;weekly ;n;3.0;3.0;103083.0;good risk 
+22.0;16242.0;m;single   ;1.0;1.0;monthly;y;2.0;1.0;102401.0;bad profit
+22.0;16232.0;f;single   ;0.0;1.0;weekly ;y;3.0;1.0;102369.0;bad profit
+23.0;16229.0;f;single   ;0.0;3.0;weekly ;n;1.0;1.0;102566.0;bad profit
+23.0;16205.0;m;single   ;0.0;3.0;monthly;n;3.0;1.0;102516.0;bad profit
+23.0;16130.0;f;single   ;0.0;1.0;monthly;y;1.0;1.0;102425.0;bad profit
+30.0;16090.0;m;married  ;3.0;3.0;weekly ;y;5.0;2.0;103971.0;bad loss  
+24.0;16053.0;f;single   ;0.0;2.0;monthly;y;2.0;1.0;102581.0;bad profit
+20.0;16002.0;m;married  ;1.0;1.0;weekly ;y;1.0;1.0;101175.0;bad profit
+49.0;15978.0;f;married  ;2.0;4.0;weekly ;y;4.0;1.0;104057.0;bad loss  
+22.0;15936.0;m;married  ;1.0;1.0;monthly;y;1.0;2.0;101526.0;bad profit
+21.0;15881.0;f;single   ;0.0;2.0;monthly;y;2.0;1.0;102177.0;bad profit
+19.0;15872.0;m;married  ;2.0;1.0;monthly;y;2.0;2.0;100969.0;bad profit
+38.0;15871.0;m;single   ;1.0;3.0;monthly;y;3.0;1.0;102298.0;bad profit
+22.0;15867.0;f;single   ;0.0;2.0;monthly;n;1.0;1.0;102293.0;bad profit
+31.0;15841.0;m;single   ;1.0;1.0;weekly ;y;2.0;1.0;102348.0;bad profit
+40.0;15802.0;m;divsepwid;2.0;6.0;weekly ;n;4.0;3.0;102906.0;bad loss  
+32.0;15789.0;m;married  ;1.0;1.0;weekly ;y;1.0;1.0;101134.0;bad profit
+22.0;15774.0;f;single   ;0.0;2.0;monthly;y;1.0;1.0;102302.0;bad profit
+23.0;15763.0;m;single   ;1.0;3.0;monthly;n;2.0;1.0;102481.0;bad profit
+20.0;15758.0;f;married  ;2.0;0.0;weekly ;y;2.0;2.0;101216.0;bad profit
+22.0;15752.0;m;single   ;1.0;3.0;weekly ;y;1.0;1.0;102337.0;bad profit
+47.0;15743.0;m;divsepwid;2.0;5.0;weekly ;n;4.0;3.0;103499.0;good risk 
+19.0;15701.0;m;married  ;2.0;2.0;weekly ;y;3.0;2.0;100999.0;bad profit
+19.0;15647.0;m;married  ;1.0;0.0;monthly;y;2.0;1.0;101021.0;bad profit
+25.0;15637.0;f;married  ;1.0;1.0;weekly ;y;1.0;2.0;101932.0;bad profit
+44.0;15628.0;m;married  ;2.0;4.0;monthly;y;5.0;1.0;103887.0;bad loss  
+21.0;15549.0;m;married  ;2.0;1.0;monthly;y;3.0;1.0;101277.0;bad profit
+18.0;15534.0;m;married  ;1.0;2.0;monthly;y;1.0;2.0;100806.0;bad profit
+28.0;15518.0;f;married  ;2.0;4.0;weekly ;y;4.0;2.0;103985.0;bad loss  
+24.0;15496.0;f;married  ;2.0;0.0;monthly;y;3.0;1.0;101831.0;bad profit
+40.0;15487.0;f;divsepwid;2.0;5.0;weekly ;n;4.0;2.0;102886.0;bad profit
+23.0;15481.0;m;married  ;1.0;2.0;weekly ;y;3.0;2.0;101698.0;bad profit
+44.0;15453.0;m;divsepwid;3.0;6.0;weekly ;n;4.0;2.0;103206.0;bad profit
+21.0;15451.0;f;married  ;2.0;0.0;monthly;y;1.0;2.0;101295.0;bad profit
+44.0;15391.0;m;married  ;2.0;3.0;monthly;y;4.0;1.0;103882.0;bad loss  
+22.0;15328.0;f;married  ;2.0;2.0;monthly;y;1.0;1.0;101561.0;bad profit
+23.0;15319.0;f;single   ;1.0;2.0;monthly;n;2.0;1.0;102509.0;bad profit
+25.0;15307.0;m;married  ;1.0;2.0;weekly ;y;1.0;2.0;101903.0;bad profit
+19.0;15286.0;f;married  ;1.0;2.0;weekly ;y;1.0;2.0;101055.0;bad profit
+22.0;15279.0;f;married  ;2.0;1.0;weekly ;y;2.0;1.0;101436.0;bad profit
+24.0;15273.0;m;single   ;0.0;3.0;monthly;y;1.0;1.0;102668.0;bad profit
+43.0;15272.0;f;divsepwid;2.0;5.0;weekly ;n;4.0;2.0;103102.0;bad loss  
+23.0;15262.0;m;single   ;0.0;1.0;monthly;n;2.0;1.0;102427.0;bad profit
+20.0;15258.0;f;married  ;2.0;2.0;monthly;y;3.0;1.0;101271.0;bad profit
+30.0;15185.0;f;single   ;0.0;1.0;monthly;y;1.0;0.0;100071.0;good risk 
+24.0;15160.0;f;married  ;1.0;0.0;monthly;y;3.0;2.0;101735.0;bad profit
+22.0;15155.0;m;married  ;1.0;1.0;weekly ;y;3.0;1.0;101554.0;bad profit
+19.0;15138.0;f;married  ;1.0;0.0;weekly ;y;2.0;2.0;101085.0;bad profit
+21.0;15130.0;m;married  ;2.0;1.0;weekly ;y;1.0;2.0;101278.0;bad profit
+27.0;15106.0;f;married  ;3.0;3.0;monthly;y;5.0;2.0;103818.0;bad loss  
+19.0;15096.0;m;married  ;2.0;0.0;weekly ;y;3.0;2.0;101108.0;bad profit
+43.0;15082.0;f;married  ;2.0;4.0;weekly ;y;5.0;2.0;103846.0;bad loss  
+22.0;15073.0;f;single   ;1.0;3.0;weekly ;n;2.0;1.0;102351.0;bad profit
+27.0;15067.0;f;divsepwid;3.0;6.0;weekly ;y;5.0;2.0;103471.0;bad loss  
+21.0;15062.0;m;married  ;2.0;0.0;weekly ;y;2.0;2.0;101289.0;bad profit

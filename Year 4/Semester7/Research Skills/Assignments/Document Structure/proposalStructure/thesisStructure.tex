@@ -1,0 +1,40 @@
+% ----------------------------------------------------------------------------------------------------------------
+% MSc in Computing, Business Intelligence and Data Mining stream
+% Latex template for research papers (feel free to make changes)
+% ---------------------------------------------------------------------------------------------------------------
+\documentclass{article}
+\usepackage{natbib}   %this is equivalent to an import
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{refstyle}
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
+\usepackage{csvsimple}
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords:}} #1}
+
+\title{Thesis: JEE and JEE Compatible Frameworks}
+\author{David Kelly}
+\date{\parbox{\linewidth}{\centering%
+		\today\endgraf\bigskip
+		Markus Hofmann \hspace*{3cm} Geraldine Gray\endgraf\medskip
+		Dept.\ Informatics and Engineering \endgraf
+		Institute of Technology Blanchardstown}}
+
+\begin{document}
+\maketitle   %this is the place holder for where the title above should appear in the document.
+\thispagestyle{empty}
+\newpage
+\clearpage
+\pagenumbering{arabic}
+\tableofcontents
+\newpage
+
+\include{introduction/intro}
+\include{literatureReview/literatureReview}
+\include{analysis/analysis}
+\include{implementation/implementation}
+\include{testing/testing}
+\include{conclusions/conclusions}
+\include{appendix/appendix}
+
+\end{document}   

@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="../Templates/study_itb_why.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Institute of Technology Blanchardstown :: Study at ITB :: Why choose ITB?</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="meta" -->
+<meta name="description" content="Everything you wanted to know about why you should choose ITB" />
+<meta name="keywords" content="Vision, values, open days, mission" />
+<meta name="author" content="Strata3 - http://www.strata3.com/" />
+<!-- InstanceEndEditable -->
+<link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="../ssi/css/screen.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/large.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/larger.css" title="larger" />
+<link rel="stylesheet" type="text/css" media="print" href="../ssi/css/print.css" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie7.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie6.css" /><![endif]-->
+
+<script type="text/javascript" src="../ssi/js/styleswitcher.js"></script>
+
+<!-- InstanceBeginEditable name="head" -->
+
+<style type="text/css">
+<!--
+.style2 {
+	font-size: 13px;
+	font-weight: bold;
+}
+-->
+</style>
+<!-- InstanceEndEditable -->
+</head>
+<body id="study" class="bg_sp">
+
+<!-- open page container -->
+<div id="contain">
+	<!--this is the top menu bar and banner -->
+
+	
+	<!-- start header -->
+	<div id="header">
+		<div id="logo"><a href="../homepage.asp" title="ITB homepage" accesskey="0"><img src="../images/itb_logo.gif" alt="Institute of Technology Blanchardstown" width="300" height="83" border="0" /></a></div>
+		<div id="top">
+			<div class="hd_250"><ul><li id="nav_cf"><a title="Course Finder" href="../CourseFinder/index.html">Course Finder</a></li>
+			<li id="nav_hta"><a title="How to Apply" href="../HowtoApply/howtoapply.html">How to Apply</a></li>
+			</ul></div>
+			<br class="clear" />
+			<div class="hd_660">
+				<ul>
+					<li id="nav_home"><a title="Home" href="../homepage.asp">Home</a></li>
+					<li id="nav_about"><a title="About ITB" href="../AboutITB/index.html">About ITB</a></li>
+					<!--<li id="nav_cs"><a title="Current Students" href="../CurrentStudents/index.html">Current Students</a></li>-->
+					<li id="nav_ns"><a title="News & Events" href="../NewsEvents/newsdetailmore.asp">News &amp; Events</a></li>
+					<li id="nav_library"><a title="Library" href="http://www.blanchlib.itb.ie/" target="_blank">Library</a></li>
+					<li id="nav_intranet"><a title="Intranet" href="http://elan:8888" target="_blank">Intranet</a></li>
+					<li id="nav_careers"><a title="Careers at ITB" href="../Vacancies/index.html">Careers at ITB</a></li>
+					<li id="nav_map"><a title="Our Location" href="../Location/howtogetthere.html">Our Location</a></li>
+					<li id="nav_sd"><a title="Staff Directory" href="../StaffDirectory/staffdirectory.asp">Staff Directory</a></li>
+				</ul>
+			</div>
+			<br class="clear" />
+		</div>
+	</div>
+	<!-- stop header -->
+	<!-- start nav/search -->
+	<div id="nav_search">
+        <!-- start navigation -->
+        <div id="navigation">
+            <ul>
+                <li id="nav_study"><a title="Study at ITB" href="../StudyatITB/index.html">Study at ITB</a></li>
+                 <li id="nav_cs"><a title="Study at ITB" href="../CurrentStudents/index.html">Current Students</a></li>
+                <li id="nav_cslife"><a title="Campus & Student Life" href="../CampusStudentLife/index.html">Campus  Life</a></li>
+                <li id="nav_research"><a title="Research at ITB" href="../ResearchatITB/index.html">Research</a></li>
+                <li id="nav_ii"><a title="Industry & Innovation" href="../IndustryInnovation/index.html">Industry &amp; Innovation</a></li>
+            </ul>
+        </div>
+        <!-- stop navigation -->
+        <!-- start search -->
+        <div id="search">
+        <!--<form action="#" method="get" class="frmSearch">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="search_term" name="search_term" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>-->
+		
+		<!--<form action="../search/search.asp" method="get" class="frmSearch" name="form1">-->
+		<form action="../search/search.asp" method="get" class="frmSearch" name="form1">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="strp" name="target" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>
+		
+		
+		
+        </div>
+        <!-- stop search -->
+        <br class="clear" />
+	</div>
+	
+	
+	<!-- end of virtual directory -->
+	<!-- stop nav/search -->
+	<div class="hr_block"><hr /></div>
+	<!-- start content area -->
+	<div id="content_sub">
+		<!-- start left column -->
+		<div id="col_220l">
+			<h1>Study at ITB</h1>
+			<!-- start secondary nav -->
+					<div id="subnav">
+					<ul>
+                    <li><a href="newstudents.html">What's New</a></li>
+                    <li><a class="active" href="whyitb.html">Why choose ITB?</a></li>
+					<li><a href="appliedsocialstudies.html">Applied Social Studies</a></li>
+					<li><a href="apprenticeships.html">Apprenticeships &amp; Trades</a></li>
+					<li><a href="business.html">Business</a></li>
+					
+					<li><a href="computing.html">Computing</a></li>
+					<li><a href="creativedigitalmedia.html">Creative Digital Media</a></li>
+					<li><a href="earlychild.html">Early Childhood Care & Education</a></li>
+					<li><a href="engineering.html">Engineering</a></li>
+					<li><a href="horticulture.html">Horticulture</a></li>
+					<li><a href="languages.html">Languages</a></li>
+					<li><a href="socialandcommunitydevelopment.html">Social and Community Development</a></li>
+                	<li><a href="sportsmanagementandcoaching.html">Sports Management and Coaching</a></li>
+					<li><a href="postgraduate.html">Postgraduate Courses</a></li>
+					<li><a href="internationalstudents.html">International Students</a></li>
+					
+					<!--<li>&nbsp;</li>-->
+				</ul>
+				<br />
+				<ul>			
+                   <!-- <li><a href="../StudyatITB/feesgrants.html">Fees &amp; Grants</a></li>-->
+                    <li><a href="accessoffice.html">Access Office</a></li>
+				</ul>
+			</div>
+			<!-- stop secondary nav -->
+			<!-- start important links -->
+			<ul class="keylinks">
+				<li><a href="../HowtoApply/howtoapply.html">How to apply</a></li>
+				<li><a href="../Prospectus/prospectus.html">Request a Prospectus</a></li>
+				<li><a href="../Testimonials/testimonials.html">What our students say</a></li>
+				<li><a href="../ContactUs/contactus.html">Contact Us </a></li>
+			</ul>
+			<!-- stop important links -->
+			<br />
+		</div>
+		<!-- stop left column -->
+		<!-- start centre column -->
+		<div id="col_480">
+			<div class="grey_block">
+				<p class="font_11"><a href="javascript:window.print();"><img src="../images/icon_print.gif" alt="Print" width="25" height="17" class="vertical_align_images" /> Print Page</a> | <a href="javascript:setActiveStyleSheet('default');">A</a> | <a href="javascript:setActiveStyleSheet('large');" class="med">A</a> | <a href="javascript:setActiveStyleSheet('larger');" class="lrg">A</a></p>
+				
+				<h2>Why choose ITB?</h2>
+				
+			</div>
+            <!-- start breadcrumb -->
+			<!-- InstanceBeginEditable name="breadcrumb" -->
+          <div id="breadcrumb">
+                 <p style="margin-bottom: 0"><a href="../homepage.asp">Home &gt;</a> <a href="index.html">Study at ITB &gt;</a> <a href="whyitb.html">Why choose ITB?</a></p>
+          </div>
+		  <!-- InstanceEndEditable -->
+            <!-- stop breadcrumb -->
+			<!-- start content area -->
+			<div class="pad_content"><div id="content">
+
+<h3><!-- InstanceBeginEditable name="SubTitle" -->Overview<!-- InstanceEndEditable --></h3>
+<!-- InstanceBeginEditable name="BodyText" -->
+
+<p>Deciding on that next step in your education is a huge and exciting challenge. There are many factors, both personal and academic, that have to be taken into account</p>
+<p>Our web site will help you narrow down all these choices, and find a course of study at ITB that best suits you. It contains course information as well as details about the type of career and work available to graduates. It contains details about the financial implications of third-level study, and what financial aid is available. This web site also gives you an idea about what is available for students here at ITB in terms of facilities, services and social life. </p>
+<p>As well as using the web site for information about your next step in education, talk to other people about their experiences at third level education. Consult your guidance counsellor or teachers, chat to your friends, family or acquaintances. The more details you have, the better informed your decisions can be. </p>
+
+<p>Our mission at ITB is to make a significant contribution to the ongoing prosperity and economic development of a region which is now the fastest growing population centre in the country. An essential part of that mission is the provision of  education programmes which enhance educational opportunity and allows people to acquire the knowledge and skills to advance in their working lives.</p>
+<p>We support all learners across a wide spectrum of educational attainment. ITB offers programmes to graduates wanting to upgrade their skill sets as well as those looking for a second chance at third level education, to mature full-time students as well as part-time learners and school leavers who are embarking on the start of their careers.</p>
+<p>We're also available to help – please contact the Marketing Team (Tel: (01) 885 1530, e-mail: <a href="mailto:info@itb.ie">info@itb.ie</a>) if you have any queries on any aspect of life at ITB.</p>
+
+<h4>Open Days / Evenings</h4>
+<p>Throughout the academic year, we host a number of open days to which prospective students, parents, relatives and friends are welcome to attend to discuss courses in more detail, meet lecturing staff and view the campus.</p>
+<p style="margin-bottom: 0;"><span class="style2"> </span></p>
+<table width="460" cellpadding="0" cellspacing="0" class="table_type1" summary="upcoming open days">
+  <tr class="table_header">
+    <th> <div align="left"><span style="font-family:Times New Roman;font-size:13px;color:#FFFFFF;"><span style="font-family:arial;"> Open Evenings / Days for the coming year </span></span></div></th>
+  </tr>
+  <tr>
+    <td height="44"><p><strong>Thursday, 14th April 2016, 5pm - 7pm. </strong></p>
+      </td>
+  </tr>
+</table>
+<p>We believe in our vision and our values. If they strike a chord with you, maybe ITB is the place for you! </p>
+<h5>Shared Vision</h5>
+<p>"We believe in the capacity of people to develop their potential through education and training. We will provide this education and training in a way that is innovative, responsive and holistic. We will be at the forefront of developments in third-level education, industry and organisational effectiveness. We seek a diverse community of students and staff and we will provide the support needed for each person’s full participation."</p>
+
+<h5>Shared Values</h5><br />
+
+<h5>Community</h5>
+<p>We acknowledge the diversity of people involved in our work. We respect the different role played by each person. We listen with patience and understanding. We work to build genuine relationships founded on acceptance and trust.</p>
+
+<h5>Enjoyment</h5>
+<p>We aim to enjoy our work and derive fulfillment from it. We value positive attitudes throughout our workplace.</p>
+
+<h5>Excellence</h5>
+<p>We strive for excellence in the provision of internal and external services, courses and programmes.</p>
+
+<h5>Success</h5>
+<p style="margin-bottom: 0;">We will celebrate our achievements.</p>
+
+<!-- InstanceEndEditable -->
+
+
+			</div></div>
+			<!-- stop content area -->
+		</div>
+		<!-- stop centre column -->
+		<!-- start right column -->
+		<div id="col_220r">
+			<!-- start subpage banner -->
+			<div id="banner_sp">&nbsp;</div>
+			<!-- stop subpage banner -->
+			<!-- start what our students say -->
+			<div class="callout">
+				<h2 class="call">What our students say...</h2>
+				<!-- InstanceBeginEditable name="StudentSays" --><img src="images/Eimear.jpg" alt="Eimear Naughton" width="150" height="107" />
+<p class="font_11"><em>"With this course you cover areas like coaching kids, excercise &amp; other activities. The facilities are really good, we have a gym and a sport's hall. I 've played sport all my life, my main sport being basketball and we just won the inter-varsities in college. This is the first year we entered and we won it."</em><br /><br />
+  <strong>Eimear Naughton</strong>,<br />
+  <a href="../Testimonials/sportsmanagement.html">BA (Honours) in Sports Management &amp; Coaching</a></p>
+		    <!-- InstanceEndEditable -->
+			</div>
+			<!-- start what our students say -->
+			<!-- start map link -->
+			<div class="callout">
+				<a href="../Location/howtogetthere.html"><img src="../files/area_map.gif" alt="Area / Transport Map" width="150" height="106" class="imageblock" /></a>			</div>
+			<!-- start map link -->
+			<br />
+		</div>
+		<!-- stop right column -->
+		<br class="clear" />
+	</div>
+	<!-- stop content area -->
+<!-- start footer -->
+	<div id="footer">
+		<div class="foot_507">
+			<div style="float:right;width:249px;"><img src="../files/eu-sfp.gif" alt="Ireland's EU Structural Funds Programme" width="168" height="57" /><img src="../images/StructFund.jpg" alt="European Social Fund" width="76" height="70" style="margin-right:5px;" /></div>
+			<p>&copy; Institi&uacute;id Teicneola&iacute;ochta, Baile Bhlains&eacute;ir, B&oacute;thar Bhaile Bhlains&eacute;ir Thuaidh,<br />Baile &Aacute;tha Cliath 15</p>
+			<ul><li id="nav_disclaimer"><a title="Disclaimer" href="../Disclaimer/index.html">Disclaimer</a></li>
+			<li id="nav_sitemap"><a title="Sitemap" href="../Sitemap/index.html">Sitemap</a></li>
+			<li id="nav_access"><a title="Accessibility" href="../Accessibility/index.html">Accessibility</a></li>
+			</ul>
+		</div>
+		<div class="foot_427"><p>Institute of Technology Blanchardstown, Blanchardstown Road North, Dublin 15</p><p>Tel: +353 (1) 8851000 |  Fax: +353 (1) 8851001 | Email: <a href="mailto:info@itb.ie">info@itb.ie</a></p>
+		<p><a href="../Disclaimer/cookie.html">Cookie Policy</a></p>
+		</div>
+	</div>
+
+	<!-- stop footer -->
+</div>
+<!-- close page container -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6699818-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

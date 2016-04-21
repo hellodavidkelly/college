@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="JFC demos" default="install" basedir=".">
+	
+	<!-- Global Properties -->
+	
+	 <property name="src" value="."/>
+	 <property name="dst" value="."/>
+	 <property name="obj" value="build"/>
+ 	 <dirname property="pdir" file="build.xml" /> 
+    	 <basename property="product" file="${pdir}"/> 	
+	
+	<!-- Targets -->
+	
+	<target name="init" description="Create build directories">
+        <mkdir dir="${obj}"/>
+		<mkdir dir="${dst}"/>
+	</target>
+	
+	<target name="compile" depends="init" description="Compile">
+		<javac deprecation="on" destdir="${obj}" source="1.4" target="1.4" debug="true" fork="true" debuglevel="lines,source">
+			<src path="."/>
+		</javac>
+	</target>
+	
+	<target name="copy" depends="init" description="Copy resources">
+		<copy toDir="${obj}/resources" failonerror="false">
+			<fileset dir="${src}/resources"/>
+		</copy>
+		<copy toDir="${obj}/src">
+			<fileset dir="${src}" includes="*.java"/>
+		</copy>
+	</target>
+	
+	 
+   <target name="jar" depends="compile, copy" description="Assemble Jar file">
+                <jar jarfile="${dst}/${product}.jar" basedir="${obj}" index="true" manifest="Manifest"/>
+   </target>
+        
+	
+	<target name="install" depends="jar" description="Alias for 'compile'">
+		
+	</target>
+
+	<target name="run" depends="install" description="Run">
+	  <java jar="${dst}/${product}.jar" fork="true"/>
+	</target>
+
+		
+	<target name="clean" description="Removes build directories">
+        <delete dir="${obj}"/>
+        <delete file="${dst}/${product}.jar"/>
+	</target>
+</project>

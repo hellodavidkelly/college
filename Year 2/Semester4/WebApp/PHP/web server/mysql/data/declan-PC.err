@@ -1,0 +1,24 @@
+140401 12:12:44 [Note] Plugin 'FEDERATED' is disabled.
+140401 12:12:44 InnoDB: The InnoDB memory heap is disabled
+140401 12:12:44 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+140401 12:12:44 InnoDB: Compressed tables use zlib 1.2.3
+140401 12:12:44 InnoDB: Initializing buffer pool, size = 128.0M
+140401 12:12:44 InnoDB: Completed initialization of buffer pool
+140401 12:12:44 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+140401 12:12:44  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+140401 12:12:44  InnoDB: Waiting for the background threads to start
+140401 12:12:45 InnoDB: 1.1.8 started; log sequence number 1638216
+140401 12:12:45 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+140401 12:12:45 [ERROR] Do you already have another mysqld server running on port: 3307 ?
+140401 12:12:45 [ERROR] Aborting
+
+140401 12:12:45  InnoDB: Starting shutdown...
+140401 12:12:46  InnoDB: Shutdown completed; log sequence number 1638216
+140401 12:12:46 [Note] G:\ITB\Semester 2\PHP\USBWebserver v8.5\8.5/mysql/bin/mysqld_usbwv8.exe: Shutdown complete
+

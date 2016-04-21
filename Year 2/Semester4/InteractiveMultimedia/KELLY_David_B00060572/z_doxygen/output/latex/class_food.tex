@@ -1,0 +1,83 @@
+\hypertarget{class_food}{\section{Food Class Reference}
+\label{class_food}\index{Food@{Food}}
+}
+
+
+\hyperlink{class_food}{Food} Class which handles the creation of food items when the food items go below a certain number.  
+
+
+Inheritance diagram for Food\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_food}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_food_a70fa48f4f8b75a8cc25072ef0d83189b}{new\-Food} ()
+\item 
+void \hyperlink{class_food_aa665475b1d8fea6986ee3744f934c77a}{position\-Food} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_food_a5bd560d6c7386e3fa786884652528008}{min\-Food}
+\item 
+int \hyperlink{class_food_abb901fd4d5d3151687c1ea9fd7f64709}{food\-Count}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_food}{Food} Class which handles the creation of food items when the food items go below a certain number. 
+
+\begin{DoxyAuthor}{Author}
+David Kelly 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\-0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+20/3/14
+\end{DoxyDate}
+\begin{DoxyWarning}{Warning}
+not all attributes have been set values in this version, therefore possible changes may be made in revised versions 
+\end{DoxyWarning}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_food_a70fa48f4f8b75a8cc25072ef0d83189b}{\index{Food@{Food}!new\-Food@{new\-Food}}
+\index{new\-Food@{new\-Food}!Food@{Food}}
+\subsubsection[{new\-Food}]{\setlength{\rightskip}{0pt plus 5cm}void Food.\-new\-Food (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_food_a70fa48f4f8b75a8cc25072ef0d83189b}
+
+\begin{DoxyPre}
+IF
+    foodCount == minFood
+    \hyperlink{class_food_a70fa48f4f8b75a8cc25072ef0d83189b}{newFood()};
+    \hyperlink{class_food_aa665475b1d8fea6986ee3744f934c77a}{positionFood()}; 
+\end{DoxyPre}
+ new\-Food method instantiates a new food item. \hypertarget{class_food_aa665475b1d8fea6986ee3744f934c77a}{\index{Food@{Food}!position\-Food@{position\-Food}}
+\index{position\-Food@{position\-Food}!Food@{Food}}
+\subsubsection[{position\-Food}]{\setlength{\rightskip}{0pt plus 5cm}void Food.\-position\-Food (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_food_aa665475b1d8fea6986ee3744f934c77a}
+Position\-Food method randomly selects one of the predesignated food position points and put the newly created objet there. 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_food_abb901fd4d5d3151687c1ea9fd7f64709}{\index{Food@{Food}!food\-Count@{food\-Count}}
+\index{food\-Count@{food\-Count}!Food@{Food}}
+\subsubsection[{food\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int Food.\-food\-Count}}\label{class_food_abb901fd4d5d3151687c1ea9fd7f64709}
+Variable that returns the number of food items in the game \hypertarget{class_food_a5bd560d6c7386e3fa786884652528008}{\index{Food@{Food}!min\-Food@{min\-Food}}
+\index{min\-Food@{min\-Food}!Food@{Food}}
+\subsubsection[{min\-Food}]{\setlength{\rightskip}{0pt plus 5cm}int Food.\-min\-Food}}\label{class_food_a5bd560d6c7386e3fa786884652528008}
+Variable to store the minimum value of food items 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Food.\-cs\end{DoxyCompactItemize}

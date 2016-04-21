@@ -1,0 +1,24 @@
+  $(document).ready(function(){
+        $("select").change(function(){
+            $( "select option:selected").each(function(){
+                if($(this).attr("value")=="green"){
+                   $('.projects_table_odd').css('background-color','#00C896');
+                   $('.index_h1').css('color','#00C896');
+                   $('#current_section').css('background-color','#00C896');
+                   $('footer').css('background-color','#00C896');
+                }
+                if($(this).attr("value")=="red"){
+                   $('.projects_table_odd').css('background-color','#FFAAAA');
+                   $('.index_h1').css('color','#FFAAAA');
+                   $('#current_section').css('background-color','#FFAAAA');
+                   $('footer').css('background-color','#FFAAAA');
+              }
+                if($(this).attr("value")=="blue"){
+                   $('.projects_table_odd').css('background-color','#4DADF1');
+                   $('.index_h1').css('color','#4DADF1');
+                   $('#current_section').css('background-color','#4DADF1');
+                   $('footer').css('background-color','#4DADF1');
+               }
+            });
+        }).change();
+    });

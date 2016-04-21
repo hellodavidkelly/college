@@ -1,0 +1,137 @@
+\hypertarget{class_player}{\section{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+}
+
+
+Class that controls the player for level 3.  
+
+
+Inheritance diagram for Player\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_player}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_player_aed4d068363ffab322450dec4b674b43c}{Get\-Parts\-Left} ()
+\item 
+int \hyperlink{class_player_a35c51977648cc3b95a7074839a6f651a}{Get\-Lives\-Left} ()
+\item 
+int \hyperlink{class_player_afee1105ef952044bf9841cdaa199af0d}{Get\-Key\-Count} ()
+\item 
+bool \hyperlink{class_player_aa186cee2b963a62fd691f6e8f98e17ae}{Is\-Carrying\-Key} ()
+\item 
+void \hyperlink{class_player_a961fc1484a835f436ea9db34cd5dba7d}{Drop\-Key} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_player_a690ec1561aafce0f3e480de83c707261}{float {\bfseries delay\-Between\-Deaths} = 0.\-5f}\label{class_player_a690ec1561aafce0f3e480de83c707261}
+
+\item 
+Audio\-Clip \hyperlink{class_player_afbe782b06cf141675680af069408cd6a}{Engine\-Part}
+\item 
+Audio\-Clip \hyperlink{class_player_a8e34fba594dbf68174d883d763d42ace}{Die}
+\item 
+Audio\-Clip \hyperlink{class_player_ae0ed5e4ea70a02e3f9c0ee8964c4fd64}{Found\-Key}
+\item 
+Game\-Object \hyperlink{class_player_a13d88e1c4562fddf90baf0d57afc68c5}{fading\-Message\-Prefab}
+\item 
+string \hyperlink{class_player_a66e422e9d0486bdb42c835142caa93c6}{engine\-Part} = \char`\"{}(message to appear)\char`\"{}
+\item 
+string \hyperlink{class_player_a998c3019f31ab3ad606453158abe9dcb}{died} = \char`\"{}(message to appear)\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class that controls the player for level 3. 
+
+\begin{DoxyAuthor}{Author}
+David Kelly 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\-0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+20/4/14
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000004}{Bug}]if player loses all his lives the audio is interrupted by the new level loaded \end{DoxyRefDesc}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_player_a961fc1484a835f436ea9db34cd5dba7d}{\index{Player@{Player}!Drop\-Key@{Drop\-Key}}
+\index{Drop\-Key@{Drop\-Key}!Player@{Player}}
+\subsubsection[{Drop\-Key}]{\setlength{\rightskip}{0pt plus 5cm}void Player.\-Drop\-Key (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_player_a961fc1484a835f436ea9db34cd5dba7d}
+Method that removes the key item for the player after opening the door \hypertarget{class_player_afee1105ef952044bf9841cdaa199af0d}{\index{Player@{Player}!Get\-Key\-Count@{Get\-Key\-Count}}
+\index{Get\-Key\-Count@{Get\-Key\-Count}!Player@{Player}}
+\subsubsection[{Get\-Key\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int Player.\-Get\-Key\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_player_afee1105ef952044bf9841cdaa199af0d}
+Method that returns the integer value of the key left in level 3 \begin{DoxyReturn}{Returns}
+integer value 
+\end{DoxyReturn}
+\hypertarget{class_player_a35c51977648cc3b95a7074839a6f651a}{\index{Player@{Player}!Get\-Lives\-Left@{Get\-Lives\-Left}}
+\index{Get\-Lives\-Left@{Get\-Lives\-Left}!Player@{Player}}
+\subsubsection[{Get\-Lives\-Left}]{\setlength{\rightskip}{0pt plus 5cm}int Player.\-Get\-Lives\-Left (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_player_a35c51977648cc3b95a7074839a6f651a}
+\begin{DoxyReturn}{Returns}
+Returns the lives remaining for the player on level 3 
+\end{DoxyReturn}
+\hypertarget{class_player_aed4d068363ffab322450dec4b674b43c}{\index{Player@{Player}!Get\-Parts\-Left@{Get\-Parts\-Left}}
+\index{Get\-Parts\-Left@{Get\-Parts\-Left}!Player@{Player}}
+\subsubsection[{Get\-Parts\-Left}]{\setlength{\rightskip}{0pt plus 5cm}int Player.\-Get\-Parts\-Left (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_player_aed4d068363ffab322450dec4b674b43c}
+\begin{DoxyReturn}{Returns}
+Returns the int value of the remaining Engine Parts on level 3 
+\end{DoxyReturn}
+\hypertarget{class_player_aa186cee2b963a62fd691f6e8f98e17ae}{\index{Player@{Player}!Is\-Carrying\-Key@{Is\-Carrying\-Key}}
+\index{Is\-Carrying\-Key@{Is\-Carrying\-Key}!Player@{Player}}
+\subsubsection[{Is\-Carrying\-Key}]{\setlength{\rightskip}{0pt plus 5cm}bool Player.\-Is\-Carrying\-Key (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_player_aa186cee2b963a62fd691f6e8f98e17ae}
+Method that returns the boolean value reference to if the player has the key \begin{DoxyReturn}{Returns}
+boolean value 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_player_a8e34fba594dbf68174d883d763d42ace}{\index{Player@{Player}!Die@{Die}}
+\index{Die@{Die}!Player@{Player}}
+\subsubsection[{Die}]{\setlength{\rightskip}{0pt plus 5cm}Audio\-Clip Player.\-Die}}\label{class_player_a8e34fba594dbf68174d883d763d42ace}
+Reference to the audio clip file \hypertarget{class_player_a998c3019f31ab3ad606453158abe9dcb}{\index{Player@{Player}!died@{died}}
+\index{died@{died}!Player@{Player}}
+\subsubsection[{died}]{\setlength{\rightskip}{0pt plus 5cm}string Player.\-died = \char`\"{}(message to appear)\char`\"{}}}\label{class_player_a998c3019f31ab3ad606453158abe9dcb}
+Reference to the message that will appear \hypertarget{class_player_afbe782b06cf141675680af069408cd6a}{\index{Player@{Player}!Engine\-Part@{Engine\-Part}}
+\index{Engine\-Part@{Engine\-Part}!Player@{Player}}
+\subsubsection[{Engine\-Part}]{\setlength{\rightskip}{0pt plus 5cm}Audio\-Clip Player.\-Engine\-Part}}\label{class_player_afbe782b06cf141675680af069408cd6a}
+Reference to the audio clip file \hypertarget{class_player_a66e422e9d0486bdb42c835142caa93c6}{\index{Player@{Player}!engine\-Part@{engine\-Part}}
+\index{engine\-Part@{engine\-Part}!Player@{Player}}
+\subsubsection[{engine\-Part}]{\setlength{\rightskip}{0pt plus 5cm}string Player.\-engine\-Part = \char`\"{}(message to appear)\char`\"{}}}\label{class_player_a66e422e9d0486bdb42c835142caa93c6}
+Reference to the message that will appear \hypertarget{class_player_a13d88e1c4562fddf90baf0d57afc68c5}{\index{Player@{Player}!fading\-Message\-Prefab@{fading\-Message\-Prefab}}
+\index{fading\-Message\-Prefab@{fading\-Message\-Prefab}!Player@{Player}}
+\subsubsection[{fading\-Message\-Prefab}]{\setlength{\rightskip}{0pt plus 5cm}Game\-Object Player.\-fading\-Message\-Prefab}}\label{class_player_a13d88e1c4562fddf90baf0d57afc68c5}
+Creating a message prefab reference \hypertarget{class_player_ae0ed5e4ea70a02e3f9c0ee8964c4fd64}{\index{Player@{Player}!Found\-Key@{Found\-Key}}
+\index{Found\-Key@{Found\-Key}!Player@{Player}}
+\subsubsection[{Found\-Key}]{\setlength{\rightskip}{0pt plus 5cm}Audio\-Clip Player.\-Found\-Key}}\label{class_player_ae0ed5e4ea70a02e3f9c0ee8964c4fd64}
+Reference to the audio clip file 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Player.\-cs\end{DoxyCompactItemize}

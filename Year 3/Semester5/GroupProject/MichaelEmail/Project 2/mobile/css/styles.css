@@ -1,0 +1,59 @@
+.align_center {
+	text-align: center;
+}
+
+#website_logo {
+	width:80px;
+	height:35px;
+}
+ 
+.blog_logo {
+	margin: 1em;
+}
+
+.header_image {
+	margin: 2px;
+}
+
+#photolist > div > a > img {
+	border-radius: 5px;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+#myphoto > a > img {
+	width: 100%;
+}
+
+#videolist > div {
+	width: 100%;
+	overflow: auto;
+}
+
+#videolist > div > a > img {
+ 	width: 40%;
+ 	display: inline;
+ 	float: left;
+	margin: 0px 10px 10px 0px;
+}
+
+#videolist > div > h3 {
+	font-size: .8em;
+	display: inline;
+}
+
+.youtube_video_title {
+	font-size: .8em;
+}
+
+.youtube_video_description {
+	font-size: .7em;
+}
+
+#map_canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+}

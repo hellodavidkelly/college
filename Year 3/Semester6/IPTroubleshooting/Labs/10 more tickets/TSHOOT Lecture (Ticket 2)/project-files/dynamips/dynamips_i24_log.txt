@@ -1,0 +1,37 @@
+Apr 20 14:49:19.454 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 20 14:49:19.454 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55515.
+Apr 20 14:49:19.969 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 20 14:49:20.000 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 20 14:49:20.000 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 2)\project-files\dynamips 
+Apr 20 14:49:20.000 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 2)\project-files\dynamips
+Apr 20 14:49:20.016 HYPERVISOR: exec_cmd: vm create R1 10 c3725 
+Apr 20 14:49:20.016 VM: VM R1 created.
+Apr 20 14:49:20.063 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 2011 
+Apr 20 14:49:20.063 HYPERVISOR: exec_cmd: vm set_aux_tcp_port R1 2508 
+Apr 20 14:49:20.094 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Apr 20 14:49:20.141 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 16 WIC-2T 
+Apr 20 14:49:20.156 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 14:49:20.156 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x6026b804 
+Apr 20 14:49:20.203 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Apr 20 14:49:20.250 HYPERVISOR: exec_cmd: vm set_ios R1 C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 20 14:49:20.265 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c20a.06a4.0000 
+Apr 20 14:49:20.281 HYPERVISOR: exec_cmd: vm set_config R1 configs/i10_startup-config.cfg 
+Apr 20 14:49:20.312 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Apr 20 14:49:20.359 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 20 14:49:20.843 HYPERVISOR: exec_cmd: nio create_udp nio_udp75 10039 127.0.0.1 10038 
+Apr 20 14:49:20.858 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 16 nio_udp75 
+Apr 20 14:49:20.905 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 14:49:20.936 HYPERVISOR: exec_cmd: nio create_udp nio_udp79 10041 127.0.0.1 10040 
+Apr 20 14:49:20.936 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 17 nio_udp79 
+Apr 20 14:49:20.967 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 14:49:24.056 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 14:49:24.056 HYPERVISOR: exec_cmd: vm start R1 
+Apr 20 14:52:49.789 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 14:52:49.789 HYPERVISOR: exec_cmd: vm stop R1 
+Apr 20 14:52:49.914 VM: VM R1 shutdown.
+Apr 20 14:53:01.443 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 20 14:53:01.458 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 20 14:53:01.474 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 20 14:53:01.817 HYPERVISOR: Stopped.
+Apr 20 14:53:01.817 VM: VM R1 destroyed.
+Apr 20 14:53:01.817 GENERAL: reset done.

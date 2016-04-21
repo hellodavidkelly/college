@@ -1,0 +1,41 @@
+
+public class ArrayList implements ListInterface
+{
+	private static final int MAX_LIST = 50;
+	private Object items[]; // list variables
+	private int numItems; //current ammount of items in the list
+	
+	public ArrayList()
+	{
+		items = new Object[MAX_LIST]; // allocating memory
+		numItems = 0;
+	}
+
+	public boolean isEmpty() {
+		return false;
+	}
+
+	public int size() {
+		return 0;
+	}
+
+	public void add(int index, Object item)
+			throws ListIndexOutOfBoundsException, ListException {
+		
+	}
+
+	public Object get(int index) throws ListIndexOutOfBoundsException {
+		return null;
+	}
+
+	public void remove(int index) throws ListIndexOutOfBoundsException {
+		
+	}
+
+	@Override
+	public void removeAll() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

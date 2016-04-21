@@ -1,0 +1,16 @@
+tag1=Cheval
+tag2=Chien
+tag3=Chat
+tag4=Perroquet
+tag5=Porc
+tag6=Selectionnez Langue
+
+tag11=Cheval.wav
+tag12=Chien.wav
+tag13=Chat.wav
+tag14=Perroquet.wav
+tag15=Porc.wav
+
+tag21=Anglais
+tag22=Francais
+tag23=Allemand

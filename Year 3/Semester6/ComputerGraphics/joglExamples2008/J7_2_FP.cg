@@ -1,0 +1,39 @@
+// J7_2_VP.cg Fragment Program: fragment lighting 
+
+void main(
+	float4 iPosition	: 	TEXCOORD0, 
+	float4 iNormal    	: 	TEXCOORD1,
+out float4 oColor 		: 	COLOR, 
+              uniform float3 La,
+              uniform float3 Ld,
+              uniform float3 Ls,
+              uniform float3 lightPosition,
+              uniform float3 eyePosition,
+              uniform float3 Me,
+              uniform float3 Ma,
+              uniform float3 Md,
+              uniform float3 Ms,
+              uniform float  shininess
+) {   
+  float3 P = iPosition.xyz;
+  float3 N = normalize(iNormal.xyz);
+  float3 L = normalize(lightPosition - P);
+
+  //calculate emission and ambient components
+  float3 Ie = Me; 
+  float3 Ia = La*Ma; 
+  
+  // calculate diffuse component
+  float cosNL = max(dot(N, L), 0); 
+  float3 Id = Md * Ld * cosNL;
+  
+  // calculate specular component
+  float3 V = normalize(eyePosition - P);
+  float3 H = normalize(L + V);
+  float cosNH = max(dot(N, H), 0); 
+  if (cosNL==0) cosNH = 0; 
+  float3 Is = Ms * Ls * pow(cosNH, shininess); 
+
+  oColor.xyz = Ie + Ia + Id + Is;
+}
+

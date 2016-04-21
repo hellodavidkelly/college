@@ -1,0 +1,39 @@
+<html>
+<head>
+<script language="JavaScript">
+<!--hide
+function first(){
+  //creates a popup window with the text which was
+  // entered into the text field
+  alert("The value of the textfield is: " +
+	document.myForm.myText.value);
+}
+function second(){
+  //this function checks the state of the checkbox
+var myString="The checkbox is ";
+if(document.myForm.myCheckbox.checked)myString+="checked"
+  else myString+="not checked";
+alert(myString);
+}
+//-->
+</script>
+</head>
+<body bgcolor=lightblue>
+<form name="myForm">
+<input type="text" name="myText" value="Hi There">
+<input type="button" name="button1" value="Button 1"
+  onClick="first()">
+<br>
+<input type="checkbox" name="myCheckbox" CHECKED>
+<input type="button" name="button2" value="Button 2"
+  onClick="second()">
+</form>
+<p><br><br>
+<script language="JavaScript">
+<!-- hide
+document.write("The background colour is: ");
+document.write(document.bgColor + "<br>");
+document.write("The text on the second button is: ");
+document.write(document.myForm.button2.value);
+//-->
+</script> </body> </html>

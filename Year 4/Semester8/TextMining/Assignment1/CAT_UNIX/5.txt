@@ -1,0 +1,12 @@
+With the Single UNIX Specification, there is now a single, open, consensus specification that defines a product. There is also a mark, or brand, that is used to identify those products that conform to the Single UNIX specification. Both the specification and the trade mark are now managed and held in trust for the industry by X/Open Company.
+
+There will be many competing products, all implemented against the Single UNIX Specification, ensuring competition and vendor choice. There will be a limited number of technology suppliers, which vendors can licence and build there own product, all of them implementing the Single UNIX Specification. . Buyers can expect each of these products to carry the X/Open UNIX brand as an guarantee of conformance to the specification and that the vendor stands behind a quality product.
+
+UNIX is now no longer just the operating system product from AT&T (later, Novell), documented by the System V Interface Definition (SVID), controlled and licensed from a single point. Neither is it a collection of slightly different products from different vendors, each extended in slightly different ways. The UNIX specification has been separated from its licensed source-code product, and "UNIX'' has become a single stable specification to be used to develop portable applications that run on systems conforming to the Single UNIX Specification
+
+Portability is ensured because the single set of APIs is supported on all branded products. Customers benefit from flexibility and freedom of choice because they are now able to build large scale systems using 'best of breed' products.
+
+Work on defining and agreeing the exact content of the Single UNIX Specification began towards the end of 1993 and was completed in the third quarter of 1994. In parallel with this activity, X/Open Company extended its branding program to include UNIX system products that meet the specification and conformance requirements. In joining the program and branding its products a vendor warrants and represents that any branded product: conforms to the specification; will continue to conform to the specification; and if there is a non-conformance it will be rectified in an agreed time.
+
+To support the branding program, X/Open has developed a comprehensive set of software test tools. These test suites are used by the vendor to help ensure that the vendor has the confidence to stand behind the guarantee that they give when branding their products.
+

@@ -1,0 +1,157 @@
+autostart = False
+version = 0.8.7
+[127.0.0.1:7200]
+    workingdir = c:\users\student\appdata\local\temp\GNS3_plfoml\working
+    udp = 10001
+    [[2691]]
+        image = C:\Users\Student\GNS3\Projects\Lab1\IOS\c2691-adventerprisek9-mz.124-23.bin
+        idlepc = 0x60a4a19c
+        sparsemem = True
+        ghostios = True
+    [[ROUTER R1]]
+        model = 2691
+        console = 2101
+        aux = 2501
+        cnfg = configs\R1.cfg
+        wic0/0 = WIC-2T
+        s0/0 = R2 s0/0
+        x = -798.851947191
+        y = -27.6568542495
+        z = 1.0
+    [[ROUTER R2]]
+        model = 2691
+        console = 2102
+        aux = 2502
+        cnfg = configs\R2.cfg
+        wic0/0 = WIC-2T
+        s0/0 = R1 s0/0
+        s0/1 = R3 s0/1
+        x = -599.851947191
+        y = -349.656854249
+        z = 1.0
+    [[ROUTER R3]]
+        model = 2691
+        console = 2103
+        aux = 2503
+        cnfg = configs\R3.cfg
+        wic0/0 = WIC-2T
+        s0/1 = R2 s0/1
+        x = -440.851947191
+        y = -27.6568542495
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    m11 = 1.0
+    m22 = 1.0
+    [[NOTE 1]]
+        text = "AS 300"
+        x = -382.0
+        y = 119.0
+        color = "#00aaff"
+    [[NOTE 2]]
+        text = "AS 200"
+        x = -806.0
+        y = 125.0
+        color = "#00aa00"
+    [[NOTE 3]]
+        text = "AS 100"
+        x = -588.0
+        y = -477.0
+        color = "#aa5500"
+    [[NOTE 4]]
+        text = "DCE"
+        x = -541.0
+        y = -270.0
+    [[NOTE 5]]
+        text = "DCE"
+        x = -753.0
+        y = -74.0
+    [[NOTE 6]]
+        text = "Lo0: 192.168.0.1/24\nLo0: 192.168.1.1/24"
+        x = -631.0
+        y = -431.0
+    [[NOTE 7]]
+        text = "Lo0: 172.16.1.1./24"
+        x = -474.0
+        y = 17.0
+    [[NOTE 8]]
+        text = "Lo0: 10.1.1.1/24"
+        x = -816.0
+        y = 16.0
+    [[NOTE 9]]
+        text = "172.16.0.0/30"
+        x = -475.0
+        y = -184.0
+    [[NOTE 10]]
+        text = "10.0.0.0/30"
+        x = -763.0
+        y = -189.0
+    [[NOTE 11]]
+        text = ".2"
+        x = -608.0
+        y = -310.0
+    [[NOTE 12]]
+        text = ".2"
+        x = -545.0
+        y = -309.0
+    [[NOTE 13]]
+        text = ".1"
+        x = -465.0
+        y = -56.0
+    [[NOTE 14]]
+        text = ".1"
+        x = -738.0
+        y = -58.0
+    [[NOTE 15]]
+        text = "ITA"
+        x = -581.851947191
+        y = -342.656854249
+    [[NOTE 16]]
+        text = "ISP2"
+        x = -425.851947191
+        y = -15.6568542495
+    [[NOTE 17]]
+        text = "ISP1"
+        x = -782.851947191
+        y = -15.6568542495
+    [[NOTE 18]]
+        text = "s0/1"
+        x = 13.3200413728
+        y = -12.823831329
+        interface = R3 s0/1
+    [[NOTE 19]]
+        text = "s0/1"
+        x = 52.6799586272
+        y = 56.823831329
+        interface = R2 s0/1
+    [[NOTE 20]]
+        text = "s0/0"
+        x = 13.8039758787
+        y = 57.0929146401
+        interface = R2 s0/0
+    [[NOTE 21]]
+        text = "s0/0"
+        x = 52.1960241213
+        y = -13.0929146401
+        interface = R1 s0/0
+    [[SHAPE 1]]
+        type = ellipse
+        x = -693.0
+        y = -490.0
+        width = 261.0
+        height = 256.0
+        border_color = "#aa5500"
+    [[SHAPE 2]]
+        type = ellipse
+        x = -497.0
+        y = -83.0
+        width = 263.0
+        height = 246.0
+        border_color = "#0055ff"
+    [[SHAPE 3]]
+        type = ellipse
+        x = -904.0
+        y = -91.0
+        width = 257.0
+        height = 248.0
+        border_color = "#00aa00"

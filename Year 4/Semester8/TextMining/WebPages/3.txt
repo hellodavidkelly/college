@@ -1,0 +1,165 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>ITB Library - Contacts</title>
+<link rel="StyleSheet" href="../Alpha3.css" type="text/css" media="screen"></head>
+</html>
+s
+<html>
+<head>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000000" alink="#000000"
+topmargin="0" leftmargin="0">
+
+<p align="center"><br>
+</p>
+<div align="center"><center>
+
+    <table width="640" border="1" cellpadding="5" cellspacing="0" bordercolor="#FFFFFF">
+      <tr>
+        <td valign="top" align="left">&nbsp; </td>
+        <td valign="bottom" align="right"><a href="http://blanchlib.itb.ie"><img src="img/itbhomelogo.gif"
+    border="0" alt="Library Home" WIDTH="100" HEIGHT="33"></a> </td>
+  </tr>
+  <tr>
+        <td colspan="2"><p><img src="img/m06a.jpg" align="right" width="100" height="150"> 
+            <br>
+            <br>
+          </p>
+          <p>&nbsp;</p>
+<table width="75%" cellspacing="1" cellpadding="1">
+            <tr>
+              <td width="35%"><font color="#336633" face="Arial, Helvetica, sans-serif"><strong>Contact 
+            the Library:</strong></font></td>
+              <td width="10%">&nbsp;</td>
+              <td width="55%"><font color="#336633" face="Arial, Helvetica, sans-serif"><strong>Contact 
+            the Student Information  </strong></font></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td><font color="#336633" face="Arial, Helvetica, sans-serif"><strong>Desk (SID):</strong></font></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><font size="2" face="Arial, Helvetica, sans-serif">General Enquiries<br>
+Tel: 01-8851047<br>
+Email: <a href="mailto:library_staff@itb.ie">library_staff@itb.ie</a></font></td>
+              <td>&nbsp;</td>
+              <td><font size="2" face="Arial, Helvetica, sans-serif">General Enquiries<br>
+Tel: 01-8851592<br>
+Email: <a href="mailto:sid@itb.ie">sid@itb.ie</a> </font></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><font size="2" face="Arial, Helvetica, sans-serif">Librarian: Aid�n O'Sullivan <br>
+Tel: 01-8851047<br>
+Email: <a href="mailto:david.mannion@itb.ie">david.mannion@itb.ie</a></font></td>
+              <td>&nbsp;</td>
+              <td><font size="2" face="Arial, Helvetica, sans-serif">Geraldine Barry <br>
+Tel: 01-8851332<br>
+Email: <a href="mailto:geraldine.barry@itb.ie">geraldine.barry@itb.ie</a></font></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><font size="2" face="Arial, Helvetica, sans-serif">&Aacute;ine Lynch <br>
+Tel: 01-8851506<br>
+Email: <a href="mailto:aine.lynch@itb.ie">aine.lynch@itb.ie</a></font></td>
+              <td>&nbsp;</td>
+              <td><font size="2" face="Arial, Helvetica, sans-serif">Lisa Cunningham<br>
+Tel: 01-8851049<br>
+Email: <a href="mailto:lisa.cunningham@itb.ie">lisa.cunningham@itb.ie</a></font></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><font size="2" face="Arial, Helvetica, sans-serif">David Mannion<br>
+Tel: 01-8851045<br>
+Email: david.mannion<a href="mailto:aidin.o'sullivan@itb.ie">@itb.ie</a></font></td>
+              <td>&nbsp;</td>
+              <td><font size="2" face="Arial, Helvetica, sans-serif">Kathleen Dunne <br>
+Tel: 01-8851508<br>
+Email: <a href="mailto:kathleen.dunne@itb.ie">kathleen.dunne@itb.ie</a></font></td>
+            </tr>
+            <tr>
+<td>&nbsp;</td>
+              <td><p>&nbsp;</p></td>
+            </tr>
+            <tr>
+              <td height="74"><p><font size="2" face="Arial, Helvetica, sans-serif">Sarah Toland<br>
+              Tel: 01-8851592 </font><font size="2" face="Arial, Helvetica, sans-serif"><br>
+              Email: <a href="mailto:sarah.toland@itb.ie">sarah.toland@itb.ie</a> </font></p>
+              </td>
+              <td>&nbsp;</td>
+              <td><p><font size="2" face="Arial, Helvetica, sans-serif">Helen McCole <br>
+                  Tel: 01-8851332<br>
+              Email: <a href="mailto:helen.mccole@itb.ie">helen.mccole@itb.ie</a>  </font></p>
+              </td>
+            </tr>
+            
+            <tr>
+<td><p>&nbsp;</p>
+  <font size="2" face="Arial, Helvetica, sans-serif">William O'Reilly <br>
+Tel: 01-8851335<br>
+Email: <a href="mailto:william.oreilly@itb.ie">william.oreilly@itb.ie</a></font></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+            <td><td>
+            <td><p><font size="2" face="Arial, Helvetica, sans-serif">Sabine Maher <br>
+                  Tel: 01-8851332<br>
+              Email: <a href="mailto:sabine.maher@itb.ie">sabine.maher@itb.ie</a></font></p>
+              </td>
+              <br><br>
+              
+              <td><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif"><br>
+              </font></td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+          <p>
+          
+          <p><font size="2" face="Arial, Helvetica, sans-serif"><br>
+            <br>
+            </font>
+          <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.blanchlib.itb.ie/screens/contacts.html"></a></font><br>
+        </td>
+  </tr>
+      <tr> 
+        <td align="left" colspan="2"><div align="center"><a href="http://www.blanchlib.itb.ie/"><font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1">Online 
+            Catalogue</font></a> | <a href="geninfo.html"><font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+            General Information</font></a> | <a href="libserv.html"> <font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+            Library Services</font></a><br>
+            <a href="remotecats.htm"><font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1">Other Libraries</font></a> | <a href="contacts.html"> <font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+            Library Contacts</font></a></div></td>
+  </tr>
+  <tr>
+    <td valign="top" align="left" colspan="2"><div align="center"><font color="#663333" face="Verdana, Arial"
+    size="1"><strong>ITB Library</strong>, Blanchardstown Road North, Dublin 15, 
+            Ireland. <br>
+            Telephone: Tel: +353 (0)1 885 1047&nbsp; Fax: +353 (0)1 885 1001 <br>
+            Email:<a href="mailto:library@itb.ie">library@itb.ie</a></font></div></td>
+  </tr>
+</table>
+</center></div>
+</body>
+</html>
+

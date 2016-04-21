@@ -1,0 +1,4 @@
+The Open Group is committed to working with the community to further the development of standards conformant systems by evolving and maintaining the Single UNIX Specification and participation in other related standards efforts. Recent examples of this are making the standard freely available on the web, permitting reuse of the standard in open source documentation projects , providing test tools ,developing the POSIX and LSB certification programs.
+
+From this page you can read about the history of the UNIX system over the past 40 years or more. You can learn about the Single UNIX Specification, and read or download online versions of the specification. You can also get involved in the ongoing development and maintenance of the Single UNIX Specification, by joining the Austin Group whose approach to specification development is "write once, adopt everywhere", The Open Group's Base Working Group or get involved in the UNIX Certification program.
+

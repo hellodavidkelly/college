@@ -1,0 +1,157 @@
+
+#footer
+{
+
+position:absolute;
+right:0px;
+position:absolute;
+top:1215px;
+background-color:white;
+text-align:center; 
+font-size:140%;
+color:black;
+width:100%;
+border-style:solid;
+	border-color:black;
+}	
+
+
+textarea
+{
+
+
+position:absolute;
+right:292px;
+position:absolute;
+top:700px;
+
+}
+
+
+
+#buttons
+{
+
+position:absolute;
+right:480px;
+position:absolute;
+top:780px;
+
+
+}
+fieldset { 
+		
+border-style:solid;
+	border-color:black;
+	
+		color:white;
+		font-size:120%;
+		width: 50%;
+position:absolute;
+right:220px;
+position:absolute;
+top:440px;
+margin-left:1em;
+	background-image:url('admin.jpg');
+	 }
+label{
+width:8em;
+display:block;
+     	float:left;
+     	margin-left:1em;
+margin-left:1em;
+
+}
+
+#search
+{
+
+
+position:absolute;
+right:400px;
+position:absolute;
+top:230px;
+color:white;
+}
+
+
+table{
+
+
+position:absolute;
+right:200px;
+position:absolute;
+top:290px;
+background-color:white;
+text-align:center; 
+font-size:140%;
+color:white;
+width:55%;
+
+	background-image:url('admin.jpg');
+}
+#about
+{
+
+
+position:absolute;
+right:380px;
+position:absolute;
+top:300px;
+color:white;
+}
+#notice
+{
+position:absolute;
+right:390px;
+position:absolute;
+top:340px;
+font-size:140%;
+color:white;
+
+}
+	
+body{
+	background-color:	#CCFFFF;
+background-image:url('zxc.jpg');
+	color:white;
+
+
+
+
+
+	width: 100%;
+	font-style:italic
+	
+
+    }
+
+h1 {
+	
+	background-color:black
+;
+	text-align:center; 
+	color:white;
+	border-style:solid;
+	border-color:gray;
+	
+	font-size:180%;
+	width: 98%;
+
+
+
+    }
+
+#login
+{
+
+position:absolute;
+right:310px;
+position:absolute;
+top:250px;
+font-size:140%;
+	color:white;
+
+
+}
+

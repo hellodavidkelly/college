@@ -1,0 +1,53 @@
+body
+{
+font-family: monospace;
+}
+
+form
+{
+width: 50%;
+margin-left: 25%;
+border:3px solid black;
+background-color: #009999;
+}
+
+h1
+{
+text-align: center;
+}
+
+legend
+{
+border: 3px solid #FF0000;
+background-color: white;
+color: black;
+}
+
+fieldset
+{
+border: 2px solid black;
+background-color: #FF7400;
+color: white;
+}
+
+#buttons
+{
+margin-left: 115px;
+}
+
+label
+{
+width: 100px;
+display: block;
+float: left;
+}
+
+br
+{
+clear: left;
+}
+
+input[type ="checkbox"], select
+{
+margin-left:100px;
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>View Source</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_/css/jquery.mobile.css" />
+	<script src="_/js/jquery.js"></script>
+	<script src="_/js/jquery.mobile.js"></script>
+
+	<script src="_/js/myscript.js"></script>
+	<link rel="stylesheet" href="_/css/mystyles.css" />
+</head>
+<body>
+	<!-- Page: home -->
+	<div id="home"
+		data-role="page"
+		data-title="View Source: Home">
+
+		<div data-role="header"
+			data-position="fixed">
+			<h1>Home</h1>
+		</div><!-- header -->
+		<div data-role="content">
+			Welcome to the View Source App
+		</div>
+		<div data-role="controlgroup">
+			<a href="#blog"
+				data-role="button"
+				data-icon="arrow-r"
+			>Blog</a>
+			<a href="#videos"
+				data-role="button"
+				data-icon="arrow-r"
+			>Videos</a>
+			<a href="#photos"
+				data-role="button"
+				data-icon="arrow-r"
+			>Photos</a>
+			<a href="#tweets"
+				data-role="button"
+				data-icon="arrow-r"
+			>Tweets</a>
+		</div><!-- links -->
+	</div><!-- page -->
+
+	<!-- Page: blog -->
+	<div id="blog"
+		data-role="page"
+		data-title="View Source: Blog">
+		<div data-role="header"
+			data-position="fixed"
+			data-id="vs_header">
+			<h1>Blog</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div><!-- header -->
+		<div data-role="content">
+			<div data-role="collapsible-set">
+				<div data-role="collapsible">
+					<h3>A JSON Tutorial. Getting started with JSON</h3>
+					<p>Getting started with JavaScript Object Notation. A JSON tutorial for Absolute Beginners</p>
+				</div><!-- collapsible -->
+
+				<div data-role="collapsible"
+					data-collapsed="false">
+					<h3>WordPress Newbie Tip…control length of posts on homepage</h3>
+					<p>If your WordPress site is set up to show the full length articles</p>
+				</div><!-- collapsible -->
+
+				<div data-role="collapsible">
+					<h3>Tips for finding a great domain name</h3>
+					<p>Workflow tips and tricks for Adobe In-Design</p>
+				</div><!-- collapsible -->
+
+				<div data-role="collapsible">
+					<h3>Advantages of Creating Subdomain Shortcuts</h3>
+					<p>Creating sub-domains gives you the ability to create shortcuts</p>
+				</div><!-- collapsible -->
+
+				<div data-role="collapsible">
+					<h3>Creating a Photo Rotator with JQuery Cycle</h3>
+					<p>I love the JQuery tagline…write less, do more. </p>
+				</div><!-- collapsible -->
+			</div><!-- accordion -->
+		</div><!-- content -->
+		<div data-role="footer"
+			data-position="fixed"
+			data-id="vs_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home"
+					data-role="button"
+					data-icon="home"
+					>Home</a></li>
+					<li><a href="#"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+					<li><a href="#tweets"
+					data-role="button"
+					data-icon="arrow-r"
+					>Tweets</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+	<!-- Page: Videos -->
+	<div id="videos"
+		data-role="page"
+		data-title="View Source: Videos">
+		<div data-role="header"
+			data-position="fixed"
+			data-id="vs_header">
+			<h1>Videos</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div><!-- header -->
+		<div data-role="content">
+		<ul data-role="listview" data-filter="true">
+			<li><h2>Week 01</h2>
+				<p>Custom URLs and breadcrumbs in WordPress</p>
+				<!-- resixes image to fit in list -->
+				<img src="images/viewsourcelogo.png" alt="View Source logo" />
+				<ul>
+				<li><a href="http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html">Creating a custom URL in WordPress</a>
+				</li>
+				<li><a href="http://www.youtube.com/watch?v=SaQDnhatWZ8">Adding breadcrumb links to your WordPress sites</a></li>
+					<li data-icon="back"><a href="#videos">Back</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Week 02</h2>
+				<p>Using a CDN and the jQuery Cycle plugin</p>
+				<img src="images/viewsourcelogo.png" alt="View Source logo" />
+				<ul>
+					<li><a href="http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html">Using a CDN to speed up your sites</a></li>
+					<li><a href="http://www.youtube.com/watch?v=jaWnAYloOeE">Creating a photo rotator with jQuery Cycle</a></li>
+					<li data-icon="back"><a href="#videos">Back</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Week 03</h2>
+				<p>Google Analytics QR Codes and jQuery UI DatePickers</p>
+				<img src="images/viewsourcelogo.png" alt="View Source logo" />
+				<ul>
+					<li><a href="http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html">Tracking any campaign with Google Analytics</a></li>
+					<li><a href="http://www.youtube.com/watch?v=Q7l3-d45nJ0">Creating a date picker for your forms with jQuery</a></li>
+					<li data-icon="back"><a href="#videos">Back</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Week 04</h2>
+				<p>Domains names and the Google Maps API</p>
+				<img src="images/viewsourcelogo.png" alt="View Source logo" />
+				<ul>
+					<li><a href="http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html">Searching for and finding a domain name</a></li>
+					<li><a href="http://www.youtube.com/watch?v=idw5ZjXeyLA">Working with the Google Maps API</a></li>
+					<li data-icon="back"><a href="#videos">Back</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Week 05</h2>
+				<p>Twitter feeds and PayPal buttons</p>
+				<img src="images/viewsourcelogo.png" alt="View Source logo" />
+				<ul>
+					<li><a href="http://www.youtube.com/watch?v=nLHsA37Rq8c">Adding custom Twitter searches and feeds to your sites</a></li>
+					<li><a href="http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html">Adding PayPal buttons to your pages</a></li>
+					<li data-icon="back"><a href="#videos">Back</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Week 06</h2>
+				<p>YouTube Feeds and HTML5 video</p>
+				<img src="images/viewsourcelogo.png" alt="View Source logo" />
+				<ul>
+					<li><a href="http://www.youtube.com/watch?v=TDzavcAapEw">Parsing and placing a YouTube video feed on your site</a></li>
+					<li><a href="http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html">Embedding videos for all browsers and devices</a></li>
+					<li data-icon="back"><a href="#videos">Back</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Week 07</h2>
+				<p>Galleria plug-in and selling your photos</p>
+				<img src="images/viewsourcelogo.png" alt="View Source logo" />
+				<ul>
+					<li><a href="http://www.youtube.com/watch?v=WCiYANlTpos">Creating a photo gallery with the Galleria jQuery plug-in</a></li>
+					<li><a href="http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html">Selling your photos with Fotomoto</a></li>
+					<li data-icon="back"><a href="#videos">Back</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Week 08</h2>
+				<p>Listing directories with PHP and jQuery AJAX</p>
+				<img src="images/viewsourcelogo.png" alt="View Source logo" />
+				<ul>
+					<li><a href="http://www.youtube.com/watch?v=cZhyxnjQL8g">Listing files on a directory with PHP</a></li>
+					<li><a href="http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html">Loading external pages dynamically with jQuery AJAX</a></li>
+					<li data-icon="back"><a href="#videos">Back</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Week 09</h2>
+				<p>Uploading with PHP and CSS URL data</p>
+				<img src="images/viewsourcelogo.png" alt="View Source logo" />
+				<ul>
+					<li><a href="http://www.youtube.com/watch?v=PWuTMeH_eWE">How to build an image uploader using PHP</a></li>
+					<li><a href="http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html">Embedding images into CSS with URL data</a></li>
+					<li data-icon="back"><a href="#videos">Back</a></li>
+				</ul>
+			</li>
+
+			<li><h2>Week 10</h2>
+				<p>Caching files and jQuery toggle buttons</p>
+				<img src="images/viewsourcelogo.png" alt="View Source logo" />
+				<ul>
+					<li><a href="http://www.lynda.com/Web-Interactive-Projects-tutorials/View-Source/93388-2.html">Controlling the caching of your files</a></li>
+					<li><a href="http://www.youtube.com/watch?v=mFGXeklJ-Bo">Creating a toggle button with jQuery</a></li>
+					<li data-icon="back"><a href="#videos">Back</a></li>
+				</ul>
+			</li>
+		</ul>
+		</div><!-- content -->
+
+		<div data-role="footer"
+			data-position="fixed"
+			data-id="vs_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home"
+					data-role="button"
+					data-icon="home"
+					>Home</a></li>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+					<li><a href="#tweets"
+					data-role="button"
+					data-icon="arrow-r"
+					>Tweets</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+	<!-- Page: Photos -->
+	<div id="photos"
+		data-role="page"
+		data-title="View Source: Photos">
+		<div data-role="header"
+			data-position="fixed"
+			data-id="vs_header">
+			<h1>Photos</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div><!-- header -->
+		<p>Photos from Flickr</p>
+		<div data-role="footer"
+			data-position="fixed"
+			data-id="vs_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home"
+					data-role="button"
+					data-icon="home"
+					>Home</a></li>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+					<li><a href="#tweets"
+					data-role="button"
+					data-icon="arrow-r"
+					>Tweets</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+	<!-- Page: Tweets -->
+	<div id="tweets"
+		data-role="page"
+		data-title="View Source: Tweets">
+		<div data-role="header"
+			data-position="fixed"
+			data-id="vs_header">
+			<h1>Tweets</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div><!-- header -->
+		<p>Tweets page.</p>
+		<div data-role="footer"
+			data-position="fixed"
+			data-id="vs_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home"
+					data-role="button"
+					data-icon="home"
+					>Home</a></li>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+					<li><a href="#"
+					data-role="button"
+					data-icon="arrow-r"
+					>Tweets</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+
+</body>
+</html>

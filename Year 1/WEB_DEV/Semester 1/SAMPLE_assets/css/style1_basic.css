@@ -1,0 +1,70 @@
+/* ----------- basic CSS --------- */
+
+body
+{
+font-family: monospace,fantasy;
+background-color: black;
+}
+
+border
+{
+color:grey;
+}
+
+h1
+{
+color: blue;
+background-color: white
+}
+
+h2
+{
+color: white;
+font-size: xx-large;
+}
+
+p
+{
+color: white;
+}
+
+ul
+{
+margin: 10px;
+color: white;
+list-style-type: none;
+}
+
+#current_section
+{
+color: orange;
+}
+
+a:link, a:visited
+{
+color: yellow;
+text-decoration: none;
+}
+
+a: hover
+{
+color: blue;
+}
+
+.news_item
+{
+width: 100%;
+border-top: 10px solid red;
+border-left: 10px solid red;
+}
+
+#news
+{
+float: right;
+}
+
+#main
+{
+float: left;
+width: 40%;
+}

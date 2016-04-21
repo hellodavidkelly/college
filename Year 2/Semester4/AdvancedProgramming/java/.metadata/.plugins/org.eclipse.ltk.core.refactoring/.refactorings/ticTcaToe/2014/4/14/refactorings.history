@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;Assignment2/src/exceptions&apos;&#x0A;- Original project: &apos;ticTcaToe&apos;&#x0A;- Destination element: &apos;Assignment2/src/exceptions&apos;&#x0A;- Original elements:&#x0A;     exceptions.PlayerOutOfTurnException.java&#x0A;     exceptions.IncorrectEntryException.java&#x0A;     exceptions.StalemateException.java" description="Copy compilation units" destination="=Assignment2/src&lt;exceptions" element1="/src&lt;exceptions{PlayerOutOfTurnException.java" element2="/src&lt;exceptions{IncorrectEntryException.java" element3="/src&lt;exceptions{StalemateException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1396535764178" units="3" version="1.0"/>
+</session>

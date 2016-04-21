@@ -1,0 +1,16 @@
+tag1=Pferd
+tag2=Hund
+tag3=Katze
+tag4=Papagei
+tag5=Schwein
+tag6=Sprache Wahlen
+
+tag11=pferd.wav
+tag12=Hund.wav
+tag13=Katze.wav
+tag14=Papagei.wav
+tag15=Schwein.wav
+
+tag21=Englisch
+tag22=Franzoisisch
+tag23=Deutsch

@@ -1,0 +1,24 @@
+INDEX VERSION 1.126+/Users/mjrbronchaus/Desktop/College/Semester4/AdvancedProgramming/java/.metadata/.plugins/org.eclipse.jdt.core
+1863221483.index
+676482488.index
+3241273485.index
+2733967150.index
+1051934737.index
+3848739668.index
+2461695925.index
+1634584112.index
+3327929492.index
+2813989291.index
+4218879187.index
+3057047579.index
+3502055741.index
+1480112439.index
+1905402968.index
+3909837293.index
+1787049998.index
+3443170566.index
+3209818848.index
+3003159417.index
+947421946.index
+1599438126.index
+977157283.index

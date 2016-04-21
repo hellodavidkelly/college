@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="../Templates/study_itb_appsocstud.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Institute of Technology Blanchardstown :: Study at ITB :: Applied Social Studies</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="meta" -->
+<meta name="description" content="Applied Social Studies courses" />
+<meta name="keywords" content="Applied Social Studies, courses, full time, part time, Work Placement" />
+<meta name="author" content="Strata3 - http://www.strata3.com/" />
+<!-- InstanceEndEditable -->
+<link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="../ssi/css/screen.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/large.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/larger.css" title="larger" />
+<link rel="stylesheet" type="text/css" media="print" href="../ssi/css/print.css" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie7.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie6.css" /><![endif]-->
+
+<script type="text/javascript" src="../ssi/js/styleswitcher.js"></script>
+
+<!-- InstanceBeginEditable name="head" -->
+<style type="text/css">
+<!--
+.style1 {font-size: 13px}
+.style2 {color: #333333}
+.style3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style4 {
+	color: #333333;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style5 {
+	color: #669900;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style7 {color: #333333; font-size: 13px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+-->
+</style>
+<!-- InstanceEndEditable -->
+</head>
+<body id="study" class="bg_sp">
+
+<!-- open page container -->
+<div id="contain">
+	<!--this is the top menu bar and banner -->
+
+	
+	<!-- start header -->
+	<div id="header">
+		<div id="logo"><a href="../homepage.asp" title="ITB homepage" accesskey="0"><img src="../images/itb_logo.gif" alt="Institute of Technology Blanchardstown" width="300" height="83" border="0" /></a></div>
+		<div id="top">
+			<div class="hd_250"><ul><li id="nav_cf"><a title="Course Finder" href="../CourseFinder/index.html">Course Finder</a></li>
+			<li id="nav_hta"><a title="How to Apply" href="../HowtoApply/howtoapply.html">How to Apply</a></li>
+			</ul></div>
+			<br class="clear" />
+			<div class="hd_660">
+				<ul>
+					<li id="nav_home"><a title="Home" href="../homepage.asp">Home</a></li>
+					<li id="nav_about"><a title="About ITB" href="../AboutITB/index.html">About ITB</a></li>
+					<!--<li id="nav_cs"><a title="Current Students" href="../CurrentStudents/index.html">Current Students</a></li>-->
+					<li id="nav_ns"><a title="News & Events" href="../NewsEvents/newsdetailmore.asp">News &amp; Events</a></li>
+					<li id="nav_library"><a title="Library" href="http://www.blanchlib.itb.ie/" target="_blank">Library</a></li>
+					<li id="nav_intranet"><a title="Intranet" href="http://elan:8888" target="_blank">Intranet</a></li>
+					<li id="nav_careers"><a title="Careers at ITB" href="../Vacancies/index.html">Careers at ITB</a></li>
+					<li id="nav_map"><a title="Our Location" href="../Location/howtogetthere.html">Our Location</a></li>
+					<li id="nav_sd"><a title="Staff Directory" href="../StaffDirectory/staffdirectory.asp">Staff Directory</a></li>
+				</ul>
+			</div>
+			<br class="clear" />
+		</div>
+	</div>
+	<!-- stop header -->
+	<!-- start nav/search -->
+	<div id="nav_search">
+        <!-- start navigation -->
+        <div id="navigation">
+            <ul>
+                <li id="nav_study"><a title="Study at ITB" href="../StudyatITB/index.html">Study at ITB</a></li>
+                 <li id="nav_cs"><a title="Study at ITB" href="../CurrentStudents/index.html">Current Students</a></li>
+                <li id="nav_cslife"><a title="Campus & Student Life" href="../CampusStudentLife/index.html">Campus  Life</a></li>
+                <li id="nav_research"><a title="Research at ITB" href="../ResearchatITB/index.html">Research</a></li>
+                <li id="nav_ii"><a title="Industry & Innovation" href="../IndustryInnovation/index.html">Industry &amp; Innovation</a></li>
+            </ul>
+        </div>
+        <!-- stop navigation -->
+        <!-- start search -->
+        <div id="search">
+        <!--<form action="#" method="get" class="frmSearch">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="search_term" name="search_term" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>-->
+		
+		<!--<form action="../search/search.asp" method="get" class="frmSearch" name="form1">-->
+		<form action="../search/search.asp" method="get" class="frmSearch" name="form1">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="strp" name="target" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>
+		
+		
+		
+        </div>
+        <!-- stop search -->
+        <br class="clear" />
+	</div>
+	
+	
+	<!-- end of virtual directory -->
+	<div class="hr_block"><hr /></div>
+	<!-- start content area -->
+	<div id="content_sub">
+		<!-- start left column -->
+		<div id="col_220l">
+			<h1>Study at ITB</h1>
+			<!-- start secondary nav -->
+			<div id="subnav">
+				<ul>
+                    <li><a href="newstudents.html">What's New</a></li>
+                    <li><a href="whyitb.html">Why choose ITB?</a></li>
+					<li><a href="appliedsocialstudies.HTML"  class="active">Applied Social Studies</a>
+							<ul>
+							<li><a href="appsocialstudft.html">Full time Courses</a></li>
+							<li><a href="appsocialstudpt.html">Part time Courses</a></li>
+						</ul>
+					</li>
+					<li><a href="apprenticeships.html">Apprenticeships &amp; Trades</a></li>
+					<li><a href="business.html">Business</a></li>
+					<li><a href="communityandyouthdevelopment.html">Community and Youth Development</a></li>	
+					<li><a href="computing.html">Computing</a></li>
+					<li><a href="creativedigitalmedia.html">Creative Digital Media</a></li>
+					<li><a href="earlychild.html">Early Childhood Care & Education</a></li>
+                    <li><a href="engineering.html">Engineering courses</a></li>
+                   <li><a href="horticulture.html">Horticulture</a></li>
+					<li><a href="languages.html">Languages</a></li>
+				
+                	<li><a href="sportsmanagementandcoaching.html">Sports Management and Coaching</a></li>
+					<li><a href="postgraduate.html">Postgraduate Courses</a></li>
+					<li><a href="internationalstudents.html">International Students</a></li>
+					
+					<!--<li>&nbsp;</li>-->
+				</ul>
+				<br />
+				<ul>			
+                 
+                    <li><a href="accessoffice.html">Access Office</a></li>
+				</ul>
+			</div>
+			<!-- stop secondary nav -->
+			<!-- start important links -->
+			<ul class="keylinks">
+				<li><a href="../HowtoApply/howtoapply.html">How to apply</a></li>
+				<li><a href="../Prospectus/prospectus.html">Request a Prospectus</a></li>
+				<li><a href="../Testimonials/testimonials.html">What our students say</a></li>
+				<li><a href="../ContactUs/contactus.html">Contact Us </a></li>
+			</ul>
+			<!-- stop important links -->
+			<br />
+		</div>
+		<!-- stop left column -->
+		<!-- start centre column -->
+		<div id="col_480">
+			<div class="grey_block">
+				<p class="font_11"><a href="javascript:window.print();"><img src="../images/icon_print.gif" alt="Print" width="25" height="17" class="vertical_align_images" /> Print Page</a> | <a href="javascript:setActiveStyleSheet('default');">A</a> | <a href="javascript:setActiveStyleSheet('large');" class="med">A</a> | <a href="javascript:setActiveStyleSheet('larger');" class="lrg">A</a></p>
+				
+				<h2><!-- InstanceBeginEditable name="PageTitle" -->Applied Social Studies <!-- InstanceEndEditable --></h2>
+				
+			</div>
+            <!-- start breadcrumb -->
+			<!-- InstanceBeginEditable name="breadcrumb" -->
+          <div id="breadcrumb">
+                 <p style="margin-bottom: 0"><a href="../homepage.asp">Home &gt;</a> <a href="index.html">Study at ITB &gt;</a> <a href="appsocialstud.html">Applied Social Studies </a> &gt;</p>
+          </div>
+		  <!-- InstanceEndEditable -->
+            <!-- stop breadcrumb -->
+			<!-- start content area -->
+			<div class="pad_content"><div id="content">
+
+<h3><!-- InstanceBeginEditable name="SubTitle" -->Overview<!-- InstanceEndEditable --></h3>
+<!-- InstanceBeginEditable name="BodyText" -->
+
+<p class="text_green style1 style3" style="margin-bottom: 0">WHAT</p>
+<p class="style4" style="margin-top:0;">Applied Social Studies helps you create change for others by developing yourself. On this course, students learn how to help others through learning about themselves. This course helps you help others to plan for a positive future.</p>
+<p class="style5" style="margin-bottom: 0;">WHY</p>
+<p class="style4" style="margin-top:0;">Social Care graduates can practice as social care workers in a variety of work places, including residential and day services for children and the elderly; people who are marginalized and disadvantaged and those with disability. Social care workers often progress with experience towards management and teaching roles. </p>
+<p class="style4" style="margin-bottom: 0;">&nbsp;</p>
+<p class="style5" style="margin-top:0; margin-bottom: 0;">WHO</p>
+<p class="style4" style="margin-top:0;">Open-minded, pragmatic people who are interested in enabling change through support, advocacy and guidance.</p>
+<p class="style4" style="margin-bottom: 0;">&nbsp;</p>
+<p class="style5" style="margin-top:0; margin-bottom: 0;">HOW</p>
+<p class="style4" style="margin-top:0; margin-bottom: 0;">For the duration of their course at ITB, students will study a wide and interesting variety of subjects across social care practice, psychology, sociology, and creative studies along with other subjects related to social care such as law, group working, health studies and inter cultural studies.</p>
+<p class="style4" style="margin-top:0;margin-bottom:0;">While on campus students can avail of our specially adapted social care training rooms where role-plays and interactive learning take place. </p>
+<p class="style4" style="margin-top:0;margin-bottom:0;">All students attend prearranged placements in a social care setting enabling them to apply their academic knowledge to a working environment while developing their skills as a competent and innovative social care worker.</p>
+<p class="style4" style="margin-top:0;">In ITB many of our team of lecturers have years of frontline experience as social care workers. In addition our lecturers in psychology and sociology are highly qualified in their discipline. </p>
+<p class="style4" style="margin-bottom: 0;">&nbsp;</p>
+<p class="style7" style="margin-top:0;"><a name="GardaVetting" id="GardaVetting"></a><a href="#GardaVetting">Garda Vetting Requirements </a></p>
+<p>As part of the course content, each student is required to successfully complete work placements in Year 2 and Year 3 of the Social Care course. In order to commence work placement, each student must undergo the ITB Garda vetting process. To ensure the protection of the public, and to justify public trust and confidence, the Institute is committed to ensuring that only suitable candidates are allowed to undertake specific parts of the programmes. Without satisfactory Garda clearance, students will be unable to complete the work placement and thus will not be able to complete the programme or receive an award. All places on the social care course are provisional and subject to the student obtaining satisfactory Garda vetting from the Central Garda Vetting Unit.&nbsp; The current legal minimum age for application for sole application for Garda vetting is 18 years of age.&nbsp; In the event of an applicant being between 16 and 18 years of age, written consent is also required from a parent or guardian.</p>
+<p>In addition to Garda vetting a medical assessment and provision of personal references may be required in regard to suitability for placement</p>
+<p style="margin-bottom: 0;">&nbsp;</p>
+<p style="margin-top: 0;"><strong>View our full range of <a href="appsocialstudft.html">full time</a> and <a href="appsocialstudpt.html">part time</a> Applied Social Studies courses...</strong></p>
+<p class="big_blue"><a href="appsocialstudft.html"><strong>Full time</strong> Applied Social Studies course list</a></p>
+<p class="big_blue"><a href="appsocialstudpt.html"><strong>Part time</strong> Applied Social Studies course list</a></p>
+
+
+<!-- InstanceEndEditable -->
+
+
+			</div></div>
+			<!-- stop content area -->
+		</div>
+		<!-- stop centre column -->
+		<!-- start right column -->
+		<div id="col_220r">
+			<!-- start subpage banner -->
+			<div id="banner_sp">&nbsp;</div>
+			<!-- stop subpage banner -->
+			<!-- start what our students say -->
+			<div class="callout">
+				<h2 class="call">What our students say...</h2>
+				<!-- InstanceBeginEditable name="StudentSays" --><img src="images/Laura_001.jpg" alt="Laura Davis" width="150" height="98" />
+<p class="font_11"><em>&quot;Coming back as a mature student to ITB gave me the opportunity to pursue my future career and dreams of working in the Applied Social Care area. There are a wide variety of modules, work placement being one of them. This is the best way of experiencing hands-on social care work. I'm really enjoying my time here. I've gained a lot returning to full time education and my life has changed in ways I didn't think possible.&quot;</em><br />
+  <strong>Laura Davis</strong>,<br />
+  <a href="../Testimonials/socialcare.html">Bachelor of Arts in Applied Social Studies</a></p>
+		    <!-- InstanceEndEditable -->
+			</div>
+			<!-- start what our students say -->
+			<!-- start map link -->
+			<div class="callout">
+				<a href="../Location/howtogetthere.html"><img src="../files/area_map.gif" alt="Area / Transport Map" width="150" height="106" class="imageblock" /></a>			</div>
+			<!-- start map link -->
+			<br />
+		</div>
+		<!-- stop right column -->
+		<br class="clear" />
+	</div>
+	<!-- stop content area -->
+	<!-- start footer -->
+	<div id="footer">
+		<div class="foot_507">
+			<div style="float:right;width:249px;"><img src="../files/eu-sfp.gif" alt="Ireland's EU Structural Funds Programme" width="168" height="57" /><img src="../images/StructFund.jpg" alt="European Social Fund" width="76" height="70" style="margin-right:5px;" /></div>
+			<p>&copy; Institi&uacute;id Teicneola&iacute;ochta, Baile Bhlains&eacute;ir, B&oacute;thar Bhaile Bhlains&eacute;ir Thuaidh,<br />Baile &Aacute;tha Cliath 15</p>
+			<ul><li id="nav_disclaimer"><a title="Disclaimer" href="../Disclaimer/index.html">Disclaimer</a></li>
+			<li id="nav_sitemap"><a title="Sitemap" href="../Sitemap/index.html">Sitemap</a></li>
+			<li id="nav_access"><a title="Accessibility" href="../Accessibility/index.html">Accessibility</a></li>
+			</ul>
+		</div>
+		<div class="foot_427"><p>Institute of Technology Blanchardstown, Blanchardstown Road North, Dublin 15</p><p>Tel: +353 (1) 8851000 |  Fax: +353 (1) 8851001 | Email: <a href="mailto:info@itb.ie">info@itb.ie</a></p>
+		<p><a href="../Disclaimer/cookie.html">Cookie Policy</a></p>
+		</div>
+	</div>
+
+	<!-- stop footer -->
+</div>
+<!-- close page container -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6699818-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

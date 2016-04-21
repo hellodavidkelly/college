@@ -1,0 +1,665 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<!-- start of server/head-include-1.html -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<meta name="DC.title" content="gnu.org" />
+<!-- end of server/head-include-1.html -->
+
+<!-- end of server/header.html -->
+
+<!-- Parent-Version: 1.77 -->
+
+
+<title>Speeches and Interviews
+- GNU Project - Free Software Foundation</title>
+
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/speeches-and-interview.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/speeches-and-interview.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/speeches-and-interview.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="da" hreflang="da" href="/philosophy/speeches-and-interview.da.html" title="dansk" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/speeches-and-interview.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/speeches-and-interview.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="gl" hreflang="gl" href="/philosophy/speeches-and-interview.gl.html" title="galego" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/speeches-and-interview.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/speeches-and-interview.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/philosophy/speeches-and-interview.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/speeches-and-interview.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/combo.css" media="screen" />
+<link rel="stylesheet" href="/mini.css" media="handheld" />
+<link rel="stylesheet" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" href="/print.min.css" media="print" />
+<style type="text/css" media="print,screen">
+
+
+.crm-amount-fill {
+  background: #f2cd5f;
+  color: black;
+  border-radius: 1em;
+  padding-right: .3em; padding-left: .3em;
+  width: 100%;
+}
+.crm-amount-high {
+  float: right;
+}
+div.donate_btn {
+  float: right;
+}
+</style>
+<style type="text/css" media="print,screen">
+<!--
+div.fundraiser {
+  font-family: "FreeSans", sans-serif;
+  padding: .5em 1.5% .5em 1.5%;
+  background-color: #ced7ff;
+  background: -webkit-linear-gradient(#b4c2ff, white);
+  background: -o-linear-gradient(#b4c2ff, white);
+  background: -moz-linear-gradient(#b4c2ff, white);
+  background: linear-gradient(#b4c2ff, white);
+  border-top: .2em solid #5272fd;
+}
+.fundraiser a {
+  color: black;
+}
+.crm-amount-high {
+  padding: 0 .3em;
+  background-color: #4a5a6a;
+  border-radius: 1em;
+}
+.crm-amount-bar {
+  border-radius: 1em;
+  background-color: #778796;
+  color: white;
+  border: .1em solid #4a5a6a;
+  margin-bottom: .5em;
+}
+div.donate_btn {
+  margin: 1.5em 0 0 1.5em;
+}
+.donate_btn a{
+  display: block;
+  text-decoration: none;
+  font-weight:bold;
+  padding: 0.4em 1em;
+  color: black;
+  background-color: #f2cd5f;
+  text-align: center;
+  border: .1em solid #CCA832;
+  border-radius: 1em;
+}
+@media (max-width: 30em) {
+   .fundraiser {
+    display: none;
+  }
+}
+-->
+</style>
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+
+
+
+
+
+<div id="toplinks">
+ <a href="#content">Skip to main text</a>
+ <span class="gnun-split"></span>
+ <a href="/server/select-language.html?callback=/philosophy/speeches-and-interview.html" rel="nofollow">
+ Set language
+ <span class="gnun-split"></span>
+ </a>
+</div> <!-- /toplinks -->
+
+<div id="searcher">
+ <form method="get" action="//www.gnu.org/cgi-bin/estseek.cgi">
+  <div>
+  <input name="phrase" id="phrase" type="text" size="18" accesskey="s"
+         value="Why GNU/Linux?" onfocus="this.value=''" />
+  <input type="submit" value="Search" />
+  </div>
+ </form>
+</div><!-- /searcher -->
+
+<div id="translations">
+<p>
+<span dir="ltr" class="original"><a lang="en" hreflang="en" href="/philosophy/speeches-and-interview.en.html">English</a>&nbsp;[en]</span> &nbsp;
+<span dir="ltr"><a lang="bg" hreflang="bg" href="/philosophy/speeches-and-interview.bg.html">български</a>&nbsp;[bg]</span> &nbsp;
+<span dir="ltr"><a lang="da" hreflang="da" href="/philosophy/speeches-and-interview.da.html">dansk</a>&nbsp;[da]</span> &nbsp;
+<span dir="ltr"><a lang="de" hreflang="de" href="/philosophy/speeches-and-interview.de.html">Deutsch</a>&nbsp;[de]</span> &nbsp;
+<span dir="ltr"><a lang="fr" hreflang="fr" href="/philosophy/speeches-and-interview.fr.html">français</a>&nbsp;[fr]</span> &nbsp;
+<span dir="ltr"><a lang="gl" hreflang="gl" href="/philosophy/speeches-and-interview.gl.html">galego</a>&nbsp;[gl]</span> &nbsp;
+<span dir="ltr"><a lang="ja" hreflang="ja" href="/philosophy/speeches-and-interview.ja.html">日本語</a>&nbsp;[ja]</span> &nbsp;
+<span dir="ltr"><a lang="nl" hreflang="nl" href="/philosophy/speeches-and-interview.nl.html">Nederlands</a>&nbsp;[nl]</span> &nbsp;
+<span dir="ltr"><a lang="ro" hreflang="ro" href="/philosophy/speeches-and-interview.ro.html">română</a>&nbsp;[ro]</span> &nbsp;
+<span dir="ltr"><a lang="ru" hreflang="ru" href="/philosophy/speeches-and-interview.ru.html">русский</a>&nbsp;[ru]</span> &nbsp;
+</p>
+</div>
+
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+<div id="header">
+<div id="fsf-frame">
+<p id="join-fsf"><a href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a></p>
+<div id="fssbox">
+<p><a href="http://www.fsf.org/fss">Free Software Supporter</a></p>
+<form action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31" method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+ </div>
+ <p>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </p>
+</form>
+</div><!-- /fssbox -->
+</div><!-- /fsf-frame -->
+
+<div id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.small.png" alt=" [A GNU head] " /><strong>GNU</strong> Operating System</a>
+</div><!-- /gnu-banner -->
+
+<p id="fsf-support">Sponsored by the <a href="#mission-statement">Free Software Foundation</a></p>
+
+</div><!-- /header -->
+
+<div id="navigation">
+
+ <ul>
+  <li id="tabAboutGNU"><a href="/gnu/gnu.html">About&nbsp;GNU</a></li>
+  <li id="tabPhilosophy"><a href="/philosophy/philosophy.html">Philosophy</a></li>
+  <li id="tabLicenses"><a href="/licenses/licenses.html">Licenses</a></li>
+  <li id="tabEducation"><a href="/education/education.html">Education</a></li>
+  <li id="tabSoftware"><a href="/software/software.html">Software</a></li>
+  <li id="tabDoc"><a href="/doc/doc.html">Documentation</a></li>
+  <li id="tabHelp"><a href="/help/help.html">Help&nbsp;GNU</a></li>
+ </ul>
+
+</div><!--  /navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content">
+<!-- end of server/banner.html -->
+
+
+<div id="education-content">
+
+<!-- begin philosophy/philosophy-menu.html -->
+
+<!-- begin edu navigation bar -->
+<ul id="edu-navigation">
+	<li><a href="/philosophy/philosophy.html">Introduction</a></li>
+	<li><a href="http://audio-video.gnu.org/">Audio and video</a></li>
+	<li><a href="/philosophy/essays-and-articles.html">Essays and articles</a></li>
+	<li><a href="/philosophy/speeches-and-interview.html">Speeches and interviews</a></li>
+	<li><a href="/philosophy/third-party-ideas.html">Third party ideas</a></li>
+	<li><a href="/server/sitemap.html#directory-philosophy">All philosophy articles</a></li>
+</ul>
+<!-- end edu navigation bar -->
+
+<!-- end philosophy/philosophy-menu.html -->
+
+
+</div> <!-- id="education-content" -->
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<h2>Speeches and Interviews</h2>
+
+<blockquote><p>
+See the <a href="https://www.fsf.org/tedx"
+>video recording</a>
+(and <a href="https://static.fsf.org/nosvn/RMS_Intro_to_FS_TEDx_Slideshow.odp">slides</a>)
+of Richard Stallman's TEDx talk in Geneva, Switzerland on April 7, 2014.
+</p></blockquote>
+
+<p>Here are more of Stallman's speech and interview recordings, listed
+in reverse chronological order.  Further recordings of speeches and
+other Free Software Foundation and GNU project events are available at
+<a href="https://audio-video.gnu.org">https://audio-video.gnu.org</a>.</p>
+
+<ul>
+ <li><a href="https://audio-video.gnu.org/video/#2015-07-10--rms--a-free-digital-society">A Free Digital Society</a>,
+   video recording of a talk given by Richard M. Stallman at Gerthsen-Hörsaal
+   in Karlsruhe, Germany on July 10, 2015.</li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2015-05-27--rms--chania--greece">Video</a> and
+   <a href="https://audio-video.gnu.org/audio/#2015-05-27--rms--chania--greece">audio</a>
+   recordings of a talk given by Richard M. Stallman at the Technical University of Crete
+   in Chani&aacute;, Greece on May 27, 2015.</li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2015-05-12--rms--logiciels-libres-et-l-education">Logiciels Libres et l'éducation (in French)</a>,
+   video recording of a talk given by Richard M. Stallman at Amphi Guilcher, Faculté Segalen
+   in Brest, France on May 12, 2015.</li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2015-03-16--rms--free-software-and-your-freedom">Free Software and Your Freedom</a>,
+   video recording of a talk given by Richard M. Stallman at Grainger Auditorium
+   in Champaign-Urbana, IL, USA on March 16, 2015.</li>
+
+ <li><a href="https://audio-video.gnu.org/audio/#2014-12-29--rms--freedom-in-your-computer-and-in-the-net">Audio</a>
+   and
+   <a href="https://audio-video.gnu.org/video/#2014-12-29--rms--freedom-in-your-computer-and-in-the-net">video</a>
+   recordings of &ldquo;Free Software in Your Computer and in the Net&rdquo;,
+   a talk given by Richard M. Stallman at Congress Centrum
+   in Hamburg, Germany on December 29, 2014.</li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2014-12-04--rms--por-una-sociedad-digital-libre">Por una Sociedad Digital Libre (in Spanish)</a>,
+   video recording of a talk given by Richard M. Stallman at Salón de Actos, Facultad de Informática de la Universidad Complutense de Madrid
+   in Madrid, Spain on December 4, 2014.</li>
+
+ <li><a href="https://audio-video.gnu.org/audio/#2014-11-21--rms--internet-le-logiciel-libre-et-l-entreprise-libertes-sans-frontiere">Le logiciel libre et ta liberté (in French)</a>,
+   audio recording of a talk given by Richard M. Stallman
+   in Paris, France on November 21, 2014.</li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2014-11-07--rms--copyright-vs-community">Copyright vs. Community</a>,
+   video recording of a talk given by Richard M. Stallman at Hoffman Hall, Portland State University
+   in Portland, OR, USA on November 7, 2014.</li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2014-10-17-libre-software-libre-education">Libre Software, Libre Education</a>,
+   video recording of a talk given by Richard M. Stallman at Butler Library, Columbia University
+   in New York, NY, USA on October 17, 2014.</li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2014-10-14--stallman--uga">Should We Have More Surveillance Than the USSR?</a>,
+   video recording of a talk given by Richard M. Stallman at The University of Georgia Chapel
+   in Athens, GA, USA on October 14, 2014.</li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2014-07-06--rms--le-logiciel-libre-et-ta-liberte">Le logiciel libre et ta liberté (in French)</a>,
+   video recording of a talk given by Richard M. Stallman at Esplanade Charles de Gaulle
+   in Montpellier, France on July 06, 2014.</li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2014-05-11--rms--a-free-digital-society">A Free Digital Society</a>,
+   video recording of a talk given by Richard M. Stallman at National Chi Nan University
+   in Puli, Nantou, Taiwan on May 11, 2014.</li>
+
+ <li><a href="https://archive.org/details/RichardStallmanInterviewByJustinHall201403">
+    Freedom, Malware &amp; Cannibalism</a>, video recording of an interview
+    conducted by Justin Hall in March, 2014.</li>
+
+ <li><a href="http://hackerpublicradio.org/eps.php?id=1116">
+   Audio recording of Richard Stallman interviewed by Hacker
+   Public Radio</a> conducted on November 12, 2012</li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2012-RMS-SFD-Iran">Welcome to Software Freedom Day</a>,
+   video recording of a talk given by Richard M. Stallman at the Free Software Foundation
+   office in Boston, MA, USA on September 11, 2012 for the Iran Software Freedom Day.</li>
+
+ <li><a href="/philosophy/ough-interview.html">Richard Stallman
+   interviewed by Theodoros Papatheodorou</a>, transcript of an
+   interview conducted in May, 2012.</li>
+
+<li>Richard Stallman was <a href="http://liberte-info.net/interviews/richard_stallman.html"> interviewed by Medhi on May 14 2012.</a></li>
+
+ <li><a href="https://audio-video.gnu.org/video/#2012-02-29--rms--free-software-and-your-freedom">Free Software and Your Freedom</a>,
+   video recording of a talk given by Richard M. Stallman at XIX SINFO,
+   Instituto Superior Técnico in Lisbon, Portugal on February 29, 2012.</li>
+
+ <li><a href="/philosophy/rms-aj.html">RMS on Alex Jones Show</a>,
+   transcript of an interview conducted on January 19, 2012.</li>
+
+ <li><a href="/philosophy/free-digital-society.html">A Free Digital
+Society</a>, transcript of a talk by <a
+href="http://www.stallman.org">Richard Stallman</a>.</li>
+
+ <li><a href="/philosophy/the-law-of-success-2.html">The Law of
+Success 2.0: An Interview with Richard Stallman</a>, with Haegwan Kim,
+posted November 4, 2010.</li>
+
+ <li><a href="http://www.greenleft.org.au/node/45532">Richard Stallman and the free software movement</a>,
+   transcript of an interview with
+  <a href="http://www.stallman.org">Richard Stallman</a>.</li>
+
+ <li><a href="/philosophy/rms-on-radio-nz.html">RMS on Radio New Zealand</a>.
+   Transcript of an interview with Richard Stallman, October 2009.</li>
+
+ <li><a href="/philosophy/copyright-versus-community.html"
+  id="StallmanTalkLSM">Copyright versus community in the age of
+  computer networks</a>: transcript of a keynote by Richard Stallman at
+  the LIANZA conference in Christchurch, New Zealand, on October 12,
+  2009.</li>
+
+ <li><a href="/philosophy/danger-of-software-patents.html">The Danger
+  of Software Patents</a>, transcript of a talk by
+  <a href="http://www.stallman.org">Richard Stallman</a>.</li>
+
+  <li><a href="http://broadcast.oreilly.com/2009/04/stallman-discusses-free-softwa.html">Transcript of an interview with Richard Stallman</a> conducted by
+  Federico Biancuzzi for O'Reilly Media. As well as a wide-ranging discussion of
+  developments in  Free Software licencing the interview covers issues including
+  the history and current activities of the FSF, the spread of DMCA-like laws
+  around the world, software patents and the need for free device drivers.</li>
+
+  <li><a href="http://web.archive.org/web/20111114124839/http://nb.inode.co.nz/articles/rmsrnz/index.html">Transcript
+  of an interview</a> with Richard Stallman for Radio New Zealand,
+  conducted by Kim Hill on August 9, 2008.  It covers various topics
+  &mdash; free software, the dawn of the free software movement, the
+  fallacy of the term &ldquo;intellectual property&rdquo;, Google's
+  services and New Zealand's Copyright laws.</li>
+
+  <li><a href="http://web.archive.org/web/20090516000904/http://www.zeuux.org/philosophy/billxu-rms-fsm-ancient-to-gplv2.html">
+  Free Software Movement: From Genesis to the GNU GPL version 2</a>,
+  an interview with Richard Stallman conducted by Bill Xu
+  (<a href="http://web.archive.org/web/20100621084138/http://www.zeuux.org/philosophy/billxu-rms-fsm-ancient-to-gplv2.cn.html">Chinese
+  version</a> also available).</li>
+
+  <li><a
+  href="https://audio-video.gnu.org/video/copy_vs_comm.ogg">Video
+  recording of Copyright vs. Community speech</a> with <a
+  href="https://audio-video.gnu.org/video/copy_vs_comm.txt">brief
+  text description</a>, given by Richard Stallman on July 5, 2007
+  in Mississauga, Ontario, Canada.</li>
+
+  <li><a href="/philosophy/rms-kol.html">Transcript of a speech</a>
+  given by <a href="http://www.stallman.org">Richard Stallman</a>
+  about free software and the West Bengal government, in Kolkata
+  (formerly Calcutta) on August, 2006.</li>
+
+  <li><a href="http://archive.org/details/QuestionsPleaseOnFreeSoftware">Jonathan
+  Roberts interviews Richard Stallman and others</a> on free software.</li>
+
+  <li><a href="http://web.archive.org/web/20090907065901/http://www.zeuux.org/law/billxu-rms-drm.html">Bill
+  Xu interviews Richard Stallman on DRM</a>. You can also read
+  it <a href="http://web.archive.org/web/20100621070721/http://www.zeuux.org/law/billxu-rms-drm.cn.html">in
+  Chinese</a>.</li>
+
+  <li>Eben Moglen, <a href="http://punkcast.com/964/">Free
+  Software and Free Media</a>, at the Jefferson Market Library
+  in New York, New York, May 3, 2006 for the Metropolitan NY Chapter
+  of the Internet Society</li>
+
+  <li><a href="https://web.archive.org/web/20080218094340/http://www.zmag.org/content/showarticle.cfm?SectionID=13&amp;ItemID=9350">
+      Richard Stallman interviewed</a> by Justin Podur on Free
+      Software as a Social Movement, 01 December 2005</li>
+
+  <li><a href="http://www.oreillynet.com/lpt/a/6222">Richard Stallman
+      interviewed</a> by Federico Biancuzzi about the importance of
+      the GPL, for ONLamp.com, 22 September 2005</li>
+
+  <li><a href="http://wm-eddie.info/rms.html">Presentation of the goals
+     and philosophy of the GNU operating system</a> by
+     <a href="http://www.stallman.org">Richard Stallman</a> at the
+     University of Pittsburgh, April 7th 2005 </li>
+
+  <li><a href="http://www.stallman.org">Richard Stallman</a>'s
+        <a  href="https://web.archive.org/web/20050517082933/http://www.ofb.biz/modules.php?name=News&amp;file=article&amp;sid=353">
+    interview</a> with Timothy R. Butler on &ldquo;The state of
+    GNU/Linux&rdquo;, 31 March 2005.</li>
+
+  <li><a href="/philosophy/google-engineering-talk.html">GNU &amp; The Free
+    Software Foundation</a>, an Engineering Tech Talk at Google by
+    <a href="http://www.stallman.org">Richard Stallman</a>, 2004</li>
+
+  <li><a href="/philosophy/nit-india.html">Transcript of a speech</a>
+     on free software given by <a href="http://www.stallman.org">
+     Richard M. Stallman</a> at National Institute of Technology,
+     Trichy, India, 17 February 2004.</li>
+
+<li><a href="http://www.stallman.org">Richard
+   Stallman</a>'s <a href="http://web.archive.org/web/20050310003435/http://www.neteconomie.com/perl/navig.pl/neteconomie/infos/article/20041208104640">
+   interview with NetEconomie.com [Archived Page]</a> (In French) 10 December
+   2004</li>
+
+  <li><a href="/philosophy/patent-practice-panel.html">Transcript of a panel
+    presentation</a>, <cite>New developments in patent practice:
+    assessing the risks and cost of portfolio licensing and
+    hold-ups</cite>, given by Daniel B. Ravicher as the executive
+    director of the Public Patent Foundation on Wednesday, November
+    10, 2004, at a conference organized by the Foundation for a Free
+    Information Infrastructure (FFII) in Brussels, Belgium</li>
+
+<li><a href="http://www.ariel.com.au/a/rms-unsw.html">Synopsis of a
+   speech</a> given by <a href="http://www.stallman.org">Richard
+   M. Stallman</a> about software patents on 14 October 2004.</li>
+
+<li><a href="/philosophy/rms-interview-edinburgh.html">Interview</a>
+   with Richard Stallman that took place at the School of Informatics,
+   Edinburgh University, on 27<sup>th</sup> May 2004.  Originally
+   published at Indymedia, most of the questions are about the
+   relationship between the free software movement and other social
+   movements, and the different values of the &ldquo;open
+   source&rdquo; campaign.</li>
+
+<li><a href="http://web.archive.org/web/20040603002019/http://laurel.datsi.fi.upm.es/~fsanchez/rms/" >
+    Web page with interviews/audio/video from speeches in Madrid (May 2004) [Archived Page]</a>
+    given by <a href="http://www.stallman.org">Richard M. Stallman</a> (site is in Spanish)
+    </li>
+
+<li><a href="/philosophy/moglen-harvard-speech-2004.html" >Transcript
+    of a speech</a> about copyright law and SCO given
+    by <a href="http://emoglen.law.columbia.edu/" >Prof. Eben
+    Moglen</a> at Harvard on 23 February, 2004.</li>
+
+<li><a href="/philosophy/wsis-2003.html">Transcript of a speech</a>
+   about free software and sustainable development given
+   by <a href="http://www.stallman.org">Richard M. Stallman</a> at
+   WSIS, 16 July 2003.</li>
+
+<li><a href="/philosophy/rieti.html">Transcript of a speech</a> about
+  the future of free software given
+  by <a href="http://www.stallman.org">Richard M. Stallman</a>, 21
+  April 2003.</li>
+
+<li><a
+href="https://audio-video.gnu.org/audio/bradley-m-kuhn-software-freedom-and-the-gnu-generation-07-2002.ogg">
+    Audio recording of a speech, <cite>Software Freedom and the GNU
+    Generation</cite>, given by Bradley M. Kuhn</a> 22 April
+    2003.</li>
+
+<li><a href="/philosophy/2002-linuxexpo-paris.fr.html">Transcript of a
+    speech</a> given <em>in French</em> by Richard Stallman at
+    &ldquo;LinuxExpo&rdquo;, Paris, 2002.</li>
+
+<li><a href="https://audio-video.gnu.org/audio/rms-speech-cambridgeuni-england2002.ogg">Audio
+    recording of a speech, <cite>Software Patents:Obstacles to
+    software development</cite>, given by Richard M. Stallman at the
+    University of Cambridge, England</a> 25th March 2002.
+    A <a href="/philosophy/software-patents.html">transcript of the
+    speech</a> is also available.</li>
+
+<li><a href="http://www.stallman.org">Richard Stallman</a>'s interview in 2002, about <a href="/philosophy/rms-hack.html">
+    the hacker community and ethics</a>. This interview is also <a
+    href="http://web.archive.org/web/20100903110335/http://www.uta.fi/~fiteva/rms_int_fi.html">available
+    in Finnish</a> [Archived].</li>
+<li><a href="http://www.stallman.org">Richard Stallman</a>'s <a href="https://web.archive.org/web/20030314184246/http://www.mytech.it/mytech/internet/art006010045404.jsp">
+    interview, <cite>Perch&eacute; l'open source non &egrave; tutto</cite>, in Italian,</a> to the Mytech website, 22 April 2003.  (The title reads, <cite>Why Open Source is not all</cite>.)</li>
+
+<li><a href="https://audio-video.gnu.org/audio/rms-speech-qmul-london2002.ogg">Audio
+    recording of a speech, <cite>Copyright vs Community in the age of
+    computer Networks</cite>, given by Richard M. Stallman at Queen
+    Mary University of London, England</a> 12th Feb 2002.</li>
+
+<li><a href="https://audio-video.gnu.org/audio/francais/rms-speech-paris-30-jan-2002.ogg">Audio
+  recording in French of a speech, <cite>l'&eacute;thique du
+  syst&egrave;me GNU/Linux et de la communaut&eacute; des logiciels
+  libres, les t&acirc;ches &agrave; accomplir et les risques &agrave;
+  envisager</cite>, given by Richard M. Stallman at CNIT &agrave; la
+  D&eacute;fense, Paris, France.</a> 27th Jan 2002.</li>
+
+<li><a href="http://www.april.org/actions/rms/20011120/stream.html">Audio recordings and a partial transcript</a> of the conference given by <a href="http://www.stallman.org">Richard M. Stallman</a> to the French National Assembly on 20th November 2001.</li>
+
+<li><a href="/philosophy/stallman-mec-india.html">Transcript of the speech, <cite>The Danger of Software Patents</cite></a> by <a href="http://www.stallman.org">Richard M. Stallman</a> given at Government Model Engineering College, India on 24th July 2001.  <!-- (Content is removed, the site shows 'Page Not Found' - 25-Mar-2011 - shailesh) Also, the MEC has posted an <a href="http://www.mec.ac.in/events/rms/">audio recording and transcript</a> at their website.--></li>
+
+<li><a href="http://www.stallman.org">Richard
+    Stallman</a>'s <a href="/philosophy/luispo-rms-interview.html">
+    interview</a> about free software and business with Louis
+    Suarez-Potts in May of 2001.</li>
+
+<li><a href="https://audio-video.gnu.org/audio/rms-speech-nyu2001.ogg">Audio
+    recording of a speech, <cite>Free Software: Freedom and
+    Cooperation</cite>, given by Richard M. Stallman at New York
+    University</a>.
+    A <a href="/events/rms-nyu-2001-transcript.html">transcript of the
+    speech</a> is also available.</li>
+
+<li><a href="/philosophy/copyright-and-globalization.html">Transcript of
+    a speech, <cite>Copyright and Globalization in the Age of Computer
+    Networks</cite>, given by Richard M. Stallman at MIT</a>.</li>
+
+<li><a href="https://audio-video.gnu.org/audio/rms-speech-mit2001.ogg">Audio
+    recording of a speech, <cite>Copyright and Globalization in the
+    Age of Computer Networks</cite>, given by Richard M. Stallman at
+    MIT</a>.</li>
+
+<li><a href="https://audio-video.gnu.org/audio/rms-speech-arsdigita2001.ogg">Audio
+    recording of a speech, <cite>The Free Software Movement and the
+    GNU/Linux Operating System</cite>, given by Richard M. Stallman at
+    ArsDigita University</a>.</li>
+
+<li><a href="https://audio-video.gnu.org/audio/rms-speech-slovenia-2000.ogg">Audio
+    recording of a speech, <cite>The Free Software Movement and the
+    GNU/Linux Operating System</cite>, given by Richard M. Stallman at
+    Auditorium Smelt, Ljubljana, Slovenia</a>.</li>
+
+<li><a href="https://audio-video.gnu.org/audio/rms-speech-linuxtag2000.ogg">Audio
+    recording of a speech, <cite>The Free Software Movement and the
+    GNU/Linux Operating System</cite>, given by Richard M. Stallman at
+    LinuxTag 2000</a>.</li>
+
+<li><a href="/philosophy/copyright-versus-community-2000.html">Copyright 
+  versus Community in the Age of Computer Networks</a>, transcription of a
+  speech by Richard Stallman, 2000.</li>
+
+<li><a href="https://audio-video.gnu.org/audio/rms-speech-cglug2000.ogg">Audio
+    recording of a speech, <cite>The Free Software Movement and the
+    GNU/Linux Operating System</cite>, given by Richard M. Stallman at
+    the University of Cincinnati</a>.</li>
+
+  <li><a href="http://www.april.org/actions/rms/10111998/texte.html">Transcription (in French)</a> of a
+       speech that
+       <a href="http://www.stallman.org/">Richard Stallman</a>
+       gave in 1998 at the University of
+       Paris.</li>
+  <li><a href="/philosophy/greve-clown.html">English translation of a
+       speech</a> about the history and philosophy of the GNU Project
+       that Georg Greve gave in 1998 at the GNU/Linux Cluster
+       &ldquo;CLOWN&rdquo; in Germany
+       (<a href="/philosophy/greve-clown.de.html">German
+       original</a>).</li>
+  <li><a href="/gnu/byte-interview.html">BYTE Interview</a>
+       in July 1986 with
+       <a href="http://www.stallman.org/">Richard Stallman</a> about
+       the development of the GNU system.</li>
+  <li>A <a href="/philosophy/stallman-kth.html">speech</a>
+       that <a href="http://www.stallman.org/">Richard Stallman</a>
+       gave in 1986 at the Royal Institute of Technology in
+       Sweden about the hacker community and the early days of the
+       free software movement.</li>
+   
+
+<li>An <a href="https://audio-video.gnu.org/audio/francais">index of French recordings at audio-video.gnu.org</a> is also available.</li>
+</ul>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+<div id="fsf-links">
+ <ul>
+  <li><a href="/">GNU&nbsp;home&nbsp;page</a></li>
+  <li><a href="http://www.fsf.org/">FSF&nbsp;home&nbsp;page</a></li>
+  <li><a href="/graphics/graphics.html">GNU&nbsp;Art</a></li>
+  <li><a href="/people/people.html">GNU's&nbsp;Who?</a></li>
+  <li><a href="http://directory.fsf.org">Free&nbsp;Software&nbsp;Directory</a></li>
+  <li><a href="https://h-node.org/">Hardware</a></li>
+  <li><a href="/server/sitemap.html">Site&nbsp;map</a></li>
+ </ul>
+</div><!-- /fsf-links -->
+
+<div id="mission-statement">
+
+<blockquote>
+<p><a href="http://www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext.png" alt=" [FSF logo] "/></a><strong>&ldquo;Our
+mission is to preserve, protect and promote the freedom to use, study,
+copy, modify, and redistribute computer software, and to defend the
+rights of Free Software users.&rdquo;</strong></p>
+</blockquote>
+
+<p>The <a href="http://www.fsf.org">Free Software Foundation</a> is
+the principal organizational sponsor of the GNU Operating System.
+<strong>Support GNU and the FSF</strong> by <a
+href="http://shop.fsf.org/">buying manuals and gear</a>, <a
+href="https://my.fsf.org/associate/support_freedom?referrer=4052">
+<strong>joining the FSF</strong></a> as an associate member, or making
+a <strong>donation</strong>, either <a
+href="http://donate.fsf.org/">directly to the FSF</a> or <a
+href="http://flattr.com/thing/313733/gnuproject-on-Flattr">via
+Flattr</a>.</p>
+
+<p id="backtotop"><a href="#header">back to top</a></p>
+
+</div><!-- /mission-statement -->
+<!-- end server/footer-text.html -->
+
+
+<div id="footer">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and submitting translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations README</a> for
+information on coordinating and submitting translations of this article.</p>
+</div>
+
+<p>Copyright &copy; 1996-2013, 2015, 2016 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div class="unprintable">
+<p><a href="http://www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+
+
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2016/03/26 17:07:54 $
+<!-- timestamp end -->
+</p>
+</div>
+</div>
+</body>
+</html>

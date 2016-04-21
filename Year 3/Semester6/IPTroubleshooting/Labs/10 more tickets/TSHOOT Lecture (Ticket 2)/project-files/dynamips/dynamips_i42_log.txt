@@ -1,0 +1,54 @@
+Apr 20 15:27:59.633 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 20 15:27:59.633 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55650.
+Apr 20 15:27:59.945 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 20 15:28:00.008 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 20 15:28:00.008 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 2)\project-files\dynamips 
+Apr 20 15:28:00.008 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 2)\project-files\dynamips
+Apr 20 15:28:00.008 HYPERVISOR: exec_cmd: vm create ASW1 1 c3725 
+Apr 20 15:28:00.008 VM: VM ASW1 created.
+Apr 20 15:28:00.023 HYPERVISOR: exec_cmd: vm set_con_tcp_port ASW1 2501 
+Apr 20 15:28:00.023 HYPERVISOR: exec_cmd: vm set_aux_tcp_port ASW1 2100 
+Apr 20 15:28:00.039 HYPERVISOR: exec_cmd: c3725 get_mac_addr ASW1 
+Apr 20 15:28:00.039 HYPERVISOR: exec_cmd: vm slot_add_binding ASW1 0 16 WIC-1T 
+Apr 20 15:28:00.039 HYPERVISOR: exec_cmd: vm slot_add_binding ASW1 0 32 WIC-1T 
+Apr 20 15:28:00.039 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:28:00.039 HYPERVISOR: exec_cmd: vm set_idle_pc ASW1 0x6026b804 
+Apr 20 15:28:00.054 HYPERVISOR: exec_cmd: vm set_ram ASW1 192 
+Apr 20 15:28:00.086 HYPERVISOR: exec_cmd: vm set_ios ASW1 C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 20 15:28:00.086 HYPERVISOR: exec_cmd: vm slot_add_binding ASW1 0 48 WIC-1T 
+Apr 20 15:28:00.132 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:28:00.132 HYPERVISOR: exec_cmd: vm slot_add_binding ASW1 1 0 NM-16ESW 
+Apr 20 15:28:00.132 HYPERVISOR: exec_cmd: c3725 set_mac_addr ASW1 c201.1970.0000 
+Apr 20 15:28:00.132 HYPERVISOR: exec_cmd: vm set_config ASW1 configs/i1_startup-config.cfg 
+Apr 20 15:28:00.491 HYPERVISOR: exec_cmd: vm set_ghost_status ASW1 2 
+Apr 20 15:28:00.491 HYPERVISOR: exec_cmd: vm set_ghost_file ASW1 C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 20 15:28:01.287 HYPERVISOR: exec_cmd: nio create_udp nio_udp124 10004 127.0.0.1 10005 
+Apr 20 15:28:01.318 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW1 1 2 nio_udp124 
+Apr 20 15:28:01.318 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:28:01.380 HYPERVISOR: exec_cmd: nio create_udp nio_udp126 10006 127.0.0.1 10007 
+Apr 20 15:28:01.396 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW1 1 3 nio_udp126 
+Apr 20 15:28:01.396 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:28:01.458 HYPERVISOR: exec_cmd: nio create_udp nio_udp128 10008 127.0.0.1 10009 
+Apr 20 15:28:01.490 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW1 1 10 nio_udp128 
+Apr 20 15:28:01.521 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:28:01.568 HYPERVISOR: exec_cmd: nio create_udp nio_udp130 10010 127.0.0.1 10011 
+Apr 20 15:28:01.599 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW1 1 11 nio_udp130 
+Apr 20 15:28:01.661 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:28:02.270 HYPERVISOR: exec_cmd: nio create_udp nio_udp144 10025 127.0.0.1 10024 
+Apr 20 15:28:02.285 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW1 1 5 nio_udp144 
+Apr 20 15:28:02.285 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:28:02.394 HYPERVISOR: exec_cmd: nio create_udp nio_udp145 10027 127.0.0.1 10026 
+Apr 20 15:28:02.472 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW1 1 6 nio_udp145 
+Apr 20 15:28:02.488 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:28:06.669 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:28:06.669 HYPERVISOR: exec_cmd: vm start ASW1 
+Apr 20 15:38:54.153 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:38:54.153 HYPERVISOR: exec_cmd: vm stop ASW1 
+Apr 20 15:38:54.418 VM: VM ASW1 shutdown.
+Apr 20 15:39:16.213 HYPERVISOR: exec_cmd: vm extract_config ASW1 
+Apr 20 15:39:16.712 HYPERVISOR: exec_cmd: vm get_status ASW1 
+Apr 20 15:39:16.728 HYPERVISOR: exec_cmd: vm extract_config ASW1 
+Apr 20 15:39:16.744 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 20 15:39:16.759 HYPERVISOR: Stopped.
+Apr 20 15:39:16.759 VM: VM ASW1 destroyed.
+Apr 20 15:39:16.759 GENERAL: reset done.

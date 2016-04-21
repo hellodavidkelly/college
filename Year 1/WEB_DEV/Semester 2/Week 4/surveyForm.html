@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'> <title>Survey</title>
+		<style>
+			@import url(style.css);
+		</style>
+</head>
+<body>
+
+	<form action="feedbackForm.html" method = "post">
+		
+		<fieldset>
+			
+			<legend> Your Information</legend>
+				First name: <input type="text" name="firstName" required placeholder = "Enter first name" autofocus>
+				<br>
+				Last name: <input type="text" name="lastName" required placeholder = "Enter last name">
+				<br>
+				Email Address: <input type="email" name="email">
+				<br>
+				Phone Number: <input type="tel" pattern="[0-9]{7}" name="phone" title="7 digits" required>
+		
+		</fieldset>	
+		
+		<fieldset>
+			
+			<legend>How did you hear about us?</legend>
+				<input type="radio" name="Search engine"> Search Engine
+				<input type="radio" name="Word of mouth"> Word of mouth
+				<input type="radio" name="other"> Other
+
+		</fieldset>	
+		
+		<fieldset>
+			
+			<legend>Special Offers</legend>
+				<input type="checkbox" checked> Yes. Would you like to receive announcements about new DVDs and special offers?
+				<br>
+				<br>
+				Please contact me by:
+				<select name="contact" id="contactMenu" size="1">
+					<option value="email">Email</option>
+					<option value="post">Post</option>
+					<option value="text">Text</option>
+				</select>
+		</fieldset>	
+		<br>
+			
+			<div id="buttons">
+				<input type ="submit" name="submit" id="submit" value="Send">
+				<input type ="reset" name="reset" id="reset" value="Reset">
+			</div>
+	</form>
+
+</body>
+</html>

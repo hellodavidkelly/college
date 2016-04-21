@@ -1,0 +1,4 @@
+UNIX was still owned by AT&T, the company did little commercially with it until the mid-1980's. Then the spotlight of X/Open showed clearly that a single, standard version of the UNIX system would be in the wider interests of  the industry and its customers. The question now was, "which version?".
+
+In a move intended to unify the market in 1987, AT&T announced a pact with Sun Microsystems, the leading proponent of the Berkeley derived strain of UNIX. However, the rest of the industry viewed the development with considerable concern. Believing that their own markets were under threat they clubbed together to develop their own "new" open systems operating system. Their new organization was called the Open Software Foundation (OSF). In response to this, the AT&T/Sun faction formed UNIX International.
+

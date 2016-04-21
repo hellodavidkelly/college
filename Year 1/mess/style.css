@@ -1,0 +1,23 @@
+body
+	{
+	background-color: #F7F2F2;
+	margin: 0px;
+	padding: 0px;
+	}
+
+img
+	{
+	width: 200px;
+	margin-left: 100px;
+    filter: url(filters.svg#grayscale);
+    filter: gray; /* IE6-9 */
+    -webkit-filter: blur(3px);
+	}
+
+img:active
+	{
+    filter: none;
+	width: 432px;
+    -webkit-filter: grayscale(0);
+	}
+

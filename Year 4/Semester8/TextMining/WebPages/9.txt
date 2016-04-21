@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="../Templates/how_to_apply.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Institute of Technology Blanchardstown :: How to Apply</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="meta" -->
+<meta name="description" content="[publisher desc]" />
+<meta name="keywords" content="[publisher custom1]" />
+<meta name="author" content="Strata3 - http://www.strata3.com/" />
+<!-- InstanceEndEditable -->
+<link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="../ssi/css/screen.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/large.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/larger.css" title="larger" />
+<link rel="stylesheet" type="text/css" media="print" href="../ssi/css/print.css" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie7.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie6.css" /><![endif]-->
+
+<script type="text/javascript" src="../ssi/js/styleswitcher.js"></script>
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body id="howto_apply" class="bg_sp">
+
+<!-- open page container -->
+<div id="contain">
+	<!--this is the top menu bar and banner -->
+
+	
+	<!-- start header -->
+	<div id="header">
+		<div id="logo"><a href="../homepage.asp" title="ITB homepage" accesskey="0"><img src="../images/itb_logo.gif" alt="Institute of Technology Blanchardstown" width="300" height="83" border="0" /></a></div>
+		<div id="top">
+			<div class="hd_250"><ul><li id="nav_cf"><a title="Course Finder" href="../CourseFinder/index.html">Course Finder</a></li>
+			<li id="nav_hta"><a title="How to Apply" href="../HowtoApply/howtoapply.html">How to Apply</a></li>
+			</ul></div>
+			<br class="clear" />
+			<div class="hd_660">
+				<ul>
+					<li id="nav_home"><a title="Home" href="../homepage.asp">Home</a></li>
+					<li id="nav_about"><a title="About ITB" href="../AboutITB/index.html">About ITB</a></li>
+					<!--<li id="nav_cs"><a title="Current Students" href="../CurrentStudents/index.html">Current Students</a></li>-->
+					<li id="nav_ns"><a title="News & Events" href="../NewsEvents/newsdetailmore.asp">News &amp; Events</a></li>
+					<li id="nav_library"><a title="Library" href="http://www.blanchlib.itb.ie/" target="_blank">Library</a></li>
+					<li id="nav_intranet"><a title="Intranet" href="http://elan:8888" target="_blank">Intranet</a></li>
+					<li id="nav_careers"><a title="Careers at ITB" href="../Vacancies/index.html">Careers at ITB</a></li>
+					<li id="nav_map"><a title="Our Location" href="../Location/howtogetthere.html">Our Location</a></li>
+					<li id="nav_sd"><a title="Staff Directory" href="../StaffDirectory/staffdirectory.asp">Staff Directory</a></li>
+				</ul>
+			</div>
+			<br class="clear" />
+		</div>
+	</div>
+	<!-- stop header -->
+	<!-- start nav/search -->
+	<div id="nav_search">
+        <!-- start navigation -->
+        <div id="navigation">
+            <ul>
+                <li id="nav_study"><a title="Study at ITB" href="../StudyatITB/index.html">Study at ITB</a></li>
+                 <li id="nav_cs"><a title="Study at ITB" href="../CurrentStudents/index.html">Current Students</a></li>
+                <li id="nav_cslife"><a title="Campus & Student Life" href="../CampusStudentLife/index.html">Campus  Life</a></li>
+                <li id="nav_research"><a title="Research at ITB" href="../ResearchatITB/index.html">Research</a></li>
+                <li id="nav_ii"><a title="Industry & Innovation" href="../IndustryInnovation/index.html">Industry &amp; Innovation</a></li>
+            </ul>
+        </div>
+        <!-- stop navigation -->
+        <!-- start search -->
+        <div id="search">
+        <!--<form action="#" method="get" class="frmSearch">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="search_term" name="search_term" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>-->
+		
+		<!--<form action="../search/search.asp" method="get" class="frmSearch" name="form1">-->
+		<form action="../search/search.asp" method="get" class="frmSearch" name="form1">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="strp" name="target" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>
+		
+		
+		
+        </div>
+        <!-- stop search -->
+        <br class="clear" />
+	</div>
+	
+	
+	<!-- end of virtual directory -->
+	
+	<!-- stop nav/search -->
+	<div class="hr_block"><hr /></div>
+	<!-- start content area -->
+	<div id="content_wide">
+		<!-- start left column -->
+		<div id="col_220l">
+			<h1>How to Apply </h1>
+			<!-- start secondary nav -->
+			<div id="subnav">
+				<ul>
+					<li><a href="cao.html">CAO Applicants  </a></li>
+					<li><a href="direct.html">Direct Applications </a></li>
+					<li><a href="parttime.html">Part-time</a></li>
+					<li><a href="international.html">International Applicants  </a></li>
+				</ul>
+			</div>
+			<!-- stop secondary nav -->
+			<!-- start important links -->
+			<ul class="keylinks">
+				<li><a href="../Prospectus/prospectus.html">Request a Prospectus</a></li>
+				<li><a href="../Testimonials/testimonials.html">What our students say</a></li>
+				<li><a href="../ContactUs/contactus.html">Contact Us</a></li>
+			</ul>
+			<!-- stop important links -->
+			<br />
+		</div>
+		<!-- stop left column -->
+		<!-- start centre column -->
+		<div id="col_700">
+			<div class="grey_block">
+				<p class="font_11"><a href="javascript:window.print();"><img src="../images/icon_print.gif" alt="Print" width="25" height="17" class="vertical_align_images" /> Print Page</a> | <a href="javascript:setActiveStyleSheet('default');">A</a> | <a href="javascript:setActiveStyleSheet('large');" class="med">A</a> | <a href="javascript:setActiveStyleSheet('larger');" class="lrg">A</a></p>
+				<h2>Overview </h2>
+			</div>
+            <!-- start breadcrumb -->
+            <div id="breadcrumb">
+                 <p><a href="../homepage.asp">Home &gt; </a><a href="howtoapply.html">How to Apply</a>  &gt;</p>
+            </div>
+            <!-- stop breadcrumb -->
+			<!-- start content area -->
+			<div class="pad_content"><div id="content">
+
+<h3><!-- InstanceBeginEditable name="Sub Title" -->How to Apply?<!-- InstanceEndEditable --></h3>
+
+<!-- InstanceBeginEditable name="body" -->
+
+<div class="feature">
+	<img src="../files/banners/sections/apply-cao.gif" alt="CAO" width="150" height="103" />
+	<h3><a href="cao.html">CAO Applicants</a></h3>
+	<p style="margin-bottom: 0;">Anyone seeking a first year undergraduate place on a full-time course at ITB must apply for it via the Central Applications Office. The CAO is the national organisation that accepts applications for admission to undergraduate courses in institutions of higher education in Ireland. <a href="cao.html">More details</a>. </p>
+</div>
+
+<div class="feature">
+	<img src="../files/banners/sections/direct-itb.gif" alt="Direct" width="150" height="97" />
+	<h3><a href="direct.html">Direct Applications</a>  </h3>
+	<p style="margin-bottom: 0;">ITB offers courses where application is made directly to ITB. Applicants should read this section for details on applying for level 7 and Level 8 add-on degrees and how to apply for advanced entry to ITB courses.  <a href="direct.html">More details</a>.</p>
+</div>
+
+<div class="feature">
+	<img src="../files/banners/sections/part-time.gif" alt="Part Time" width="150" height="103" />
+	<h3><a href="https://www.itb.ie/StudentCategories/parttime.html">Part Time</a></h3>
+	<p style="margin-bottom: 0;">Part-time courses allow you to combine full-time employment with education. You can maintain an income and work towards your educational objective at a pace that suits your particular circumstances. At ITB we have designed our part-time programmes in a way which accommodates the competing commitments of employment and education.<a href="https://www.itb.ie/StudentCategories/parttime.html"> More details.</a></p>
+</div>
+
+<div class="feature">
+	<img src="../files/banners/sections/internation-students.gif" alt="International Students" width="150" height="103" />
+	<h3><a href="international.html">International Applicants</a>  </h3>
+	<p style="margin-bottom: 0;">Instruction for all courses at ITB is normally through English (excluding any language modules) and applicants who do not have Leaving Certificate English must provide evidence of equivalent competence through school leaving or matriculation examinations or achievements of a minimum standard in recognised tests of English as listed. <a href="international.html">More details</a>.</p>
+</div>
+
+
+
+<!-- InstanceEndEditable -->
+</div></div>
+			<!-- stop content area -->
+		</div>
+		<!-- stop centre column -->
+		<br class="clear" />
+	</div>
+	<!-- stop content area -->
+	<!-- start footer -->
+	<div id="footer">
+		<div class="foot_507">
+			<div style="float:right;width:249px;"><img src="../files/eu-sfp.gif" alt="Ireland's EU Structural Funds Programme" width="168" height="57" /><img src="../images/StructFund.jpg" alt="European Social Fund" width="76" height="70" style="margin-right:5px;" /></div>
+			<p>&copy; Institi&uacute;id Teicneola&iacute;ochta, Baile Bhlains&eacute;ir, B&oacute;thar Bhaile Bhlains&eacute;ir Thuaidh,<br />Baile &Aacute;tha Cliath 15</p>
+			<ul><li id="nav_disclaimer"><a title="Disclaimer" href="../Disclaimer/index.html">Disclaimer</a></li>
+			<li id="nav_sitemap"><a title="Sitemap" href="../Sitemap/index.html">Sitemap</a></li>
+			<li id="nav_access"><a title="Accessibility" href="../Accessibility/index.html">Accessibility</a></li>
+			</ul>
+		</div>
+		<div class="foot_427"><p>Institute of Technology Blanchardstown, Blanchardstown Road North, Dublin 15</p><p>Tel: +353 (1) 8851000 |  Fax: +353 (1) 8851001 | Email: <a href="mailto:info@itb.ie">info@itb.ie</a></p>
+		<p><a href="../Disclaimer/cookie.html">Cookie Policy</a></p>
+		</div>
+	</div>
+
+	<!-- stop footer -->
+</div>
+<!-- close page container -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6699818-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,115 @@
+
+body
+	{
+	background-color: #D5C8EE;
+	font-family: monospace;
+	}
+
+#left
+	{
+	float: left;
+	margin: 0px;
+	}
+	
+#right
+	{
+	float: right;
+	margin: 0px;
+	}
+
+h1	
+	{
+	text-align: center;
+	}
+
+h2
+	{
+	text-align: center;
+	color: white;
+	background-color: black;
+	}
+		
+h3	
+	{
+	text-align: left;
+	}
+
+form
+	{
+	width: 710px;
+	margin-left: 150px;
+	}
+
+strong
+	{
+	color: red;
+	font-size: small;
+	}
+
+fieldset
+	{
+	margin-top: 10px;
+	background-color: #35C0CD;
+	}
+
+legend
+	{
+	color: #FFB573;
+	background-color: #A0374F;
+	border: 3px solid #015C65;
+	}
+	
+input:focus
+	{ 
+	background-color:#E5FB71;
+	}
+	
+input[type ="checkbox"], select, textArea, input[type ="file"]
+	{
+	margin-left:10px;
+	}
+
+label
+	{
+	width:150px;
+	text-align: right;
+	color: blue;
+	}
+	
+label,input
+	{
+	display: block;
+	float: left;
+	}
+
+br
+	{
+	clear: left;
+	}
+
+#buttons
+	{
+	margin-left: 45%;
+	}
+
+.radio 
+	{
+	float:left;
+	width:80px;
+	}
+	
+.strong
+	{
+	float: left;
+	}	
+	
+.check 
+	{
+	float:left;
+	width:140px;
+	}
+	
+.order
+	{
+	margin-left: 140px;
+	}

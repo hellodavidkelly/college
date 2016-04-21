@@ -1,0 +1,552 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<!-- start of server/head-include-1.html -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<meta name="DC.title" content="gnu.org" />
+<!-- end of server/head-include-1.html -->
+
+<!-- end of server/header.html -->
+
+<!-- Parent-Version: 1.77 -->
+<title>Initial Announcement - GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/gnu/initial-announcement.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/gnu/initial-announcement.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/gnu/initial-announcement.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/gnu/initial-announcement.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="ca" hreflang="ca" href="/gnu/initial-announcement.ca.html" title="català" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/gnu/initial-announcement.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/gnu/initial-announcement.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/gnu/initial-announcement.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/gnu/initial-announcement.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="he" hreflang="he" href="/gnu/initial-announcement.he.html" title="עברית" />
+<link rel="alternate" type="text/html" lang="hr" hreflang="hr" href="/gnu/initial-announcement.hr.html" title="hrvatski" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/gnu/initial-announcement.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/gnu/initial-announcement.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/gnu/initial-announcement.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/gnu/initial-announcement.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/gnu/initial-announcement.pt-br.html" title="português do Brasil" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/gnu/initial-announcement.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/gnu/initial-announcement.sq.html" title="Shqip" />
+<link rel="alternate" type="text/html" lang="sv" hreflang="sv" href="/gnu/initial-announcement.sv.html" title="svenska" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/gnu/initial-announcement.uk.html" title="українська" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/combo.css" media="screen" />
+<link rel="stylesheet" href="/mini.css" media="handheld" />
+<link rel="stylesheet" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" href="/print.min.css" media="print" />
+<style type="text/css" media="print,screen">
+
+
+.crm-amount-fill {
+  background: #f2cd5f;
+  color: black;
+  border-radius: 1em;
+  padding-right: .3em; padding-left: .3em;
+  width: 100%;
+}
+.crm-amount-high {
+  float: right;
+}
+div.donate_btn {
+  float: right;
+}
+</style>
+<style type="text/css" media="print,screen">
+<!--
+div.fundraiser {
+  font-family: "FreeSans", sans-serif;
+  padding: .5em 1.5% .5em 1.5%;
+  background-color: #ced7ff;
+  background: -webkit-linear-gradient(#b4c2ff, white);
+  background: -o-linear-gradient(#b4c2ff, white);
+  background: -moz-linear-gradient(#b4c2ff, white);
+  background: linear-gradient(#b4c2ff, white);
+  border-top: .2em solid #5272fd;
+}
+.fundraiser a {
+  color: black;
+}
+.crm-amount-high {
+  padding: 0 .3em;
+  background-color: #4a5a6a;
+  border-radius: 1em;
+}
+.crm-amount-bar {
+  border-radius: 1em;
+  background-color: #778796;
+  color: white;
+  border: .1em solid #4a5a6a;
+  margin-bottom: .5em;
+}
+div.donate_btn {
+  margin: 1.5em 0 0 1.5em;
+}
+.donate_btn a{
+  display: block;
+  text-decoration: none;
+  font-weight:bold;
+  padding: 0.4em 1em;
+  color: black;
+  background-color: #f2cd5f;
+  text-align: center;
+  border: .1em solid #CCA832;
+  border-radius: 1em;
+}
+@media (max-width: 30em) {
+   .fundraiser {
+    display: none;
+  }
+}
+-->
+</style>
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+
+
+
+
+
+<div id="toplinks">
+ <a href="#content">Skip to main text</a>
+ <span class="gnun-split"></span>
+ <a href="/server/select-language.html?callback=/gnu/initial-announcement.html" rel="nofollow">
+ Set language
+ <span class="gnun-split"></span>
+ </a>
+</div> <!-- /toplinks -->
+
+<div id="searcher">
+ <form method="get" action="//www.gnu.org/cgi-bin/estseek.cgi">
+  <div>
+  <input name="phrase" id="phrase" type="text" size="18" accesskey="s"
+         value="Why GNU/Linux?" onfocus="this.value=''" />
+  <input type="submit" value="Search" />
+  </div>
+ </form>
+</div><!-- /searcher -->
+
+<div id="translations">
+<p>
+<span dir="ltr" class="original"><a lang="en" hreflang="en" href="/gnu/initial-announcement.en.html">English</a>&nbsp;[en]</span> &nbsp;
+<span dir="ltr"><a lang="ar" hreflang="ar" href="/gnu/initial-announcement.ar.html">العربية</a>&nbsp;[ar]</span> &nbsp;
+<span dir="ltr"><a lang="bg" hreflang="bg" href="/gnu/initial-announcement.bg.html">български</a>&nbsp;[bg]</span> &nbsp;
+<span dir="ltr"><a lang="ca" hreflang="ca" href="/gnu/initial-announcement.ca.html">català</a>&nbsp;[ca]</span> &nbsp;
+<span dir="ltr"><a lang="cs" hreflang="cs" href="/gnu/initial-announcement.cs.html">čeština</a>&nbsp;[cs]</span> &nbsp;
+<span dir="ltr"><a lang="de" hreflang="de" href="/gnu/initial-announcement.de.html">Deutsch</a>&nbsp;[de]</span> &nbsp;
+<span dir="ltr"><a lang="es" hreflang="es" href="/gnu/initial-announcement.es.html">español</a>&nbsp;[es]</span> &nbsp;
+<span dir="ltr"><a lang="fr" hreflang="fr" href="/gnu/initial-announcement.fr.html">français</a>&nbsp;[fr]</span> &nbsp;
+<span dir="ltr"><a lang="he" hreflang="he" href="/gnu/initial-announcement.he.html">עברית</a>&nbsp;[he]</span> &nbsp;
+<span dir="ltr"><a lang="hr" hreflang="hr" href="/gnu/initial-announcement.hr.html">hrvatski</a>&nbsp;[hr]</span> &nbsp;
+<span dir="ltr"><a lang="it" hreflang="it" href="/gnu/initial-announcement.it.html">italiano</a>&nbsp;[it]</span> &nbsp;
+<span dir="ltr"><a lang="ja" hreflang="ja" href="/gnu/initial-announcement.ja.html">日本語</a>&nbsp;[ja]</span> &nbsp;
+<span dir="ltr"><a lang="nl" hreflang="nl" href="/gnu/initial-announcement.nl.html">Nederlands</a>&nbsp;[nl]</span> &nbsp;
+<span dir="ltr"><a lang="pl" hreflang="pl" href="/gnu/initial-announcement.pl.html">polski</a>&nbsp;[pl]</span> &nbsp;
+<span dir="ltr"><a lang="pt-br" hreflang="pt-br" href="/gnu/initial-announcement.pt-br.html">português&nbsp;do&nbsp;Brasil</a>&nbsp;[pt-br]</span> &nbsp;
+<span dir="ltr"><a lang="ru" hreflang="ru" href="/gnu/initial-announcement.ru.html">русский</a>&nbsp;[ru]</span> &nbsp;
+<span dir="ltr"><a lang="sq" hreflang="sq" href="/gnu/initial-announcement.sq.html">Shqip</a>&nbsp;[sq]</span> &nbsp;
+<span dir="ltr"><a lang="sv" hreflang="sv" href="/gnu/initial-announcement.sv.html">svenska</a>&nbsp;[sv]</span> &nbsp;
+<span dir="ltr"><a lang="uk" hreflang="uk" href="/gnu/initial-announcement.uk.html">українська</a>&nbsp;[uk]</span> &nbsp;
+</p>
+</div>
+
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+<div id="header">
+<div id="fsf-frame">
+<p id="join-fsf"><a href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a></p>
+<div id="fssbox">
+<p><a href="http://www.fsf.org/fss">Free Software Supporter</a></p>
+<form action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31" method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+ </div>
+ <p>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </p>
+</form>
+</div><!-- /fssbox -->
+</div><!-- /fsf-frame -->
+
+<div id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.small.png" alt=" [A GNU head] " /><strong>GNU</strong> Operating System</a>
+</div><!-- /gnu-banner -->
+
+<p id="fsf-support">Sponsored by the <a href="#mission-statement">Free Software Foundation</a></p>
+
+</div><!-- /header -->
+
+<div id="navigation">
+
+ <ul>
+  <li id="tabAboutGNU"><a href="/gnu/gnu.html">About&nbsp;GNU</a></li>
+  <li id="tabPhilosophy"><a href="/philosophy/philosophy.html">Philosophy</a></li>
+  <li id="tabLicenses"><a href="/licenses/licenses.html">Licenses</a></li>
+  <li id="tabEducation"><a href="/education/education.html">Education</a></li>
+  <li id="tabSoftware"><a href="/software/software.html">Software</a></li>
+  <li id="tabDoc"><a href="/doc/doc.html">Documentation</a></li>
+  <li id="tabHelp"><a href="/help/help.html">Help&nbsp;GNU</a></li>
+ </ul>
+
+</div><!--  /navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content">
+<!-- end of server/banner.html -->
+
+<h2>Initial Announcement</h2>
+
+<p> This is the original announcement of the GNU Project, posted by
+<a href="http://www.stallman.org/">Richard Stallman</a> on September
+27, 1983.</p>
+
+<p> The actual history of the GNU Project differs in many ways from
+this initial plan. For example, the beginning was delayed until
+January 1984. Several of the philosophical concepts
+of <a href="/philosophy/free-sw.html">free software</a> were not
+clarified until a few years later.</p>
+
+<h3>Free Unix!</h3>
+
+<p>Starting this Thanksgiving I am going to write a complete
+Unix-compatible software system called GNU (for Gnu's Not Unix), and
+give it away free<a href="#f1">(1)</a> to everyone who can use it.
+Contributions of time, money, programs and equipment are greatly
+needed.</p>
+
+<p>To begin with, GNU will be a kernel plus all the utilities needed
+to write and run C programs: editor, shell, C compiler, linker,
+assembler, and a few other things.  After this we will add a text
+formatter, a YACC, an Empire game, a spreadsheet, and hundreds of
+other things.  We hope to supply, eventually, everything useful that
+normally comes with a Unix system, and anything else useful, including
+on-line and hardcopy documentation.</p>
+
+<p>GNU will be able to run Unix programs, but will not be identical to
+Unix.  We will make all improvements that are convenient, based on our
+experience with other operating systems.  In particular, we plan to
+have longer filenames, file version numbers, a crashproof file system,
+filename completion perhaps, terminal-independent display support, and
+eventually a Lisp-based window system through which several Lisp
+programs and ordinary Unix programs can share a screen.  Both C and
+Lisp will be available as system programming languages.  We will have
+network software based on MIT's chaosnet protocol, far superior to
+UUCP.  We may also have something compatible with UUCP.</p>
+
+
+<h3>Who Am I?</h3>
+
+<p>I am Richard Stallman, inventor of the original much-imitated EMACS
+editor, now at the Artificial Intelligence Lab at MIT.  I have worked
+extensively on compilers, editors, debuggers, command interpreters,
+the Incompatible Timesharing System and the Lisp Machine operating
+system.  I pioneered terminal-independent display support in ITS.  In
+addition I have implemented one crashproof file system and two window
+systems for Lisp machines.</p>
+
+<h3>Why I Must Write GNU</h3>
+
+<p>I consider that the golden rule requires that if I like a program I
+must share it with other people who like it.  I cannot in good
+conscience sign a nondisclosure agreement or a software license
+agreement.</p>
+
+<p>So that I can continue to use computers without violating my
+principles, I have decided to put together a sufficient body of free
+software so that I will be able to get along without any software that
+is not free.</p>
+
+
+<h3>How You Can Contribute</h3>
+
+<p>I am asking computer manufacturers for donations of machines and
+money.  I'm asking individuals for donations of programs and work.</p>
+
+<p>One computer manufacturer has already offered to provide a machine.  But
+we could use more.  One consequence you can expect if you donate
+machines is that GNU will run on them at an early date.  The machine had
+better be able to operate in a residential area, and not require
+sophisticated cooling or power.</p>
+
+<p>Individual programmers can contribute by writing a compatible duplicate
+of some Unix utility and giving it to me.  For most projects, such
+part-time distributed work would be very hard to coordinate; the
+independently-written parts would not work together.  But for the
+particular task of replacing Unix, this problem is absent.  Most
+interface specifications are fixed by Unix compatibility.  If each
+contribution works with the rest of Unix, it will probably work
+with the rest of GNU.</p>
+
+<p>If I get donations of money, I may be able to hire a few people full or
+part time.  The salary won't be high, but I'm looking for people for
+whom knowing they are helping humanity is as important as money.  I view
+this as a way of enabling dedicated people to devote their full energies to
+working on GNU by sparing them the need to make a living in another way.</p>
+
+
+<p>For more information, contact me.</p>
+
+<p>Arpanet mail:<br />
+  RMS@MIT-MC.ARPA</p>
+
+<p>Usenet:<br />
+  ...!mit-eddie!RMS@OZ<br />
+  ...!mit-vax!RMS@OZ</p>
+
+<p>US Snail:<br />
+  Richard Stallman<br />
+  166 Prospect St<br />
+  Cambridge, MA 02139</p>
+
+
+<h4 id="f1">Poor choice of wording around &ldquo;free&rdquo;</h4>
+
+<p>The wording here was careless.  The intention was that nobody would
+have to pay for <b>permission</b> to use the GNU system.  But the
+words don't make this clear, and people often interpret them as saying
+that copies of GNU should always be distributed at little or no
+charge.  That was never the intent.</p>
+
+<h3>Original message</h3>
+
+<p>For completeness, the original email is reproduced here, in its
+original form.</p>
+
+<div dir="ltr">
+<pre><!--TRANSLATORS: Don't translate anything except the headers.-->
+From CSvax:pur-ee:inuxc!ixn5c!ihnp4!houxm!mhuxi!eagle!mit-vax!mit-eddie!RMS@MIT-OZ
+From: RMS%MIT-OZ@mit-eddie
+Newsgroups: net.unix-wizards,net.usoft
+Subject: new Unix implementation
+Date: Tue, 27-Sep-83 12:35:59 EST
+Organization: MIT AI Lab, Cambridge, MA
+
+Free Unix!
+
+Starting this Thanksgiving I am going to write a complete
+Unix-compatible software system called GNU (for Gnu's Not Unix), and
+give it away free<a href="#f1">(1)</a> to everyone who can use it.
+Contributions of time, money, programs and equipment are greatly
+needed.
+
+To begin with, GNU will be a kernel plus all the utilities needed to
+write and run C programs: editor, shell, C compiler, linker,
+assembler, and a few other things.  After this we will add a text
+formatter, a YACC, an Empire game, a spreadsheet, and hundreds of
+other things.  We hope to supply, eventually, everything useful that
+normally comes with a Unix system, and anything else useful, including
+on-line and hardcopy documentation.
+
+GNU will be able to run Unix programs, but will not be identical
+to Unix.  We will make all improvements that are convenient, based
+on our experience with other operating systems.  In particular,
+we plan to have longer filenames, file version numbers, a crashproof
+file system, filename completion perhaps, terminal-independent
+display support, and eventually a Lisp-based window system through
+which several Lisp programs and ordinary Unix programs can share a screen.
+Both C and Lisp will be available as system programming languages.
+We will have network software based on MIT's chaosnet protocol,
+far superior to UUCP.  We may also have something compatible
+with UUCP.
+
+
+Who Am I?
+
+I am Richard Stallman, inventor of the original much-imitated EMACS
+editor, now at the Artificial Intelligence Lab at MIT.  I have worked
+extensively on compilers, editors, debuggers, command interpreters, the
+Incompatible Timesharing System and the Lisp Machine operating system.
+I pioneered terminal-independent display support in ITS.  In addition I
+have implemented one crashproof file system and two window systems for
+Lisp machines.
+
+
+Why I Must Write GNU
+
+I consider that the golden rule requires that if I like a program I
+must share it with other people who like it.  I cannot in good
+conscience sign a nondisclosure agreement or a software license
+agreement.
+
+So that I can continue to use computers without violating my principles,
+I have decided to put together a sufficient body of free software so that
+I will be able to get along without any software that is not free.
+
+
+How You Can Contribute
+
+I am asking computer manufacturers for donations of machines and money.
+I'm asking individuals for donations of programs and work.
+
+One computer manufacturer has already offered to provide a machine.  But
+we could use more.  One consequence you can expect if you donate
+machines is that GNU will run on them at an early date.  The machine had
+better be able to operate in a residential area, and not require
+sophisticated cooling or power.
+
+Individual programmers can contribute by writing a compatible duplicate
+of some Unix utility and giving it to me.  For most projects, such
+part-time distributed work would be very hard to coordinate; the
+independently-written parts would not work together.  But for the
+particular task of replacing Unix, this problem is absent.  Most
+interface specifications are fixed by Unix compatibility.  If each
+contribution works with the rest of Unix, it will probably work
+with the rest of GNU.
+
+If I get donations of money, I may be able to hire a few people full or
+part time.  The salary won't be high, but I'm looking for people for
+whom knowing they are helping humanity is as important as money.  I view
+this as a way of enabling dedicated people to devote their full energies to
+working on GNU by sparing them the need to make a living in another way.
+
+
+For more information, contact me.
+Arpanet mail:
+  RMS@MIT-MC.ARPA
+
+Usenet:
+  ...!mit-eddie!RMS@OZ
+  ...!mit-vax!RMS@OZ
+
+US Snail:
+  Richard Stallman
+  166 Prospect St
+  Cambridge, MA 02139
+</pre>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+<div id="fsf-links">
+ <ul>
+  <li><a href="/">GNU&nbsp;home&nbsp;page</a></li>
+  <li><a href="http://www.fsf.org/">FSF&nbsp;home&nbsp;page</a></li>
+  <li><a href="/graphics/graphics.html">GNU&nbsp;Art</a></li>
+  <li><a href="/people/people.html">GNU's&nbsp;Who?</a></li>
+  <li><a href="http://directory.fsf.org">Free&nbsp;Software&nbsp;Directory</a></li>
+  <li><a href="https://h-node.org/">Hardware</a></li>
+  <li><a href="/server/sitemap.html">Site&nbsp;map</a></li>
+ </ul>
+</div><!-- /fsf-links -->
+
+<div id="mission-statement">
+
+<blockquote>
+<p><a href="http://www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext.png" alt=" [FSF logo] "/></a><strong>&ldquo;Our
+mission is to preserve, protect and promote the freedom to use, study,
+copy, modify, and redistribute computer software, and to defend the
+rights of Free Software users.&rdquo;</strong></p>
+</blockquote>
+
+<p>The <a href="http://www.fsf.org">Free Software Foundation</a> is
+the principal organizational sponsor of the GNU Operating System.
+<strong>Support GNU and the FSF</strong> by <a
+href="http://shop.fsf.org/">buying manuals and gear</a>, <a
+href="https://my.fsf.org/associate/support_freedom?referrer=4052">
+<strong>joining the FSF</strong></a> as an associate member, or making
+a <strong>donation</strong>, either <a
+href="http://donate.fsf.org/">directly to the FSF</a> or <a
+href="http://flattr.com/thing/313733/gnuproject-on-Flattr">via
+Flattr</a>.</p>
+
+<p id="backtotop"><a href="#header">back to top</a></p>
+
+</div><!-- /mission-statement -->
+<!-- end server/footer-text.html -->
+
+
+<div id="footer">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and submitting translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and submitting translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 3.0 US.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 1983, 1999, 2007, 2008, 2009, 2013, 2014
+Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/3.0/us/">Creative
+Commons Attribution-NoDerivs 3.0 United States License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div class="unprintable">
+<p><a href="http://www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+
+
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2014/04/12 12:39:38 $
+<!-- timestamp end -->
+</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>ITB Library General Information</title>
+<link rel="StyleSheet" href="../Alpha3.css" type="text/css" media="screen">
+<style type="text/css">
+<!--
+.style2 {color: #FF0000}
+.style3 {font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #FF0000; }
+-->
+</style>
+</head>
+</html>
+s
+<html>
+<head>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000000" alink="#000000" topmargin="0" leftmargin="0">
+
+
+
+<center>
+<br>
+
+<table width="640" border="1" cellpadding="5" cellspacing="0" bordercolor="#FFFFFF">
+  <tr> 
+    <td valign="top" align="left">&nbsp;</td>
+    <td valign="bottom" align="right"> <a href="http://blanchlib.itb.ie" target="_parent"><img src="img/itbhomelogo.gif" alt="Library Home" width="100" height="33" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2"> <p>&nbsp;</p>
+      <p><img src="img/m02a.jpg" width="100" height="150" align="right"></p>
+      <ul>
+        <li><a href="#opening"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Opening 
+          Hours and Calendar</font></a></li>
+        <li><a href="#libregs"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Library 
+          Regulations</font></a></li>
+        <li><a href="#faq"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Frequently 
+        Asked Questions</font></a><br>
+          <br>
+        </li>
+      </ul>
+      <p align="center" class="MsoNormal">&nbsp;</p>
+      <p align="center" class="MsoNormal">&nbsp;</p>
+      <p align="center" class="MsoNormal">&nbsp;</p>
+      <p align="center" class="MsoNormal">&nbsp;</p>
+      <p align="center" class="MsoNormal">&nbsp;</p>
+      <p align="center" class="MsoNormal">&nbsp;</p>
+      <p align="center" class="MsoNormal">&nbsp;</p>
+      <p align="center" class="MsoNormal"><span class="MsoNormal"><b style="mso-bidi-font-weight: normal"><span lang="EN-IE" style="FONT-FAMILY: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"><font color="#336633" size="5" face="Arial, Helvetica, sans-serif">Libra</font></span><span lang="EN-IE" style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"><font color="#336633" size="5" face="Arial, Helvetica, sans-serif">ry and Student Information Desk </font></span><span lang="EN-IE" style="FONT-FAMILY: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"><font color="#336633" size="5" face="Arial, Helvetica, sans-serif">Opening 
+        Hours </font></span><font size="5"><span lang="EN-IE" style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"><font color="#336633" face="Arial, Helvetica, sans-serif">2015-2016</font></span></font><span lang="EN-IE" style="FONT-SIZE: 14pt; FONT-FAMILY: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE">
+        <o:p>        </o:p>
+        </span></b></span><b style="mso-bidi-font-weight: normal"><span lang="EN-IE" style="FONT-SIZE: 14pt; FONT-FAMILY: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"></span></b></p>
+      <p class="MsoNormal">&nbsp;</p>
+      <p align="center" class="MsoNormal"><b style="mso-bidi-font-weight: normal"><span lang="EN-IE" style="FONT-SIZE: 14pt; FONT-FAMILY: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"><font color="#336633">Normal Opening hours :</font></span></b></p>
+      <table width="100%" border="1" cellspacing="1" cellpadding="1">
+        <tr>
+          <td colspan="2"><div align="center"><font color="#336633" face="Arial, Helvetica, sans-serif" class="green"><strong> <strong><em>Library opening hours&nbsp; (during semester)</em></strong> </strong></font></div></td>
+        </tr>
+        <tr>
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Monday to Thursday </font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">9.15am to 8pm</font></td>
+        </tr>
+        <tr>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">Friday</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">9.15am to 5pm</font></td>
+        </tr>
+        <tr>
+          <td colspan="2"><div align="center"><font color="#336633" face="Arial, Helvetica, sans-serif" class="green"><strong> <strong><em>Student Information Desk opening hours&nbsp; (during semester)</em></strong> </strong></font></div></td>
+        </tr>
+        <tr>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">Monday to Friday </font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">9.15am to 5pm</font></td>
+        </tr>
+      </table>
+      <p class="MsoNormal">&nbsp;</p>
+      <p align="center" class="green"><b style="mso-bidi-font-weight: normal"><span lang="EN-IE" style="FONT-SIZE: 12pt; FONT-FAMILY: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"><font color="#336633" face="Arial, Helvetica, sans-serif">Chan</font></span><span lang="EN-IE" style="FONT-SIZE: 12pt; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"><font color="#336633" face="Arial, Helvetica, sans-serif">ges to Opening hours / Dates to note during the 2015/16 Academic Year </font></span></b></p>
+      <table width="100%" border="1" cellspacing="1">
+        <tr> 
+          <td colspan="2"><div align="center"><span lang="EN-IE" style="FONT-SIZE: 12pt; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"><b><i><font color="#336633" face="Arial, Helvetica, sans-serif" class="green">Semester 1 </font></i></b></span></div></td>
+        </tr>
+        <tr>
+          <td width="72%"><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Monday 21st Dec </font></span></td>
+          <td width="28%"><span class="style3">9.15am to 5pm</span></td>
+        </tr>
+        <tr>
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Tuesday 22nd Dec </font></span></td>
+          <td><span class="style3">9.15am to 5pm</span></td>
+        </tr>
+        <tr>
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Wednesday 23rd Dec </font></span></td>
+          <td><span class="style3">9.15am to 1pm</span></td>
+        </tr>
+        <tr>
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Thursday 24th Dec - Sunday 3rd Jan </font></span></td>
+          <td><span class="style3">Closed</span></td>
+        </tr>
+        <tr>
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Monday 4th Jan &ndash; January 15th (Revision Week) </font></span></td>
+          <td><span class="style3">Normal Opening Hours </span></td>
+        </tr>
+        <tr>
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Inter-Semester Break (January 18th - 22nd)</font></span></td>
+          <td><span class="style3">9.15am to 5pm</span></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><div align="center"><span lang="EN-IE" style="FONT-SIZE: 12pt; FONT-FAMILY: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"><b><i><font color="#336633" face="Arial, Helvetica, sans-serif" class="green">Semester 2</font></i></b></span></div></td>
+        </tr>
+        <tr> 
+          <td><span class="style2" style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE">
+            <o:p></o:p>
+            <font size="2" face="Arial, Helvetica, sans-serif">Thursday 17th March 2016</font></span></td>
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Closed</font></span></td>
+        </tr>
+        <tr> 
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Easter: Good Friday 25th and Easter Monday 28th March 2016 </font></span></td>
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Closed</font></span></td>
+        </tr>
+        <tr> 
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Monday 2nd May 2016</font></span></td>
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Closed</font></span></td>
+        </tr>
+        <tr> 
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Monday 6th June 2016</font></span></td>
+          <td><span class="style2"><font size="2" face="Arial, Helvetica, sans-serif">Closed</font></span></td>
+        </tr>
+      </table>
+      <p class="MsoNormal"><b style="mso-bidi-font-weight: normal"><span lang="EN-IE" style="FONT-SIZE: 12pt; FONT-FAMILY: Arial; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-IE"><o:p></o:p>
+      </span></b></p>
+      <p align="center" class="MsoNormal"><br>
+      <a name="libregs"></a> <font color="#336633" face="Arial, Helvetica, sans-serif"><strong>Library        Regulations</strong></font> </p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">It is stated in the 
+        Student Charter that each student in the Institute will be treated as 
+        an adult and, as such, are expected to behave in a responsible adult manner, respecting 
+        the rights of others. This is further emphasised in the Appropriate Behaviour 
+        Charter. This, of course, also applies in the Library and the following 
+        regulations aim to ensure that the Library is a comfortable environment 
+        for all, which is conducive to study.</font></p>
+      <ul>
+        <li><font size="2" face="Arial, Helvetica, sans-serif">You must hold a 
+          current Institute staff/student ID card to enter the Library, use the 
+          facilities and to borrow Library materials. This card must be produced 
+        if requested by a member of Library staff.</font>        
+        <li><font size="2" face="Arial, Helvetica, sans-serif">There are designated group study, quiet study and silent study areas in the Library. Noise levels are self-monitoring e.g. if a user is talking in the silent study area, then it is up to the users who have been disturbed to ask that user to move to a group study area. Anyone who continues to disturb 
+          others can be asked to leave the Library. </font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif">There must be no 
+          eating or drinking (apart from water in pull-up top bottles) in the 
+          Library. </font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif">Talking on mobile 
+          phones, or phones ringing in the Library, is strictly forbidden. They must be set to silent 
+          mode. There is an on-the-spot fine of &euro;5 if a mobile rings or if 
+          a student is talking on their mobile. </font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif">If you wish to 
+          borrow from the Library you must bring the item and your ID card to 
+          the Issue Desk, or use the self-service system. The self-service system can also be used to return books. There is a security system 
+          in operation in the Library, so before leaving, ensure that all items 
+          have been checked out properly, otherwise a fine of &euro;5 will be 
+          imposed.</font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif">Users have full 
+          responsibility for all Library materials borrowed on their ID card. 
+          </font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif">An item must be 
+          returned immediately if recalled by the Librarian. Failure to return 
+          Library materials will initially result in a fine, then suspension of 
+          borrowing rights and the replacement cost of the materials being incurred 
+          by the user. </font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif">Theft or the defacing 
+          of Library property is a serious offence and will be dealt with in the 
+          strictest possible manner. </font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif">Study places may 
+          not be reserved in the Library. </font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif">External users 
+          of the Library must first consult with the Librarian for details of 
+          membership. </font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif">It is most important 
+          to comply with Copyright regulations. Please observe notices at all 
+          photocopiers. </font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif">Internet access 
+          is available to all students of the Institute, however anyone found 
+          to be abusing this facility e.g. accessing inappropriate sites, will 
+          have their access denied. </font> 
+        <li><font size="2" face="Arial, Helvetica, sans-serif"><strong>NB.</strong> All e-mail correspondence from the Library is to student e-mail accounts (e.g. B00000000@student.itb.ie). There is no correspondence to any other e-mail address. It is students' responsibility to check their student e-mail regularly. </font>
+      </ul>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Library users who 
+        breach any of the above regulations will be liable to a withdrawal of 
+        services and other disciplinary measures.<br>
+        </font> </p>
+      <p>&nbsp;</p>
+      <p align="center"><a name="faq"></a><font color="#336633" face="Arial, Helvetica, sans-serif" class="green"><strong>Frequently 
+        Asked Questions</strong></font> </p>
+      <p><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">How 
+        many books can I borrow?</font><font color="green" size="2" face="Arial, Helvetica, sans-serif"><br>
+        </font><font size="2" face="Arial, Helvetica, sans-serif">Full time and 
+        part time students may borrow up to 6 books at any one time. Postgraduate 
+        students may borrow up to 10.</font></p>
+      <p><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Can 
+        books be renewed?</font><font color="green" size="2" face="Arial, Helvetica, sans-serif"><br>
+        </font><font size="2" face="Arial, Helvetica, sans-serif">Books may be 
+        renewed as often as you like, provided nobody else has reserved them and they are not 
+        overdue.</font></p>
+      <p><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">If 
+        the Library does not hold a book, can it be got elsewhere?</font><font color="green" size="2" face="Arial, Helvetica, sans-serif"><br>
+        </font><font size="2" face="Arial, Helvetica, sans-serif">Yes. Ask at 
+        the Circulation Desk about an <a href="libserv.html#illoans"><font color="#336633">Inter-Library 
+        Loan</font></a>.</font></p>
+      <p><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">What 
+        are the fines for overdue books?</font><font color="green" size="2" face="Arial, Helvetica, sans-serif"><br>
+        </font><font size="2" face="Arial, Helvetica, sans-serif">Long Loans (2 
+        weeks) - 40c per day.<br>
+        Short Loans (1 week) - 70c per day.<br>
+        Day Loans - <span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE">�1 
+        per day.</span></font></p>
+      <p><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">What 
+        are the fines for overdue laptops?<br>
+      </font><font size="2" face="Arial, Helvetica, sans-serif">If overdue, laptops are charged at <span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE">ten euro per day, or part of a day. <br>
+        <br>
+        <font color="#336633">Where can I do photocopying?</font><font color="#008000"><br>
+            </font>There are two student photocopiers in the Library. Students can top up their credit using a credit or debit card. Please see the information sheet at the Student Information Desk or top up <a href="/cashless"><font color="#336633">here</font></a>. </span></font> <font size="2" face="Arial, Helvetica, sans-serif">Full instructions on their use  is posted on the walls above the copiers.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><font color="#336633">Where can I do printing?<br> 
+        </font><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE">There are three student printers in the Library, one of which prints in colour. Students can top up their credit using a credit or debit card. Please see the information sheet at the Student Information Desk or top up <a href="/cashless"><font color="#336633">here</font></a>.  </span> Full instructions on their use  is posted on the walls above the printers. <span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE"><br>
+        <br>
+            <font color="#336633">Can  DVDs be borrowed?</font><font color="#008000"><br>
+            </font>Yes, some can be borrowed for a week, some for 1 day. They may 
+        also be viewed in the Library. Headphones may be borrowed from the Issue 
+        Desk. Students may not bring their own videos and DVDs for viewing in 
+      the Library.</span></font></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr> 
+    <td align="left" colspan="2"><p align="center"><a href="http://www.blanchlib.itb.ie/"><font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+        Online Catalogue</font></a> | <a href="geninfo.html"> <font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+        General Information</font></a> | <a href="libserv.html"> <font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+        Library Services</font></a> | <a href="remotecats.htm"> <font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+        <br>
+        Other Libraries</font></a> | <a href="contacts.html"> <font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+        Library Contacts</font></a></p>
+    <p align="center">&nbsp;</p></td>
+  </tr>
+  <tr> 
+    <td valign="top" align="left" colspan="2"><div align="center"><font color="#663333" face="Verdana, Arial"
+    size="1"><strong>ITB Library</strong>, Blanchardstown Road North, Dublin 15, 
+        Ireland. <br>
+        Telephone: Tel: +353 (0)1 885 1047&nbsp; Fax: +353 (0)1 885 1001 <br>
+        Email: <a href="mailto:library@itb.ie">library@itb.ie</a><font color="#000000" face="Verdana, Arial" size="1">&nbsp;</font></font></div></td>
+  </tr>
+</table>
+</body>
+</html>

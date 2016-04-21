@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Survey</title>
+			<style>
+			@import url(style.css);
+			</style>
+			<meta charset= 'utf-8'>
+		</head>
+		
+		<body>
+			<form action = "showForm.html" method = "post">
+				<h1>
+				Food Survey
+				</h1>
+				
+				<h3>
+				Please complete the following form:
+				</h3>
+				
+				<fieldset>
+					<legend>Personal Details</legend>
+					<label for="username">Username:</label> <input type="text" name="username" id="username" autofocus>
+					<br>
+					<label for="age">Age:</label> <input type="number" name="age" id="age" min="10" max="100" step="1">
+					<br>
+					<label for="phone">Phone:</label> <input type="tel" name="phone" pattern="[0-9]{7}" id="phone">
+					<br>
+					<label for="password">Password:</label> <input type="password" name="password" id="password">
+				</fieldset>
+				
+				<fieldset>
+					<legend>Food Groups</legend>
+						<input type="checkbox"> Fats, oils and sugar
+						<br>
+						<input type="checkbox"> Dairy
+						<br>
+						<input type="checkbox"> Meat, poultry, fish or nuts
+						<br>
+						<input type="checkbox"> Veg
+						<br>
+						<input type="checkbox"> Fruit
+						<br>
+						<input type="checkbox"> Bread, cerel, rice or pasta
+				</fieldset>
+				
+				<fieldset>
+					<legend>Water Drank Each Day</legend>
+						<select name="contact" id="contactMenu" size="1">
+							<option value="up to 1 glass">up to 1 glass</option>
+							<option value="2-4 glasses">2-4 glasses</option>
+							<option value="5-8 glasses">5-8 glasses</option>
+							<option value=">8 glasses">>8 glasses</option>
+						</select>
+				</fieldset>
+				
+			
+				<div id="buttons">
+					<input type ="submit" name="submit" id="submit" value="Send">
+					<input type ="reset" name="reset" id="reset" value="Reset">
+				</div>
+			
+			</form>
+		</body>
+	
+	</html>

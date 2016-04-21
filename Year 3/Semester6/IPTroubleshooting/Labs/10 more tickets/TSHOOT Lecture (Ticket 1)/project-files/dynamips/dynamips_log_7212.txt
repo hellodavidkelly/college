@@ -1,0 +1,32 @@
+Mar 24 20:05:28.668 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Mar 24 20:05:28.670 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 7212.
+Mar 24 20:05:29.127 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 24 20:05:29.128 HYPERVISOR: exec_cmd: hypervisor uuid 
+Mar 24 20:05:29.128 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture  Demo2/TSHOOT Lecture  Demo2-files\dynamips 
+Mar 24 20:05:29.129 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture  Demo2/TSHOOT Lecture  Demo2-files\dynamips
+Mar 24 20:05:29.130 HYPERVISOR: exec_cmd: vm create Webserver 14 c3725 
+Mar 24 20:05:29.139 VM: VM Webserver created.
+Mar 24 20:05:29.140 HYPERVISOR: exec_cmd: vm set_con_tcp_port Webserver 2004 
+Mar 24 20:05:29.142 HYPERVISOR: exec_cmd: vm set_aux_tcp_port Webserver 2501 
+Mar 24 20:05:29.142 HYPERVISOR: exec_cmd: c3725 get_mac_addr Webserver 
+Mar 24 20:05:29.142 HYPERVISOR: exec_cmd: vm set_ram Webserver 192 
+Mar 24 20:05:29.142 HYPERVISOR: exec_cmd: vm set_ios Webserver C:/Users/Michael/GNS3/images/IOS/C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Mar 24 20:05:29.143 HYPERVISOR: exec_cmd: vm set_sparse_mem Webserver 1 
+Mar 24 20:05:29.143 HYPERVISOR: exec_cmd: vm set_ram_mmap Webserver 1 
+Mar 24 20:05:29.143 HYPERVISOR: exec_cmd: vm set_con_tcp_port Webserver 2014 
+Mar 24 20:05:29.144 HYPERVISOR: exec_cmd: vm set_aux_tcp_port Webserver 2513 
+Mar 24 20:05:29.144 HYPERVISOR: exec_cmd: c3725 set_mac_addr Webserver c20e.0bfc.0000 
+Mar 24 20:05:29.145 HYPERVISOR: exec_cmd: vm set_ghost_status Webserver 2 
+Mar 24 20:05:29.145 HYPERVISOR: exec_cmd: vm set_ghost_file Webserver C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Mar 24 20:05:29.469 HYPERVISOR: exec_cmd: vm set_config Webserver configs/i14_startup-config.cfg 
+Mar 24 20:05:29.469 HYPERVISOR: exec_cmd: vm get_status Webserver 
+Mar 24 20:05:29.470 HYPERVISOR: exec_cmd: vm set_idle_pc Webserver 0x6026b804 
+Mar 24 20:05:29.470 HYPERVISOR: exec_cmd: vm slot_add_binding Webserver 0 16 WIC-2T 
+Mar 24 20:05:29.632 HYPERVISOR: exec_cmd: nio create_udp_auto nio_udp_auto41 127.0.0.1 10001 20000 
+Mar 24 20:05:30.511 HYPERVISOR: exec_cmd: nio connect_udp_auto nio_udp_auto41 127.0.0.1 10041 
+Mar 24 20:05:30.511 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Webserver 0 16 nio_udp_auto41 
+Mar 24 20:05:30.511 HYPERVISOR: exec_cmd: vm get_status Webserver 
+Mar 24 20:11:20.142 HYPERVISOR: exec_cmd: vm extract_config Webserver 
+Mar 24 20:11:20.304 HYPERVISOR: Stopped.
+Mar 24 20:11:20.304 VM: VM Webserver destroyed.
+Mar 24 20:11:20.330 GENERAL: reset done.

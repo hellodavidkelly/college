@@ -1,0 +1,14 @@
+///////LIVERPOOL
+manager:klopp.*
+manager:rodgers.*
+footballer:benteke.*
+footballer:sturridge.*
+footballer:firmino.*
+footballer:philippe.*
+footballer:mignolet.*
+footballer:coutinho.*
+footballer:milner.*
+footballer:moreno.*
+footballer:lovren.*
+///////UNIX
+///////GNU

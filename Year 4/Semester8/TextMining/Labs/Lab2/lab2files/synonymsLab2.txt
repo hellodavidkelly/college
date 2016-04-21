@@ -1,0 +1,16 @@
+harney:minister.*
+hse:drumm.*
+kenya:rift.* 
+kenya:nakuru.* 
+kenya:naivasha.* 
+kenya:nairobi.* 
+kenya:kenyan.*
+kenya:molo.*
+tribe:tribal.*
+hospital:hospitals.*
+health:healthcare.*
+crime:criminal.*
+crime:manslaughter.*
+contract:contracts.*
+kofi:annan.*
+kofi:chief.*

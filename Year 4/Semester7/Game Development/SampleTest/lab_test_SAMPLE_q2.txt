@@ -1,0 +1,185 @@
+Year 4 Game Development: Lab Test: Question 1 - Git
+
+
+-------- (initial setup) ----------
+- configure your Git system for your name and email
+- create a folder for this question (question2) and initialse a new local Git repo
+-----------------------------------
+
+In this test you are to simulate the authoring of a short story with version control.
+For each step add and commit any created or modified files, with an appropriate commit comment
+
+there are 4 files to be worked on (plus an extra file at the very end), create a branch for each:
+- credits.txt
+- inTheCar_part1.txt
+- inTheCar_part2.txt
+- inTheCar_part3.txt
+
+(in addition to 'master') name your branch as follows: 
+- credits
+- part1
+- part2
+- part3
+
+when working on a file you should work within the corresponding branch
+
+work in the sequence given below, and when a file is complete, then you should merge the branch into master - there should not be any conflicts for this lab test activity :-)
+
+
+-------- (1) ----------
+create a file 'credits.txt' containing the following
+
+********************************************
+****************************-start-of-text
+********************************************
+McCann et al. (Eds) (2009) Colum McCann, Peter Fallon & Arthur Matthews.
+"Ten Pint Ted and Other Stories and Poems".
+Published by Cork University Press, Cork, Ireland.
+
+Smyth B. M. (2009) Bernadette M. Smyth.
+"In the Car" in "Ten Pint Ted and Other Stories and Poems" edited by McCann et al. (2009).
+Published by Cork University Press, Cork, Ireland.
+********************************************
+********************************************
+********************************************
+
+
+-------- (2) ----------
+create a file 'inTheCar_part1.txt' containing the following
+
+********************************************
+****************************-start-of-text
+********************************************
+I steered through fantastic streets of boisterous traffic, past glittering buildings, and footpaths that moved with shoppers. I beeped the horn when I saw Mrs Sweeney.
+“Hop in!” I shouted.
+“The town’s mad today,” she said, getting into the car.
+“Packed! There’s hundreds in town.”
+“Thousands more like.”
+********************************************
+********************************************
+********************************************
+
+
+-------- (3) ----------
+change file 'inTheCar_part1.txt' as follows (this file will be completed after this change)
+- add a title and author (with underlines) to the top of the file (as shown below)
+
+********************************************
+****************************-start-of-text
+********************************************
+In the Car
+==========
+
+Bernadette M. Smyth
+-------------------
+
+I steered through fantastic streets ...
+********************************************
+********************************************
+********************************************
+
+-------- (4) ----------
+create a new file 'inTheCar_part2.txt' containing the following placeholder text
+
+********************************************
+****************************-start-of-text
+********************************************
+(part 2 to go here)
+********************************************
+********************************************
+********************************************
+
+-------- (5) ----------
+create a file 'inTheCar_part3.txt' containing the following
+
+********************************************
+****************************-start-of-text
+********************************************
+
+Mrs Sweeney’s voice collapsed as she looked towards the house. Mammy was standing at the kitchen window.
+“I’ve told you two already!” she shouted, “No playing in the car! GET INSIDE NOW!”
+Michelle scrambled out of the car, leaving behind Mrs Sweeney and her phantom groceries, Paddy and Johnny, and the village of characters who lived in the space between the car’s upholstery and our imaginations.
+
+********************************************
+********************************************
+********************************************
+
+-------- (6) ----------
+(in branch part2)
+change file 'inTheCar_part2.txt' as follows (this file will be completed after this change)
+- replace the placeholder text with the following lines
+
+********************************************
+****************************-start-of-text
+********************************************
+“Millions even – I’d say there’s easily a million people doing their shopping today.”
+Mrs Sweeney tightened her headscarf.
+“Plenty of groceries there,” I said.
+“Sure haven’t I ten mouths to feed, Petulia?”
+“Ten kids? That’s nothing – I’ve fifteen.”
+“Humph! If I only had fifteen children I’d be laughing- I’ve twenty you know.”
+“You said ten!”
+“No, no, Petulia, ten at the moment; John-Joe, Jimmy, Jamesy, Jemmy, Mary- Concepta, Concepta-Mary, Penelope, Agnes, Ignatius, and Alphonsus, are away on their holidays.”
+I went back to the steering.
+“How’s Paddy’s leg?” I enquired.
+“Gone.”
+“Gone?”
+“Chopped off!”
+“And how does he manage?”
+“Sure he has to hop.”
+“That’s desperate!”
+“It is Petulia, especially with twenty children knocking him over.”
+“Still,” I said, “isn’t it better to be missing a leg than have an extra one. There’s my Johnny and he’s awful bother with the three legs.”
+“Three? That’s nothing – I’ve a brother with four.”
+“Four legs Mrs Sweeney?”
+“Four – he has to crawl so he does.”
+“And has he a tail?”
+“No …”
+********************************************
+********************************************
+********************************************
+
+-------- (7) ----------
+(in branch part3)
+change file 'inTheCar_part3.txt' as follows (this file will be completed after this change)
+- add a final line to the file (as shown below)
+
+********************************************
+****************************-start-of-text
+********************************************
+
+Mrs Sweeney’s voice collapsed as she looked towards the house. Mammy was standing at the kitchen window.
+“I’ve told you two already!” she shouted, “No playing in the car! GET INSIDE NOW!”
+Michelle scrambled out of the car, leaving behind Mrs Sweeney and her phantom groceries, Paddy and Johnny, and the village of characters who lived in the space between the car’s upholstery and our imaginations.
+I ran after her, over the path, and into the house where our tea was waiting.
+
+********************************************
+********************************************
+********************************************
+
+
+-------- (8) ----------
+change file 'credits.txt' as follows (this file will be completed after this change)
+- add a URL to each reference entry (as shown below)
+
+********************************************
+****************************-start-of-text
+********************************************
+McCann et al. (Eds) (2009) Colum McCann, Peter Fallon & Arthur Matthews.
+"Ten Pint Ted and Other Stories and Poems".
+Published by Cork University Press, Cork, Ireland.
+URL: http://www.fishpublishing.com/Ten-Pint-Ted.php
+
+Smyth B. M. (2009) Bernadette M. Smyth.
+"In the Car" in "Ten Pint Ted and Other Stories and Poems" edited by McCann et al. (2009).
+Published by Cork University Press, Cork, Ireland.
+URL: http://www.fishpublishing.com/Ten-Pint-Ted.php#inthecar
+********************************************
+********************************************
+********************************************
+
+-------- (9) ----------
+
+you have now completed all 4 files, 
+now (in branch master) create a single new file named 'inTheCar_all.txt' that contains the contents of all 3 parts
+

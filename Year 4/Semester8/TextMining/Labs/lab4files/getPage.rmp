@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process version="7.0.001">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="6.0.002" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="web:get_webpage" compatibility="5.3.001" expanded="true" height="68" name="Get Page" width="90" x="45" y="75">
+        <parameter key="url" value="http://www.itb.ie"/>
+        <parameter key="random_user_agent" value="false"/>
+        <parameter key="connection_timeout" value="10000"/>
+        <parameter key="read_timeout" value="10000"/>
+        <parameter key="follow_redirects" value="true"/>
+        <parameter key="accept_cookies" value="none"/>
+        <parameter key="cookie_scope" value="global"/>
+        <parameter key="request_method" value="GET"/>
+        <list key="query_parameters"/>
+        <list key="request_properties"/>
+        <parameter key="override_encoding" value="false"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:process_documents" compatibility="7.0.000" expanded="true" height="103" name="Process Documents" width="90" x="246" y="75">
+        <parameter key="create_word_vector" value="true"/>
+        <parameter key="vector_creation" value="TF-IDF"/>
+        <parameter key="add_meta_information" value="true"/>
+        <parameter key="keep_text" value="false"/>
+        <parameter key="prune_method" value="none"/>
+        <parameter key="prune_below_percent" value="3.0"/>
+        <parameter key="prune_above_percent" value="30.0"/>
+        <parameter key="prune_below_rank" value="0.05"/>
+        <parameter key="prune_above_rank" value="0.95"/>
+        <parameter key="datamanagement" value="double_sparse_array"/>
+        <process expanded="true">
+          <operator activated="true" class="web:extract_html_text_content" compatibility="7.0.000" expanded="true" height="68" name="Extract Content" width="90" x="112" y="75">
+            <parameter key="extract_content" value="true"/>
+            <parameter key="minimum_text_block_length" value="5"/>
+            <parameter key="override_content_type_information" value="true"/>
+            <parameter key="neglegt_span_tags" value="true"/>
+            <parameter key="neglect_p_tags" value="true"/>
+            <parameter key="neglect_b_tags" value="true"/>
+            <parameter key="neglect_i_tags" value="true"/>
+            <parameter key="neglect_br_tags" value="true"/>
+            <parameter key="ignore_non_html_tags" value="true"/>
+          </operator>
+          <operator activated="true" class="text:tokenize" compatibility="7.0.000" expanded="true" height="68" name="Tokenize" width="90" x="246" y="85">
+            <parameter key="mode" value="non letters"/>
+            <parameter key="characters" value=".:"/>
+            <parameter key="language" value="English"/>
+            <parameter key="max_token_length" value="3"/>
+          </operator>
+          <operator activated="false" class="text:extract_information" compatibility="7.0.000" expanded="true" height="68" name="Extract Information" width="90" x="246" y="165">
+            <parameter key="query_type" value="String Matching"/>
+            <list key="string_machting_queries"/>
+            <parameter key="attribute_type" value="Nominal"/>
+            <list key="regular_expression_queries"/>
+            <list key="regular_region_queries"/>
+            <list key="xpath_queries"/>
+            <list key="namespaces"/>
+            <parameter key="ignore_CDATA" value="true"/>
+            <parameter key="assume_html" value="true"/>
+            <list key="index_queries"/>
+            <list key="jsonpath_queries"/>
+          </operator>
+          <connect from_port="document" to_op="Extract Content" to_port="document"/>
+          <connect from_op="Extract Content" from_port="document" to_op="Tokenize" to_port="document"/>
+          <connect from_op="Tokenize" from_port="document" to_port="document 1"/>
+          <portSpacing port="source_document" spacing="0"/>
+          <portSpacing port="sink_document 1" spacing="0"/>
+          <portSpacing port="sink_document 2" spacing="0"/>
+          <description align="center" color="yellow" colored="false" height="105" resized="false" width="180" x="297" y="158">Type your comment</description>
+        </process>
+      </operator>
+      <connect from_op="Get Page" from_port="output" to_op="Process Documents" to_port="documents 1"/>
+      <connect from_op="Process Documents" from_port="example set" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+    </process>
+  </operator>
+</process>

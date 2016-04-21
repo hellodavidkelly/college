@@ -1,0 +1,25 @@
+/* --------- page layout --------- */
+
+hr
+{
+	clear: both;
+}
+
+#img
+{
+float: left;
+}
+
+#banner
+{
+padding-left: 20px;
+float: left;
+}
+
+#nav
+{
+padding-right: 5px;
+float: left;
+display: block;
+
+}

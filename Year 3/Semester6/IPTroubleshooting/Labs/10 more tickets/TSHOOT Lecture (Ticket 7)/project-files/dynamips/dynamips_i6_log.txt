@@ -1,0 +1,50 @@
+Apr 19 19:06:45.533 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 19 19:06:45.535 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57085.
+Apr 19 19:06:45.774 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 19 19:06:45.774 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 19 19:06:45.774 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Michael\GNS3\projects\TSHOOT Lecture (Ticket 7)\project-files\dynamips 
+Apr 19 19:06:45.779 GENERAL: working_dir=C:\Users\Michael\GNS3\projects\TSHOOT Lecture (Ticket 7)\project-files\dynamips
+Apr 19 19:06:45.781 HYPERVISOR: exec_cmd: vm create ISP 9 c3725 
+Apr 19 19:06:45.781 VM: VM ISP created.
+Apr 19 19:06:45.784 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 2012 
+Apr 19 19:06:45.784 HYPERVISOR: exec_cmd: vm set_aux_tcp_port ISP 2502 
+Apr 19 19:06:45.784 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
+Apr 19 19:06:45.786 HYPERVISOR: exec_cmd: vm set_ram ISP 192 
+Apr 19 19:06:45.786 HYPERVISOR: exec_cmd: vm set_ios ISP C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 19 19:06:45.786 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 19 19:06:45.786 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x6026b804 
+Apr 19 19:06:45.789 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 0 16 WIC-2T 
+Apr 19 19:06:45.789 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c209.0e28.0000 
+Apr 19 19:06:45.789 HYPERVISOR: exec_cmd: vm set_config ISP configs/i9_startup-config.cfg 
+Apr 19 19:06:45.791 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Apr 19 19:06:45.794 VM: VM Ghost created.
+Apr 19 19:06:45.796 HYPERVISOR: exec_cmd: vm set_ios Ghost C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 19 19:06:45.796 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 19 19:06:45.799 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 19 19:06:45.801 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Apr 19 19:06:45.801 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 19 19:06:45.804 HYPERVISOR: exec_cmd: vm start Ghost 
+Apr 19 19:06:45.986 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 19 19:06:45.986 HYPERVISOR: exec_cmd: vm stop Ghost 
+Apr 19 19:06:46.069 VM: VM Ghost shutdown.
+Apr 19 19:06:46.071 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Apr 19 19:06:46.071 VM: VM Ghost destroyed.
+Apr 19 19:06:46.086 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
+Apr 19 19:06:46.086 HYPERVISOR: exec_cmd: vm set_ghost_file ISP C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 19 19:06:46.699 HYPERVISOR: exec_cmd: nio create_udp nio_udp1 10004 127.0.0.1 10005 
+Apr 19 19:06:46.756 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 16 nio_udp1 
+Apr 19 19:06:46.776 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 19 19:06:46.834 HYPERVISOR: exec_cmd: nio create_udp nio_udp4 10006 127.0.0.1 10007 
+Apr 19 19:06:46.881 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 17 nio_udp4 
+Apr 19 19:06:46.909 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 19 19:06:53.204 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 19 19:06:53.206 HYPERVISOR: exec_cmd: vm start ISP 
+Apr 19 19:28:39.284 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 19 19:28:39.289 HYPERVISOR: exec_cmd: vm stop ISP 
+Apr 19 19:28:39.517 VM: VM ISP shutdown.
+Apr 19 19:28:39.522 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Apr 19 19:28:39.524 HYPERVISOR: exec_cmd: vm delete ISP 
+Apr 19 19:28:39.524 VM: VM ISP destroyed.
+Apr 19 19:28:39.527 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 19 19:28:40.016 HYPERVISOR: Stopped.
+Apr 19 19:28:40.024 GENERAL: reset done.

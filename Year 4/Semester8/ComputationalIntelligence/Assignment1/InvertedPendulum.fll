@@ -1,0 +1,46 @@
+Engine: CartEngine
+InputVariable: angle
+  enabled: true
+  range: -4.000 4.000
+  term: NH Trapezoid -4.000 -4.000 -2.000 -1.000
+  term: NL Triangle -2.000 -1.000 0.000
+  term: Z Triangle -1.000 0.000 1.000
+  term: PL Triangle 0.000 1.000 2.000
+  term: PH Trapezoid 1.000 2.000 4.000 4.000
+InputVariable: angular_velocity
+  enabled: true
+  range: -8.000 8.000
+  term: NH Trapezoid -8.000 -8.000 -7.000 -3.000
+  term: NL Triangle -6.000 -3.000 0.000
+  term: Z Triangle -1.000 0.000 1.000
+  term: PL Triangle 0.000 3.000 6.000
+  term: PH Trapezoid 3.000 7.000 8.000 8.000
+OutputVariable: force
+  enabled: true
+  range: -32.000 32.000
+  accumulation: Maximum
+  defuzzifier: Centroid 200
+  default: nan
+  lock-valid: false
+  lock-range: false
+  term: NH Trapezoid -32.000 -32.000 -20.000 -8.000
+  term: NL Triangle -16.000 -8.000 0.000
+  term: Z Triangle -8.000 0.000 8.000
+  term: PL Triangle 0.000 8.000 16.000
+  term: PH Trapezoid 8.000 20.000 36.000 36.000
+RuleBlock: 
+  enabled: true
+  conjunction: Minimum
+  disjunction: Maximum
+  activation: Minimum
+  rule: if (angle is Z) and (angular_velocity is Z) then force is Z
+  rule: if angle is Z and angular_velocity is NH then force is NH 
+  rule: if angle is Z and angular_velocity is NL then force is NL 
+  rule: if angle is Z and angular_velocity is PL then force is PL
+  rule: if angle is Z and angular_velocity is PH then force is PH 
+  rule: if angle is NH and angular_velocity is Z then force is NH 
+  rule: if angle is NL and angular_velocity is Z then force is NL 
+  rule: if angle is PL and angular_velocity is Z then force is PL
+  rule: if angle is PH and angular_velocity is Z then force is PH 
+  rule: if angle is NL and angular_velocity is PL then force is Z
+  rule: if angle is PL and angular_velocity is NL then force is Z

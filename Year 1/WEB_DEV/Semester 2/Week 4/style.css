@@ -1,0 +1,27 @@
+form
+{
+width: 400px;
+border: 1px solid red;
+background-color: cyan;
+color: white;
+}
+
+fieldset
+{
+border: 2px solid black;
+}
+
+legend
+{
+color: black;
+}
+
+input
+{
+background-color: yellow;
+}
+
+#buttons
+{
+margin-left: 150px;
+}

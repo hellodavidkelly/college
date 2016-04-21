@@ -1,0 +1,34 @@
+Apr 18 14:47:22.664 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 18 14:47:22.664 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 65362.
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 1)\project-files\dynamips 
+Apr 18 14:47:23.101 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 1)\project-files\dynamips
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: vm create R5 4 c2691 
+Apr 18 14:47:23.101 VM: VM R5 created.
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 2002 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: c2691 get_mac_addr R5 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: vm set_ram R5 192 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: vm set_ios R5 C:\Users\Michael\GNS3\images\IOS\c2691-advipservicesk9-mz.124-15.T6.image 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: vm set_nvram R5 256 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: vm get_status R5 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60b6c5c8 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 16 WIC-2T 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: vm set_disk0 R5 1 
+Apr 18 14:47:23.101 HYPERVISOR: exec_cmd: vm set_config R5 configs/i4_startup-config.cfg 
+Apr 18 14:47:23.116 HYPERVISOR: exec_cmd: vm set_config R5 configs/i4_startup-config.cfg configs/i4_private-config.cfg 
+Apr 18 14:47:23.116 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Apr 18 14:47:23.116 HYPERVISOR: exec_cmd: vm set_ghost_file R5 c2691-advipservicesk9-mz.124-15.T6.image-192.ghost 
+Apr 18 14:47:29.154 HYPERVISOR: exec_cmd: vm rename R5 PC2 
+Apr 18 14:47:33.054 HYPERVISOR: exec_cmd: vm get_status PC2 
+Apr 18 14:47:33.054 HYPERVISOR: exec_cmd: vm start PC2 
+Apr 18 14:47:58.017 HYPERVISOR: exec_cmd: vm extract_config PC2 
+Apr 18 14:48:02.947 HYPERVISOR: exec_cmd: vm get_status PC2 
+Apr 18 14:48:02.947 HYPERVISOR: exec_cmd: vm stop PC2 
+Apr 18 14:48:02.947 VM: VM PC2 shutdown.
+Apr 18 14:48:02.947 HYPERVISOR: exec_cmd: vm extract_config PC2 
+Apr 18 14:48:02.962 HYPERVISOR: exec_cmd: vm delete PC2 
+Apr 18 14:48:02.962 VM: VM PC2 destroyed.
+Apr 18 14:48:02.962 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 18 14:48:03.259 HYPERVISOR: Stopped.
+Apr 18 14:48:03.259 GENERAL: reset done.

@@ -1,0 +1,16 @@
+tag1=Horse
+tag2=Dog
+tag3=Cat
+tag4=Parrot
+tag5=Pig
+tag6=Select Language
+
+tag11=horse.wav
+tag12=dog.wav
+tag13=cat.wav
+tag14=parrot.wav
+tag15=pig.wav
+
+tag21=English
+tag22=French
+tag23=German

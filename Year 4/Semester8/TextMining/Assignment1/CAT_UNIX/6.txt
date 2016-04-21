@@ -1,0 +1,3 @@
+Since it began to escape from AT&T's Bell Laboratories in the early 1970's, the success of the UNIX operating system has led to many different versions;  Universities, research institutes, government bodies and computer companies all began using the powerful UNIX system to develop many of the technologies which today are part of the IT environment. Computer aided design, manufacturing control systems, laboratory simulations, even the Internet itself, all began life with and because of UNIX systems.
+
+Soon all the large vendors, and many smaller ones, were marketing their own, versions of the UNIX system optimised for their own computer architectures and boasting many different strengths and features. See the UNIX System Chronology graphic below.

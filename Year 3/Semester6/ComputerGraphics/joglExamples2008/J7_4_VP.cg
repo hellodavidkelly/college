@@ -1,0 +1,34 @@
+// J7_4_VP.cg Vertex Program: bump mapping  
+
+void main(
+	float4 iPosition	: 	POSITION, 
+	float4 iNormal    	: 	NORMAL,
+	float2 iTexCoord 	: 	TEXCOORD0,
+out float4 oPosition 	: 	POSITION, 
+out float2 oTexCoord 	: 	TEXCOORD0,
+out float4 vPosition 	: 	TEXCOORD1,
+out float3 nNormal      : 	TEXCOORD2,
+out float3 tNormal      : 	TEXCOORD3,
+out float3 bNormal      : 	TEXCOORD4,
+
+uniform float4x4 			modelView,
+uniform float4x4 			modelViewProjection,
+uniform float4x4 			inverseTranspose
+) {
+  vPosition = mul(modelView, iPosition); 
+  float4 T = float4(iTexCoord.x, iTexCoord.y, 0, 0); 
+  float4 tN = mul(inverseTranspose, T);
+  float4 N = mul(inverseTranspose, iNormal);
+ 	
+ nNormal = N.xyz; 
+ tNormal = tN.xyz;  
+ bNormal = cross(tNormal, nNormal); 
+ tNormal = cross(nNormal, bNormal); 
+ tNormal = normalize(tNormal); 
+ nNormal = normalize(nNormal);  
+ bNormal = normalize(bNormal); 
+ 
+  oTexCoord = iTexCoord; 
+  oPosition = mul(modelViewProjection, iPosition);
+}
+

@@ -1,0 +1,13 @@
+// J6_4_VP.cg Vertex Program: uniform vertex color 
+
+void main(
+	float4 iPosition	: 	POSITION, 
+	float4 iColor 		: 	COLOR, 
+out float4 oPosition 	: 	POSITION, 
+out float4 oColor 		: 	COLOR, 
+uniform float4x4 			modelViewProjection,
+uniform float4 				vColor
+) {
+   oPosition = mul(modelViewProjection, iPosition);
+   oColor=vColor;
+}

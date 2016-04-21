@@ -1,0 +1,46 @@
+Apr 21 13:09:08.681 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 21 13:09:08.681 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51375.
+Apr 21 13:09:09.259 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 21 13:09:09.259 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 21 13:09:09.259 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Michael\GNS3\projects\TSHOOT Lecture (Ticket 2)\project-files\dynamips 
+Apr 21 13:09:09.259 GENERAL: working_dir=C:\Users\Michael\GNS3\projects\TSHOOT Lecture (Ticket 2)\project-files\dynamips
+Apr 21 13:09:09.259 HYPERVISOR: exec_cmd: vm create R4 13 c3725 
+Apr 21 13:09:09.259 VM: VM R4 created.
+Apr 21 13:09:09.259 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 2008 
+Apr 21 13:09:09.274 HYPERVISOR: exec_cmd: vm set_aux_tcp_port R4 2505 
+Apr 21 13:09:09.274 HYPERVISOR: exec_cmd: c3725 get_mac_addr R4 
+Apr 21 13:09:09.274 HYPERVISOR: exec_cmd: vm set_ios R4 C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 21 13:09:09.274 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 21 13:09:09.274 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-1FE-TX 
+Apr 21 13:09:09.274 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 21 13:09:09.274 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x6026b804 
+Apr 21 13:09:09.274 HYPERVISOR: exec_cmd: c3725 set_mac_addr R4 c20d.121c.0000 
+Apr 21 13:09:09.274 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 16 WIC-1T 
+Apr 21 13:09:09.290 HYPERVISOR: exec_cmd: vm set_ram R4 192 
+Apr 21 13:09:09.290 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 48 WIC-1T 
+Apr 21 13:09:09.290 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 21 13:09:09.290 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-1FE-TX 
+Apr 21 13:09:09.290 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 32 WIC-1T 
+Apr 21 13:09:09.290 HYPERVISOR: exec_cmd: vm set_config R4 configs/i13_startup-config.cfg 
+Apr 21 13:09:09.680 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Apr 21 13:09:09.680 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 21 13:09:10.725 HYPERVISOR: exec_cmd: nio create_udp nio_udp9 10011 127.0.0.1 10010 
+Apr 21 13:09:10.772 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 16 nio_udp9 
+Apr 21 13:09:10.772 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 21 13:09:11.396 HYPERVISOR: exec_cmd: nio create_udp nio_udp19 10024 127.0.0.1 10022 
+Apr 21 13:09:11.427 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 nio_udp19 
+Apr 21 13:09:11.474 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 21 13:09:11.911 HYPERVISOR: exec_cmd: nio create_udp nio_udp31 10037 127.0.0.1 10036 
+Apr 21 13:09:11.926 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 nio_udp31 
+Apr 21 13:09:11.989 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 21 13:09:15.972 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 21 13:09:15.972 HYPERVISOR: exec_cmd: vm start R4 
+Apr 21 13:10:38.602 HYPERVISOR: exec_cmd: vm extract_config R4 
+Apr 21 13:10:38.867 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 21 13:10:38.883 HYPERVISOR: exec_cmd: vm stop R4 
+Apr 21 13:10:39.132 VM: VM R4 shutdown.
+Apr 21 13:10:39.132 HYPERVISOR: exec_cmd: vm extract_config R4 
+Apr 21 13:10:39.132 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 21 13:10:39.366 HYPERVISOR: Stopped.
+Apr 21 13:10:39.366 VM: VM R4 destroyed.
+Apr 21 13:10:39.366 GENERAL: reset done.

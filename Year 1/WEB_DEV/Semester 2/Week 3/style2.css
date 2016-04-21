@@ -1,0 +1,29 @@
+form
+{
+background-color: green;
+border: 1px solid black;
+width:500px;
+color: black;
+}
+
+#buttons
+{
+margin-left: 100px;
+}
+
+#check
+{
+font-size: small;
+color: blue;
+}
+
+fieldset
+{
+color: white;
+border: 1px solid yellow;
+}
+
+legend
+{
+color: black;
+}

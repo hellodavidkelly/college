@@ -1,0 +1,61 @@
+[COMPILER]
+INCLUDEDIRS=
+compile=concur|capture|:Compile:&Compile,javac %f
+make=:Build:&Build,javamake
+rebuild=concur|capture|:Rebuild:&Rebuild,
+debug=concur|capture|:Debug:&Debug,jdb %n
+execute=concur|capture|:Execute:E&xecute,java %n
+user1=hide|:User 1:User 1,
+user2=hide|:User 2:User 2,
+workingdir=
+includedirs=
+tagfiles=
+reffile=
+MACRO=\n
+FILTEREXPANSION=1 0 0 0 0
+[ASSOCIATION]
+[FILES]
+D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\FlyCanvas.java
+D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\Folder.java
+D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\FolderFactory.java
+D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\JxFrame.java
+[STATE]
+SCREEN: 1280 1024 185 121 769 538 0 0 N 0 0 0 0 569 359
+CWD: D:\Projects\PatternJava\Programs\Command\Undo
+BUFFER: BN="D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\Folder.java"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Java	HM=0 MF=8
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=20 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\FolderFactory.java"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Java	HM=0 MF=8
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=21 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\JxFrame.java"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Java	HM=0 MF=0
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=17 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\FlyCanvas.java"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Java	HM=0 MF=40
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=19 HT=0 HN=0 HF=0 HC=4
+WINDOW: 66 66 459 249 -1 -1 N  WF=0 WT=3 "OEM Fixed Font,10,0"
+BUFFER: BN="D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\Folder.java"
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=189 BI=20 HT=0 HN=0 HF=0 HC=4
+WINDOW: 88 88 459 249 -1 -1 N  WF=0 WT=4 "OEM Fixed Font,10,0"
+BUFFER: BN="D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\FolderFactory.java"
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=188 BI=21 HT=0 HN=0 HF=0 HC=4
+WINDOW: 66 66 459 249 -1 -1 N  WF=0 WT=5 "OEM Fixed Font,10,0"
+BUFFER: BN="D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\JxFrame.java"
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=190 BI=17 HT=0 HN=0 HF=0 HC=4
+WINDOW: 44 44 459 249 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0"
+BUFFER: BN="D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\FlyCanvas.java"
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=187 BI=19 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+D:\Projects\JavaPro\HTMLTemplate\4558413.html
+D:\JSDK2.1\WEBPAGES\DOCS\API\JAVAX\SERVLET\HTTP\COOKIE~1.HTM
+D:\JSDK2.1\EXAMPLES\SERVLETS\SESSIO~1.HTM
+E:\DREYFUS\URLS\DOMAIN\CERVIG~1.HTM
+E:\DREYFUS\URLS\DOMAIN\0085~1.HTM
+D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\Folder.java
+D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\FolderFactory.java
+D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\JxFrame.java
+D:\Projects\PatternJava\Programs\Flyweight\FlyFolders\FlyCanvas.java
+PRINTER: 2
+haw0flb 790 / H1-A06 IBM 4317,1,1,7,
+

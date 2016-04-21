@@ -1,0 +1,71 @@
+\begin{thebibliography}{10}
+
+\bibitem{spring}
+John Arthur and Shiva Azadegan.
+\newblock Spring framework for rapid open source j2ee web application
+  development: a case study.
+\newblock {\em Software Engineering and Artificial Intelligence and Networking
+  and Parallel/Distributed Computing, 2005 and First ACIS International
+  Workshop on Self-Assembling Wireless Networks. SNPD/SAWN 2005. Sixth
+  International Conference on}, pages 90--95, May 2005.
+
+\bibitem{struts}
+D.~Brown, M.~D. Chad, and S.~Scott.
+\newblock Struts 2 in action.
+\newblock {\em Dreamtech Press}, 2008.
+
+\bibitem{springwalls}
+Walls C.
+\newblock Spring in action.
+\newblock {\em Manning}, 2008.
+
+\bibitem{thin}
+Santi Caball{\'e}, Jose-Arturo Ortega, Josep-Maria Camps, Leonard Barolli, Elis
+  Kulla, and Evjola Spaho.
+\newblock A presentation framework to simplify the development of java ee
+  application thin clients.
+\newblock {\em Complex, Intelligent and Software Intensive Systems (CISIS)},
+  pages 421--426, 2014.
+
+\bibitem{j2ee}
+Rod Johnson.
+\newblock J2ee development frameworks.
+\newblock {\em Computer}, 38(1):107--110, 2005.
+
+\bibitem{designpatternshall}
+C.~Larman.
+\newblock Uml y patrones.
+\newblock {\em Prentice Hall}, 2004.
+
+\bibitem{designpatterns}
+Shuang Liu and Peng Chen.
+\newblock Developing java ee applications based on utilizing design patterns.
+\newblock {\em Information Engineering}, 2:398--401, July 2009.
+
+\bibitem{crosslanguagecodeanalysis}
+P.~Mayer and A.~Schroeder.
+\newblock Cross-language code analysis and refactoring.
+\newblock {\em Proceedings of SCAM}, pages 94--103, 2012.
+
+\bibitem{patterns}
+Philip Mayer and Andres Schroeder.
+\newblock Patterns of cross-language linking in java frameworks.
+\newblock {\em Program Comprehension (ICPC)}, (13):113--122, 2013.
+
+\bibitem{MVC}
+W.~Pengfei and H.~Zhiming.
+\newblock Application of three popular open source software in mvc.
+\newblock {\em Journal of Jiangxi University of Science and Technology},
+  27(6)(35-38), 2006.
+
+\bibitem{tamingofconfusion}
+R.-H. Pfeiffer and A.~Wasowski.
+\newblock Taming the confusion of languages.
+\newblock {\em Proceedings of the ECMFA}, pages 312--328, 2011.
+
+\bibitem{experteoneonone}
+Johnson R and Hoeller J.
+\newblock Expert one-on-one j2ee development without ejb.
+\newblock 2004.
+
+\end{thebibliography}

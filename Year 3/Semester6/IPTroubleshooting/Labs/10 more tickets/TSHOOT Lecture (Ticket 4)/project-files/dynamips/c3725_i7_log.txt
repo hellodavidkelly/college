@@ -1,0 +1,272 @@
+Apr 20 15:55:14.101 VTTY: Console port: waiting connection on tcp port 2003 for protocol IPv4 (FD 10)
+Apr 20 15:55:14.101 VTTY: AUX port: waiting connection on tcp port 2512 for protocol IPv4 (FD 11)
+Apr 20 15:55:14.101 slot0: C/H/S settings = 256/4/32
+Apr 20 15:55:14.117 slot1: C/H/S settings = 0/4/32
+Apr 20 15:55:14.819 C3725_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x6026b804,JIT on)
+Apr 20 15:55:14.819 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Apr 20 15:55:14.819 ROM: Microcode has started.
+Apr 20 15:55:14.819 ROM: trying to read bootvar 'WARM_REBOOT'
+Apr 20 15:55:15.115 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x22, pc=0x602774fc (size=2)
+Apr 20 15:55:15.115 ROM: unhandled syscall 0x00000047 at pc=0x60c00c34 (a1=0x80007df4,a2=0x639511f8,a3=0x0000011c)
+Apr 20 15:55:17.284 ROM: trying to read bootvar 'RANDOM_NUM'
+Apr 20 15:55:17.315 CPU0: PCI: read request for device 'gt96100' at pc=0x602830f8: bus=0,device=0,function=0,reg=0x00
+Apr 20 15:55:17.315 CPU0: PCI: read request for device 'gt96100' at pc=0x602830fc: bus=0,device=0,function=0,reg=0x00
+Apr 20 15:55:17.315 CPU0: PCI: read request for device 'gt96100' at pc=0x60282eac: bus=0,device=0,function=0,reg=0x08
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x10
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x10
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x90
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x90
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x14
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x14
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x94
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x94
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x20
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x20
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0xa0
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0xa0
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x04
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x04
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x84
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x84
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x0c
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x0c
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x8c
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x8c
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x10
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x10
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x90
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x90
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x14
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x14
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x94
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x94
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60282ff4 (bus=0,device=0,function=1,reg=0x10).
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60282ff8 (bus=0,device=0,function=1,reg=0x10).
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60282ff4 (bus=0,device=0,function=1,reg=0x90).
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60282ff8 (bus=0,device=0,function=1,reg=0x90).
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x60282ff4 (bus=0,device=0,function=1,reg=0x14).
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x60282ff8 (bus=0,device=0,function=1,reg=0x14).
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x60282ff4 (bus=0,device=0,function=1,reg=0x94).
+Apr 20 15:55:17.315 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x60282ff8 (bus=0,device=0,function=1,reg=0x94).
+Apr 20 15:55:17.315 CPU0: IO_FPGA: write to unknown addr 0x32, value=0x40, pc=0x60280458 (size=2)
+Apr 20 15:55:17.315 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60298ce8 (size=2)
+Apr 20 15:55:17.315 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60298d14 (size=2)
+Apr 20 15:55:17.315 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x0, pc=0x60298d28 (size=2)
+Apr 20 15:55:17.315 CPU0: MTS: read  access to undefined address 0x3c080000 at pc=0x60298d5c (size=1)
+Apr 20 15:55:17.315 ROM: unhandled syscall 0x0000003e at pc=0x60c00c34 (a1=0x80007de4,a2=0x639511d4,a3=0x000000f8)
+Apr 20 15:55:17.315 ROM: unhandled syscall 0x00000047 at pc=0x60c00c34 (a1=0x80007dec,a2=0x639511f8,a3=0x0000011c)
+Apr 20 15:55:22.104 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 15:55:22.463 CPU0: JIT: flushing data structures (compiled pages=224)
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'BOOT'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'CONFIG_FILE'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'BOOTLDR'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'RSHELF'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'DSHELF'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'DSHELFINFO'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'RESET_COUNTER'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'CHRG_ID'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'SLOTCACHE'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'OVERTEMP'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'DIAG'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'DIAMETER_ORIGIN_ID'
+Apr 20 15:55:22.666 ROM: trying to read bootvar 'WARM_REBOOT'
+Apr 20 15:55:22.666 CPU0: JIT: partial JIT flush (count=180)
+Apr 20 15:55:23.025 CPU0: JIT: flushing data structures (compiled pages=227)
+Apr 20 15:55:23.399 CPU0: JIT: partial JIT flush (count=170)
+Apr 20 15:55:23.742 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60916cac (size=2)
+Apr 20 15:55:23.742 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x6091689c (size=1)
+Apr 20 15:55:23.742 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x60916924 (size=1)
+Apr 20 15:55:23.742 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x60916930, value=0x00000000 (size=1)
+Apr 20 15:55:23.742 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x6091693c (size=1)
+Apr 20 15:55:23.742 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x6091694c, value=0x00000080 (size=1)
+Apr 20 15:55:23.742 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918734 (size=1)
+Apr 20 15:55:23.742 CPU0: MTS: write access to undefined address 0x3c000002 at pc=0x60918740, value=0x00000080 (size=1)
+Apr 20 15:55:23.742 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918744 (size=1)
+Apr 20 15:55:24.117 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 15:55:24.507 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 15:55:25.146 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 15:55:25.552 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 15:55:26.098 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 15:55:26.644 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 15:55:26.644 CPU0: MTS: write access to undefined address 0x3c080007 at pc=0x60916a38, value=0x00000002 (size=1)
+Apr 20 15:55:26.644 CPU0: MTS: write access to undefined address 0x3c080008 at pc=0x60916a40, value=0x00000002 (size=1)
+Apr 20 15:55:26.644 CPU0: MTS: write access to undefined address 0x3c080009 at pc=0x60916a48, value=0x00000002 (size=1)
+Apr 20 15:55:26.644 CPU0: MTS: write access to undefined address 0x3c08000a at pc=0x60916a4c, value=0x00000002 (size=1)
+Apr 20 15:55:26.644 CPU0: MTS: write access to undefined address 0x3c08000b at pc=0x60916a50, value=0x00000002 (size=1)
+Apr 20 15:55:26.644 CPU0: MTS: write access to undefined address 0x3c08000c at pc=0x60916a54, value=0x00000002 (size=1)
+Apr 20 15:55:26.644 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x60917960 (size=1)
+Apr 20 15:55:26.831 CPU0: JIT: flushing data structures (compiled pages=227)
+Apr 20 15:55:27.190 CPU0: JIT: partial JIT flush (count=187)
+Apr 20 15:55:27.408 CPU0: JIT: flushing data structures (compiled pages=233)
+Apr 20 15:55:29.623 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x33, pc=0x602749e8 (size=2)
+Apr 20 15:55:29.623 CPU0: JIT: partial JIT flush (count=173)
+Apr 20 15:55:29.779 CPU0: JIT: flushing data structures (compiled pages=239)
+Apr 20 15:55:30.045 CPU0: JIT: partial JIT flush (count=193)
+Apr 20 15:55:30.279 CPU0: JIT: flushing data structures (compiled pages=234)
+Apr 20 15:55:30.450 CPU0: JIT: partial JIT flush (count=191)
+Apr 20 15:55:30.825 CPU0: JIT: flushing data structures (compiled pages=234)
+Apr 20 15:55:30.996 CPU0: JIT: partial JIT flush (count=203)
+Apr 20 15:55:31.261 CPU0: JIT: flushing data structures (compiled pages=237)
+Apr 20 15:55:31.776 CPU0: JIT: partial JIT flush (count=169)
+Apr 20 15:55:33.102 CPU0: JIT: flushing data structures (compiled pages=233)
+Apr 20 15:55:33.336 CPU0: JIT: partial JIT flush (count=199)
+Apr 20 15:55:33.570 CPU0: JIT: flushing data structures (compiled pages=240)
+Apr 20 15:55:33.976 CPU0: JIT: partial JIT flush (count=171)
+Apr 20 15:55:34.132 CPU0: JIT: flushing data structures (compiled pages=234)
+Apr 20 15:55:34.428 CPU0: JIT: partial JIT flush (count=185)
+Apr 20 15:55:34.678 CPU0: JIT: flushing data structures (compiled pages=239)
+Apr 20 15:55:35.115 CPU0: JIT: partial JIT flush (count=174)
+Apr 20 15:55:35.505 CPU0: JIT: flushing data structures (compiled pages=233)
+Apr 20 15:55:35.848 CPU0: JIT: partial JIT flush (count=189)
+Apr 20 15:55:36.129 CPU0: JIT: flushing data structures (compiled pages=246)
+Apr 20 15:55:36.394 CPU0: JIT: partial JIT flush (count=191)
+Apr 20 15:55:36.565 CPU0: JIT: flushing data structures (compiled pages=257)
+Apr 20 15:55:36.831 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 15:55:38.001 CPU0: JIT: flushing data structures (compiled pages=273)
+Apr 20 15:55:38.188 CPU0: JIT: partial JIT flush (count=190)
+Apr 20 15:55:38.313 CPU0: JIT: flushing data structures (compiled pages=272)
+Apr 20 15:55:39.264 CPU0: JIT: partial JIT flush (count=161)
+Apr 20 15:55:39.919 CPU0: JIT: flushing data structures (compiled pages=274)
+Apr 20 15:55:40.013 ROM: trying to read bootvar 'PMDEBUG'
+Apr 20 15:55:40.091 ROM: trying to read bootvar 'MONDEBUG'
+Apr 20 15:55:40.169 CPU0: JIT: partial JIT flush (count=187)
+Apr 20 15:55:40.512 CPU0: JIT: flushing data structures (compiled pages=269)
+Apr 20 15:55:41.557 CPU0: JIT: partial JIT flush (count=175)
+Apr 20 15:55:42.213 CPU0: JIT: flushing data structures (compiled pages=274)
+Apr 20 15:55:42.587 CPU0: JIT: partial JIT flush (count=177)
+Apr 20 15:55:42.665 ROM: unhandled syscall 0x0000001a at pc=0x60c00c34 (a1=0x662e77b4,a2=0x63951144,a3=0x00000068)
+Apr 20 15:55:42.665 ROM: unhandled syscall 0x00000009 at pc=0x60c00c34 (a1=0x662e77b4,a2=0x63951100,a3=0x00000024)
+Apr 20 15:55:42.774 CPU0: JIT: flushing data structures (compiled pages=273)
+Apr 20 15:55:42.946 CPU0: JIT: partial JIT flush (count=185)
+Apr 20 15:55:43.164 CPU0: JIT: flushing data structures (compiled pages=277)
+Apr 20 15:55:43.320 CPU0: JIT: partial JIT flush (count=204)
+Apr 20 15:55:43.414 CPU0: JIT: flushing data structures (compiled pages=267)
+Apr 20 15:55:43.523 CPU0: JIT: partial JIT flush (count=209)
+Apr 20 15:55:43.632 CPU0: JIT: flushing data structures (compiled pages=266)
+Apr 20 15:55:44.007 CPU0: JIT: partial JIT flush (count=167)
+Apr 20 15:55:44.147 CPU0: JIT: flushing data structures (compiled pages=273)
+Apr 20 15:55:44.568 CPU0: JIT: partial JIT flush (count=180)
+Apr 20 15:55:44.771 CPU0: JIT: flushing data structures (compiled pages=277)
+Apr 20 15:55:44.943 CPU0: JIT: partial JIT flush (count=193)
+Apr 20 15:55:45.005 ROM: trying to read bootvar 'RANDOM_NUM'
+Apr 20 15:55:45.036 CPU0: JIT: flushing data structures (compiled pages=278)
+Apr 20 15:55:45.489 CPU0: JIT: partial JIT flush (count=165)
+Apr 20 15:55:45.613 CPU0: JIT: flushing data structures (compiled pages=273)
+Apr 20 15:55:45.801 CPU0: JIT: partial JIT flush (count=203)
+Apr 20 15:55:45.925 CPU0: JIT: flushing data structures (compiled pages=273)
+Apr 20 15:55:46.081 CPU0: JIT: partial JIT flush (count=198)
+Apr 20 15:55:46.284 CPU0: JIT: flushing data structures (compiled pages=276)
+Apr 20 15:55:46.456 CPU0: JIT: partial JIT flush (count=202)
+Apr 20 15:55:46.612 CPU0: JIT: flushing data structures (compiled pages=271)
+Apr 20 15:55:46.752 CPU0: JIT: partial JIT flush (count=203)
+Apr 20 15:55:46.893 CPU0: JIT: flushing data structures (compiled pages=275)
+Apr 20 15:55:47.049 CPU0: JIT: partial JIT flush (count=206)
+Apr 20 15:55:47.158 CPU0: JIT: flushing data structures (compiled pages=279)
+Apr 20 15:55:47.314 CPU0: JIT: partial JIT flush (count=195)
+Apr 20 15:55:47.485 CPU0: JIT: flushing data structures (compiled pages=284)
+Apr 20 15:55:47.626 CPU0: JIT: partial JIT flush (count=217)
+Apr 20 15:55:47.782 CPU0: JIT: flushing data structures (compiled pages=279)
+Apr 20 15:55:47.891 CPU0: JIT: partial JIT flush (count=201)
+Apr 20 15:55:48.047 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 15:55:48.203 CPU0: JIT: partial JIT flush (count=201)
+Apr 20 15:55:48.375 CPU0: JIT: flushing data structures (compiled pages=290)
+Apr 20 15:55:48.687 CPU0: JIT: partial JIT flush (count=184)
+Apr 20 15:55:48.874 CPU0: JIT: flushing data structures (compiled pages=294)
+Apr 20 15:55:49.030 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 15:55:49.264 CPU0: JIT: flushing data structures (compiled pages=292)
+Apr 20 15:55:49.511 CPU0: JIT: partial JIT flush (count=191)
+Apr 20 15:55:49.573 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60916c6c (size=2)
+Apr 20 15:55:49.573 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x1, pc=0x60916c74 (size=2)
+Apr 20 15:55:49.604 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 15:55:49.682 ROM: trying to read bootvar 'ROM_PERSISTENT_UTC'
+Apr 20 15:55:49.807 CPU0: JIT: partial JIT flush (count=185)
+Apr 20 15:55:49.869 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 15:55:49.932 CPU0: JIT: partial JIT flush (count=212)
+Apr 20 15:55:50.103 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 15:55:50.431 CPU0: JIT: partial JIT flush (count=187)
+Apr 20 15:55:50.763 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 15:55:51.017 CPU0: JIT: partial JIT flush (count=195)
+Apr 20 15:55:51.303 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 15:55:51.506 CPU0: JIT: partial JIT flush (count=190)
+Apr 20 15:55:51.786 CPU0: JIT: flushing data structures (compiled pages=291)
+Apr 20 15:55:51.974 CPU0: JIT: partial JIT flush (count=198)
+Apr 20 15:55:52.192 CPU0: JIT: flushing data structures (compiled pages=296)
+Apr 20 15:55:52.410 CPU0: JIT: partial JIT flush (count=198)
+Apr 20 15:55:52.566 CPU0: JIT: flushing data structures (compiled pages=284)
+Apr 20 15:55:52.754 CPU0: JIT: partial JIT flush (count=191)
+Apr 20 15:55:52.769 ROM: trying to set bootvar 'BSI=0'
+Apr 20 15:55:52.816 ROM: trying to read bootvar 'RET_2_RCALTS'
+Apr 20 15:55:52.816 ROM: trying to set bootvar 'RET_2_RCALTS='
+Apr 20 15:55:52.863 CPU0: JIT: flushing data structures (compiled pages=296)
+Apr 20 15:55:53.190 CPU0: JIT: partial JIT flush (count=175)
+Apr 20 15:55:53.799 CPU0: JIT: flushing data structures (compiled pages=297)
+Apr 20 15:55:56.014 CPU0: JIT: partial JIT flush (count=158)
+Apr 20 15:56:07.340 CPU0: JIT: flushing data structures (compiled pages=290)
+Apr 20 15:56:13.845 VTTY: Console port is now connected (accept_fd=10,conn_fd=17)
+Apr 20 15:56:18.057 CPU0: JIT: partial JIT flush (count=167)
+Apr 20 15:56:19.227 CPU0: JIT: flushing data structures (compiled pages=290)
+Apr 20 15:56:27.916 CPU0: JIT: partial JIT flush (count=178)
+Apr 20 15:56:37.245 CPU0: JIT: flushing data structures (compiled pages=291)
+Apr 20 15:56:37.900 CPU0: JIT: partial JIT flush (count=184)
+Apr 20 15:57:06.214 CPU0: JIT: flushing data structures (compiled pages=291)
+Apr 20 15:57:15.356 CPU0: JIT: partial JIT flush (count=172)
+Apr 20 15:57:20.348 CPU0: JIT: flushing data structures (compiled pages=290)
+Apr 20 15:57:28.694 CPU0: JIT: partial JIT flush (count=177)
+Apr 20 15:57:29.926 ROM: trying to set bootvar 'RANDOM_NUM=96996535'
+Apr 20 15:57:33.764 CPU0: JIT: flushing data structures (compiled pages=291)
+Apr 20 15:57:42.843 CPU0: JIT: partial JIT flush (count=175)
+Apr 20 15:58:02.601 CPU0: JIT: flushing data structures (compiled pages=291)
+Apr 20 15:58:12.434 CPU0: JIT: partial JIT flush (count=178)
+Apr 20 15:58:20.343 CPU0: JIT: flushing data structures (compiled pages=291)
+Apr 20 15:58:31.949 CPU0: JIT: partial JIT flush (count=174)
+Apr 20 15:58:32.604 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 15:59:02.728 CPU0: JIT: partial JIT flush (count=155)
+Apr 20 15:59:11.511 CPU0: JIT: flushing data structures (compiled pages=293)
+Apr 20 15:59:20.325 CPU0: JIT: partial JIT flush (count=177)
+Apr 20 15:59:31.947 CPU0: JIT: flushing data structures (compiled pages=290)
+Apr 20 15:59:33.117 CPU0: JIT: partial JIT flush (count=183)
+Apr 20 16:00:02.414 CPU0: JIT: flushing data structures (compiled pages=291)
+Apr 20 16:00:07.109 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 16:00:20.338 CPU0: JIT: flushing data structures (compiled pages=289)
+Apr 20 16:00:31.945 CPU0: JIT: partial JIT flush (count=173)
+Apr 20 16:00:33.068 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 16:01:02.318 CPU0: JIT: partial JIT flush (count=153)
+Apr 20 16:01:06.998 CPU0: JIT: flushing data structures (compiled pages=291)
+Apr 20 16:01:20.320 CPU0: JIT: partial JIT flush (count=171)
+Apr 20 16:01:31.942 CPU0: JIT: flushing data structures (compiled pages=290)
+Apr 20 16:01:33.050 CPU0: JIT: partial JIT flush (count=182)
+Apr 20 16:01:48.556 C3725_STOP: stopping simulation.
+Apr 20 16:01:48.556 CPU0: CPU_STATE: Halting CPU (old state=0)...
+Apr 20 16:01:48.619 VM: shutdown procedure engaged.
+Apr 20 16:01:48.619 VM_OBJECT: Shutdown of object "slot1"
+Apr 20 16:01:48.619 DEVICE: Removal of device slot1, fd=-1, host_addr=0x0, flags=2
+Apr 20 16:01:48.619 VM_OBJECT: Shutdown of object "slot0"
+Apr 20 16:01:48.619 DEVICE: Removal of device slot0, fd=-1, host_addr=0x0, flags=2
+Apr 20 16:01:48.619 VM_OBJECT: Shutdown of object "ns16552"
+Apr 20 16:01:48.619 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Apr 20 16:01:48.619 VM_OBJECT: Shutdown of object "mem_bswap"
+Apr 20 16:01:48.619 DEVICE: Removal of device mem_bswap, fd=-1, host_addr=0x0, flags=0
+Apr 20 16:01:48.619 VM_OBJECT: Shutdown of object "rom"
+Apr 20 16:01:48.619 DEVICE: Removal of device rom, fd=14, host_addr=0xf1a50000, flags=1
+Apr 20 16:01:48.619 MMAP: unmapping of device 'rom', fd=14, host_addr=0xf1a50000, len=0x200000
+Apr 20 16:01:48.619 VM_OBJECT: Shutdown of object "ram"
+Apr 20 16:01:48.619 DEVICE: Removal of device ram, fd=13, host_addr=0xf1c50000, flags=34
+Apr 20 16:01:48.619 MMAP: unmapping of device 'ram', fd=13, host_addr=0xf1c50000, len=0xc000000
+Apr 20 16:01:48.650 VM_OBJECT: Shutdown of object "gt96100"
+Apr 20 16:01:48.650 DEVICE: Removal of device gt96100, fd=-1, host_addr=0x0, flags=0
+Apr 20 16:01:48.650 VM_OBJECT: Shutdown of object "io_fpga"
+Apr 20 16:01:48.650 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Apr 20 16:01:48.650 VM_OBJECT: Shutdown of object "ssa"
+Apr 20 16:01:48.650 DEVICE: Removal of device ssa, fd=12, host_addr=0xfdc50000, flags=2
+Apr 20 16:01:48.650 MMAP: unmapping of device 'ssa', fd=12, host_addr=0xfdc50000, len=0x7000
+Apr 20 16:01:48.650 VM_OBJECT: Shutdown of object "remote_ctrl"
+Apr 20 16:01:48.650 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Apr 20 16:01:48.650 VM: removing PCI busses.
+Apr 20 16:01:48.650 VM: deleting VTTY.
+Apr 20 16:01:48.650 VTTY: Console port: closing FD 10
+Apr 20 16:01:48.650 VTTY: AUX port: closing FD 11
+Apr 20 16:01:48.650 VM: deleting system CPUs.
+Apr 20 16:01:48.650 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Apr 20 16:01:48.650 VM: shutdown procedure completed.
+Apr 20 16:02:03.844 VM: trying to shutdown an inactive VM.

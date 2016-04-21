@@ -1,0 +1,52 @@
+Apr 18 14:21:14.195 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 18 14:21:14.198 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64998.
+Apr 18 14:21:14.285 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 14:21:14.288 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 18 14:21:14.288 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 1)\project-files\dynamips 
+Apr 18 14:21:14.290 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 1)\project-files\dynamips
+Apr 18 14:21:14.293 HYPERVISOR: exec_cmd: vm create DSW1 5 c3725 
+Apr 18 14:21:14.295 VM: VM DSW1 created.
+Apr 18 14:21:14.310 HYPERVISOR: exec_cmd: vm set_con_tcp_port DSW1 2006 
+Apr 18 14:21:14.313 HYPERVISOR: exec_cmd: vm set_aux_tcp_port DSW1 2510 
+Apr 18 14:21:14.353 HYPERVISOR: exec_cmd: c3725 get_mac_addr DSW1 
+Apr 18 14:21:14.355 HYPERVISOR: exec_cmd: vm get_status DSW1 
+Apr 18 14:21:14.358 HYPERVISOR: exec_cmd: vm set_idle_pc DSW1 0x6026b804 
+Apr 18 14:21:14.360 HYPERVISOR: exec_cmd: vm slot_add_binding DSW1 0 32 WIC-1T 
+Apr 18 14:21:14.363 HYPERVISOR: exec_cmd: vm set_ram DSW1 192 
+Apr 18 14:21:14.363 HYPERVISOR: exec_cmd: vm get_status DSW1 
+Apr 18 14:21:14.365 HYPERVISOR: exec_cmd: vm slot_add_binding DSW1 1 0 NM-16ESW 
+Apr 18 14:21:14.368 HYPERVISOR: exec_cmd: vm slot_add_binding DSW1 0 16 WIC-1T 
+Apr 18 14:21:14.370 HYPERVISOR: exec_cmd: vm slot_add_binding DSW1 0 48 WIC-1T 
+Apr 18 14:21:14.373 HYPERVISOR: exec_cmd: vm set_ios DSW1 C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 18 14:21:14.375 HYPERVISOR: exec_cmd: c3725 set_mac_addr DSW1 c205.180c.0000 
+Apr 18 14:21:14.378 HYPERVISOR: exec_cmd: vm set_config DSW1 configs/i5_startup-config.cfg 
+Apr 18 14:21:14.913 HYPERVISOR: exec_cmd: vm set_ghost_status DSW1 2 
+Apr 18 14:21:14.915 HYPERVISOR: exec_cmd: vm set_ghost_file DSW1 C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 18 14:21:15.835 HYPERVISOR: exec_cmd: nio create_udp nio_udp46 10001 127.0.0.1 10000 
+Apr 18 14:21:15.857 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSW1 1 2 nio_udp46 
+Apr 18 14:21:15.887 HYPERVISOR: exec_cmd: vm get_status DSW1 
+Apr 18 14:21:15.957 HYPERVISOR: exec_cmd: nio create_udp nio_udp49 10003 127.0.0.1 10002 
+Apr 18 14:21:15.962 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSW1 1 3 nio_udp49 
+Apr 18 14:21:15.982 HYPERVISOR: exec_cmd: vm get_status DSW1 
+Apr 18 14:21:16.052 HYPERVISOR: exec_cmd: nio create_udp nio_udp51 10005 127.0.0.1 10004 
+Apr 18 14:21:16.057 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSW1 1 8 nio_udp51 
+Apr 18 14:21:16.077 HYPERVISOR: exec_cmd: vm get_status DSW1 
+Apr 18 14:21:16.152 HYPERVISOR: exec_cmd: nio create_udp nio_udp54 10007 127.0.0.1 10006 
+Apr 18 14:21:16.215 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSW1 1 9 nio_udp54 
+Apr 18 14:21:16.220 HYPERVISOR: exec_cmd: vm get_status DSW1 
+Apr 18 14:21:16.370 HYPERVISOR: exec_cmd: nio create_udp nio_udp59 10014 127.0.0.1 10015 
+Apr 18 14:21:16.375 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSW1 1 4 nio_udp59 
+Apr 18 14:21:16.377 HYPERVISOR: exec_cmd: vm get_status DSW1 
+Apr 18 14:21:16.535 HYPERVISOR: exec_cmd: nio create_udp nio_udp61 10016 127.0.0.1 10017 
+Apr 18 14:21:16.557 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSW1 1 5 nio_udp61 
+Apr 18 14:21:16.560 HYPERVISOR: exec_cmd: vm get_status DSW1 
+Apr 18 14:21:17.332 HYPERVISOR: exec_cmd: nio create_udp nio_udp79 10036 127.0.0.1 10037 
+Apr 18 14:21:17.377 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSW1 0 0 nio_udp79 
+Apr 18 14:21:17.407 HYPERVISOR: exec_cmd: vm get_status DSW1 
+Apr 18 14:21:20.838 HYPERVISOR: exec_cmd: vm get_status DSW1 
+Apr 18 14:21:20.845 HYPERVISOR: exec_cmd: vm extract_config DSW1 
+Apr 18 14:21:20.868 HYPERVISOR: exec_cmd: vm delete DSW1 
+Apr 18 14:21:20.868 VM: VM DSW1 destroyed.
+Apr 18 14:21:20.885 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 18 14:21:21.290 HYPERVISOR: Stopped.
+Apr 18 14:21:21.345 GENERAL: reset done.

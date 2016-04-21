@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2007 "Skyline" Example Set -->
+<!-- This File Last Changed: 08 June 2009 -->
+
+<head>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<script type="text/javascript" src="/scripts/elcontent.js"></script>
+<script type="text/javascript" src="/scripts/common.js"></script>
+<script type="text/javascript" src="/scripts/features.js"></script>
+<title>IT Blanchardstown Library Catalogue</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+
+<body onload="document.forms[0].elements[2].focus();">
+
+<!-- begin toplogo.html file -->
+<!-- Rel 2007 "Skyline" Example Set -->
+<!-- This File Last Changed: 19 August 2008 -->
+
+<div class="topLogoDiv">
+<div id="skipNav"><a href="#content">Skip to content</a></div>
+<div class="floatRight">
+<ul id="headerNav">
+<li class="headerNavFirst"><a href="/">Library Home</a></li>
+<li><a href="/screens/help_index.html">Help</a></li>
+<li><a href="/patroninfo">Login</a></li>
+
+
+</ul>
+</div>
+
+<BR>
+<a href="www.itb.ie"><img src="/screens/itblogo.gif" alt="ITB home"/></a>
+</div>
+<BR>
+
+<CENTER><FONT FACE="ARIAL" SIZE=+2 COLOR="#5D5D5D"><I><B>Welcome to the Library at ITB</B></I>
+</FONT></CENTER>
+
+<div class="clear"> <!-- content div -->
+<div class="pageNavColumn"><!-- nav menu column-->
+
+<h1 class="navHeader">Search the Library Catalogue:</h1>
+<ul class="leftCol">
+<li><a href="/search/Y">Keyword</a></li>
+<li><a href="/search/t">Title</a></li>
+<li><a href="/search/a">Author</a></li>
+<li><a href="/search/d">Subject</a></li>
+<!--
+<li><a href="/search/h">Journal title</a></li>
+-->
+<li><a href="/search/c">Class number</a></li>
+<li><a href="/search/i">ISBN/ISSN</a></li>
+<li><a href="/search/X">Advanced search</a></li>
+<!--
+<li><a href="/programs">Program Search</a></li>
+<li><a href="/search/q">Author and Title</a></li>
+<li><a href="/search/g">Government documents</a></li>
+-->
+
+
+</ul>
+
+<h1 class="navHeader">My Library</h1>
+<ul class="leftCol">
+<li><a href="/patroninfo">My account</a></li>
+<!--
+<li><a href="/selfreg">Create an account</a></li>
+-->
+<li><a href="/acquire">Suggest a purchase</a></li>
+
+<li><a href="/illb">Inter-Library Loan</a></li>
+
+<li><a href="/suggest">Comments</a></li>
+
+
+
+<li><td width="222" align="left" valign="top"> <div align="center">
+        <table width="205" border="0" cellspacing="0" cellpadding="3">
+          <tr> 
+            <td width="205" bgcolor="#FFFFFF"> <div align="center"> 
+                <p><a href="mailto:libraryinfo@itb.ie"><img src="/screens/askalibrarianmona.jpg" width="110" height="130" border="0" alt=Ask a librarian></a></p>
+                <!--<p><font color="#0000FF" size="2" face="Arial, Helvetica, sans-serif"><a href="mailto:libraryinfo@itb.ie">Click 
+                  here to e-mail a librarian</a></font></p>-->
+               <BR><BR>
+                <p><a href="http://www.facebook.com/#!/ITBDublinLibrary"><img src="/screens/facebook.png" alt=Facebook></a></p>
+              </div></td>
+          </tr>
+        </table>
+
+
+
+</ul>
+
+<!--
+<h1 class="navHeader">Library Links</h1>
+<ul class="leftCol">
+<li><a href="/screens/libinfo.html">About the library</a></li>
+-->
+
+<!--
+<li><a href="/feeds">Feeds</a></li>
+<li><a href="/screens/rpro.html">Research Pro</a></li>
+<li><a href="/iii/calendar">Programs Calendar</a></li>
+<li><a href="/">KidsOnline</a></li>
+<li><a href="/ftlist">Featured item lists</a></li>
+<li><a href="/screens/resources_index.html">Other resources</a></li>
+-->
+
+<!--
+</ul>
+
+<h1 class="navHeader">Course Reserves</h1>
+<ul class="leftCol">
+<li><a href="/search/r">Course Search</a></li>
+<li><a href="/search/p">Instructor Search</a></li>
+-->
+
+</ul>
+</div><!--Styling div-->
+<div class="pageContentColumn"><!-- content container -->
+<a name="content"></a>
+<!--end toplogo.html-->
+
+
+
+<div class="mainMenuSrchTool">
+	
+	<form class="unpadded" action="/search" method="post" name="searchtool" id="search">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="100%" bgcolor="#006400"> <div align="left">&nbsp;<strong> <span class="mainmenu">
+	<font color="#FFFFFF" size="3" face="Arial">Use this box  to search the LIBRARY CATALOGUE ONLY
+		</font>
+			</span></strong>
+	</div>
+</td>
+        </tr>
+</table>
+
+<select name="searchtype" id="searchtype">
+<option value="X" selected="selected"> Keyword</option>
+<option value="t"> Title</option>
+<option value="a"> Author</option>
+<option value="d"> Subject</option>
+
+<option value="h"> Journal title</option>
+<option value="c"> Class number</option>
+<!--<option value="g"> Government Document</option>-->
+<option value="i"> ISBN/ISSN</option>
+<!--<option value="y"> Resource Name</option> -->
+<!--<option value="m"> Resource Subject</option> -->
+<option value="." > Record Number</option>
+
+</select>
+<input type="hidden" name="SORT" id="SORT" value="D" />
+<input maxlength="75" name="searcharg" size="20" />
+<span class="nowrap"><input type="image" value="Submit" name="submit" src="/screens/submit.gif"  align="middle" alt="Submit Search" /></span>
+</form>
+</div>
+
+<!--end tool -->
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="100%" bgcolor="#006400"> <div align="left">&nbsp;<strong> <span class="mainmenu">
+<font color="#FFFFFF" size="3" face="Arial">Use ONE SEARCH  to find electronic resources AND library catalogue items at the same time:</font>
+</span></strong></div></td>
+        </tr>
+</table>
+
+ <table width="677" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+         <td width="677"><div align="right">
+
+<p><font size="3" font color="#000000" face="Arial, Helvetica, sans-serif">
+<div align="left">
+Type the search term you want to find, e.g. "data mining"
+</div>
+</font>
+
+<div class="mainContentHead"><B></B></div><br>
+<div><form method="GET" action="http://itb.summon.serialssolutions.com/search">
+  <input type="text" name="s.q" size="50"/>
+  <input type="hidden" value="true" name="spellcheck"/>
+  <input type="submit"  value="One Search"/>
+</form></div>
+
+</td></tr>
+      </table>
+
+<td width="677"><div align="left">
+<div>
+For more ONE SEARCH options click
+<a href="http://itb.summon.serialssolutions.com/advanced"><u> here</u></a><br>
+To search electronic resources individually, go to the main databases page <a href="/screens/databases.html" 
+><u> here</u></a>
+</font>
+</td></tr>
+      </table>
+
+<br>
+<br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="100%" bgcolor="#006400"> <div align="centre">&nbsp;<strong> <span class="mainmenu">
+<font color="#FFFFFF" size="2" face="Arial">BOOK A LIBRARY PC 
+             </font></span></strong></div></td>
+        </tr>
+      </table>
+
+<br>
+<table width="600" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="300"><font size="3" face="Arial, Helvetica, sans-serif">
+<a href="http://humber.itb.ie/cire/login.aspx?ViewSimpleMode=true"><img src="/screens/BOOK_PC_PHONE.jpg" style="float: center; width: 25%; margin-center: 1%; margin-bottom: 0.5em;"  alt="PC Phone">
+<a href="http://humber.itb.ie/cire/Login.aspx"><img src="/screens/BOOK_PC_COMPUTER.jpg" style="width: 29%; margin-center: 1%; margin-bottom: 0.5em;"  alt="PC/PC" border="0">
+<br>
+</table>
+
+<table>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="300" bgcolor="#006400"> <div align="left">&nbsp;<strong> <span class="mainmenu"><font color="#FFFFFF" size="2" face="Arial">LIBRARY INFO & SERVICES</font></span></strong></div>
+	</td>
+          
+<td width="327" bgcolor="#006400"><div align="left">&nbsp; 
+	<strong>
+		<font color="#FFFFFF" size="2" face="Arial">FEATURED LIBRARY TUTORIAL:
+		</font>
+	</strong>
+</td>
+        </tr>
+ </table>
+
+      <table width="675" height="149" border="0" cellpadding="0" cellspacing="0" >
+        <!--DWLayoutTable-->
+        <tr> 
+
+<br>
+
+<td width="17" height="149" rowspan="2">&nbsp;</td>
+          <td width="282" align="left" valign="top"><div id="navcontainer"> 
+              <ul class="navlist ">
+                <li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif""><a href="http://www.itb.ie/Library/geninfo.html">Opening Hours/General Info</a></font>
+                <li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.itb.ie/Library/contacts.html">Staff Contact Details</a></font></li>
+                <li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.itb.ie/CurrentStudents/sid.html">Student Information Desk </a></font></li>
+                <li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="http://itbstudenthub.ie">Student Information Hub</a></font></li>    
+                <li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="/screens/databases.html">Online Databases</a></font></li> 
+ <li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="/screens/databasesfreetrials.html">Databases Free Trials </a></font></li>
+<li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="https://www.blanchlib.itb.ie/patroninfo~S0">Renew your Library Books Online </a></font></li> 
+                <li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.itb.ie/Library/remotecats.htm">Search Another Library Catalogue</a></font>   
+                <li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="http://www.itb.ie/Library/libserv.html#access">Access To Other Libraries</a></font></li>
+              <li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="https://www.refworks.com/refworks2/default.aspx?r=authentication::init">Refworks - Referencing software</a></font></li>
+              <li><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="/screens/ITB_Library_Harvard_Referencing_Guide.pdf">Harvard Referencing Guide</a></font></li>
+              
+<div id="navcontainer"></div></td>
+          <td width="376" align="left" valign="top"><div id="navcontainer"> 
+              <ul class="navlist ">
+             
+          <div align="right"> <iframe width="370" height="220" src="https://www.youtube.com/embed/tIMQiCNy4dE" frameborder="0" allowfullscreen></iframe></div>           
+              
+</table>
+
+<table width="677" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="600" bgcolor="#FFFFFF"> <div align="left">&nbsp;<strong> <span class="mainmenu">
+<left>
+<a href="https://www.facebook.com/ITBDublinLibrary"><img src="/screens/facebook-logo.jpg" alt="ITB FB" border="0" width="50" height="50">
+<a href="https://www.youtube.com/user/ITBLibrary/videos "><img src="/screens/youtube-logo-square.png" border="0" width="47" height="47  alt="Youtube">
+<a href="http://itblibrary.blogspot.ie/"><img src="/screens/blogger-logo.jpg" border="0" width="47" height="47  alt="Blog">
+<a href="http://moodle.itb.ie/course/view.php?id=996 "><img src="/screens/ITB_LIBRARY_HUB.jpg" border="0" width="75" height="47  alt="Blog">
+
+</left>
+        </tr>
+      </table>
+
+<br> <br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="100%" bgcolor="#006400"> <div align="centre">&nbsp;<strong> <span class="mainmenu"><font color="#FFFFFF" size="2" face="Arial">PAY LIBRARY FINES ONLINE 
+             </font></span></strong></div></td>
+        </tr>
+      </table>
+
+ <br>    
+
+<table width="677" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="600">
+<font size="2" face="Arial, Helvetica, sans-serif">
+<p>
+<a href="https://www.itb.ie/library/payments/"><img src="/screens/button.jpg" style="float: center; width: 30%; margin-center: 20%; margin-bottom: 0.5em;"  alt="Pay fines" border="0"></a>
+</p>
+</font>
+</td>
+</div>
+        </tr>
+      </table>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="600" bgcolor="#0052cc"> <div align="centre">&nbsp;<strong> <span class="mainmenu"><font color="#FFFFFF" size="2" face="Arial">"Workers & Rebels: Jacob's Factory 1913-16" - An exhibition at Dublin Institute of Technology Library 
+             </font></span></strong></div></td>
+        </tr>
+      </table>
+<br>
+
+<table width="677" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="600">
+<font size="2" face="Arial, Helvetica, sans-serif">
+<p><a href="http://jacobs1916.com/"><img src="/screens/Jacobs.jpg" align="left"></a>
+
+The Library at Dublin Institute of Technology is currently hosting an exhibition which highlights the historic connection between the Jacobs Factory and DIT Aungier St. The Jacobs Factory was a very important strategic position for the rebels during the 1916 Easter Rising. <br>
+<br>For full details on this very infomative exhibition, click the image opposite, or go to <strong><a href="http://jacobs1916.com/">http://jacobs1916.com</a></strong>
+
+</p>
+</td>
+
+
+<table>           
+
+<!-- begin botlogo.html file -->
+<!-- Rel 2007 "Skyline" Example Set -->
+<!-- This File Last Changed: 27 June 2008 -->
+</div><!-- end content container -->
+</div> <!-- end clearing div -->
+<div style="clear:both"></div>
+<!-- end botlogo.html file -->
+
+</table>
+
+<span style="font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; visibility: visible; font-size: 85%; text-align: center; display: block; ">WebPAC PRO &copy; Innovative Interfaces, Inc.</span>
+</body>
+</html>
+<!--this is customized <screens/mainmenu.html>-->

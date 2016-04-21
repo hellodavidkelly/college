@@ -1,0 +1,867 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+
+<head>
+
+<meta charset="UTF-8">
+
+<!-- Mobile View -->
+<meta name="viewport" content="width=device-width">
+
+<title> Student Information Hub</title>
+<link rel="Shortcut Icon" href="http://itbstudenthub.ie/wp-content/themes/organic_magazine/images/favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="http://itbstudenthub.ie/wp-content/themes/organic_magazine/style.css">
+<link rel="stylesheet" href="http://itbstudenthub.ie/wp-content/themes/organic_magazine/style-mobile.css">
+<style type="text/css" media="screen">
+
+#content a, #content a:link, #content a:visited,
+#homepage a, #homepage a:link, #homepage a:visited,
+#slideshow a, #slideshow a:link, #slideshow a:visited {
+color: #000000;}
+
+#content a:hover, #content a:focus, #content a:active,
+#homepage a:hover, #homepage a:focus, #homepage a:active,
+#slideshow a:hover, #slideshow a:focus, #slideshow a:active {
+color: #33CCCC;}
+
+.container h1 a, .container h2 a, .container h3 a, .container h4 a, .container h5 a, .container h6 a,
+.container h1 a:link, .container h2 a:link, .container h3 a:link, .container h4 a:link, .container h5 a:link, .container h6 a:link,
+.container h1 a:visited, .container h2 a:visited, .container h3 a:visited, .container h4 a:visited, .container h5 a:visited, .container h6 a:visited {
+color: #333333!important;}
+
+.container h1 a:hover, .container h2 a:hover, .container h3 a:hover, .container h4 a:hover, .container h5 a:hover, .container h6 a:hover,
+.container h1 a:focus, .container h2 a:focus, .container h3 a:focus, .container h4 a:focus, .container h5 a:focus, .container h6 a:focus,
+.container h1 a:active, .container h2 a:active, .container h3 a:active, .container h4 a:active, .container h5 a:active, .container h6 a:active {
+color: #33CCCC!important;}
+
+#submit:hover, #comments #respond input#submit:hover, #searchsubmit:hover, #pbd-alp-load-posts a:hover, #pbd-alp-load-posts a:active, .reply a:hover, .gallery img:hover, .gform_wrapper input.button:hover, .number-paginate a:hover, .number-paginate a:active, .number-paginate .number-current, .flex-direction-nav li .prev:hover, .flex-direction-nav li .next:hover {
+background-color: #33CCCC !important;}
+</style>
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="Student Information Hub &raquo; Feed" href="http://itbstudenthub.ie/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Student Information Hub &raquo; Comments Feed" href="http://itbstudenthub.ie/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/itbstudenthub.ie\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='http://itbstudenthub.ie/wp-includes/css/dashicons.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='http://itbstudenthub.ie/wp-includes/js/thickbox/thickbox.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='video-js-css'  href='http://itbstudenthub.ie/wp-content/plugins/video-embed-thumbnail-generator/video-js/video-js.css?ver=4.12.11' type='text/css' media='all' />
+<link rel='stylesheet' id='video-js-kg-skin-css'  href='http://itbstudenthub.ie/wp-content/plugins/video-embed-thumbnail-generator/video-js/kg-video-js-skin.css?ver=4.505' type='text/css' media='all' />
+<link rel='stylesheet' id='kgvid_video_styles-css'  href='http://itbstudenthub.ie/wp-content/plugins/video-embed-thumbnail-generator/css/kgvid_styles.css?ver=4.505' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-38130955-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://itbstudenthub.ie/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://itbstudenthub.ie/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel='https://api.w.org/' href='http://itbstudenthub.ie/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://itbstudenthub.ie/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://itbstudenthub.ie/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://itbstudenthub.ie/wp-content/themes/organic_magazine/images/background.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+<script type="text/javascript">document.createElement('video');document.createElement('audio');</script>
+
+<link rel="alternate" type="application/rss+xml" title="Student Information Hub Feed" href="http://itbstudenthub.ie/feed/">
+<link rel="pingback" href="http://itbstudenthub.ie/xmlrpc.php">
+
+<!-- Social -->
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300,900' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript"> 
+	var $j = jQuery.noConflict();
+	$j(document).ready(function() { 
+	    $j('.menu').superfish({
+	    	delay: 200,
+	    	animation: {opacity:'show', height:'show'},
+	    	speed: 'fast',
+	    	autoArrows: true,
+	    	dropShadows: false
+	    }); 
+	}); 
+</script>
+
+<script type="text/javascript">
+	var $j = jQuery.noConflict();
+	$j(window).load(function() { 
+		// Call fitVid before FlexSlider initializes, so the proper initial height can be retrieved.
+		$j('.flexslider').fitVids().flexslider({
+			slideshowSpeed: 8000,
+			animationDuration	: 400,
+			animation: 'fade',
+			video: true,
+			useCSS: false,
+			animationLoop: true,
+			smoothHeight: true
+		});
+	});
+</script>
+
+<!-- Make Social Buttons Load in Ajax -->
+<script type="text/javascript">
+	jQuery(document).ajaxComplete(function($) {
+		gapi.plusone.go();
+		twttr.widgets.load();
+		try {
+			FB.XFBML.parse();
+		}catch(ex){}
+	});
+</script>
+
+</head>
+
+<body class="home blog custom-background">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=246727095428680";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div class="container">
+	
+	<div class="row">
+	
+	    <div id="header">
+	    
+	    		    		    	
+	    		    		<h1 id="custom-header"><a href="http://itbstudenthub.ie/" title="Home"><img src="http://itbstudenthub.ie/wp-content/uploads/2012/11/header.jpg" height="220" width="980" alt="Student Information Hub" />Student Information Hub</a></h1>
+	    		    	
+	    </div>
+    
+    </div>
+    
+    <div class="row">
+    
+	    <div id="navigation">
+	        <div class="menu"><ul id="menu-menu1" class="menu"><li id="menu-item-326" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-326"><a href="http://itbstudenthub.ie/">Home</a></li>
+<li id="menu-item-654" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-654"><a href="http://itbstudenthub.ie/?cat=10">SID</a></li>
+<li id="menu-item-107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-107"><a href="http://itbstudenthub.ie/?cat=14">Library</a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-119"><a href="http://itbstudenthub.ie/?cat=15">Computer services</a></li>
+<li id="menu-item-240" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-240"><a href="http://itbstudenthub.ie/?cat=47">Reception</a></li>
+<li id="menu-item-958" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-958"><a href="http://itbstudenthub.ie/?cat=98">Contact us</a>
+<ul class="sub-menu">
+	<li id="menu-item-949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-949"><a href="http://itbstudenthub.ie/?page_id=947">Contact SID</a></li>
+	<li id="menu-item-957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-957"><a href="http://itbstudenthub.ie/?page_id=953">Contact the library</a></li>
+	<li id="menu-item-956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-956"><a href="http://itbstudenthub.ie/?page_id=954">Contact Reception</a></li>
+</ul>
+</li>
+</ul></div>	        
+	        		        <div class="searchnav">
+		            <form method="get" id="searchform" action="http://itbstudenthub.ie/">
+		            <input type="text" class="inputbox" value="Search" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" name="s" id="s" />
+		            </form>
+		        </div>
+	        	    </div>
+    
+    </div>
+
+		
+	<div class="row">
+		
+		<div id="slideshow">
+	    	<div class="flexslider">
+		        <ul class="slides">
+		            		            		            		            		            
+		            <li>
+		            	<div class="eight columns">
+			                			                    <a class="featureimg" href="http://itbstudenthub.ie/?p=2450" rel="bookmark"><img width="600" height="360" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/outlook-600x360.jpg" class="attachment-slide size-slide wp-post-image" alt="outlook" /></a>
+			                		                </div>
+		                <div class="four columns">
+							<div class="article">
+		                    <h1 class="headline smaller"><a href="http://itbstudenthub.ie/?p=2450" rel="bookmark">
+		                    	Printing from your Office365 Student Email Accou...		                    </a></h1>
+		                    <h6 class="text-date">Tuesday, December 15, 2015</h6>
+		                    <p>or follow these instructions: &nbsp; Step 1: login to your ITB Student email account from www.outlook.com/student.itb.ie Step 2: select New to compose a new email message. &nbsp; Step&#8230;</p>
+		                    <p><a class="more-link" href="http://itbstudenthub.ie/?p=2450" rel="bookmark">Read More</a></p>
+		                    </div>
+		                </div>
+		            </li>
+		            
+		            		            		            		            
+		            <li>
+		            	<div class="eight columns">
+			                			                    <a class="featureimg" href="http://itbstudenthub.ie/?p=2340" rel="bookmark"><img width="640" height="360" src="http://itbstudenthub.ie/wp-content/uploads/2015/10/rw1-create-account-672x372-640x360.jpg" class="attachment-slide size-slide wp-post-image" alt="rw1 create account - 672x372" /></a>
+			                		                </div>
+		                <div class="four columns">
+							<div class="article">
+		                    <h1 class="headline smaller"><a href="http://itbstudenthub.ie/?p=2340" rel="bookmark">
+		                    	RefWorks: creating an account		                    </a></h1>
+		                    <h6 class="text-date">Thursday, October 29, 2015</h6>
+		                    <p>ITB Library subscribes to RefWorks: an online tool that allows you to manage and store scholarly information, and to create references / citations and bibliographies. Any ITB student or&#8230;</p>
+		                    <p><a class="more-link" href="http://itbstudenthub.ie/?p=2340" rel="bookmark">Read More</a></p>
+		                    </div>
+		                </div>
+		            </li>
+		            
+		            		            		            		            
+		            <li>
+		            	<div class="eight columns">
+			                			                    <a class="featureimg" href="http://itbstudenthub.ie/?p=2071" rel="bookmark"><img width="640" height="360" src="http://itbstudenthub.ie/wp-content/uploads/2015/08/fees-grants-672x372-640x360.jpg" class="attachment-slide size-slide wp-post-image" alt="fees grants - 672x372" /></a>
+			                		                </div>
+		                <div class="four columns">
+							<div class="article">
+		                    <h1 class="headline smaller"><a href="http://itbstudenthub.ie/?p=2071" rel="bookmark">
+		                    	Fees and grants		                    </a></h1>
+		                    <h6 class="text-date">Wednesday, August 19, 2015</h6>
+		                    <p>Detailed information on fees and grants can be found here for: full-time students part-time students Payments can be made here: https://ssb.ancheim.ie/itb/app/twbkwbis.P_WWWLogin</p>
+		                    <p><a class="more-link" href="http://itbstudenthub.ie/?p=2071" rel="bookmark">Read More</a></p>
+		                    </div>
+		                </div>
+		            </li>
+		            
+		            		            		            		            
+		            <li>
+		            	<div class="eight columns">
+			                			                    <a class="featureimg" href="http://itbstudenthub.ie/?p=461" rel="bookmark"><img width="640" height="360" src="http://itbstudenthub.ie/wp-content/uploads/2015/08/letter-672x372-640x360.png" class="attachment-slide size-slide wp-post-image" alt="letter - 672x372" /></a>
+			                		                </div>
+		                <div class="four columns">
+							<div class="article">
+		                    <h1 class="headline smaller"><a href="http://itbstudenthub.ie/?p=461" rel="bookmark">
+		                    	Letters for registered students		                    </a></h1>
+		                    <h6 class="text-date">Tuesday, August 18, 2015</h6>
+		                    <p>Sometimes students are required to get a letter that states that they are students at ITB.  You must apply for such letters online.  Letters will be available for collection&#8230;</p>
+		                    <p><a class="more-link" href="http://itbstudenthub.ie/?p=461" rel="bookmark">Read More</a></p>
+		                    </div>
+		                </div>
+		            </li>
+		            
+		            		            		            		            
+		            <li>
+		            	<div class="eight columns">
+			                			                    <a class="featureimg" href="http://itbstudenthub.ie/?p=600" rel="bookmark"><img width="640" height="360" src="http://itbstudenthub.ie/wp-content/uploads/2015/08/password-recovery-672x372-640x360.jpg" class="attachment-slide size-slide wp-post-image" alt="password recovery - 672x372" /></a>
+			                		                </div>
+		                <div class="four columns">
+							<div class="article">
+		                    <h1 class="headline smaller"><a href="http://itbstudenthub.ie/?p=600" rel="bookmark">
+		                    	Password recovery		                    </a></h1>
+		                    <h6 class="text-date">Thursday, August 13, 2015</h6>
+		                    <p>Your network password is used to log in to: PCs and MACs Moodle your college email account photocopiers / printers / scanners / wireless printers your X-drive /&#8230;</p>
+		                    <p><a class="more-link" href="http://itbstudenthub.ie/?p=600" rel="bookmark">Read More</a></p>
+		                    </div>
+		                </div>
+		            </li>
+		            
+		            		            		        </ul>
+	        </div>
+	    </div>
+		    
+	</div>
+	
+	
+
+</div> <!-- close container -->
+
+<div class="container">
+
+<div class="row">
+	
+	<div class="eight columns">
+		<div id="homepage">
+	    	
+	    		        
+	        <div class="post first">
+	            
+	            					            	            	            	            
+	            	<div class="holder single">
+	            	
+	            		<div class="postdata">
+	            			<div class="datebox">
+	            			    <div class="month">Dec</div>
+	            			    <div class="day">15</div>
+	            			</div>
+	            			<p><span class="label">Author:</span><br/> 
+	            			<a href="http://itbstudenthub.ie/?author=1" title="Posts by sidlibhub" rel="author">sidlibhub</a></p> 
+	            			<p><a href="http://itbstudenthub.ie/?p=2450#respond">Comment</a></p>
+	            			
+	            				            			<div class="social">
+		            			<div class="like_btn">
+		            			    <div class="fb-like" href="http%3A%2F%2Fitbstudenthub.ie%2F%3Fp%3D2450" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+		            			</div>
+		            			<div class="plus_btn">
+		            				<g:plusone size="tall" href="http://itbstudenthub.ie/?p=2450"></g:plusone>
+		            			</div>
+		            			<div class="tweet_btn">
+		            			    <a href="http://twitter.com/share" class="twitter-share-button"
+		            			    data-url="http://itbstudenthub.ie/?p=2450"
+		            			    data-via="organicthemes"
+		            			    data-text="Printing from your Office365 Student Email Account"
+		            			    data-related=""
+		            			    data-size="small"
+		            			    data-count="vertical">Tweet</a>
+		            			</div>
+	            			</div>
+	            				            		</div>
+	            		
+	            		<div class="article">
+	            			<h2 class="headline"><a href="http://itbstudenthub.ie/?p=2450" rel="bookmark">Printing from your Office365 Student Email Account</a></h2> 
+		                    		                        <a class="featureimg" href="http://itbstudenthub.ie/?p=2450" rel="bookmark"><img width="600" height="375" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/outlook.jpg" class="attachment-post size-post wp-post-image" alt="outlook" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/outlook-300x188.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/outlook.jpg 600w" sizes="(max-width: 600px) 100vw, 600px" /></a>
+		                              
+	                        <p><a target="_blank" href="http://itbstudenthub.ie/wp-content/uploads/articulate_uploads/Printing_from_your_email_account4/story.html">View tutorial</a> or follow these instructions:</p>
+<p>&nbsp;</p>
+<p>Step 1: login to your ITB Student email account from <a href="http://www.outlook.com/student.itb.ie" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.outlook.com/student.itb.ie', 'www.outlook.com/student.itb.ie');">www.outlook.com/student.itb.ie</a></p>
+<p>Step 2: select New to compose a new email message.</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/12/1-acc.jpg"><img class="aligncenter wp-image-2451" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/1-acc.jpg" alt="1 acc" width="590" height="290" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/1-acc-300x147.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/1-acc-1024x502.jpg 1024w, http://itbstudenthub.ie/wp-content/uploads/2015/12/1-acc-900x442.jpg 900w, http://itbstudenthub.ie/wp-content/uploads/2015/12/1-acc.jpg 1600w" sizes="(max-width: 590px) 100vw, 590px" /></a></p>
+<p>&nbsp;</p>
+<p>Step 3: address the email to <a href="mailto:mobileprint@itb.ie">mobileprint@itb.ie</a></p>
+<p>No subject is required.  Click Attach from the menu</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/12/2-acc.jpg"><img class="aligncenter wp-image-2452" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/2-acc.jpg" alt="2 acc" width="600" height="172" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/2-acc-300x86.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/2-acc-1024x293.jpg 1024w, http://itbstudenthub.ie/wp-content/uploads/2015/12/2-acc-900x258.jpg 900w, http://itbstudenthub.ie/wp-content/uploads/2015/12/2-acc.jpg 1432w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+<p>&nbsp;</p>
+<p>Step 4: select a document from the <strong>OneDrive</strong> or <strong>Computer</strong> that you wish to attach</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/12/3-acc.jpg"><img class="aligncenter wp-image-2453" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/3-acc.jpg" alt="3 acc" width="596" height="258" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/3-acc-300x130.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/3-acc-1024x444.jpg 1024w, http://itbstudenthub.ie/wp-content/uploads/2015/12/3-acc-900x390.jpg 900w, http://itbstudenthub.ie/wp-content/uploads/2015/12/3-acc.jpg 1438w" sizes="(max-width: 596px) 100vw, 596px" /></a></p>
+<p><strong>From OneDrive</strong></p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-acc.jpg"><img class="aligncenter wp-image-2454" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-acc.jpg" alt="4 acc" width="596" height="258" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-acc-300x130.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/4-acc-1024x444.jpg 1024w, http://itbstudenthub.ie/wp-content/uploads/2015/12/4-acc-900x390.jpg 900w, http://itbstudenthub.ie/wp-content/uploads/2015/12/4-acc.jpg 1438w" sizes="(max-width: 596px) 100vw, 596px" /></a></p>
+<p><strong><br />
+</strong></p>
+<p>Select <strong>Attach as a Copy</strong> option</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/12/5-acc.jpg"><img class="aligncenter wp-image-2456" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/5-acc.jpg" alt="5 acc" width="618" height="255" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/5-acc-300x124.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/5-acc-1024x423.jpg 1024w, http://itbstudenthub.ie/wp-content/uploads/2015/12/5-acc-900x372.jpg 900w, http://itbstudenthub.ie/wp-content/uploads/2015/12/5-acc.jpg 1438w" sizes="(max-width: 618px) 100vw, 618px" /></a></p>
+<p>&nbsp;</p>
+<p><strong>From Computer: </strong>browse to the file you would like to attach.</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/12/6-acc.jpg"><img class="aligncenter wp-image-2457" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/6-acc.jpg" alt="6 acc" width="630" height="237" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/6-acc-300x113.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/6-acc-1024x386.jpg 1024w, http://itbstudenthub.ie/wp-content/uploads/2015/12/6-acc-900x339.jpg 900w, http://itbstudenthub.ie/wp-content/uploads/2015/12/6-acc.jpg 1051w" sizes="(max-width: 630px) 100vw, 630px" /></a></p>
+<p><strong> </strong></p>
+<p>Step 5: select <strong>Send</strong></p>
+<p><strong> <a href="http://itbstudenthub.ie/wp-content/uploads/2015/12/7-acc.jpg"><img class="aligncenter wp-image-2458" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/7-acc.jpg" alt="7 acc" width="644" height="223" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/7-acc-300x104.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/7-acc-1024x355.jpg 1024w, http://itbstudenthub.ie/wp-content/uploads/2015/12/7-acc-900x312.jpg 900w, http://itbstudenthub.ie/wp-content/uploads/2015/12/7-acc.jpg 1437w" sizes="(max-width: 644px) 100vw, 644px" /></a></strong></p>
+<p>Step 6: release the Print Job.  Login to one of the 3 print devices located in the ITB Library and release the print job.</p>
+<p><strong>Please note:</strong></p>
+<p>Kopikat 1 and 2 are black-and-white printers.  All documents released here will be printed in black-and-white and charged at 6c per page.</p>
+<p>Kopikat 3 is a colour printer.  All black-and-white documents released here will be printed in black-and-white and charged at 6c per page.  But if there is any colour in your document, the whole document will be printed in colour and charged at 18c per page.</p>
+<p>At Kopikat 3, colour documents can be printed in black-and-white by selecting the Force B/W option before printing.  Such documents will be printed in black-and-white and charged at 6c per page.</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext.jpg"><img class="aligncenter size-full wp-image-2483" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext.jpg" alt="4 ext" width="400" height="246" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext-300x185.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext.jpg 400w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
+	                    </div>
+	                    
+	                </div>
+	                
+	                
+	            	            	            	            
+	            	<div class="holder single">
+	            	
+	            		<div class="postdata">
+	            			<div class="datebox">
+	            			    <div class="month">Dec</div>
+	            			    <div class="day">15</div>
+	            			</div>
+	            			<p><span class="label">Author:</span><br/> 
+	            			<a href="http://itbstudenthub.ie/?author=1" title="Posts by sidlibhub" rel="author">sidlibhub</a></p> 
+	            			<p><a href="http://itbstudenthub.ie/?p=2428#respond">Comment</a></p>
+	            			
+	            				            			<div class="social">
+		            			<div class="like_btn">
+		            			    <div class="fb-like" href="http%3A%2F%2Fitbstudenthub.ie%2F%3Fp%3D2428" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+		            			</div>
+		            			<div class="plus_btn">
+		            				<g:plusone size="tall" href="http://itbstudenthub.ie/?p=2428"></g:plusone>
+		            			</div>
+		            			<div class="tweet_btn">
+		            			    <a href="http://twitter.com/share" class="twitter-share-button"
+		            			    data-url="http://itbstudenthub.ie/?p=2428"
+		            			    data-via="organicthemes"
+		            			    data-text="Printing from mobile devices (using OneDrive App)"
+		            			    data-related=""
+		            			    data-size="small"
+		            			    data-count="vertical">Tweet</a>
+		            			</div>
+	            			</div>
+	            				            		</div>
+	            		
+	            		<div class="article">
+	            			<h2 class="headline"><a href="http://itbstudenthub.ie/?p=2428" rel="bookmark">Printing from mobile devices (using OneDrive App)</a></h2> 
+		                    		                        <a class="featureimg" href="http://itbstudenthub.ie/?p=2428" rel="bookmark"><img width="640" height="372" src="http://itbstudenthub.ie/wp-content/uploads/2015/11/2-app-672x372-640x372.jpg" class="attachment-post size-post wp-post-image" alt="2 app 672x372" /></a>
+		                              
+	                        <p><a target="_blank" href="http://itbstudenthub.ie/wp-content/uploads/articulate_uploads/Printing_from_mobile_devices6/story.html">View tutorial</a> or follow these instructions if your document is located on your OneDrive account:</p>
+<p>&nbsp;</p>
+<p>Step 1: download the OneDrive app from the relevant app store and install it on your device</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/11/1-app.jpg"><img class="aligncenter wp-image-2437" src="http://itbstudenthub.ie/wp-content/uploads/2015/11/1-app.jpg" alt="1 app" width="68" height="91" /></a></p>
+<p>&nbsp;</p>
+<p>Step 2: login to the App using your ITB Student email account, in the format: B00000000@student.itb.ie</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/11/2-app.jpg"><img class="aligncenter wp-image-2438" src="http://itbstudenthub.ie/wp-content/uploads/2015/11/2-app.jpg" alt="2 app" width="227" height="402" /></a></p>
+<p>&nbsp;</p>
+<p>Step 3: you should see the following login screen.  Login using your ITB Email Address: B00000000@student.itb.ie.  Your password is y<em>our ITB network password</em></p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/11/3-app.jpg"><img class="aligncenter wp-image-2439" src="http://itbstudenthub.ie/wp-content/uploads/2015/11/3-app.jpg" alt="3 app" width="467" height="263" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/11/3-app-300x169.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/11/3-app-1024x577.jpg 1024w, http://itbstudenthub.ie/wp-content/uploads/2015/11/3-app-640x360.jpg 640w, http://itbstudenthub.ie/wp-content/uploads/2015/11/3-app-900x507.jpg 900w, http://itbstudenthub.ie/wp-content/uploads/2015/11/3-app.jpg 1136w" sizes="(max-width: 467px) 100vw, 467px" /></a></p>
+<p>&nbsp;</p>
+<p>Step 4: select the document you would like to print by clicking on the document.  It should open in the browser.</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/11/4-app.jpg"><img class="aligncenter wp-image-2440" src="http://itbstudenthub.ie/wp-content/uploads/2015/11/4-app.jpg" alt="4 app" width="308" height="547" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/11/4-app-169x300.jpg 169w, http://itbstudenthub.ie/wp-content/uploads/2015/11/4-app-577x1024.jpg 577w, http://itbstudenthub.ie/wp-content/uploads/2015/11/4-app.jpg 640w" sizes="(max-width: 308px) 100vw, 308px" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Step 5: select the icon in the bottom left corner.</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/11/5-app.jpg"><img class="aligncenter wp-image-2441" src="http://itbstudenthub.ie/wp-content/uploads/2015/11/5-app.jpg" alt="5 app" width="339" height="602" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/11/5-app-169x300.jpg 169w, http://itbstudenthub.ie/wp-content/uploads/2015/11/5-app-577x1024.jpg 577w, http://itbstudenthub.ie/wp-content/uploads/2015/11/5-app.jpg 640w" sizes="(max-width: 339px) 100vw, 339px" /></a></p>
+<p><strong><br />
+</strong></p>
+<p>&nbsp;</p>
+<p>Step 6: choose the Send File option</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/11/6-app.jpg"><img class="aligncenter wp-image-2442" src="http://itbstudenthub.ie/wp-content/uploads/2015/11/6-app.jpg" alt="6 app" width="371" height="659" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/11/6-app-169x300.jpg 169w, http://itbstudenthub.ie/wp-content/uploads/2015/11/6-app-577x1024.jpg 577w, http://itbstudenthub.ie/wp-content/uploads/2015/11/6-app.jpg 640w" sizes="(max-width: 371px) 100vw, 371px" /></a></p>
+<p><strong><br />
+</strong></p>
+<p>Step 7: choose the Mail Option (You must have your ITB student email account setup on your mobile device).  You must select your B00000000@student.itb.ie to send the mail.</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/11/7-app.jpg"><img class="aligncenter wp-image-2443" src="http://itbstudenthub.ie/wp-content/uploads/2015/11/7-app.jpg" alt="7 app" width="391" height="694" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/11/7-app-169x300.jpg 169w, http://itbstudenthub.ie/wp-content/uploads/2015/11/7-app-577x1024.jpg 577w, http://itbstudenthub.ie/wp-content/uploads/2015/11/7-app.jpg 640w" sizes="(max-width: 391px) 100vw, 391px" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Step 8: a</strong>ddress the email to: <a href="mailto:mobileprint@itb.ie">mobileprint@itb.ie</a></p>
+<p><strong>N.B.</strong> Ensure the sender is your ITB Email Account e.g. <strong>B00000000@student.itb.ie</strong></p>
+<p>No Subject is required.  Ensure that you see the document attached.  Send the email.</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/11/8-app.jpg"><img class="aligncenter wp-image-2444" src="http://itbstudenthub.ie/wp-content/uploads/2015/11/8-app.jpg" alt="8 app" width="405" height="718" /></a></p>
+<p>&nbsp;</p>
+<p>Step 9: release the document at one of the 3 printers located in the library or the printer in the Group Study area in A Block</p>
+<p>&nbsp;</p>
+<p><strong>Please note:</strong></p>
+<p>Kopikat 1 and 2 are black-and-white printers.  All documents released here will be printed in black-and-white and charged at 6c per page.</p>
+<p>Kopikat 3 is a colour printer.  All black-and-white documents released here will be printed in black-and-white and charged at 6c per page.  But if there is any colour in your document, the whole document will be printed in colour and charged at 18c per page.</p>
+<p>At Kopikat 3, colour documents can be printed in black-and-white by selecting the Force B/W option before printing.  Such documents will be printed in black-and-white and charged at 6c per page.</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext.jpg"><img class="aligncenter size-full wp-image-2483" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext.jpg" alt="4 ext" width="400" height="246" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext-300x185.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext.jpg 400w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
+	                    </div>
+	                    
+	                </div>
+	                
+	                
+	            	            	            	            
+	            	<div class="holder single">
+	            	
+	            		<div class="postdata">
+	            			<div class="datebox">
+	            			    <div class="month">Nov</div>
+	            			    <div class="day">30</div>
+	            			</div>
+	            			<p><span class="label">Author:</span><br/> 
+	            			<a href="http://itbstudenthub.ie/?author=1" title="Posts by sidlibhub" rel="author">sidlibhub</a></p> 
+	            			<p><a href="http://itbstudenthub.ie/?p=2430#respond">Comment</a></p>
+	            			
+	            				            			<div class="social">
+		            			<div class="like_btn">
+		            			    <div class="fb-like" href="http%3A%2F%2Fitbstudenthub.ie%2F%3Fp%3D2430" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+		            			</div>
+		            			<div class="plus_btn">
+		            				<g:plusone size="tall" href="http://itbstudenthub.ie/?p=2430"></g:plusone>
+		            			</div>
+		            			<div class="tweet_btn">
+		            			    <a href="http://twitter.com/share" class="twitter-share-button"
+		            			    data-url="http://itbstudenthub.ie/?p=2430"
+		            			    data-via="organicthemes"
+		            			    data-text="Printing and photocopying for visitors to ITB"
+		            			    data-related=""
+		            			    data-size="small"
+		            			    data-count="vertical">Tweet</a>
+		            			</div>
+	            			</div>
+	            				            		</div>
+	            		
+	            		<div class="article">
+	            			<h2 class="headline"><a href="http://itbstudenthub.ie/?p=2430" rel="bookmark">Printing and photocopying for visitors to ITB</a></h2> 
+		                    		                        <a class="featureimg" href="http://itbstudenthub.ie/?p=2430" rel="bookmark"><img width="640" height="372" src="http://itbstudenthub.ie/wp-content/uploads/2015/11/3-ext-672x372-640x372.jpg" class="attachment-post size-post wp-post-image" alt="3 ext 672x372" /></a>
+		                              
+	                        <p>If you are not a student or staff-member at ITB, and you wish to photocopy or print, please watch <a target="_blank" href="http://itbstudenthub.ie/wp-content/uploads/articulate_uploads/Printing_for_visitors5/story.html">this tutorial</a> or follow these instructions:</p>
+<p>&nbsp;</p>
+<p>Step 1: register with ITB&#8217;s Mobile Print by sending an email (from a non-ITB email address) to <a href="mailto:mobileprint@itb.ie">mobileprint@itb.ie</a></p>
+<p>&nbsp;</p>
+<p>Step 2: you will receive a response email containing a 6 digit username and a 6 digit password.</p>
+<p>&nbsp;</p>
+<p>Step 3: add credit to your account.  It costs 6c per black-and-white page or 18c per colour page.  Add credit by logging in here with the username you received by email: <a href="https://www.itb.ie/mobileprint/index.asp" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://www.itb.ie/mobileprint/index.asp', 'https://www.itb.ie/mobileprint/index.asp');">https://www.itb.ie/mobileprint/index.asp</a></p>
+<p>&nbsp;</p>
+<p>Step 4: open a new email and attach the document you wish to print.  Email to <a href="mailto:mobileprint@itb.ie">mobileprint@itb.ie</a></p>
+<p>&nbsp;</p>
+<p>Step 5: login at one of the library printers</p>
+<p><img src="https://www.itb.ie/mobileprint/images/loginR.jpg" alt="Login" width="400" height="164" longdesc="http://www.itb.ie/mobileprint" /></p>
+<p>Enter your Username: in the <strong>User ID</strong> field<br />
+Enter your Password in the <strong>Password</strong> filed</p>
+<p>Select the <strong>Login</strong> button in the bottom right of the screen.</p>
+<p>&nbsp;</p>
+<p>Step 6: select the<strong> Follow-You Printing </strong>icon</p>
+<p><strong><img src="https://www.itb.ie/mobileprint/images/pccR.jpg" alt="PCC Launcher" width="400" height="201" longdesc="http://www.itb.ie/mobileprint" /></strong></p>
+<p>&nbsp;</p>
+<p>Step 7: view the Documents in the Queue</p>
+<p><strong><img src="https://www.itb.ie/mobileprint/images/doc1.jpg" alt="Release Page" width="400" height="264" longdesc="http://www.itb.ie/mobileprint" /></strong></p>
+<p>&nbsp;</p>
+<p>Step 8: select Documents to Print</p>
+<p>by touching document name on the screen.</p>
+<p>The selected document will be highlighted in yellow.</p>
+<p>The area highlighted in yellow on the right contains the following details</p>
+<ul>
+<li>Number of documents selected</li>
+<li>Number of pages</li>
+<li>Colour format</li>
+<li>Simplex (default one sided printing)</li>
+</ul>
+<p><img src="https://www.itb.ie/mobileprint/images/follow_you_select.jpg" alt="Select Document" width="400" height="246" longdesc="http://www.itb.ie/mobileprint" /></p>
+<p>&nbsp;</p>
+<p>Step 9: logout to finish</p>
+<p><img src="https://www.itb.ie/mobileprint/images/Logout.jpg" alt="Logout" width="400" height="239" longdesc="http://www.itb.ie/MobilePrint" /></p>
+<p>&nbsp;</p>
+<p><strong>Please note:</strong></p>
+<p>Kopikat 1 and 2 are black-and-white printers.  All documents released here will be printed in black-and-white and charged at 6c per page.</p>
+<p>Kopikat 3 is a colour printer.  All black-and-white documents released here will be printed in black-and-white and charged at 6c per page.  But if there is any colour in your document, the whole document will be printed in colour and charged at 18c per page.</p>
+<p>At Kopikat 3, colour documents can be printed in black-and-white by selecting the Force B/W option before printing.  Such documents will be printed in black-and-white and charged at 6c per page.</p>
+<p><a href="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext.jpg"><img class="aligncenter size-full wp-image-2483" src="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext.jpg" alt="4 ext" width="400" height="246" srcset="http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext-300x185.jpg 300w, http://itbstudenthub.ie/wp-content/uploads/2015/12/4-ext.jpg 400w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
+<p>&nbsp;</p>
+<p>Further information can be found at: <a href="http://www.itb.ie/mobileprint/" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.itb.ie/mobileprint/', 'http://www.itb.ie/mobileprint/');" target="_blank">http://www.itb.ie/mobileprint/</a></p>
+	                    </div>
+	                    
+	                </div>
+	                
+	                
+	            	            	            	            
+	            	<div class="holder single">
+	            	
+	            		<div class="postdata">
+	            			<div class="datebox">
+	            			    <div class="month">Oct</div>
+	            			    <div class="day">29</div>
+	            			</div>
+	            			<p><span class="label">Author:</span><br/> 
+	            			<a href="http://itbstudenthub.ie/?author=1" title="Posts by sidlibhub" rel="author">sidlibhub</a></p> 
+	            			<p><a href="http://itbstudenthub.ie/?p=2340#respond">Comment</a></p>
+	            			
+	            				            			<div class="social">
+		            			<div class="like_btn">
+		            			    <div class="fb-like" href="http%3A%2F%2Fitbstudenthub.ie%2F%3Fp%3D2340" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+		            			</div>
+		            			<div class="plus_btn">
+		            				<g:plusone size="tall" href="http://itbstudenthub.ie/?p=2340"></g:plusone>
+		            			</div>
+		            			<div class="tweet_btn">
+		            			    <a href="http://twitter.com/share" class="twitter-share-button"
+		            			    data-url="http://itbstudenthub.ie/?p=2340"
+		            			    data-via="organicthemes"
+		            			    data-text="RefWorks: creating an account"
+		            			    data-related=""
+		            			    data-size="small"
+		            			    data-count="vertical">Tweet</a>
+		            			</div>
+	            			</div>
+	            				            		</div>
+	            		
+	            		<div class="article">
+	            			<h2 class="headline"><a href="http://itbstudenthub.ie/?p=2340" rel="bookmark">RefWorks: creating an account</a></h2> 
+		                    		                        <a class="featureimg" href="http://itbstudenthub.ie/?p=2340" rel="bookmark"><img width="640" height="372" src="http://itbstudenthub.ie/wp-content/uploads/2015/10/rw1-create-account-672x372-640x372.jpg" class="attachment-post size-post wp-post-image" alt="rw1 create account - 672x372" /></a>
+		                              
+	                        <p>ITB Library subscribes to <a href="http://www.refworks.com/refworks2/?r=references|MainLayout::init" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.refworks.com/refworks2/?r=references|MainLayout::init', 'RefWorks');">RefWorks</a>: an online tool that allows you to manage and store scholarly information, and to create references / citations and bibliographies.</p>
+<p>Any ITB student or staff member can create a RefWorks account using their ITB email address, e.g. B00000000@student.itb.ie or staff.member@itb.ie.</p>
+<p><a target="_blank" href="http://itbstudenthub.ie/wp-content/uploads/articulate_uploads/Creating_a_RefWorks_account_WP1/story.html">View tutorial</a> or <a href="http://moodle.itb.ie/mod/scorm/view.php?id=54080" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://moodle.itb.ie/mod/scorm/view.php?id=54080', 'View on Moodle');" target="_blank">View on Moodle</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>View other tutorials about RefWorks <a href="http://itbstudenthub.ie/?tag=referencing" target="_blank">here</a>.</p>
+	                    </div>
+	                    
+	                </div>
+	                
+	                
+	            	            	            	            
+	            	<div class="holder single">
+	            	
+	            		<div class="postdata">
+	            			<div class="datebox">
+	            			    <div class="month">Oct</div>
+	            			    <div class="day">29</div>
+	            			</div>
+	            			<p><span class="label">Author:</span><br/> 
+	            			<a href="http://itbstudenthub.ie/?author=1" title="Posts by sidlibhub" rel="author">sidlibhub</a></p> 
+	            			<p><a href="http://itbstudenthub.ie/?p=2348#respond">Comment</a></p>
+	            			
+	            				            			<div class="social">
+		            			<div class="like_btn">
+		            			    <div class="fb-like" href="http%3A%2F%2Fitbstudenthub.ie%2F%3Fp%3D2348" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+		            			</div>
+		            			<div class="plus_btn">
+		            				<g:plusone size="tall" href="http://itbstudenthub.ie/?p=2348"></g:plusone>
+		            			</div>
+		            			<div class="tweet_btn">
+		            			    <a href="http://twitter.com/share" class="twitter-share-button"
+		            			    data-url="http://itbstudenthub.ie/?p=2348"
+		            			    data-via="organicthemes"
+		            			    data-text="RefWorks: logging into your account"
+		            			    data-related=""
+		            			    data-size="small"
+		            			    data-count="vertical">Tweet</a>
+		            			</div>
+	            			</div>
+	            				            		</div>
+	            		
+	            		<div class="article">
+	            			<h2 class="headline"><a href="http://itbstudenthub.ie/?p=2348" rel="bookmark">RefWorks: logging into your account</a></h2> 
+		                    		                        <a class="featureimg" href="http://itbstudenthub.ie/?p=2348" rel="bookmark"><img width="640" height="372" src="http://itbstudenthub.ie/wp-content/uploads/2015/10/rw2-logging-in-672x372-640x372.jpg" class="attachment-post size-post wp-post-image" alt="rw2 logging in - 672x372" /></a>
+		                              
+	                        <p>ITB Library subscribes to <a href="http://www.refworks.com/refworks2/?r=references|MainLayout::init" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.refworks.com/refworks2/?r=references|MainLayout::init', 'RefWorks');">RefWorks</a>: an online tool that allows you to manage and store scholarly information, and to create references / citations and bibliographies.</p>
+<p>Your RefWorks username and password are not the same as your network password.  You will have decided on them when you created your RefWorks account.</p>
+<p><a target="_blank" href="http://itbstudenthub.ie/wp-content/uploads/articulate_uploads/Logging_in_to_RefWorks_WP3/story.html">View tutorial</a> or <a href="http://moodle.itb.ie/mod/scorm/view.php?id=54079" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://moodle.itb.ie/mod/scorm/view.php?id=54079', 'View on Moodle');" target="_blank">View on Moodle</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>View other tutorials about RefWorks <a href="http://itbstudenthub.ie/?tag=referencing" target="_blank">here</a>.</p>
+	                    </div>
+	                    
+	                </div>
+	                
+	                
+	            	            	            
+	            <div class="navigation"><p><a href="http://itbstudenthub.ie/?paged=2" >Next Page &raquo;</a></p></div>
+				
+			</div>
+	        
+	        	        
+	        	        
+	        <h3 class="title">Non-featured</h3>
+	
+	    	<div class="post second">
+	
+									            	            	            	            	
+					<div class="holder double first">
+					
+						<div class="article">
+						
+		                    		                        <a class="featureimg" href="http://itbstudenthub.ie/?p=1328" rel="bookmark"></a>
+		                    	                    	
+	                        <h2 class="headline smaller"><a href="http://itbstudenthub.ie/?p=1328" rel="bookmark">eBooks: printing and saving content</a></h2>
+	                        <h6 class="text-date">Tuesday, August 18, 2015</h6>          
+	                        <p>The library subscribes to a range of Dawsonera e-books.  Here is a short guide to how you access them and how you print/copy content from them. 1. Search&#8230;</p>
+	                        
+	                    </div>
+	                    
+	                </div>
+				
+					            	            	            	
+					<div class="holder double second">
+					
+						<div class="article">
+						
+		                    		                        <a class="featureimg" href="http://itbstudenthub.ie/?p=648" rel="bookmark"></a>
+		                    	                    	
+	                        <h2 class="headline smaller"><a href="http://itbstudenthub.ie/?p=648" rel="bookmark">Study guides</a></h2>
+	                        <h6 class="text-date">Sunday, August 16, 2015</h6>          
+	                        <p>Study guides Concentration Memory Group work Evaluating information sources Reading difficult material Time management Plagiarism &nbsp; Punctuation and grammar Apostrophes Commas Colons and semi-colons Grammar Spelling</p>
+	                        
+	                    </div>
+	                    
+	                </div>
+				
+					            	            	            	
+					<div class="holder double first">
+					
+						<div class="article">
+						
+		                    		                        <a class="featureimg" href="http://itbstudenthub.ie/?p=528" rel="bookmark"></a>
+		                    	                    	
+	                        <h2 class="headline smaller"><a href="http://itbstudenthub.ie/?p=528" rel="bookmark">View your library record</a></h2>
+	                        <h6 class="text-date">Thursday, August 13, 2015</h6>          
+	                        <p>You can view your library record online.  It contains the following information: Your contact details Books currently on loan to you and the date they are due to&#8230;</p>
+	                        
+	                    </div>
+	                    
+	                </div>
+				
+					            	            	            	
+					<div class="holder double second">
+					
+						<div class="article">
+						
+		                    		                        <a class="featureimg" href="http://itbstudenthub.ie/?p=963" rel="bookmark"></a>
+		                    	                    	
+	                        <h2 class="headline smaller"><a href="http://itbstudenthub.ie/?p=963" rel="bookmark">Opening hours</a></h2>
+	                        <h6 class="text-date">Thursday, August 13, 2015</h6>          
+	                        <p>During term-time, we are open as follows: Library Monday 9.15am &#8211; 8.00pm Tuesday 9.15am &#8211; 8.00pm Wednesday 9.15am &#8211; 8.00pm Thursday 9.15am &#8211; 8.00pm Friday 9.15am &#8211; 5.00pm&#8230;</p>
+	                        
+	                    </div>
+	                    
+	                </div>
+				
+					            
+	            <div class="pagination">
+	            		            </div>
+	            
+	            	
+	        </div>
+	        	
+	        	
+		</div> <!-- close homepage --> 
+	</div> <!-- close eight columns --> 
+
+	<div class="four columns">
+		<div class="sidebar right">
+ 
+	<div id="text-3" class="widget widget_text">			<div class="textwidget">
+<img src="http://itbstudenthub.ie/wp-content/uploads/2012/11/itb_logo.gif" alt="ITB logo">
+</div>
+		</div><div id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="http://itbstudenthub.ie/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></div><div id="tag_cloud-2" class="widget widget_tag_cloud"><h4>What are you looking for?</h4><div class="tagcloud"><a href='http://itbstudenthub.ie/?tag=academic_writing' class='tag-link-124' title='5 topics' style='font-size: 17.081081081081pt;'>academic_writing</a>
+<a href='http://itbstudenthub.ie/?tag=accommodation' class='tag-link-110' title='1 topic' style='font-size: 8pt;'>accommodation</a>
+<a href='http://itbstudenthub.ie/?tag=appointment' class='tag-link-7' title='5 topics' style='font-size: 17.081081081081pt;'>appointments &amp; calendar</a>
+<a href='http://itbstudenthub.ie/?tag=booking' class='tag-link-19' title='3 topics' style='font-size: 13.675675675676pt;'>booking</a>
+<a href='http://itbstudenthub.ie/?tag=change-address' class='tag-link-46' title='2 topics' style='font-size: 11.405405405405pt;'>change_address</a>
+<a href='http://itbstudenthub.ie/?tag=contacts' class='tag-link-25' title='5 topics' style='font-size: 17.081081081081pt;'>contacts &amp; hours</a>
+<a href='http://itbstudenthub.ie/?tag=deferal_withdrawal' class='tag-link-119' title='2 topics' style='font-size: 11.405405405405pt;'>deferal &amp; withdrawal</a>
+<a href='http://itbstudenthub.ie/?tag=electives' class='tag-link-81' title='1 topic' style='font-size: 8pt;'>electives</a>
+<a href='http://itbstudenthub.ie/?tag=email' class='tag-link-71' title='1 topic' style='font-size: 8pt;'>email</a>
+<a href='http://itbstudenthub.ie/?tag=exams' class='tag-link-40' title='3 topics' style='font-size: 13.675675675676pt;'>exams</a>
+<a href='http://itbstudenthub.ie/?tag=exemption' class='tag-link-43' title='1 topic' style='font-size: 8pt;'>exemption</a>
+<a href='http://itbstudenthub.ie/?tag=finance' class='tag-link-93' title='4 topics' style='font-size: 15.567567567568pt;'>finance</a>
+<a href='http://itbstudenthub.ie/?tag=forms-letters' class='tag-link-114' title='10 topics' style='font-size: 22pt;'>forms &amp; letters</a>
+<a href='http://itbstudenthub.ie/?tag=garda-vetting' class='tag-link-100' title='1 topic' style='font-size: 8pt;'>garda_vetting</a>
+<a href='http://itbstudenthub.ie/?tag=helpdesk' class='tag-link-103' title='3 topics' style='font-size: 13.675675675676pt;'>helpdesk</a>
+<a href='http://itbstudenthub.ie/?tag=library-resources' class='tag-link-55' title='7 topics' style='font-size: 19.351351351351pt;'>library_resources</a>
+<a href='http://itbstudenthub.ie/?tag=location_transport' class='tag-link-116' title='4 topics' style='font-size: 15.567567567568pt;'>location &amp; transport</a>
+<a href='http://itbstudenthub.ie/?tag=lockers' class='tag-link-95' title='2 topics' style='font-size: 11.405405405405pt;'>lockers</a>
+<a href='http://itbstudenthub.ie/?tag=lost-property' class='tag-link-72' title='2 topics' style='font-size: 11.405405405405pt;'>lost_property</a>
+<a href='http://itbstudenthub.ie/?tag=moodle' class='tag-link-70' title='1 topic' style='font-size: 8pt;'>moodle</a>
+<a href='http://itbstudenthub.ie/?tag=online-services' class='tag-link-61' title='9 topics' style='font-size: 21.243243243243pt;'>online_services</a>
+<a href='http://itbstudenthub.ie/?tag=parchmentstranscripts' class='tag-link-117' title='2 topics' style='font-size: 11.405405405405pt;'>parchments &amp; transcripts</a>
+<a href='http://itbstudenthub.ie/?tag=passwords' class='tag-link-33' title='4 topics' style='font-size: 15.567567567568pt;'>passwords</a>
+<a href='http://itbstudenthub.ie/?tag=pcs' class='tag-link-97' title='1 topic' style='font-size: 8pt;'>PCs</a>
+<a href='http://itbstudenthub.ie/?tag=print' class='tag-link-37' title='6 topics' style='font-size: 18.405405405405pt;'>printing &amp; photocopying</a>
+<a href='http://itbstudenthub.ie/?tag=progression_transfer' class='tag-link-74' title='1 topic' style='font-size: 8pt;'>progression &amp; transfer</a>
+<a href='http://itbstudenthub.ie/?tag=referencing' class='tag-link-82' title='10 topics' style='font-size: 22pt;'>referencing</a>
+<a href='http://itbstudenthub.ie/?tag=registration' class='tag-link-109' title='7 topics' style='font-size: 19.351351351351pt;'>registration</a>
+<a href='http://itbstudenthub.ie/?tag=renewingreserving' class='tag-link-120' title='3 topics' style='font-size: 13.675675675676pt;'>renewing &amp; reserving</a>
+<a href='http://itbstudenthub.ie/?tag=rooms' class='tag-link-94' title='3 topics' style='font-size: 13.675675675676pt;'>rooms</a>
+<a href='http://itbstudenthub.ie/?tag=self-issue' class='tag-link-35' title='1 topic' style='font-size: 8pt;'>self_issue</a>
+<a href='http://itbstudenthub.ie/?tag=shuttle-bus' class='tag-link-87' title='1 topic' style='font-size: 8pt;'>shuttle_bus</a>
+<a href='http://itbstudenthub.ie/?tag=sports_wellbeing' class='tag-link-115' title='3 topics' style='font-size: 13.675675675676pt;'>sports &amp; wellbeing</a>
+<a href='http://itbstudenthub.ie/?tag=student-card' class='tag-link-48' title='1 topic' style='font-size: 8pt;'>student_card</a>
+<a href='http://itbstudenthub.ie/?tag=student-handbook' class='tag-link-108' title='1 topic' style='font-size: 8pt;'>student_handbook</a>
+<a href='http://itbstudenthub.ie/?tag=student_life' class='tag-link-123' title='3 topics' style='font-size: 13.675675675676pt;'>student_life</a>
+<a href='http://itbstudenthub.ie/?tag=studentsharexdrive' class='tag-link-118' title='2 topics' style='font-size: 11.405405405405pt;'>student_share &amp; x_drive</a>
+<a href='http://itbstudenthub.ie/?tag=student_support' class='tag-link-121' title='3 topics' style='font-size: 13.675675675676pt;'>student_support</a>
+<a href='http://itbstudenthub.ie/?tag=study-guides' class='tag-link-90' title='2 topics' style='font-size: 11.405405405405pt;'>study_guides</a>
+<a href='http://itbstudenthub.ie/?tag=timetable' class='tag-link-52' title='2 topics' style='font-size: 11.405405405405pt;'>timetables</a>
+<a href='http://itbstudenthub.ie/?tag=wireless' class='tag-link-49' title='1 topic' style='font-size: 8pt;'>wireless</a></div>
+</div><div id="linkcat-62" class="widget widget_links"><h4>Links</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.itb.ie" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.itb.ie', 'ITB website');" title="ITB Website" target="_blank">ITB website</a></li>
+<li><a href="http://blanchlib.itb.ie" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://blanchlib.itb.ie', 'ITB library catalogue');" title="ITB Library Catalogue" target="_blank">ITB library catalogue</a></li>
+<li><a href="http://www.itb.ie/CurrentStudents/sid.html" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.itb.ie/CurrentStudents/sid.html', 'ITB student information desk');" title="ITB Student Information Desk" target="_blank">ITB student information desk</a></li>
+<li><a href="http://moodle.itb.ie/course/view.php?id=996" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://moodle.itb.ie/course/view.php?id=996', 'ITB library hub (on Moodle)');" title="ITB Library Hub" target="_blank">ITB library hub (on Moodle)</a></li>
+<li><a href="http://www.itblibrary.blogspot.ie" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.itblibrary.blogspot.ie', 'ITB library blog');" title="Keep up with the library and SID news!" target="_blank">ITB library blog</a></li>
+
+	</ul>
+</div>
+    
+</div>	</div>
+	
+</div>
+
+<div style="clear:both;"></div>
+
+</div> <!-- close container -->
+
+<div class="footerwidgets">
+
+	<div class="row">
+        
+            <div class="two columns">
+				 
+                            </div>
+            
+            <div class="two columns">
+				                            </div>
+            
+            <div class="two columns">
+            	                            </div>
+            
+            <div class="two columns">
+            	                            </div>
+            
+            <div class="four columns">
+				                            </div>
+
+	</div>
+
+</div>
+
+<div class="footer">
+
+	<div class="row">
+		<div class="twelve columns">
+    
+    	<div class="footerleft">       
+            <p>Copyright &copy; 2016 &middot; All Rights Reserved &middot; Student Information Hub</p>
+
+            <p><a href="http://www.organicthemes.com/themes/magazine-theme/" title="Organic Magazine WordPress Theme" target="_blank">Magazine Theme v4</a> by <a href="http://www.organicthemes.com" title="Premium WordPress Themes" target="_blank">Organic Themes</a> &middot; <a href="http://kahunahost.com" target="_blank" title="WordPress Hosting">WordPress Hosting</a> &middot; <a href="http://itbstudenthub.ie/?feed=rss2">RSS Feed</a> &middot; <a href="http://itbstudenthub.ie/wp-login.php">Log in</a></p>
+        </div>
+        
+        <div class="footerright">
+    		<a href="http://www.organicthemes.com" title="Designer WordPress Themes" target="_blank"><img src="http://itbstudenthub.ie/wp-content/themes/organic_magazine/images/footer_logo.png" alt="Organic Themes" /></a>
+    	</div>
+		
+		</div>
+	</div>
+	
+</div> <!-- close container -->
+
+	<!--QUIZ_EMBEDER START-->
+	<!--QUIZ_EMBEDER START-->
+	<link rel="stylesheet" href="http://itbstudenthub.ie/wp-content/plugins/insert-or-embed-articulate-content-into-wordpress-premium/colorbox/themes/default/colorbox.css" />
+	<script type="text/javascript" src="http://itbstudenthub.ie/wp-content/plugins/insert-or-embed-articulate-content-into-wordpress-premium/colorbox/jquery.colorbox-min.js" ></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+						//Examples of how to assign the ColorBox event to elements
+			$(".colorbox_iframe").colorbox({iframe:true, transition:"elastic", width:"80%", height:"80%", scrolling:true});
+						
+						
+		});
+	</script>	
+	<!--QUIZ_EMBEDER END-->
+<!-- Powered by WPtouch: 4.0.3 --><script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/itbstudenthub.ie\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://itbstudenthub.ie/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pbd_alp = {"startPage":"1","maxPages":"19","nextLink":"http:\/\/itbstudenthub.ie\/?paged=2"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://itbstudenthub.ie/wp-content/themes/organic_magazine/js/jquery.loadPosts.js?ver=1.0'></script>
+<script type='text/javascript' src='http://itbstudenthub.ie/wp-content/themes/organic_magazine/js/superfish.js?ver=1.0'></script>
+<script type='text/javascript' src='http://itbstudenthub.ie/wp-content/themes/organic_magazine/js/hoverIntent.js?ver=1.0'></script>
+<script type='text/javascript' src='http://itbstudenthub.ie/wp-content/themes/organic_magazine/js/jquery.flexslider.js?ver=1.6.2'></script>
+<script type='text/javascript' src='http://itbstudenthub.ie/wp-content/themes/organic_magazine/js/jquery.fitVids.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://itbstudenthub.ie/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+
+
+
+</body>
+</html>

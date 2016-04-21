@@ -1,0 +1,706 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<!-- start of server/head-include-1.html -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<meta name="DC.title" content="gnu.org" />
+<!-- end of server/head-include-1.html -->
+
+<!-- end of server/header.html -->
+
+<!-- Parent-Version: 1.77 -->
+<title>The Right to Read
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/right-to-read.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/right-to-read.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/philosophy/right-to-read.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/right-to-read.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="ca" hreflang="ca" href="/philosophy/right-to-read.ca.html" title="català" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/right-to-read.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/right-to-read.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="el" hreflang="el" href="/philosophy/right-to-read.el.html" title="ελληνικά" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/right-to-read.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fa" hreflang="fa" href="/philosophy/right-to-read.fa.html" title="فارسی" />
+<link rel="alternate" type="text/html" lang="fi" hreflang="fi" href="/philosophy/right-to-read.fi.html" title="suomi" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/right-to-read.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="he" hreflang="he" href="/philosophy/right-to-read.he.html" title="עברית" />
+<link rel="alternate" type="text/html" lang="hu" hreflang="hu" href="/philosophy/right-to-read.hu.html" title="magyar" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/right-to-read.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/right-to-read.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="ko" hreflang="ko" href="/philosophy/right-to-read.ko.html" title="한국어" />
+<link rel="alternate" type="text/html" lang="lt" hreflang="lt" href="/philosophy/right-to-read.lt.html" title="lietuvių" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/right-to-read.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/right-to-read.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/right-to-read.pt-br.html" title="português do Brasil" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/right-to-read.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sl" hreflang="sl" href="/philosophy/right-to-read.sl.html" title="slovenščina" />
+<link rel="alternate" type="text/html" lang="sr" hreflang="sr" href="/philosophy/right-to-read.sr.html" title="српски" />
+<link rel="alternate" type="text/html" lang="sv" hreflang="sv" href="/philosophy/right-to-read.sv.html" title="svenska" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/right-to-read.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/philosophy/right-to-read.uk.html" title="українська" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/combo.css" media="screen" />
+<link rel="stylesheet" href="/mini.css" media="handheld" />
+<link rel="stylesheet" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" href="/print.min.css" media="print" />
+<style type="text/css" media="print,screen">
+
+
+.crm-amount-fill {
+  background: #f2cd5f;
+  color: black;
+  border-radius: 1em;
+  padding-right: .3em; padding-left: .3em;
+  width: 100%;
+}
+.crm-amount-high {
+  float: right;
+}
+div.donate_btn {
+  float: right;
+}
+</style>
+<style type="text/css" media="print,screen">
+<!--
+div.fundraiser {
+  font-family: "FreeSans", sans-serif;
+  padding: .5em 1.5% .5em 1.5%;
+  background-color: #ced7ff;
+  background: -webkit-linear-gradient(#b4c2ff, white);
+  background: -o-linear-gradient(#b4c2ff, white);
+  background: -moz-linear-gradient(#b4c2ff, white);
+  background: linear-gradient(#b4c2ff, white);
+  border-top: .2em solid #5272fd;
+}
+.fundraiser a {
+  color: black;
+}
+.crm-amount-high {
+  padding: 0 .3em;
+  background-color: #4a5a6a;
+  border-radius: 1em;
+}
+.crm-amount-bar {
+  border-radius: 1em;
+  background-color: #778796;
+  color: white;
+  border: .1em solid #4a5a6a;
+  margin-bottom: .5em;
+}
+div.donate_btn {
+  margin: 1.5em 0 0 1.5em;
+}
+.donate_btn a{
+  display: block;
+  text-decoration: none;
+  font-weight:bold;
+  padding: 0.4em 1em;
+  color: black;
+  background-color: #f2cd5f;
+  text-align: center;
+  border: .1em solid #CCA832;
+  border-radius: 1em;
+}
+@media (max-width: 30em) {
+   .fundraiser {
+    display: none;
+  }
+}
+-->
+</style>
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+
+
+
+
+
+<div id="toplinks">
+ <a href="#content">Skip to main text</a>
+ <span class="gnun-split"></span>
+ <a href="/server/select-language.html?callback=/philosophy/right-to-read.html" rel="nofollow">
+ Set language
+ <span class="gnun-split"></span>
+ </a>
+</div> <!-- /toplinks -->
+
+<div id="searcher">
+ <form method="get" action="//www.gnu.org/cgi-bin/estseek.cgi">
+  <div>
+  <input name="phrase" id="phrase" type="text" size="18" accesskey="s"
+         value="Why GNU/Linux?" onfocus="this.value=''" />
+  <input type="submit" value="Search" />
+  </div>
+ </form>
+</div><!-- /searcher -->
+
+<div id="translations">
+<p>
+<span dir="ltr" class="original"><a lang="en" hreflang="en" href="/philosophy/right-to-read.en.html">English</a>&nbsp;[en]</span> &nbsp;
+<span dir="ltr"><a lang="ar" hreflang="ar" href="/philosophy/right-to-read.ar.html">العربية</a>&nbsp;[ar]</span> &nbsp;
+<span dir="ltr"><a lang="bg" hreflang="bg" href="/philosophy/right-to-read.bg.html">български</a>&nbsp;[bg]</span> &nbsp;
+<span dir="ltr"><a lang="ca" hreflang="ca" href="/philosophy/right-to-read.ca.html">català</a>&nbsp;[ca]</span> &nbsp;
+<span dir="ltr"><a lang="cs" hreflang="cs" href="/philosophy/right-to-read.cs.html">čeština</a>&nbsp;[cs]</span> &nbsp;
+<span dir="ltr"><a lang="de" hreflang="de" href="/philosophy/right-to-read.de.html">Deutsch</a>&nbsp;[de]</span> &nbsp;
+<span dir="ltr"><a lang="el" hreflang="el" href="/philosophy/right-to-read.el.html">ελληνικά</a>&nbsp;[el]</span> &nbsp;
+<span dir="ltr"><a lang="es" hreflang="es" href="/philosophy/right-to-read.es.html">español</a>&nbsp;[es]</span> &nbsp;
+<span dir="ltr"><a lang="fa" hreflang="fa" href="/philosophy/right-to-read.fa.html">فارسی</a>&nbsp;[fa]</span> &nbsp;
+<span dir="ltr"><a lang="fi" hreflang="fi" href="/philosophy/right-to-read.fi.html">suomi</a>&nbsp;[fi]</span> &nbsp;
+<span dir="ltr"><a lang="fr" hreflang="fr" href="/philosophy/right-to-read.fr.html">français</a>&nbsp;[fr]</span> &nbsp;
+<span dir="ltr"><a lang="he" hreflang="he" href="/philosophy/right-to-read.he.html">עברית</a>&nbsp;[he]</span> &nbsp;
+<span dir="ltr"><a lang="hu" hreflang="hu" href="/philosophy/right-to-read.hu.html">magyar</a>&nbsp;[hu]</span> &nbsp;
+<span dir="ltr"><a lang="it" hreflang="it" href="/philosophy/right-to-read.it.html">italiano</a>&nbsp;[it]</span> &nbsp;
+<span dir="ltr"><a lang="ja" hreflang="ja" href="/philosophy/right-to-read.ja.html">日本語</a>&nbsp;[ja]</span> &nbsp;
+<span dir="ltr"><a lang="ko" hreflang="ko" href="/philosophy/right-to-read.ko.html">한국어</a>&nbsp;[ko]</span> &nbsp;
+<span dir="ltr"><a lang="lt" hreflang="lt" href="/philosophy/right-to-read.lt.html">lietuvių</a>&nbsp;[lt]</span> &nbsp;
+<span dir="ltr"><a lang="nl" hreflang="nl" href="/philosophy/right-to-read.nl.html">Nederlands</a>&nbsp;[nl]</span> &nbsp;
+<span dir="ltr"><a lang="pl" hreflang="pl" href="/philosophy/right-to-read.pl.html">polski</a>&nbsp;[pl]</span> &nbsp;
+<span dir="ltr"><a lang="pt-br" hreflang="pt-br" href="/philosophy/right-to-read.pt-br.html">português&nbsp;do&nbsp;Brasil</a>&nbsp;[pt-br]</span> &nbsp;
+<span dir="ltr"><a lang="ru" hreflang="ru" href="/philosophy/right-to-read.ru.html">русский</a>&nbsp;[ru]</span> &nbsp;
+<span dir="ltr"><a lang="sl" hreflang="sl" href="/philosophy/right-to-read.sl.html">slovenščina</a>&nbsp;[sl]</span> &nbsp;
+<span dir="ltr"><a lang="sr" hreflang="sr" href="/philosophy/right-to-read.sr.html">српски</a>&nbsp;[sr]</span> &nbsp;
+<span dir="ltr"><a lang="sv" hreflang="sv" href="/philosophy/right-to-read.sv.html">svenska</a>&nbsp;[sv]</span> &nbsp;
+<span dir="ltr"><a lang="tr" hreflang="tr" href="/philosophy/right-to-read.tr.html">Türkçe</a>&nbsp;[tr]</span> &nbsp;
+<span dir="ltr"><a lang="uk" hreflang="uk" href="/philosophy/right-to-read.uk.html">українська</a>&nbsp;[uk]</span> &nbsp;
+</p>
+</div>
+
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+<div id="header">
+<div id="fsf-frame">
+<p id="join-fsf"><a href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a></p>
+<div id="fssbox">
+<p><a href="http://www.fsf.org/fss">Free Software Supporter</a></p>
+<form action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31" method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+ </div>
+ <p>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </p>
+</form>
+</div><!-- /fssbox -->
+</div><!-- /fsf-frame -->
+
+<div id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.small.png" alt=" [A GNU head] " /><strong>GNU</strong> Operating System</a>
+</div><!-- /gnu-banner -->
+
+<p id="fsf-support">Sponsored by the <a href="#mission-statement">Free Software Foundation</a></p>
+
+</div><!-- /header -->
+
+<div id="navigation">
+
+ <ul>
+  <li id="tabAboutGNU"><a href="/gnu/gnu.html">About&nbsp;GNU</a></li>
+  <li id="tabPhilosophy"><a href="/philosophy/philosophy.html">Philosophy</a></li>
+  <li id="tabLicenses"><a href="/licenses/licenses.html">Licenses</a></li>
+  <li id="tabEducation"><a href="/education/education.html">Education</a></li>
+  <li id="tabSoftware"><a href="/software/software.html">Software</a></li>
+  <li id="tabDoc"><a href="/doc/doc.html">Documentation</a></li>
+  <li id="tabHelp"><a href="/help/help.html">Help&nbsp;GNU</a></li>
+ </ul>
+
+</div><!--  /navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content">
+<!-- end of server/banner.html -->
+
+<h2>The Right to Read</h2>
+
+<p>
+by <a href="http://www.stallman.org/"><strong>Richard Stallman</strong></a></p>
+
+<blockquote class="note">
+<p><a href="http://defectivebydesign.org/ebooks.html">Join our mailing list about the dangers of eBooks</a>.</p>
+</blockquote>
+
+<p>
+<em>This article appeared in the February 1997 issue
+of <strong>Communications of the ACM</strong> (Volume 40, Number
+2).</em></p>
+
+<blockquote><p>
+	     From <cite>The Road To Tycho</cite>, a collection of
+	     articles about the antecedents of the Lunarian
+	     Revolution, published in Luna City in 2096.
+</p></blockquote>
+
+<p>
+For Dan Halbert, the road to Tycho began in college&mdash;when Lissa
+Lenz asked to borrow his computer.  Hers had broken down, and unless
+she could borrow another, she would fail her midterm project.  There
+was no one she dared ask, except Dan.</p>
+
+<p>
+This put Dan in a dilemma.  He had to help her&mdash;but if he lent
+her his computer, she might read his books.  Aside from the fact that
+you could go to prison for many years for letting someone else read
+your books, the very idea shocked him at first.  Like everyone, he had
+been taught since elementary school that sharing books was nasty and
+wrong&mdash;something that only pirates would do.</p>
+
+<p>
+And there wasn't much chance that the SPA&mdash;the Software
+Protection Authority&mdash;would fail to catch him.  In his software
+class, Dan had learned that each book had a copyright monitor that
+reported when and where it was read, and by whom, to Central
+Licensing.  (They used this information to catch reading pirates, but
+also to sell personal interest profiles to retailers.)  The next time
+his computer was networked, Central Licensing would find out.  He, as
+computer owner, would receive the harshest punishment&mdash;for not
+taking pains to prevent the crime.</p>
+
+<p>
+Of course, Lissa did not necessarily intend to read his books.  She
+might want the computer only to write her midterm.  But Dan knew she
+came from a middle-class family and could hardly afford the tuition,
+let alone her reading fees.  Reading his books might be the only way
+she could graduate.  He understood this situation; he himself had had
+to borrow to pay for all the research papers he read.  (Ten percent of those
+fees went to the researchers who wrote the papers; since Dan aimed for
+an academic career, he could hope that his own research papers, if
+frequently referenced, would bring in enough to repay this loan.)</p>
+
+<p>
+Later on, Dan would learn there was a time when anyone could go to the
+library and read journal articles, and even books, without having to
+pay.  There were independent scholars who read thousands of pages
+without government library grants.  But in the 1990s, both commercial
+and nonprofit journal publishers had begun charging fees for access.
+By 2047, libraries offering free public access to scholarly literature
+were a dim memory.</p>
+
+<p>
+There were ways, of course, to get around the SPA and Central
+Licensing.  They were themselves illegal.  Dan had had a classmate in
+software, Frank Martucci, who had obtained an illicit debugging tool,
+and used it to skip over the copyright monitor code when reading
+books.  But he had told too many friends about it, and one of them
+turned him in to the SPA for a reward (students deep in debt were
+easily tempted into betrayal).  In 2047, Frank was in prison, not for
+pirate reading, but for possessing a debugger.</p>
+
+<p>
+Dan would later learn that there was a time when anyone could have
+debugging tools.  There were even free debugging tools available on CD
+or downloadable over the net.  But ordinary users started using them
+to bypass copyright monitors, and eventually a judge ruled that this
+had become their principal use in actual practice.  This meant they
+were illegal; the debuggers' developers were sent to prison.</p>
+
+<p>
+Programmers still needed debugging tools, of course, but debugger
+vendors in 2047 distributed numbered copies only, and only to
+officially licensed and bonded programmers.  The debugger Dan used in
+software class was kept behind a special firewall so that it could be
+used only for class exercises.</p>
+
+<p>
+It was also possible to bypass the copyright monitors by installing a
+modified system kernel.  Dan would eventually find out about the free
+kernels, even entire free operating systems, that had existed around
+the turn of the century.  But not only were they illegal, like
+debuggers&mdash;you could not install one if you had one, without
+knowing your computer's root password.  And neither
+the <abbr title="Federal Bureau of Investigation">FBI</abbr> nor
+Microsoft Support would tell you that.</p>
+
+<p>
+Dan concluded that he couldn't simply lend Lissa his computer.  But he
+couldn't refuse to help her, because he loved her.  Every chance to
+speak with her filled him with delight.  And that she chose him to ask
+for help, that could mean she loved him too.</p>
+
+<p>
+Dan resolved the dilemma by doing something even more
+unthinkable&mdash;he lent her the computer, and told her his password.
+This way, if Lissa read his books, Central Licensing would think he
+was reading them.  It was still a crime, but the SPA would not
+automatically find out about it.  They would only find out if Lissa
+reported him.</p>
+
+<p>
+Of course, if the school ever found out that he had given Lissa his
+own password, it would be curtains for both of them as students,
+regardless of what she had used it for.  School policy was that any
+interference with their means of monitoring students' computer use was
+grounds for disciplinary action.  It didn't matter whether you did
+anything harmful&mdash;the offense was making it hard for the
+administrators to check on you.  They assumed this meant you were
+doing something else forbidden, and they did not need to know what it
+was.</p>
+
+<p>
+Students were not usually expelled for this&mdash;not directly.
+Instead they were banned from the school computer systems, and would
+inevitably fail all their classes.</p>
+
+<p>
+Later, Dan would learn that this kind of university policy started
+only in the 1980s, when university students in large numbers began
+using computers.  Previously, universities maintained a different
+approach to student discipline; they punished activities that were
+harmful, not those that merely raised suspicion.</p>
+
+<p>
+Lissa did not report Dan to the SPA.  His decision to help her led to
+their marriage, and also led them to question what they had been
+taught about piracy as children.  The couple began reading about the
+history of copyright, about the Soviet Union and its restrictions on
+copying, and even the original United States Constitution.  They moved
+to Luna, where they found others who had likewise gravitated away from
+the long arm of the SPA.  When the Tycho Uprising began in 2062, the
+universal right to read soon became one of its central aims.</p>
+
+
+<h3 id="AuthorsNote">Author's Notes</h3>
+
+<ul>
+<li>This story is supposedly a historical article that will be written in
+the future by someone else, describing Dan Halbert's youth under a
+repressive society shaped by the enemies that use &ldquo;pirate&rdquo; as
+propaganda. So it uses the terminology of that society.
+I have tried to project it from today so as to sound even more
+oppressive. See <a
+href="/philosophy/words-to-avoid.html#Piracy">&ldquo;Piracy&rdquo;</a>.
+</li>
+
+<li>
+<p>The following note has been updated several times since the first
+publication of the story.</p>
+
+<p>
+The right to read is a battle being fought today.  Although it may
+take 50 years for our present way of life to fade into obscurity, most
+of the specific laws and practices described above have already been
+proposed; many have been enacted into law in the US and elsewhere.  In
+the US, the 1998 Digital Millennium Copyright Act (DMCA) established the legal
+basis to restrict the reading and lending of computerized books (and
+other works as well).  The European Union imposed similar restrictions
+in a 2001 copyright directive.  In France, under the DADVSI law
+adopted in 2006, mere possession of a copy of DeCSS, the free program
+to decrypt video on a DVD, is a crime.</p>
+
+<p>
+In 2001, Disney-funded Senator Hollings proposed a bill called the
+SSSCA that would require every new computer to have mandatory
+copy-restriction facilities that the user cannot bypass.  Following
+the Clipper chip and similar US government key-escrow proposals, this
+shows a long-term trend: computer systems are increasingly set up to
+give absentees with clout control over the people actually using the
+computer system.  The SSSCA was later renamed to the unpronounceable
+CBDTPA, which was glossed as the &ldquo;Consume But Don't Try
+Programming Act&rdquo;.
+</p>
+
+<p>
+The Republicans took control of the US senate shortly thereafter.
+They are less tied to Hollywood than the Democrats, so they did not
+press these proposals.  Now that the Democrats are back in control,
+the danger is once again higher.</p>
+
+<p>
+In 2001 the US began attempting to use the proposed &ldquo;Free Trade&rdquo; Area of
+the Americas (FTAA) treaty to impose the same rules on all the countries in
+the Western Hemisphere.  The FTAA is one of the so-called free
+trade treaties, which are actually designed to give business
+increased power over democratic governments; imposing laws like the
+DMCA is typical of this spirit.  The FTAA was effectively killed by
+Lula, President of Brazil, who rejected the DMCA requirement and
+others.</p>
+
+<p>
+Since then, the US has imposed similar requirements on countries such
+as Australia and Mexico through bilateral &ldquo;free trade&rdquo;
+agreements, and on countries such as Costa Rica through another
+treaty, CAFTA.  Ecuador's President Correa refused to sign a
+&ldquo;free trade&rdquo; agreement with the US, but I've heard Ecuador
+had adopted something like the DMCA in 2003.</p>
+
+<p>
+One of the ideas in the story was not proposed in reality until 2002.
+This is the idea that the <abbr>FBI</abbr> and Microsoft will keep the
+root passwords for your personal computers, and not let you have
+them.</p>
+
+<p>
+The proponents of this scheme have given it names such as
+&ldquo;trusted computing&rdquo; and &ldquo;Palladium&rdquo;.  We call
+it <a href="/philosophy/can-you-trust.html">&ldquo;treacherous
+computing&rdquo;</a> because the effect is to make your computer obey
+companies even to the extent of disobeying and defying you.  This was
+implemented in 2007 as part of <a href="http://badvista.org/">Windows
+Vista</a>; we expect Apple to do something similar.  In this scheme,
+it is the manufacturer that keeps the secret code, but
+the <abbr>FBI</abbr> would have little trouble getting it.</p>
+
+<p>
+What Microsoft keeps is not exactly a password in the traditional
+sense; no person ever types it on a terminal.  Rather, it is a
+signature and encryption key that corresponds to a second key stored
+in your computer.  This enables Microsoft, and potentially any web
+sites that cooperate with Microsoft, the ultimate control over what
+the user can do on his own computer.</p>
+
+<p>
+Vista also gives Microsoft additional powers; for instance, Microsoft
+can forcibly install upgrades, and it can order all machines running
+Vista to refuse to run a certain device driver.  The main purpose of
+Vista's many restrictions is to impose DRM (Digital Restrictions
+Management) that users can't overcome.  The threat of DRM is why we
+have established the <a href="http://DefectiveByDesign.org">
+Defective by Design</a> campaign.</p>
+
+<p>
+When this story was first written, the SPA was threatening small
+Internet service providers, demanding they permit the SPA to monitor
+all users.  Most ISPs surrendered when threatened, because they cannot
+afford to fight back in court.  One ISP, Community ConneXion in
+Oakland, California, refused the demand and was actually sued.  The
+SPA later dropped the suit, but obtained the DMCA, which gave them the
+power they sought.</p>
+
+<p>
+The SPA, which actually stands for Software Publishers Association,
+has been replaced in its police-like role by the Business
+Software Alliance.  The BSA is not, today, an official police force;
+unofficially, it acts like one.  Using methods reminiscent of the
+erstwhile Soviet Union, it invites people to inform on their coworkers
+and friends.  A BSA terror campaign in Argentina in 2001 made
+slightly veiled threats that people sharing software would be raped.</p>
+
+<p>
+The university security policies described above are not imaginary.
+For example, a computer at one Chicago-area university displayed this
+message upon login:</p>
+
+<blockquote><p>
+This system is for the use of authorized users only.  Individuals using
+this computer system without authority or in the excess of their authority
+are subject to having all their activities on this system monitored and
+recorded by system personnel.  In the course of monitoring individuals
+improperly using this system or in the course of system maintenance, the
+activities of authorized user may also be monitored.  Anyone using this
+system expressly consents to such monitoring and is advised that if such
+monitoring reveals possible evidence of illegal activity or violation of
+University regulations system personnel may provide the evidence of such
+monitoring to University authorities and/or law enforcement officials.
+</p></blockquote>
+
+<p>
+This is an interesting approach to the Fourth Amendment: pressure most
+everyone to agree, in advance, to waive their rights under it.</p>
+</li>
+</ul>
+
+<h3 id="BadNews">Bad News</h3>
+
+<p>
+The battle for the right to read is already in progress,
+The enemy is organized, while we are not, so it is going against us.
+Here are articles about bad things that have happened since the
+original publication of this article.</p>
+
+<ul>
+<li>Today's commercial ebooks <a href="/philosophy/the-danger-of-ebooks.html">
+     abolish readers' traditional freedoms.</a></li>
+<li><a href="http://www.nature.com/nature_education/biology.html">
+     A "biology textbook" web site</a> that you can access only by signing
+     a <a href="http://www.nature.com/principles/viewTermsOfUse">
+     contract not to lend it to anyone else</a>, which the publisher can
+     revoke at will.</li>
+<li><a href="http://www.zdnet.com/article/seybold-opens-chapter-on-digital-books/">Electronic
+     Publishing:</a> An article about distribution of books in
+     electronic form, and copyright issues affecting the right to read
+     a copy.</li>
+<li><a href="http://www.microsoft.com/en-us/news/press/1999/Aug99/SeyboldPR.aspx">Books
+     inside Computers:</a> Software to control who can read
+     books and documents on a PC.</li>
+</ul>
+
+<p>If we want to stop the bad news and create some good news, we need
+to organize and fight.  The
+FSF's <a href="http://defectivebydesign.org"> Defective by Design</a>
+campaign has made a start; subscribe to the campaign's mailing
+list to lend a hand.  And <a href="http://www.fsf.org/associate">join
+the FSF</a> to help fund our work.
+</p>
+
+<h3 id="References">References</h3>
+
+<ul>
+  <li>The administration's &ldquo;White Paper&rdquo;: Information
+       Infrastructure Task Force, Intellectual Property [<a
+       href="/philosophy/not-ipr.html">sic</a>] and the
+       National Information Infrastructure: The Report of the Working
+       Group on Intellectual Property [sic] Rights (1995).</li>
+
+  <li><a href="http://www.wired.com/wired/archive/4.01/white.paper_pr.html">An
+       explanation of the White Paper:
+       The Copyright Grab</a>, Pamela Samuelson, Wired, Jan. 1996</li>
+
+  <li><a href="http://www.law.duke.edu/boylesite/sold_out.htm">Sold Out</a>,
+       James Boyle, New York Times, 31 March 1996</li>
+
+  <li><a href="http://web.archive.org/web/20130508120533/http://www.interesting-people.org/archives/interesting-people/199611/msg00012.html">Public Data or Private Data</a>, 
+       Washington Post, 4 Nov 1996. </li>
+ 
+  <li><a href="http://www.public-domain.org/">Union for the Public
+       Domain</a>&mdash;an organization which aims to resist and
+       reverse the overextension of copyright and patent powers.</li>
+</ul>
+
+<hr />
+<blockquote id="fsfs"><p class="big">This essay is published
+in <a href="http://shop.fsf.org/product/free-software-free-society/"><cite>Free
+Software, Free Society: The Selected Essays of Richard
+M. Stallman</cite></a>.</p></blockquote>
+
+<h5>Other Texts to Read</h5>
+
+<ul>
+	<li><a href="/philosophy/philosophy.html">Philosophy of the
+	GNU Project</a></li>
+	<li><a href="http://www.computerworld.com/article/2596679/networking/copy-protection--just-say-no.html"
+		id="copy-protection">Copy Protection: Just Say No</a>,
+		published in Computer World.</li>
+</ul>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+<div id="fsf-links">
+ <ul>
+  <li><a href="/">GNU&nbsp;home&nbsp;page</a></li>
+  <li><a href="http://www.fsf.org/">FSF&nbsp;home&nbsp;page</a></li>
+  <li><a href="/graphics/graphics.html">GNU&nbsp;Art</a></li>
+  <li><a href="/people/people.html">GNU's&nbsp;Who?</a></li>
+  <li><a href="http://directory.fsf.org">Free&nbsp;Software&nbsp;Directory</a></li>
+  <li><a href="https://h-node.org/">Hardware</a></li>
+  <li><a href="/server/sitemap.html">Site&nbsp;map</a></li>
+ </ul>
+</div><!-- /fsf-links -->
+
+<div id="mission-statement">
+
+<blockquote>
+<p><a href="http://www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext.png" alt=" [FSF logo] "/></a><strong>&ldquo;Our
+mission is to preserve, protect and promote the freedom to use, study,
+copy, modify, and redistribute computer software, and to defend the
+rights of Free Software users.&rdquo;</strong></p>
+</blockquote>
+
+<p>The <a href="http://www.fsf.org">Free Software Foundation</a> is
+the principal organizational sponsor of the GNU Operating System.
+<strong>Support GNU and the FSF</strong> by <a
+href="http://shop.fsf.org/">buying manuals and gear</a>, <a
+href="https://my.fsf.org/associate/support_freedom?referrer=4052">
+<strong>joining the FSF</strong></a> as an associate member, or making
+a <strong>donation</strong>, either <a
+href="http://donate.fsf.org/">directly to the FSF</a> or <a
+href="http://flattr.com/thing/313733/gnuproject-on-Flattr">via
+Flattr</a>.</p>
+
+<p id="backtotop"><a href="#header">back to top</a></p>
+
+</div><!-- /mission-statement -->
+<!-- end server/footer-text.html -->
+
+
+<div id="footer">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and submitting translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and submitting translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 1996, 2002, 2007, 2009, 2010, 2014, 2015, 2016 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div class="unprintable">
+<p><a href="http://www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+
+
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2016/03/26 15:31:09 $
+<!-- timestamp end -->
+</p>
+</div>
+</div>
+</body>
+</html>

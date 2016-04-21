@@ -1,0 +1,95 @@
+\hypertarget{class_animated_sprite}{\section{Animated\-Sprite Class Reference}
+\label{class_animated_sprite}\index{Animated\-Sprite@{Animated\-Sprite}}
+}
+
+
+\hyperlink{class_animated_sprite}{Animated\-Sprite} Class manages the array of images to display on Awake.  
+
+
+Inheritance diagram for Animated\-Sprite\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_animated_sprite}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_animated_sprite_ae729d36bce4043bb5ce3da541d0e2ba1}{Awake} ()
+\item 
+I\-Enumerator \hyperlink{class_animated_sprite_af5f0b329b424f4ea6a646bb9cc4e97d6}{Play\-Animation} ()
+\item 
+void \hyperlink{class_animated_sprite_a2623e6f78c11daf4573cfabea0d9dff0}{Change\-Sprite} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_animated_sprite_a70ddec1e72a29a25c16175c7dc53decf}{frame\-Interval} = 0.\-9f
+\item 
+Sprite\mbox{[}$\,$\mbox{]} \hyperlink{class_animated_sprite_a8c8ae3e620f9b0029dca501c5d6dd1a1}{sprite\-Array}
+\item 
+int \hyperlink{class_animated_sprite_ad2906feaf88a9334c785e7f2bb32f2ad}{sprite\-Index} = 0
+\item 
+Sprite\-Renderer \hyperlink{class_animated_sprite_a7f733f377e105ea251accd4d6018b5f7}{sprite\-Renderer}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_animated_sprite}{Animated\-Sprite} Class manages the array of images to display on Awake. 
+
+\begin{DoxyAuthor}{Author}
+David Kelly 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\-0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+20/3/14
+\end{DoxyDate}
+\begin{DoxyWarning}{Warning}
+not all attributes have been set values in this version, therefore possible changes may be made in revised versions 
+\end{DoxyWarning}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_animated_sprite_ae729d36bce4043bb5ce3da541d0e2ba1}{\index{Animated\-Sprite@{Animated\-Sprite}!Awake@{Awake}}
+\index{Awake@{Awake}!AnimatedSprite@{Animated\-Sprite}}
+\subsubsection[{Awake}]{\setlength{\rightskip}{0pt plus 5cm}void Animated\-Sprite.\-Awake (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_animated_sprite_ae729d36bce4043bb5ce3da541d0e2ba1}
+Awake method starts as soon as the scene is loaded and makes sure there is an image in the array \hypertarget{class_animated_sprite_a2623e6f78c11daf4573cfabea0d9dff0}{\index{Animated\-Sprite@{Animated\-Sprite}!Change\-Sprite@{Change\-Sprite}}
+\index{Change\-Sprite@{Change\-Sprite}!AnimatedSprite@{Animated\-Sprite}}
+\subsubsection[{Change\-Sprite}]{\setlength{\rightskip}{0pt plus 5cm}void Animated\-Sprite.\-Change\-Sprite (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_animated_sprite_a2623e6f78c11daf4573cfabea0d9dff0}
+Change\-Sprite method filters between the sprites in the array § \hypertarget{class_animated_sprite_af5f0b329b424f4ea6a646bb9cc4e97d6}{\index{Animated\-Sprite@{Animated\-Sprite}!Play\-Animation@{Play\-Animation}}
+\index{Play\-Animation@{Play\-Animation}!AnimatedSprite@{Animated\-Sprite}}
+\subsubsection[{Play\-Animation}]{\setlength{\rightskip}{0pt plus 5cm}I\-Enumerator Animated\-Sprite.\-Play\-Animation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_animated_sprite_af5f0b329b424f4ea6a646bb9cc4e97d6}
+Play\-Animation method calls the Change\-Sprite method and changes the images using the frame\-Interval time variable 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_animated_sprite_a70ddec1e72a29a25c16175c7dc53decf}{\index{Animated\-Sprite@{Animated\-Sprite}!frame\-Interval@{frame\-Interval}}
+\index{frame\-Interval@{frame\-Interval}!AnimatedSprite@{Animated\-Sprite}}
+\subsubsection[{frame\-Interval}]{\setlength{\rightskip}{0pt plus 5cm}float Animated\-Sprite.\-frame\-Interval = 0.\-9f}}\label{class_animated_sprite_a70ddec1e72a29a25c16175c7dc53decf}
+frame\-Interval is the float value with which the sprite will change \hypertarget{class_animated_sprite_a8c8ae3e620f9b0029dca501c5d6dd1a1}{\index{Animated\-Sprite@{Animated\-Sprite}!sprite\-Array@{sprite\-Array}}
+\index{sprite\-Array@{sprite\-Array}!AnimatedSprite@{Animated\-Sprite}}
+\subsubsection[{sprite\-Array}]{\setlength{\rightskip}{0pt plus 5cm}Sprite \mbox{[}$\,$\mbox{]} Animated\-Sprite.\-sprite\-Array}}\label{class_animated_sprite_a8c8ae3e620f9b0029dca501c5d6dd1a1}
+this sprite array contains the image array which will be used \hypertarget{class_animated_sprite_ad2906feaf88a9334c785e7f2bb32f2ad}{\index{Animated\-Sprite@{Animated\-Sprite}!sprite\-Index@{sprite\-Index}}
+\index{sprite\-Index@{sprite\-Index}!AnimatedSprite@{Animated\-Sprite}}
+\subsubsection[{sprite\-Index}]{\setlength{\rightskip}{0pt plus 5cm}int Animated\-Sprite.\-sprite\-Index = 0}}\label{class_animated_sprite_ad2906feaf88a9334c785e7f2bb32f2ad}
+the index value of the sprite in the array \hypertarget{class_animated_sprite_a7f733f377e105ea251accd4d6018b5f7}{\index{Animated\-Sprite@{Animated\-Sprite}!sprite\-Renderer@{sprite\-Renderer}}
+\index{sprite\-Renderer@{sprite\-Renderer}!AnimatedSprite@{Animated\-Sprite}}
+\subsubsection[{sprite\-Renderer}]{\setlength{\rightskip}{0pt plus 5cm}Sprite\-Renderer Animated\-Sprite.\-sprite\-Renderer}}\label{class_animated_sprite_a7f733f377e105ea251accd4d6018b5f7}
+sprite\-Renderer is the renderer attached to the sprite image 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Animated\-Sprite.\-cs\end{DoxyCompactItemize}

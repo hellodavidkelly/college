@@ -1,0 +1,34 @@
+Mar 24 20:05:27.569 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Mar 24 20:05:27.571 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 7210.
+Mar 24 20:05:28.025 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 24 20:05:28.025 HYPERVISOR: exec_cmd: hypervisor uuid 
+Mar 24 20:05:28.025 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture  Demo2/TSHOOT Lecture  Demo2-files\dynamips 
+Mar 24 20:05:28.026 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture  Demo2/TSHOOT Lecture  Demo2-files\dynamips
+Mar 24 20:05:28.026 HYPERVISOR: exec_cmd: vm create R3 12 c3725 
+Mar 24 20:05:28.030 VM: VM R3 created.
+Mar 24 20:05:28.031 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 2004 
+Mar 24 20:05:28.031 HYPERVISOR: exec_cmd: vm set_aux_tcp_port R3 2501 
+Mar 24 20:05:28.031 HYPERVISOR: exec_cmd: c3725 get_mac_addr R3 
+Mar 24 20:05:28.032 HYPERVISOR: exec_cmd: vm set_ram R3 192 
+Mar 24 20:05:28.032 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Michael/GNS3/images/IOS/C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Mar 24 20:05:28.032 HYPERVISOR: exec_cmd: vm set_sparse_mem R3 1 
+Mar 24 20:05:28.032 HYPERVISOR: exec_cmd: vm set_ram_mmap R3 1 
+Mar 24 20:05:28.033 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 2009 
+Mar 24 20:05:28.033 HYPERVISOR: exec_cmd: vm set_aux_tcp_port R3 2504 
+Mar 24 20:05:28.033 HYPERVISOR: exec_cmd: c3725 set_mac_addr R3 c20c.0734.0000 
+Mar 24 20:05:28.033 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Mar 24 20:05:28.033 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Mar 24 20:05:29.412 HYPERVISOR: exec_cmd: vm set_config R3 configs/i12_startup-config.cfg 
+Mar 24 20:05:29.413 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 24 20:05:29.413 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x6026b804 
+Mar 24 20:05:29.413 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 48 WIC-1T 
+Mar 24 20:05:29.413 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 32 WIC-1T 
+Mar 24 20:05:29.413 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 16 WIC-1T 
+Mar 24 20:05:29.593 HYPERVISOR: exec_cmd: nio create_udp_auto nio_udp_auto33 127.0.0.1 10001 20000 
+Mar 24 20:05:30.307 HYPERVISOR: exec_cmd: nio connect_udp_auto nio_udp_auto33 127.0.0.1 10033 
+Mar 24 20:05:30.307 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 16 nio_udp_auto33 
+Mar 24 20:05:30.307 HYPERVISOR: exec_cmd: vm get_status R3 
+Mar 24 20:11:20.132 HYPERVISOR: exec_cmd: vm extract_config R3 
+Mar 24 20:11:20.305 HYPERVISOR: Stopped.
+Mar 24 20:11:20.306 VM: VM R3 destroyed.
+Mar 24 20:11:20.316 GENERAL: reset done.

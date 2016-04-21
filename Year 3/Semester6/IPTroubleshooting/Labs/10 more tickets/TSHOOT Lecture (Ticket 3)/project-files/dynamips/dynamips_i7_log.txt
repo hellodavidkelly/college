@@ -1,0 +1,25 @@
+Apr 20 10:57:21.944 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 20 10:57:21.944 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51922.
+Apr 20 10:57:22.038 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 20 10:57:22.085 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 20 10:57:22.131 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Michael\GNS3\projects\TSHOOT Lecture (Ticket 3)\project-files\dynamips 
+Apr 20 10:57:22.131 GENERAL: working_dir=C:\Users\Michael\GNS3\projects\TSHOOT Lecture (Ticket 3)\project-files\dynamips
+Apr 20 10:57:22.131 HYPERVISOR: exec_cmd: frsw create FRSwitch 
+Apr 20 10:57:22.646 HYPERVISOR: exec_cmd: nio create_udp nio_udp6 10008 127.0.0.1 10009 
+Apr 20 10:57:22.709 HYPERVISOR: exec_cmd: nio create_udp nio_udp8 10010 127.0.0.1 10011 
+Apr 20 10:57:22.709 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp8 102 nio_udp6 201 
+Apr 20 10:57:22.724 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp6 201 nio_udp8 102 
+Apr 20 10:57:22.787 HYPERVISOR: exec_cmd: nio create_udp nio_udp10 10012 127.0.0.1 10013 
+Apr 20 10:57:22.974 HYPERVISOR: exec_cmd: nio create_udp nio_udp12 10014 127.0.0.1 10015 
+Apr 20 10:57:23.021 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp12 304 nio_udp10 403 
+Apr 20 10:57:23.067 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp10 403 nio_udp12 304 
+Apr 20 10:57:23.099 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp12 302 nio_udp6 203 
+Apr 20 10:57:23.161 HYPERVISOR: exec_cmd: frsw create_vc FRSwitch nio_udp6 203 nio_udp12 302 
+Apr 20 11:01:58.984 nio_udp12: resynchronization with LMI sequence...
+Apr 20 11:02:06.784 nio_udp6: resynchronization with LMI sequence...
+Apr 20 11:02:09.655 nio_udp10: resynchronization with LMI sequence...
+Apr 20 11:02:22.462 nio_udp8: resynchronization with LMI sequence...
+Apr 20 11:05:11.459 HYPERVISOR: exec_cmd: frsw delete FRSwitch 
+Apr 20 11:05:11.624 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 20 11:05:12.076 HYPERVISOR: Stopped.
+Apr 20 11:05:12.076 GENERAL: reset done.

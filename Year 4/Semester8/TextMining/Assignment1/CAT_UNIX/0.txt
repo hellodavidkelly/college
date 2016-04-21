@@ -1,0 +1,9 @@
+The UNIX brand has traditionally been applied to the family of multitasking, multiuser computer operating systems that derive from the original AT&T UNIX operating system, developed in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others -- [Source:Wikipedia link]
+
+Today, The Open Group holds the definition of what a UNIX system is and its associated trademark in trust for the industry. The latest version can be read online [link].
+
+In 1994 Novell (who had acquired the UNIX systems business of AT&T/USL) decided to get out of that business. Rather than sell the business as a single entity, Novell transferred the rights to the UNIX trademark and the specification (that subsequently became the Single UNIX Specification) to The Open Group (at the time X/Open Company). Subsequently, it sold the source code and the product implementation (UNIXWARE) to SCO. The Open Group also owns the trademark UNIXWARE.
+
+Today, the definition of UNIX ® takes the form of the worldwide Single UNIX Specification integrating X/Open Company's XPG4, IEEE's POSIX Standards and ISO C. Through continual evolution, the Single UNIX Specification is the defacto and dejure standard definition for the UNIX system application programming interfaces. As the owner of the UNIX trademark, The Open Group has separated the UNIX trademark from any actual code stream itself, thus allowing multiple implementations. Since the introduction of the Single UNIX Specification, there has been a single, open, consensus specification that defines the requirements for a conformant UNIX system.
+
+There is also a mark, or brand, that is used to identify those products that have been certified as conforming to the Single UNIX Specification, initially UNIX 93, followed subsequently by UNIX 95, UNIX 98, UNIX 03 and now UNIX V7.

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset= 'utf-8'> <title>Thank You</title>
+	<style>
+			form
+			{
+			border: none;
+			width: 250px;
+			border-radius: 8px;
+			background-color: blue;
+			}
+			
+			fieldset
+			{
+			border: none;
+			}
+			
+			submit
+			{
+			margin-left: 100px;
+			}
+	</style>	
+</head>
+
+<body>
+	<form action="feedbackForm.html" method = "post">
+		
+		<fieldset>
+			
+			<legend>Feedback Form </legend>
+				Name: <input type="text" name="firstName" required placeholder = "Enter first name" autofocus>
+				<br>
+				Email: <input type="email" name="email" required placeholder = "Enter your Email address">
+				<br>
+				Phone: <input type="tel" pattern="[0-9]{7}" name="phone" title="7 digits" required placeholder = "Enter your phone number">
+
+				Callback on:<input type="date" name="date" required>
+		
+				Priority: <input type="range" name="a" min ="1" max="10" required>
+						<output name="x"></output>
+		
+				<input type ="submit" name="submit" id="submit" value="Send">
+				
+		</fieldset>
+				
+	</form>
+</body>
+	
+</html>

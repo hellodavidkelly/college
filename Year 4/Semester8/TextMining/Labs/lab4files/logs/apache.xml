@@ -1,0 +1,94 @@
+<!--
+ Copyright 2005 - Gary Bentley
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+     http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<!--
+
+  This log format models the Apache Combined Log format (NCSA).
+  i.e. "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\""
+
+  Note the order of the field elements IS important.  The fields are read in and the log entry
+  processed by getting each field to "consume" the part that it handles.  The remainder of the
+  entry is then passed to the next field.
+-->
+<config>
+
+  <!--
+    The hostname part of the log file.  (%h)
+  -->
+  <field class="org.polliwog.fields.HostnameField" />
+
+  <!--
+    A blank field used to "skip" that part of the line. (%l)
+  -->
+  <field blank="true" />
+
+  <!--
+    A blank field used to "skip" that part of the line. (%u)
+  -->
+  <field blank="true" />
+
+  <!--
+    Date/time of the entry. (%t)
+
+    Note:  If your log file is in a language OTHER THAN english then you should modify the "locale" param value below.  Usually, if you are using Apache then the log file will be written (especially the dates) in "english".  The value should have 2 parts, the first part is the "language" (one of the constants defined in: http://www.loc.gov/standards/iso639-2/englangn.html, from the 639-1 column ONLY), the second part should be the "country" (one of the constants defined: http://www.iso.ch/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html).  The values should be separated by "/".  i.e. "en/US" or "fr/FR".  Only change this value IF your log file is written in a language other than English.  
+  -->
+  <field class="org.polliwog.fields.DateTimeField"
+         openQuote="["
+         closeQuote="]">
+    <param id="locale"
+           value="en/US" />
+    <param id="format"
+           value="dd/MMM/yyyy:HH:mm:ss Z" />
+  </field>
+
+  <!--
+    The request line, i.e. what did the browser/search engine ask for. (\"%r\")
+  -->
+  <field class="org.polliwog.fields.RequestLineField"
+           openQuote='"'
+           closeQuote='"'
+           escapedBy="\" />
+
+  <!--
+    The status code returned by the web server. (%>s)
+  -->
+  <field class="org.polliwog.fields.StatusCodeField" />
+
+  <!--
+    The size of the returned document. (%b)
+  -->
+  <field class="org.polliwog.fields.SizeField" />
+
+  <!--
+    The referer page. (\"%{Referer}i\")
+  -->
+  <field class="org.polliwog.fields.RefererHeaderField"
+           openQuote='"'
+           closeQuote='"' />
+
+  <!--
+    The request header, i.e. what did the browser/search engine announce itself as.
+    (\"%{User-agent}i\")
+  -->
+  <field class="org.polliwog.fields.RequestHeaderField"
+           openQuote='"'
+           closeQuote='"'
+           escapedBy="\">
+    <param id="type"
+           value="user-agent" />
+  </field>
+
+</config>

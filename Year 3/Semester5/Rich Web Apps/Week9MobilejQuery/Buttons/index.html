@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>View Source</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_/css/jquery.mobile.css" />
+	<script src="_/js/jquery.js"></script>
+	<script src="_/js/jquery.mobile.js"></script>
+
+	<script src="_/js/myscript.js"></script>
+	<link rel="stylesheet" href="_/css/mystyles.css" />
+</head>
+<body>
+	<div id="home" data-role="page" data-title="View Source: Home">
+		<div data-role="header">
+			<h1>Home</h1>
+		</div>
+		<p>Welcome to the View Source App</p>
+		<div data-role="controlgroup"
+			>
+		<a href="#blog" 
+			data-transition="flip"
+			data-role="button"
+			data-icon="arrow-r"
+		>Blog</a>
+		<a href="#videos" 
+			data-transition="flip"
+			data-role="button"
+			data-icon="arrow-r"
+		>Videos</a>
+		<a href="#photos" 
+			data-transition="flip"
+			data-role="button"
+			data-icon="arrow-r"
+		>Photos</a>
+		<a href="#tweets" 
+			data-transition="flip"
+			data-role="button"
+			data-icon="arrow-r"
+		>Tweets</a>
+		</div>
+	</div>
+
+	<div id="blog" data-role="page" data-title="View Source: Blog">
+		<div data-role="header">
+			<h1>Blog</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+		<p>This is our blog.</p>
+		<a href="#home" data-transition="pop">Home</a>
+	</div>
+
+	<div id="videos" data-role="page" data-title="View Source: Videos">
+		<div data-role="header">
+			<h1>Videos</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+		<p>Videos Page.</p>
+		<a href="#home" data-transition="pop">Home</a>
+	</div>
+	
+	<div id="photos" data-role="page" data-title="View Source: Photos">
+		<div data-role="header">
+			<h1>Photos</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+		<p>Photos from Flickr</p>
+		<a href="#home" data-transition="pop">Home</a>
+	</div>
+	
+	<div id="tweets" data-role="page" data-title="View Source: Tweets">
+		<div data-role="header">
+			<h1>Tweets</h1>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</div>
+		<p>Tweets page.</p>
+		<a href="#home" data-transition="pop">Home</a>
+	</div>
+
+
+</body>
+</html>

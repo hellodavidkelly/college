@@ -1,0 +1,77 @@
+package Client;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+import java.util.Vector;
+
+import javax.swing.*;
+
+import Client.ChatClient;
+import Server.ChatServerIF;
+
+public class ChatClientDriver extends JFrame{
+	static String messageHolder;
+	
+	static ChatServerIF chatServer;
+	static String userName;
+	private JTextField userText;
+	private JTextArea chatWindow;
+	private static String message = "";	
+	
+	ChatClientDriver(){
+		super(getUsername());
+		userText = new JTextField();
+		userText.setEditable(true);
+		userText.addActionListener(
+				new ActionListener(){
+					public void actionPerformed(ActionEvent event){
+						try {
+							chatServer.broadcastMessage(userName+": "+ event.getActionCommand());
+							addMessage();
+						} catch (RemoteException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+						userText.setText("");
+					}
+				}
+		);
+		add(userText, BorderLayout.SOUTH);
+		chatWindow = new JTextArea();
+		//Update chat window
+		add(new JScrollPane(chatWindow), BorderLayout.CENTER);
+		setSize(420,220);
+		setVisible(true);
+		setResizable(false);
+		setLocation(0,300);
+		chatWindow.setForeground(Color.GREEN);
+		chatWindow.setBackground(Color.DARK_GRAY);
+		chatWindow.setEditable(false);
+	}
+	
+	public static String getUsername(){
+		userName = JOptionPane.showInputDialog("Enter Username");
+		return userName;
+	}
+	
+	public static void main(String[] args) throws MalformedURLException, RemoteException, NotBoundException {
+		
+		ChatClientDriver chat = new ChatClientDriver();
+		String chatServerURL = "rmi://localhost/RMIChatServer";
+		chatServer = (ChatServerIF) Naming.lookup(chatServerURL);
+		ChatClient cli = new ChatClient(userName, chatServer);
+		new Thread(cli).start();
+		messageHolder=cli.getMessage();
+	}
+	
+	public void addMessage(){
+		chatWindow.append(messageHolder);
+	}
+}

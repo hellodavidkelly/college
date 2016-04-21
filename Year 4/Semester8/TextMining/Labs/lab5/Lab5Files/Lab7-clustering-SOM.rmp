@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process version="5.3.000">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="5.3.000" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <parameter key="parallelize_main_process" value="false"/>
+    <process expanded="true" height="411" width="525">
+      <operator activated="true" class="text:process_document_from_file" compatibility="5.3.000" expanded="true" height="76" name="Process Documents from Files (2)" width="90" x="45" y="120">
+        <list key="text_directories">
+          <parameter key="crime" value="/Users/work/Desktop/lab2files/Crime"/>
+          <parameter key="healthcare" value="/Users/work/Desktop/lab2files/healthcare"/>
+          <parameter key="kenya" value="/Users/work/Desktop/lab2files/Kenya"/>
+        </list>
+        <parameter key="file_pattern" value="*"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+        <parameter key="create_word_vector" value="true"/>
+        <parameter key="vector_creation" value="Term Occurrences"/>
+        <parameter key="add_meta_information" value="true"/>
+        <parameter key="keep_text" value="false"/>
+        <parameter key="prune_method" value="absolute"/>
+        <parameter key="prunde_below_percent" value="3.0"/>
+        <parameter key="prune_above_percent" value="30.0"/>
+        <parameter key="prune_below_absolute" value="2"/>
+        <parameter key="prune_above_absolute" value="999"/>
+        <parameter key="prune_below_rank" value="5.0"/>
+        <parameter key="prune_above_rank" value="5.0"/>
+        <parameter key="datamanagement" value="double_sparse_array"/>
+        <parameter key="parallelize_vector_creation" value="false"/>
+        <process expanded="true">
+          <operator activated="true" class="text:tokenize" compatibility="5.3.000" expanded="true" name="Tokenize (2)">
+            <parameter key="mode" value="non letters"/>
+            <parameter key="characters" value=".:"/>
+            <parameter key="language" value="English"/>
+            <parameter key="max_token_length" value="3"/>
+          </operator>
+          <operator activated="true" class="text:filter_stopwords_english" compatibility="5.3.000" expanded="true" name="Filter Stopwords (2)"/>
+          <operator activated="true" class="text:filter_stopwords_dictionary" compatibility="5.3.000" expanded="true" name="Filter Stopwords (3)">
+            <parameter key="file" value="/Users/work/Desktop/lab2files/stopwordsLab2.txt"/>
+            <parameter key="case_sensitive" value="false"/>
+            <parameter key="encoding" value="SYSTEM"/>
+          </operator>
+          <operator activated="true" class="text:filter_by_length" compatibility="5.3.000" expanded="true" name="Filter Tokens (2)">
+            <parameter key="min_chars" value="4"/>
+            <parameter key="max_chars" value="25"/>
+          </operator>
+          <operator activated="true" class="text:generate_n_grams_terms" compatibility="5.3.000" expanded="true" name="Generate n-Grams (2)">
+            <parameter key="max_length" value="3"/>
+          </operator>
+          <operator activated="true" class="text:stem_porter" compatibility="5.3.000" expanded="true" name="Stem (2)"/>
+          <connect from_port="document" to_op="Tokenize (2)" to_port="document"/>
+          <connect from_op="Tokenize (2)" from_port="document" to_op="Filter Stopwords (2)" to_port="document"/>
+          <connect from_op="Filter Stopwords (2)" from_port="document" to_op="Filter Stopwords (3)" to_port="document"/>
+          <connect from_op="Filter Stopwords (3)" from_port="document" to_op="Filter Tokens (2)" to_port="document"/>
+          <connect from_op="Filter Tokens (2)" from_port="document" to_op="Generate n-Grams (2)" to_port="document"/>
+          <connect from_op="Generate n-Grams (2)" from_port="document" to_op="Stem (2)" to_port="document"/>
+          <connect from_op="Stem (2)" from_port="document" to_port="document 1"/>
+          <portSpacing port="source_document" spacing="0"/>
+          <portSpacing port="sink_document 1" spacing="0"/>
+          <portSpacing port="sink_document 2" spacing="0"/>
+        </process>
+      </operator>
+      <operator activated="true" class="self_organizing_map" compatibility="5.3.000" expanded="true" height="94" name="SOM" width="90" x="246" y="165">
+        <parameter key="return_preprocessing_model" value="false"/>
+        <parameter key="number_of_dimensions" value="2"/>
+        <parameter key="net_size" value="5"/>
+        <parameter key="training_rounds" value="30"/>
+        <parameter key="learning_rate_start" value="0.8"/>
+        <parameter key="learning_rate_end" value="0.01"/>
+        <parameter key="adaption_radius_start" value="10.0"/>
+        <parameter key="adaption_radius_end" value="1.0"/>
+      </operator>
+      <connect from_op="Process Documents from Files (2)" from_port="example set" to_op="SOM" to_port="example set input"/>
+      <connect from_op="SOM" from_port="example set output" to_port="result 1"/>
+      <connect from_op="SOM" from_port="original" to_port="result 2"/>
+      <connect from_op="SOM" from_port="preprocessing model" to_port="result 3"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
+      <portSpacing port="sink_result 4" spacing="0"/>
+    </process>
+  </operator>
+</process>

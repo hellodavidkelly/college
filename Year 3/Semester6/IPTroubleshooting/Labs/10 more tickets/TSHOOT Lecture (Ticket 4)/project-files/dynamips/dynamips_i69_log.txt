@@ -1,0 +1,35 @@
+Apr 20 15:55:06.582 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 20 15:55:06.582 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55918.
+Apr 20 15:55:06.613 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 20 15:55:06.691 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 20 15:55:06.738 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 4)\project-files\dynamips 
+Apr 20 15:55:06.738 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 4)\project-files\dynamips
+Apr 20 15:55:06.769 HYPERVISOR: exec_cmd: vm create Webserver 14 c3725 
+Apr 20 15:55:06.769 VM: VM Webserver created.
+Apr 20 15:55:06.785 HYPERVISOR: exec_cmd: vm set_con_tcp_port Webserver 2014 
+Apr 20 15:55:06.801 HYPERVISOR: exec_cmd: vm set_aux_tcp_port Webserver 2513 
+Apr 20 15:55:06.801 HYPERVISOR: exec_cmd: c3725 get_mac_addr Webserver 
+Apr 20 15:55:06.801 HYPERVISOR: exec_cmd: vm slot_add_binding Webserver 0 16 WIC-2T 
+Apr 20 15:55:06.816 HYPERVISOR: exec_cmd: vm get_status Webserver 
+Apr 20 15:55:06.816 HYPERVISOR: exec_cmd: vm set_idle_pc Webserver 0x6026b804 
+Apr 20 15:55:06.816 HYPERVISOR: exec_cmd: vm set_ram Webserver 192 
+Apr 20 15:55:06.832 HYPERVISOR: exec_cmd: vm set_ios Webserver C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 20 15:55:06.832 HYPERVISOR: exec_cmd: c3725 set_mac_addr Webserver c20e.0bfc.0000 
+Apr 20 15:55:06.832 HYPERVISOR: exec_cmd: vm set_config Webserver configs/i14_startup-config.cfg 
+Apr 20 15:55:06.832 HYPERVISOR: exec_cmd: vm set_ghost_status Webserver 2 
+Apr 20 15:55:06.847 HYPERVISOR: exec_cmd: vm set_ghost_file Webserver C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 20 15:55:07.861 HYPERVISOR: exec_cmd: nio create_udp nio_udp227 10027 127.0.0.1 10026 
+Apr 20 15:55:07.924 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Webserver 0 16 nio_udp227 
+Apr 20 15:55:07.939 HYPERVISOR: exec_cmd: vm get_status Webserver 
+Apr 20 15:55:13.961 HYPERVISOR: exec_cmd: vm get_status Webserver 
+Apr 20 15:55:13.961 HYPERVISOR: exec_cmd: vm start Webserver 
+Apr 20 16:01:48.385 HYPERVISOR: exec_cmd: vm get_status Webserver 
+Apr 20 16:01:48.385 HYPERVISOR: exec_cmd: vm stop Webserver 
+Apr 20 16:01:48.494 VM: VM Webserver shutdown.
+Apr 20 16:02:03.829 HYPERVISOR: exec_cmd: vm get_status Webserver 
+Apr 20 16:02:03.829 HYPERVISOR: exec_cmd: vm extract_config Webserver 
+Apr 20 16:02:03.844 HYPERVISOR: exec_cmd: vm delete Webserver 
+Apr 20 16:02:03.844 VM: VM Webserver destroyed.
+Apr 20 16:02:03.860 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 20 16:02:04.312 HYPERVISOR: Stopped.
+Apr 20 16:02:04.312 GENERAL: reset done.

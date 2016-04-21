@@ -1,0 +1,81 @@
+LIAR1
+#(#JVDiagramSpec 
+	#name: 'Builder' 
+	#creationDateSeconds: 3099913309 
+	#modificationDateSeconds: 3099913517 
+	#author: #(#AD2Identity 
+		#nickName: '' 
+		#name: '' 
+		#company: '' ) 
+	#state: #(#AD2DiagramState 
+		#bits: 151 
+		#zoom: '100%' 
+		#translation: #(#Point 0 0 ) 
+		#scriptDepth: 3 
+		#associationDepth: 2 ) 
+	#settings: #(#AD2DiagramSettings 
+		#colors: 
+		#(#AD2Paint 
+			#symbolicColorDictionary: #(#freeLine #(#ColorValue #black ) #textForeground #(#ColorValue #black ) #inheritance #(#ColorValue #black ) #classBackground #(#ColorValue #lightYellow ) #textBackground #(#ColorValue 4096 6553 8191 ) #finalClassBackground #(#ColorValue 6553 8191 4096 ) #diagramBackground #(#ColorValue #white ) #interfaceBackground #(#ColorValue #salmon ) #classForeground #(#ColorValue #black ) #implementation #(#ColorValue #red ) #association #(#ColorValue #black ) #abstractClassBackground #(#ColorValue 8191 6553 4096 ) ) 
+			#indexedColors: #(#(#ColorValue #white ) #(#ColorValue 6143 6143 6143 ) #(#ColorValue #gray ) #(#ColorValue #black ) #(#ColorValue 8191 4096 6151 ) #(#ColorValue #salmon ) #(#ColorValue 8191 6553 4096 ) #(#ColorValue #lightYellow ) #(#ColorValue 6553 8191 4096 ) #(#ColorValue #paleGreen ) #(#ColorValue 4096 8191 6152 ) #(#ColorValue #lightCyan ) #(#ColorValue 4096 6553 8191 ) #(#ColorValue #royalBlue ) #(#ColorValue 6553 4096 8191 ) #(#ColorValue #orchid ) #(#ColorValue 4096 2048 2106 ) #(#ColorValue 4096 4096 2048 ) #(#ColorValue 2048 4096 2562 ) #(#ColorValue 2048 2048 4096 ) ) 
+			#coloredPrinting: true ) 
+		#notation: 
+		#(#AD2NotationPreferences 
+			#notationType: #UML 
+			#useColorScheme: true 
+			#useStereotypes: true 
+			#displayInheritanceSymbol: true 
+			#displayVisibilitySymbols: true 
+			#displayNavigabilitySymbol: false 
+			#suppressMissingCompartments: true 
+			#displayFullyQualifiedName: false ) 
+		#layout: 
+		#(#AD2LayoutPreferences 
+			#relationLayoutType: #straight 
+			#inheritanceLayoutType: #straight 
+			#implementsLayoutType: #straight 
+			#inheritanceOrientation: #topToBottom 
+			#equalizeClassSize: false ) ) 
+	#filter: #(#JVMethodFilter 
+		#attributesFilter: 
+		#(#JVFilter 
+			#bits: 0 
+			#negativeBits: 0 
+			#individuals: #() ) 
+		#servicesFilter: 
+		#(#JVFilter 
+			#bits: 0 
+			#negativeBits: 0 
+			#individuals: #() ) ) 
+	#classes: #(
+		#(#'default.listboxChoice' 'd:\Projects\PatternJava\Programs\Builder\listboxChoice.class' 512 135 1 nil 
+			#showAttributes: false ) 
+		#(#'default.wealthBuilder' 'd:\Projects\PatternJava\Programs\Builder\wealthBuilder.class' 384 363 1 nil 
+			#filter: 
+			#(#JVMethodFilter 
+				#attributesFilter: 
+				#(#JVFilter 
+					#bits: 0 
+					#negativeBits: 0 
+					#individuals: #() ) 
+				#servicesFilter: 
+				#(#JVFilter 
+					#bits: 0 
+					#negativeBits: 0 
+					#individuals: #('void stockList_Click()' 'void main(java.lang.String[])' 'wealthBuilder()' 'void itemStateChanged(java.awt.event.ItemEvent)' 'void setGUI()' 'void actionPerformed(java.awt.event.ActionEvent)' ) ) ) 
+			#layouts: #(
+				#(#AD2LayoutSpec #'default.multiChoice' 
+					#attribute: 'mchoice' 
+					#layout2: #(0.961538 1.0 ) ) ) 
+			#showAttributes: false 
+			#showServices: false ) 
+		#(#'default.choiceFactory' 'd:\Projects\PatternJava\Programs\Builder\choiceFactory.class' 224 297 1 nil 
+			#layouts: #(
+				#(#AD2LayoutSpec #'default.multiChoice' 
+					#attribute: 'ui' 
+					#layout2: #(0.105769 1.0 ) ) ) 
+			#showAttributes: false ) 
+		#(#'default.checkBoxChoice' 'd:\Projects\PatternJava\Programs\Builder\checkBoxChoice.class' 128 135 1 nil 
+			#showAttributes: false ) 
+		#(#'default.multiChoice' 'd:\Projects\PatternJava\Programs\Builder\multiChoice.class' 320 30 1 nil 
+			#showAttributes: false ) ) )

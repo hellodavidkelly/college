@@ -1,0 +1,2 @@
+http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+http://java.sun.com/products/jfc/tsc/articles/architecture/

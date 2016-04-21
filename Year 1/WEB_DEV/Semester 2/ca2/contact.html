@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+	<meta charset='UTF-8'> <title>LIFE|Contact</title>
+	<style>
+			@import url(css/ca2.css);
+	</style>
+			
+			<!-- JavaScript to compare the password entries -->
+			<script type="text/javascript" src="js/password.js"></script>
+			<script type="text/javascript" src="js/price.js"></script>
+
+			
+
+</head>
+
+<body>
+
+<div id= "wrap">
+		
+			 <a href="index.html"><img id="banner" src="images/life_banner.jpg" alt="Banner"></a>
+
+<img class="social" src="images/fb_icon.png" alt="facebook">
+<img class="social" src="images/twitter_icon.png" alt="twitter">
+<img class="social" src="images/rss_icon.png" alt="RSS">
+<img class="social" src="images/blogger_icon.png" alt="blogger">
+
+		<div id= "nav">
+			<ul>
+				<li>
+					<a href="index.html">
+					Home
+					</a> 
+				</li>
+		
+				<li>
+					<a href="events.html">
+					Events
+					</a>
+				</li>
+		
+				<li>
+					<a href="sounds.html">
+					Sounds
+					</a>
+				</li>
+		
+				<li>
+					<a href="features.html">
+					Features
+					</a>
+				</li>
+		
+				<li>
+					<a href="contact.html" id= "current_section">
+					Contact
+					</a>
+				</li>
+								
+				<li>
+					<a href="about.html">
+					About
+					</a>
+				</li>
+			</ul>
+		</div>
+	
+	<div id="contact_main">
+	
+		<h1 class="features_h1">			
+		LIFE MEMBERSHIP
+		</h1>
+
+		<form action = "showform.html" method = "post"> 
+			<h3>
+			<strong>* indicates a required field</strong>
+			</h3>				
+				<fieldset>
+					<legend>Personal Details</legend>
+					<!-- All inputs in the fieldset are required to move on to the  -->
+							<label for="name">Name:</label> <input type="text" name="name" id="name" title="Please enter your name" autofocus required>
+							<span class = "strong"><strong>*</strong></span>
+							<label for="usermail">Email:</label> <input type="email" name="usermail" id="usermail" title="Please enter a valid email address" required>		
+							<span class = "strong"><strong>*</strong></span>		
+							<br>
+							<label for="password">Password:</label> <input type="password" name="password" id="password" required>
+							<span class = "strong"><strong>*</strong></span>
+							<label for="confirmpassword">Confirm Password:</label> <input type="password" name="confirmpassword" id="confirmpassword"  onchange="compare()" required>
+							<span class = "strong"><strong>*</strong></span>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Membership</legend>
+							<label for="name">Category:</label>
+								<input id="student" onClick="price()" type="radio" name="cat" value="1" checked>
+									<span class = "radio"> Student </span>   
+								<input id="adult" onClick="price()" type="radio" name="cat" value="2">
+									<span class = "radio"> Adult </span>
+								<input id="other" onClick="price()" type="radio" name="cat" value="3">
+									<span class = "radio"> Other </span>
+								<br>
+								<label for="name">Term:</label> 
+								<input type="radio" name="term" value="4" checked>
+									<span class = "radio"> 6 months <em id="studentRateA" >(FREE)</em></span>
+								<input type="radio" name="term" value="5">
+									<span class = "radio"> 1 year <em id="studentRateB" >(€4.99)</em></span>
+				</fieldset>				
+								
+				<fieldset>
+					<legend>Interests</legend>
+						<div class="order">
+							<select name="condition" id="conditionMenu" size="1">
+								<option value="select">--SELECT--</option>
+								<option value="classic">Music</option>
+								<option value="pop">Cinema</option>
+								<option value="funk">Art</option>
+								<option value="jazz">Sport</option>
+								<option value="acid">News</option>
+							</select>
+						</div>
+				</fieldset>
+
+				<fieldset>
+					<legend>Music Genres</legend>
+							<div class="order">
+								<input type="checkbox">
+									<span class = "check "> Hip-Hop </span>
+								<input type="checkbox">
+									<span class = "check "> Alternative </span> 
+								<input type="checkbox">
+									<span class = "check "> Dance </span> 
+								<br>
+								<input type="checkbox">
+									<span class = "check "> Folk </span>  
+								<input type="checkbox">
+									<span class = "check "> Rock </span>  
+								<input type="checkbox">
+									<span class = "check "> Metal </span>
+								<br>
+      							<input type="checkbox">
+      								<span class = "check "> Jazz </span>
+								<input type="checkbox">
+									<span class = "check "> Classical </span>
+								<input type="checkbox">
+									<span class = "check "> World </span> 
+							</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Movie Genres</legend>
+							<div class="order">
+								<input type="checkbox">
+									<span class = "check "> Action </span>
+								<input type="checkbox">
+									<span class = "check "> Horror </span>
+								<input type="checkbox">
+									<span class = "check "> Noir </span>
+								<br>
+      							<input type="checkbox">
+      								<span class = "check "> Sci-Fi </span>
+								<input type="checkbox">
+									<span class = "check "> Drama </span>
+								<input type="checkbox">
+									<span class = "check "> Family </span>
+								<br>
+      							<input type="checkbox">
+      								<span class = "check "> Animation </span>
+								<input type="checkbox">
+									<span class = "check "> Comedy </span>
+								<input type="checkbox">
+									<span class = "check "> Thriller </span>
+							</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Other Genres</legend>
+						<div class="order">
+							<textarea placeholder="Any categories we missed?..." name="textArea" id="textArea" cols="50" rows="3"></textarea>
+						</div>
+				</fieldset>
+							
+				<div id="buttons">
+					<input type ="submit" name="submit" id="submit" value="Send">
+					<input type ="reset" name="reset" id="reset" value="Reset">
+				</div>
+			
+			</form>
+	</div>
+		
+</div>
+
+<img id="advert" src="images/ray_ban.png" alt="Ray-Bans">
+		
+	<footer>
+	LIFE. site design / banner © 2013 David Kelly | mail B00060572@student.itb.ie
+	</footer>
+	
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+
+
+to set up initially
+install GIT , make sure use git in windows is ticked, otherwise you will use it using git's own command line
+you can do that but i found it a bit harder to learn
+you set up a folder on windows....this will be where your project will be, it should be blank.
+now go into the command line and change directory to that folder
+
+go into this link
+https://github.com/Michaelcj10/Fantasy_Hurling
+there is an option to right to 'fork' the project into you, do it.
+now you have that folder added to your stuff.
+
+
+
+in the command line do 'git init' , this sets up thi folder as a git folder
+now do 
+git pull https://github.com/Michaelcj10/Fantasy_Hurling.git
+this will stick all the crap we have into that folder....... so now you are up to date
+
+
+
+
+1.before you start to write your code make sur you are up to date with what we did:
+git pull https://github.com/Michaelcj10/Fantasy_Hurling.git
+this update your local project with changes I did and uploaded into web repo
+
+
+2.then you work on the project
+you can see changes with git status and details with git diff
+you can see help with git --help or help about a command git status --help (help about status git command)
+
+3.when you done for a day do:
+git add -A
+this will add all changes
+git commit -m "some meaningful message about the work you done this time"
+$git push https://github.com/Michaelcj10/Fantasy_Hurling.git
+this will upload the commit to web repo so I can pull them before I start my work 
+
+
+to reset local to what is in the repos ( if you mess up and dont know what to do , do these two , it reverts to whats on github, ive used this loads!!)
+
+git fetch https://github.com/Michaelcj10/Fantasy_Hurling.git
+
+git reset --hard HEAD

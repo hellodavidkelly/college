@@ -1,0 +1,827 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<!-- start of server/head-include-1.html -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<meta name="DC.title" content="gnu.org" />
+<!-- end of server/head-include-1.html -->
+
+<!-- end of server/header.html -->
+
+<!-- Parent-Version: 1.77 -->
+<title>My Lisp Experiences and the Development of GNU Emacs
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/gnu/rms-lisp.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/gnu/rms-lisp.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/gnu/rms-lisp.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/gnu/rms-lisp.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/gnu/rms-lisp.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/gnu/rms-lisp.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/gnu/rms-lisp.sq.html" title="Shqip" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/combo.css" media="screen" />
+<link rel="stylesheet" href="/mini.css" media="handheld" />
+<link rel="stylesheet" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" href="/print.min.css" media="print" />
+<style type="text/css" media="print,screen">
+
+
+.crm-amount-fill {
+  background: #f2cd5f;
+  color: black;
+  border-radius: 1em;
+  padding-right: .3em; padding-left: .3em;
+  width: 100%;
+}
+.crm-amount-high {
+  float: right;
+}
+div.donate_btn {
+  float: right;
+}
+</style>
+<style type="text/css" media="print,screen">
+<!--
+div.fundraiser {
+  font-family: "FreeSans", sans-serif;
+  padding: .5em 1.5% .5em 1.5%;
+  background-color: #ced7ff;
+  background: -webkit-linear-gradient(#b4c2ff, white);
+  background: -o-linear-gradient(#b4c2ff, white);
+  background: -moz-linear-gradient(#b4c2ff, white);
+  background: linear-gradient(#b4c2ff, white);
+  border-top: .2em solid #5272fd;
+}
+.fundraiser a {
+  color: black;
+}
+.crm-amount-high {
+  padding: 0 .3em;
+  background-color: #4a5a6a;
+  border-radius: 1em;
+}
+.crm-amount-bar {
+  border-radius: 1em;
+  background-color: #778796;
+  color: white;
+  border: .1em solid #4a5a6a;
+  margin-bottom: .5em;
+}
+div.donate_btn {
+  margin: 1.5em 0 0 1.5em;
+}
+.donate_btn a{
+  display: block;
+  text-decoration: none;
+  font-weight:bold;
+  padding: 0.4em 1em;
+  color: black;
+  background-color: #f2cd5f;
+  text-align: center;
+  border: .1em solid #CCA832;
+  border-radius: 1em;
+}
+@media (max-width: 30em) {
+   .fundraiser {
+    display: none;
+  }
+}
+-->
+</style>
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+
+
+
+
+
+<div id="toplinks">
+ <a href="#content">Skip to main text</a>
+ <span class="gnun-split"></span>
+ <a href="/server/select-language.html?callback=/gnu/rms-lisp.html" rel="nofollow">
+ Set language
+ <span class="gnun-split"></span>
+ </a>
+</div> <!-- /toplinks -->
+
+<div id="searcher">
+ <form method="get" action="//www.gnu.org/cgi-bin/estseek.cgi">
+  <div>
+  <input name="phrase" id="phrase" type="text" size="18" accesskey="s"
+         value="Why GNU/Linux?" onfocus="this.value=''" />
+  <input type="submit" value="Search" />
+  </div>
+ </form>
+</div><!-- /searcher -->
+
+<div id="translations">
+<p>
+<span dir="ltr" class="original"><a lang="en" hreflang="en" href="/gnu/rms-lisp.en.html">English</a>&nbsp;[en]</span> &nbsp;
+<span dir="ltr"><a lang="es" hreflang="es" href="/gnu/rms-lisp.es.html">español</a>&nbsp;[es]</span> &nbsp;
+<span dir="ltr"><a lang="fr" hreflang="fr" href="/gnu/rms-lisp.fr.html">français</a>&nbsp;[fr]</span> &nbsp;
+<span dir="ltr"><a lang="ja" hreflang="ja" href="/gnu/rms-lisp.ja.html">日本語</a>&nbsp;[ja]</span> &nbsp;
+<span dir="ltr"><a lang="ru" hreflang="ru" href="/gnu/rms-lisp.ru.html">русский</a>&nbsp;[ru]</span> &nbsp;
+<span dir="ltr"><a lang="sq" hreflang="sq" href="/gnu/rms-lisp.sq.html">Shqip</a>&nbsp;[sq]</span> &nbsp;
+</p>
+</div>
+
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+<div id="header">
+<div id="fsf-frame">
+<p id="join-fsf"><a href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a></p>
+<div id="fssbox">
+<p><a href="http://www.fsf.org/fss">Free Software Supporter</a></p>
+<form action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31" method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+ </div>
+ <p>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </p>
+</form>
+</div><!-- /fssbox -->
+</div><!-- /fsf-frame -->
+
+<div id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.small.png" alt=" [A GNU head] " /><strong>GNU</strong> Operating System</a>
+</div><!-- /gnu-banner -->
+
+<p id="fsf-support">Sponsored by the <a href="#mission-statement">Free Software Foundation</a></p>
+
+</div><!-- /header -->
+
+<div id="navigation">
+
+ <ul>
+  <li id="tabAboutGNU"><a href="/gnu/gnu.html">About&nbsp;GNU</a></li>
+  <li id="tabPhilosophy"><a href="/philosophy/philosophy.html">Philosophy</a></li>
+  <li id="tabLicenses"><a href="/licenses/licenses.html">Licenses</a></li>
+  <li id="tabEducation"><a href="/education/education.html">Education</a></li>
+  <li id="tabSoftware"><a href="/software/software.html">Software</a></li>
+  <li id="tabDoc"><a href="/doc/doc.html">Documentation</a></li>
+  <li id="tabHelp"><a href="/help/help.html">Help&nbsp;GNU</a></li>
+ </ul>
+
+</div><!--  /navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content">
+<!-- end of server/banner.html -->
+
+<h2>My Lisp Experiences and the Development of GNU Emacs</h2>
+
+<blockquote><p>(Transcript of Richard Stallman's Speech, 28 Oct 2002, at the
+International Lisp Conference).</p></blockquote>
+
+<p>Since none of my usual speeches have anything to do with Lisp, none
+of them were appropriate for today. So I'm going to have to wing it.
+Since I've done enough things in my career connected with Lisp I
+should be able to say something interesting.</p>
+
+<p>My first experience with Lisp was when I read the Lisp 1.5 manual
+in high school. That's when I had my mind blown by the idea that there
+could be a computer language like that. The first time I had a chance
+to do anything with Lisp was when I was a freshman at Harvard and I
+wrote a Lisp interpreter for the <abbr title="Programmed Data
+Processor">PDP</abbr>-11. It was a very small machine
+&mdash; it had something like 8k of memory &mdash; and I managed to write the
+interpreter in a thousand instructions. This gave me some room for a
+little bit of data. That was before I got to see what real software
+was like, that did real system jobs.</p>
+
+<p>I began doing work on a real Lisp implementation with JonL White
+once I started working at <abbr title="Massachusetts Institute of
+Technology">MIT</abbr>. I got hired at the Artificial Intelligence Lab
+not by JonL, but by Russ Noftsker, which was most ironic considering
+what was to come &mdash; he must have really regretted that day.</p>
+
+<p>During the 1970s, before my life became politicized by horrible
+events, I was just going along making one extension after another for
+various programs, and most of them did not have anything to do with
+Lisp. But, along the way, I wrote a text editor, Emacs. The
+interesting idea about Emacs was that it had a programming language,
+and the user's editing commands would be written in that interpreted
+programming language, so that you could load new commands into your
+editor while you were editing. You could edit the programs you were
+using and then go on editing with them. So, we had a system that was
+useful for things other than programming, and yet you could program it
+while you were using it. I don't know if it was the first one of
+those, but it certainly was the first editor like that.</p>
+
+<p>This spirit of building up gigantic, complicated programs to use in
+your own editing, and then exchanging them with other people, fueled
+the spirit of free-wheeling cooperation that we had at the AI Lab
+then. The idea was that you could give a copy of any program you had
+to someone who wanted a copy of it. We shared programs to whomever
+wanted to use them, they were human knowledge. So even though there
+was no organized political thought relating the way we shared software
+to the design of Emacs, I'm convinced that there was a connection
+between them, an unconscious connection perhaps. I think that it's the
+nature of the way we lived at the AI Lab that led to Emacs and made it
+what it was.</p>
+
+<p>The original Emacs did not have Lisp in it. The lower level
+language, the non-interpreted language &mdash; was <abbr>PDP</abbr>-10
+Assembler. The interpreter we wrote in that actually wasn't written
+for Emacs, it was written for <acronym title="Text Editor and
+COrrector">TECO</acronym>. It was our text editor, and was an
+extremely ugly programming language, as ugly as could possibly be. The
+reason was that it wasn't designed to be a programming language, it
+was designed to be an editor and command language. There were commands
+like &lsquo;5l&rsquo;, meaning &lsquo;move five lines&rsquo;, or
+&lsquo;i&rsquo; and then a string and then an ESC to insert that
+string. You would type a string that was a series of commands, which
+was called a command string. You would end it with ESC ESC, and it
+would get executed.</p>
+
+<p>Well, people wanted to extend this language with programming
+facilities, so they added some. For instance, one of the first was a
+looping construct, which was &lt; &gt;. You would put those around
+things and it would loop. There were other cryptic commands that could
+be used to conditionally exit the loop.  To make Emacs, we
+<a href="#foot-1">(1)</a> added facilities to have subroutines with
+names. Before that, it was sort of like Basic, and the subroutines
+could only have single letters as their names. That was hard to
+program big programs with, so we added code so they could have longer
+names. Actually, there were some rather sophisticated facilities; I
+think that Lisp got its unwind-protect facility
+from <acronym>TECO</acronym>.</p>
+
+<p>We started putting in rather sophisticated facilities, all with the
+ugliest syntax you could ever think of, and it worked &mdash; people were
+able to write large programs in it anyway. The obvious lesson was that
+a language like <acronym>TECO</acronym>, which wasn't designed to be a
+programming language, was the wrong way to go. The language that you
+build your extensions on shouldn't be thought of as a programming
+language in afterthought; it should be designed as a programming
+language. In fact, we discovered that the best programming language
+for that purpose was Lisp.</p>
+
+<p>It was Bernie Greenberg, who discovered that it
+was <a href="#foot-2">(2)</a>.  He wrote a version of Emacs in Multics
+MacLisp, and he wrote his commands in MacLisp in a straightforward
+fashion. The editor itself was written entirely in Lisp. Multics Emacs
+proved to be a great success &mdash; programming new editing commands
+was so convenient that even the secretaries in his office started
+learning how to use it. They used a manual someone had written which
+showed how to extend Emacs, but didn't say it was a programming. So
+the secretaries, who believed they couldn't do programming, weren't
+scared off. They read the manual, discovered they could do useful
+things and they learned to program.</p>
+
+<p>So Bernie saw that an application &mdash; a program that does something
+useful for you &mdash; which has Lisp inside it and which you could extend
+by rewriting the Lisp programs, is actually a very good way for people
+to learn programming. It gives them a chance to write small programs
+that are useful for them, which in most arenas you can't possibly
+do. They can get encouragement for their own practical use &mdash; at the
+stage where it's the hardest &mdash; where they don't believe they can
+program, until they get to the point where they are programmers.</p>
+
+<p>At that point, people began to wonder how they could get something
+like this on a platform where they didn't have full service Lisp
+implementation. Multics MacLisp had a compiler as well as an
+interpreter &mdash; it was a full-fledged Lisp system &mdash; but people wanted
+to implement something like that on other systems where they had not
+already written a Lisp compiler. Well, if you didn't have the Lisp
+compiler you couldn't write the whole editor in Lisp &mdash; it would be
+too slow, especially redisplay, if it had to run interpreted Lisp.  So
+we developed a hybrid technique. The idea was to write a Lisp
+interpreter and the lower level parts of the editor together, so that
+parts of the editor were built-in Lisp facilities. Those would be
+whatever parts we felt we had to optimize. This was a technique that
+we had already consciously practiced in the original Emacs, because
+there were certain fairly high level features which we re-implemented
+in machine language, making them into <acronym>TECO</acronym>
+primitives. For instance, there was a <acronym>TECO</acronym>
+primitive to fill a paragraph (actually, to do most of the work of
+filling a paragraph, because some of the less time-consuming parts of
+the job would be done at the higher level by a <acronym>TECO</acronym>
+program). You could do the whole job by writing
+a <acronym>TECO</acronym> program, but that was too slow, so we
+optimized it by putting part of it in machine language. We used the
+same idea here (in the hybrid technique), that most of the editor
+would be written in Lisp, but certain parts of it that had to run
+particularly fast would be written at a lower level.</p>
+
+<p>Therefore, when I wrote my second implementation of Emacs, I
+followed the same kind of design. The low level language was not
+machine language anymore, it was C. C was a good, efficient language
+for portable programs to run in a Unix-like operating system. There
+was a Lisp interpreter, but I implemented facilities for special
+purpose editing jobs directly in C &mdash; manipulating editor buffers,
+inserting leading text, reading and writing files, redisplaying the
+buffer on the screen, managing editor windows.</p>
+
+<p>Now, this was not the first Emacs that was written in C and ran on
+Unix. The first was written by James Gosling, and was referred to as
+GosMacs. A strange thing happened with him. In the beginning, he
+seemed to be influenced by the same spirit of sharing and cooperation
+of the original Emacs. I first released the original Emacs to people
+at <abbr>MIT</abbr>. Someone wanted to port it to run on Twenex &mdash; it
+originally only ran on the Incompatible Timesharing System we used
+at <abbr>MIT</abbr>. They ported it to Twenex, which meant that there
+were a few hundred installations around the world that could
+potentially use it. We started distributing it to them, with the rule
+that &ldquo;you had to send back all of your improvements&rdquo; so we
+could all benefit. No one ever tried to enforce that, but as far as I
+know people did cooperate.</p>
+
+<p>Gosling did, at first, seem to participate in this spirit. He wrote
+in a manual that he called the program Emacs hoping that others in the
+community would improve it until it was worthy of that name. That's
+the right approach to take towards a community &mdash; to ask them to join
+in and make the program better. But after that he seemed to change the
+spirit, and sold it to a company.</p>
+
+<p>At that time I was working on the GNU system (a free software
+Unix-like operating system that many people erroneously call
+&ldquo;Linux&rdquo;).  There was no free software Emacs editor that ran
+on Unix. I did, however, have a friend who had participated in
+developing Gosling's Emacs. Gosling had given him, by email, permission
+to distribute his own version. He proposed to me that I use that
+version. Then I discovered that Gosling's Emacs did not have a real
+Lisp. It had a programming language that was known as
+&lsquo;mocklisp&rsquo;, which looks syntactically like Lisp, but didn't
+have the data structures of Lisp.  So programs were not data, and vital
+elements of Lisp were missing.  Its data structures were strings,
+numbers and a few other specialized things.</p>
+
+<p>I concluded I couldn't use it and had to replace it all, the first
+step of which was to write an actual Lisp interpreter. I gradually
+adapted every part of the editor based on real Lisp data structures,
+rather than ad hoc data structures, making the data structures of the
+internals of the editor exposable and manipulable by the user's Lisp
+programs.</p>
+
+<p>The one exception was redisplay. For a long time, redisplay was
+sort of an alternate world. The editor would enter the world of
+redisplay and things would go on with very special data structures
+that were not safe for garbage collection, not safe for interruption,
+and you couldn't run any Lisp programs during that. We've changed that
+since &mdash; it's now possible to run Lisp code during redisplay. It's
+quite a convenient thing.</p>
+
+<p>This second Emacs program was &lsquo;free software&rsquo; in the
+modern sense of the term &mdash; it was part of an explicit political
+campaign to make software free. The essence of this campaign was that
+everybody should be free to do the things we did in the old days
+at <abbr>MIT</abbr>, working together on software and working with
+whomever wanted to work with us.  That is the basis for the free
+software movement &mdash; the experience I had, the life that I've lived at
+the <abbr>MIT</abbr> AI lab &mdash; to be working on human knowledge, and
+not be standing in the way of anybody's further using and further
+disseminating human knowledge.</p>
+
+<p>At the time, you could make a computer that was about the same price
+range as other computers that weren't meant for Lisp, except that it
+would run Lisp much faster than they would, and with full type checking
+in every operation as well. Ordinary computers typically forced you to
+choose between execution speed and good typechecking.  So yes, you could
+have a Lisp compiler and run your programs fast, but when they tried to
+take <tt>car</tt> of a number, it got nonsensical results and eventually
+crashed at some point.</p>
+
+<p>The Lisp machine was able to execute instructions about as fast as
+those other machines, but each instruction &mdash; a car instruction would
+do data typechecking &mdash; so when you tried to get the car of a number
+in a compiled program, it would give you an immediate error. We built
+the machine and had a Lisp operating system for it. It was written
+almost entirely in Lisp, the only exceptions being parts written in
+the microcode. People became interested in manufacturing them, which
+meant they should start a company.</p>
+
+<p>There were two different ideas about what this company should be
+like.  Greenblatt wanted to start what he called a
+&ldquo;hacker&rdquo; company. This meant it would be a company run by
+hackers and would operate in a way conducive to hackers. Another goal
+was to maintain the AI Lab culture <a href="#foot-3">(3)</a>.
+Unfortunately, Greenblatt didn't have any business experience, so
+other people in the Lisp machine group said they doubted whether he
+could succeed. They thought that his plan to avoid outside investment
+wouldn't work.</p>
+
+<p>Why did he want to avoid outside investment? Because when a company
+has outside investors, they take control and they don't let you have
+any scruples. And eventually, if you have any scruples, they also
+replace you as the manager.</p>
+
+<p>So Greenblatt had the idea that he would find a customer who would
+pay in advance to buy the parts. They would build machines and deliver
+them; with profits from those parts, they would then be able to buy
+parts for a few more machines, sell those and then buy parts for a
+larger number of machines, and so on. The other people in the group
+thought that this couldn't possibly work.</p>
+
+<p>Greenblatt then recruited Russell Noftsker, the man who had hired
+me, who had subsequently left the AI Lab and created a successful
+company.  Russell was believed to have an aptitude for business. He
+demonstrated this aptitude for business by saying to the other people
+in the group, &ldquo;Let's ditch Greenblatt, forget his ideas, and
+we'll make another company.&rdquo; Stabbing in the back, clearly a
+real businessman. Those people decided they would form a company
+called Symbolics. They would get outside investment, not have
+scruples, and do everything possible to win.</p>
+
+<p>But Greenblatt didn't give up. He and the few people loyal to him
+decided to start Lisp Machines Inc. anyway and go ahead with their
+plans. And what do you know, they succeeded! They got the first
+customer and were paid in advance. They built machines and sold them,
+and built more machines and more machines. They actually succeeded
+even though they didn't have the help of most of the people in the
+group. Symbolics also got off to a successful start, so you had two
+competing Lisp machine companies. When Symbolics saw that LMI was not
+going to fall flat on its face, they started looking for ways to
+destroy it.</p>
+
+<p>Thus, the abandonment of our lab was followed by &ldquo;war&rdquo;
+in our lab.  The abandonment happened when Symbolics hired away all
+the hackers, except me and the few who worked at LMI part-time. Then
+they invoked a rule and eliminated people who worked part-time
+for <abbr>MIT</abbr>, so they had to leave entirely, which left only
+me. The AI lab was now helpless.  And <abbr>MIT</abbr> had made a very
+foolish arrangement with these two companies.  It was a three-way
+contract where both companies licensed the use of Lisp machine system
+sources. These companies were required to let <abbr>MIT</abbr> use
+their changes. But it didn't say in the contract that <abbr>MIT</abbr>
+was entitled to put them into the <abbr>MIT</abbr> Lisp machine
+systems that both companies had licensed. Nobody had envisioned that
+the AI lab's hacker group would be wiped out, but it was.</p>
+
+<p> So Symbolics came up with a plan <a href="#foot-4">(4)</a>.  They
+said to the lab, &ldquo;We will continue making our changes to the
+system available for you to use, but you can't put it into
+the <abbr>MIT</abbr> Lisp machine system. Instead, we'll give you
+access to Symbolics' Lisp machine system, and you can run it, but
+that's all you can do.&rdquo;</p>
+
+<p>This, in effect, meant that they demanded that we had to choose a
+side, and use either the <abbr>MIT</abbr> version of the system or the
+Symbolics version.  Whichever choice we made determined which system
+our improvements went to. If we worked on and improved the Symbolics
+version, we would be supporting Symbolics alone. If we used and
+improved the <abbr>MIT</abbr> version of the system, we would be doing
+work available to both companies, but Symbolics saw that we would be
+supporting LMI because we would be helping them continue to exist. So
+we were not allowed to be neutral anymore.</p>
+
+<p>Up until that point, I hadn't taken the side of either company,
+although it made me miserable to see what had happened to our
+community and the software.  But now, Symbolics had forced the issue.
+So, in an effort to help keep Lisp Machines
+Inc. going <a href="#foot-5">(5)</a> &mdash; I began duplicating all
+of the improvements Symbolics had made to the Lisp machine system.  I
+wrote the equivalent improvements again myself (i.e., the code was my
+own).</p>
+
+<p>After a while <a href="#foot-6">(6)</a>, I came to the conclusion
+that it would be best if I didn't even look at their code. When they
+made a beta announcement that gave the release notes, I would see what
+the features were and then implement them. By the time they had a real
+release, I did too.</p>
+
+<p>In this way, for two years, I prevented them from wiping out Lisp
+Machines Incorporated, and the two companies went on. But, I didn't
+want to spend years and years punishing someone, just thwarting an
+evil deed. I figured they had been punished pretty thoroughly because
+they were stuck with competition that was not leaving or going to
+disappear <a href="#foot-7">(7)</a>. Meanwhile, it was time to start
+building a new community to replace the one that their actions and
+others had wiped out.</p>
+
+<p>The Lisp community in the 70s was not limited to
+the <abbr>MIT</abbr> AI Lab, and the hackers were not all
+at <abbr>MIT</abbr>. The war that Symbolics started was what wiped
+out <abbr>MIT</abbr>, but there were other events going on then. There
+were people giving up on cooperation, and together this wiped out the
+community and there wasn't much left.</p>
+
+<p>Once I stopped punishing Symbolics, I had to figure out what to do
+next. I had to make a free operating system, that was clear &mdash; the
+only way that people could work together and share was with a free
+operating system.</p>
+
+<p>At first, I thought of making a Lisp-based system, but I realized
+that wouldn't be a good idea technically. To have something like the
+Lisp machine system, you needed special purpose microcode. That's what
+made it possible to run programs as fast as other computers would run
+their programs and still get the benefit of typechecking. Without
+that, you would be reduced to something like the Lisp compilers for
+other machines. The programs would be faster, but unstable. Now that's
+okay if you're running one program on a timesharing system &mdash; if one
+program crashes, that's not a disaster, that's something your program
+occasionally does. But that didn't make it good for writing the
+operating system in, so I rejected the idea of making a system like
+the Lisp machine.</p>
+
+<p>I decided instead to make a Unix-like operating system that would
+have Lisp implementations to run as user programs. The kernel wouldn't
+be written in Lisp, but we'd have Lisp. So the development of that
+operating system, the GNU operating system, is what led me to write
+the GNU Emacs. In doing this, I aimed to make the absolute minimal
+possible Lisp implementation. The size of the programs was a
+tremendous concern.</p>
+
+<p>There were people in those days, in 1985, who had one-megabyte
+machines without virtual memory. They wanted to be able to use GNU
+Emacs. This meant I had to keep the program as small as possible.</p>
+
+<p>For instance, at the time the only looping construct was
+&lsquo;while&rsquo;, which was extremely simple. There was no way to
+break out of the &lsquo;while&rsquo; statement, you just had to do a
+catch and a throw, or test a variable that ran the loop. That shows
+how far I was pushing to keep things small. We didn't have
+&lsquo;caar&rsquo; and &lsquo;cadr&rsquo; and so on; &ldquo;squeeze
+out everything possible&rdquo; was the spirit of GNU Emacs, the spirit
+of Emacs Lisp, from the beginning.</p>
+
+<p>Obviously, machines are bigger now, and we don't do it that way
+any more. We put in &lsquo;caar&rsquo; and &lsquo;cadr&rsquo; and so
+on, and we might put in another looping construct one of these
+days. We're willing to extend it some now, but we don't want to extend
+it to the level of common Lisp. I implemented Common Lisp once on the
+Lisp machine, and I'm not all that happy with it. One thing I don't
+like terribly much is keyword arguments <a href="#foot-8">(8)</a>.
+They don't seem quite Lispy
+to me; I'll do it sometimes but I minimize the times when I do
+that.</p>
+
+<p>That was not the end of the GNU projects involved with Lisp. Later
+on around 1995, we were looking into starting a graphical desktop
+project. It was clear that for the programs on the desktop, we wanted
+a programming language to write a lot of it in to make it easily
+extensible, like the editor. The question was what it should be.</p>
+
+<p>At the time, <acronym title="Tool Command Language">TCL</acronym>
+was being pushed heavily for this purpose. I had a very low opinion
+of <acronym>TCL</acronym>, basically because it wasn't Lisp. It looks
+a tiny bit like Lisp, but semantically it isn't, and it's not as
+clean.  Then someone showed me an ad where Sun was trying to hire
+somebody to work on <acronym>TCL</acronym> to make it the
+&ldquo;de-facto standard extension language&rdquo; of the world. And I
+thought, &ldquo;We've got to stop that from happening.&rdquo; So we
+started to make Scheme the standard extensibility language for
+GNU. Not Common Lisp, because it was too large. The idea was that we
+would have a Scheme interpreter designed to be linked into
+applications in the same way <acronym>TCL</acronym> was linked into
+applications. We would then recommend that as the preferred
+extensibility package for all GNU programs.</p>
+
+<p>There's an interesting benefit you can get from using such a
+powerful language as a version of Lisp as your primary extensibility
+language.  You can implement other languages by translating them into
+your primary language. If your primary language
+is <acronym>TCL</acronym>, you can't very easily implement Lisp by
+translating it into <acronym>TCL</acronym>. But if your primary
+language is Lisp, it's not that hard to implement other things by
+translating them. Our idea was that if each extensible application
+supported Scheme, you could write an implementation
+of <acronym>TCL</acronym> or Python or Perl in Scheme that translates
+that program into Scheme. Then you could load that into any
+application and customize it in your favorite language and it would
+work with other customizations as well.</p>
+
+<p>As long as the extensibility languages are weak, the users have to
+use only the language you provided them. Which means that people who
+love any given language have to compete for the choice of the
+developers of applications &mdash; saying &ldquo;Please, application
+developer, put my language into your application, not his
+language.&rdquo; Then the users get no choices at all &mdash; whichever
+application they're using comes with one language and they're stuck
+with [that language]. But when you have a powerful language that can
+implement others by translating into it, then you give the user a
+choice of language and we don't have to have a language war
+anymore. That's what we're hoping &lsquo;Guile&rsquo;, our scheme
+interpreter, will do. We had a person working last summer finishing up
+a translator from Python to Scheme. I don't know if it's entirely
+finished yet, but for anyone interested in this project, please get in
+touch. So that's the plan we have for the future.</p>
+
+<p>I haven't been speaking about free software, but let me briefly
+tell you a little bit about what that means. Free software does not
+refer to price; it doesn't mean that you get it for free. (You may
+have paid for a copy, or gotten a copy gratis.) It means that you have
+freedom as a user. The crucial thing is that you are free to run the
+program, free to study what it does, free to change it to suit your
+needs, free to redistribute the copies of others and free to publish
+improved, extended versions. This is what free software means. If you
+are using a non-free program, you have lost crucial freedom, so don't
+ever do that.</p>
+
+<p>The purpose of the GNU project is to make it easier for people to
+reject freedom-trampling, user-dominating, non-free software by
+providing free software to replace it. For those who don't have the
+moral courage to reject the non-free software, when that means some
+practical inconvenience, what we try to do is give a free alternative
+so that you can move to freedom with less of a mess and less of a
+sacrifice in practical terms. The less sacrifice the better. We want
+to make it easier for you to live in freedom, to cooperate.</p>
+
+<p>This is a matter of the freedom to cooperate. We're used to
+thinking of freedom and cooperation with society as if they are
+opposites. But here they're on the same side. With free software you
+are free to cooperate with other people as well as free to help
+yourself. With non-free software, somebody is dominating you and
+keeping people divided. You're not allowed to share with them, you're
+not free to cooperate or help society, anymore than you're free to
+help yourself.  Divided and helpless is the state of users using
+non-free software.</p>
+
+<p>We've produced a tremendous range of free software. We've done what
+people said we could never do; we have two operating systems of free
+software. We have many applications and we obviously have a lot
+farther to go. So we need your help. I would like to ask you to
+volunteer for the GNU project; help us develop free software for more
+jobs. Take a look at <a href="/help/">http://www.gnu.org/help</a> to
+find suggestions for how to help. If you want to order things, there's
+a link to that from the home page. If you want to read about
+philosophical issues, look in /philosophy. If you're looking for free
+software to use, look in /directory, which lists about 1900 packages
+now (which is a fraction of all the free software out there). Please
+write more and contribute to us. My book of essays, &ldquo;Free
+Software and Free Society&rdquo;, is on sale and can be purchased at
+<a href="http://www.gnu.org/">www.gnu.org</a>. Happy hacking!</p>
+
+<ol>
+<li id="foot-1">Guy Steele designed the original symmetrical Emacs
+command set; then he and I began implementing Emacs (on top of TECO),
+but after one long joint development session, Steele began drifting
+away, so I finished Emacs.  Others particularly including Eugene
+C. Cicciarelli and Mike McMahon contributed substantially later
+on.</li>
+
+<li id="foot-2">Bernie Greenberg says that Dan Weinreb's
+implementation of Emacs for the Lisp Machine came before Greenberg's
+implementation for Multics.  I apologize for the mistake.</li>
+
+<li id="foot-3">Greenblatt's plan, as I understood it, was to hire lab
+people part time, so that they could continue working at the AI Lab.
+Symbolics hired them full time instead, so they stopped working at
+MIT.</li>
+
+<li id="foot-4">The background of this plan, which I did not state
+explicitly in the talk, is that during an initial period the ex-AI-Lab
+hackers, whether at Symbolics or LMI, continued contributing their
+changes to the MIT Lisp Machine system &mdash; even though the
+contract did not require this.  Symbolics' plan was to rupture this
+cooperation unilaterally.</li>
+
+<li id="foot-5">It was not that I cared particularly about the fate of
+LMI, but rather I did not want to let Symbolics gain through its
+aggression against the AI Lab.</li>
+
+<li id="foot-6">This statement has been misconstrued as saying that I
+never, ever looked at Symbolics' code.  Actually it says I did look,
+at first.  The Symbolics source code was available at MIT, where I was
+entitled to read it, and at first that's how I found out about their
+changes.
+
+<p>But that meant I had to make a special effort to solve each problem
+differently, in order to avoid copying Symbolics code.  After a while,
+I concluded it was better not to even look.  That way I could write
+code in whatever way was best, without concern for what might be in
+Symbolics' code.</p></li>
+
+<li id="foot-7">Symbolics at one point protested to MIT that my work,
+by thwarting their plan, had cost Symbolics a million dollars.</li>
+
+<li id="foot-8">I don't mind if a very complex and heavyweight
+function takes keyword arguments.  What bothers me is making simple
+basic functions such as &ldquo;member&rdquo; use them.</li>
+</ol>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+<div id="fsf-links">
+ <ul>
+  <li><a href="/">GNU&nbsp;home&nbsp;page</a></li>
+  <li><a href="http://www.fsf.org/">FSF&nbsp;home&nbsp;page</a></li>
+  <li><a href="/graphics/graphics.html">GNU&nbsp;Art</a></li>
+  <li><a href="/people/people.html">GNU's&nbsp;Who?</a></li>
+  <li><a href="http://directory.fsf.org">Free&nbsp;Software&nbsp;Directory</a></li>
+  <li><a href="https://h-node.org/">Hardware</a></li>
+  <li><a href="/server/sitemap.html">Site&nbsp;map</a></li>
+ </ul>
+</div><!-- /fsf-links -->
+
+<div id="mission-statement">
+
+<blockquote>
+<p><a href="http://www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext.png" alt=" [FSF logo] "/></a><strong>&ldquo;Our
+mission is to preserve, protect and promote the freedom to use, study,
+copy, modify, and redistribute computer software, and to defend the
+rights of Free Software users.&rdquo;</strong></p>
+</blockquote>
+
+<p>The <a href="http://www.fsf.org">Free Software Foundation</a> is
+the principal organizational sponsor of the GNU Operating System.
+<strong>Support GNU and the FSF</strong> by <a
+href="http://shop.fsf.org/">buying manuals and gear</a>, <a
+href="https://my.fsf.org/associate/support_freedom?referrer=4052">
+<strong>joining the FSF</strong></a> as an associate member, or making
+a <strong>donation</strong>, either <a
+href="http://donate.fsf.org/">directly to the FSF</a> or <a
+href="http://flattr.com/thing/313733/gnuproject-on-Flattr">via
+Flattr</a>.</p>
+
+<p id="backtotop"><a href="#header">back to top</a></p>
+
+</div><!-- /mission-statement -->
+<!-- end server/footer-text.html -->
+
+
+<div id="footer">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and submitting translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and submitting translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 3.0 US.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2003, 2007, 2013, 2014 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/3.0/us/">Creative
+Commons Attribution-NoDerivs 3.0 United States License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div class="unprintable">
+<p><a href="http://www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+
+
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2014/04/12 12:39:39 $
+<!-- timestamp end -->
+</p>
+</div>
+</div>
+</body>
+</html>

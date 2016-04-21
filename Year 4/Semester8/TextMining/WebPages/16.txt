@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="../Templates/ind_innovation_index_pageNEW.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Institute of Technology Blanchardstown :: LINC</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="meta" -->
+<meta name="description" content=" The Institute of Technology Blanchardstown (ITB) was established in 1999 The LINC (Learning and Innovation Centre) is ITB's tangible link between the Institute and the Business Community making accessible the skills and expertise of the Institute to the business community in a professional and cost effective manner. As such it is a forum of excellence for innovation, creativity, research and enterprise focused on developing high-technology knowledge based companies." />
+<meta name="keywords" content="Facilities, training, support, start up, high growth knowledge based business, research projects, graduate, Institute, Facilities, Research and Development, applied research projects, collaboration, Schools, Industry partners, Training, consultancy, Innovation Vouchers, competitiveness, SME, strategic" />
+<meta name="author" content="Strata3 - http://www.strata3.com/" />
+<!-- InstanceEndEditable -->
+<link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="../ssi/css/screen.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/large.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/larger.css" title="larger" />
+<link rel="stylesheet" type="text/css" media="print" href="../ssi/css/print.css" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie7.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie6.css" /><![endif]-->
+
+<script type="text/javascript" src="../ssi/js/styleswitcher.js"></script>
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body id="industry_innovation" class="bg_sp">
+
+<!-- open page container -->
+<div id="contain">
+	<!-- start header -->
+	<!--this is the top menu bar and banner -->
+
+	
+	<!-- start header -->
+	<div id="header">
+		<div id="logo"><a href="../homepage.asp" title="ITB homepage" accesskey="0"><img src="../images/itb_logo.gif" alt="Institute of Technology Blanchardstown" width="300" height="83" border="0" /></a></div>
+		<div id="top">
+			<div class="hd_250"><ul><li id="nav_cf"><a title="Course Finder" href="../CourseFinder/index.html">Course Finder</a></li>
+			<li id="nav_hta"><a title="How to Apply" href="../HowtoApply/howtoapply.html">How to Apply</a></li>
+			</ul></div>
+			<br class="clear" />
+			<div class="hd_660">
+				<ul>
+					<li id="nav_home"><a title="Home" href="../homepage.asp">Home</a></li>
+					<li id="nav_about"><a title="About ITB" href="../AboutITB/index.html">About ITB</a></li>
+					<!--<li id="nav_cs"><a title="Current Students" href="../CurrentStudents/index.html">Current Students</a></li>-->
+					<li id="nav_ns"><a title="News & Events" href="../NewsEvents/newsdetailmore.asp">News &amp; Events</a></li>
+					<li id="nav_library"><a title="Library" href="http://www.blanchlib.itb.ie/" target="_blank">Library</a></li>
+					<li id="nav_intranet"><a title="Intranet" href="http://elan:8888" target="_blank">Intranet</a></li>
+					<li id="nav_careers"><a title="Careers at ITB" href="../Vacancies/index.html">Careers at ITB</a></li>
+					<li id="nav_map"><a title="Our Location" href="../Location/howtogetthere.html">Our Location</a></li>
+					<li id="nav_sd"><a title="Staff Directory" href="../StaffDirectory/staffdirectory.asp">Staff Directory</a></li>
+				</ul>
+			</div>
+			<br class="clear" />
+		</div>
+	</div>
+	<!-- stop header -->
+	<!-- start nav/search -->
+	<div id="nav_search">
+        <!-- start navigation -->
+        <div id="navigation">
+            <ul>
+                <li id="nav_study"><a title="Study at ITB" href="../StudyatITB/index.html">Study at ITB</a></li>
+                 <li id="nav_cs"><a title="Study at ITB" href="../CurrentStudents/index.html">Current Students</a></li>
+                <li id="nav_cslife"><a title="Campus & Student Life" href="../CampusStudentLife/index.html">Campus  Life</a></li>
+                <li id="nav_research"><a title="Research at ITB" href="../ResearchatITB/index.html">Research</a></li>
+                <li id="nav_ii"><a title="Industry & Innovation" href="../IndustryInnovation/index.html">Industry &amp; Innovation</a></li>
+            </ul>
+        </div>
+        <!-- stop navigation -->
+        <!-- start search -->
+        <div id="search">
+        <!--<form action="#" method="get" class="frmSearch">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="search_term" name="search_term" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>-->
+		
+		<!--<form action="../search/search.asp" method="get" class="frmSearch" name="form1">-->
+		<form action="../search/search.asp" method="get" class="frmSearch" name="form1">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="strp" name="target" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>
+		
+		
+		
+        </div>
+        <!-- stop search -->
+        <br class="clear" />
+	</div>
+	
+	
+	<!-- end of virtual directory -->
+	<!-- stop nav/search -->
+	<div class="hr_block"><hr /></div>
+	<!-- start content area -->
+	<div id="content_sub">
+		<!-- start left column -->
+	  <div id="col_220l">
+			<h1>Industry &amp; Innovation</h1>
+			<!-- start secondary nav -->
+			<div id="subnav">
+				<ul>
+					<li><a href="technologytransfer.html">Technology Transfer Office</a></li>
+                     <li><a href="progsupport.html">Start-up Business Supports</a></li>
+                     <li><a href="industrytraining.html">Industry Training </a></li>
+					 <li><a href="researchdev.html">Research &amp; Development </a></li>
+					 <li><a href="facilities.html">Facilities</a></li>
+				 	 <li><a href="enterprisegarage.html">Enterprise Garage</a></li>
+				</ul>
+			</div>
+			<!-- stop secondary nav -->
+			<!-- start important links -->
+			<ul class="keylinks">
+				
+				<li><a href="contactus.html">Contact Us  </a></li>
+				<br />
+				
+				<!--<li><object width="220" height="124"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=10406807&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=10406807&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="220" height="124"></embed></object></li>-->
+				<!--<li><a href="../IndustryInnovation/linclocation.html">LINC Location</a></li>-->
+			
+			</ul>
+		             
+		 <div align="center">
+         <a href="http://www.newfrontiersprogramme.com/how-to-apply.html"><img width="205" height="73" src="../images/nf2015.jpg" alt="New Frontiers" /></a><br />
+        <p> Now Recruiting for Phase 1<br />
+			To Apply Click <a href="http://www.newfrontiersprogramme.com/how-to-apply.html" target="_blank">here</a></p><br />
+          
+          <!-- <a href="http://www.thelinc.ie/jumpstart"><img width="203" height="207" src="../images/jumpstart2015.jpg" alt="JumpStart" longdesc="http://www.thelinc.ie/jumpstart" /></a>-->
+          
+          <!--<hr />-->
+       <!-- <a href="../IndustryInnovation/enterprisegarage.html"><img width="205" height="131" src="../images/EnterpriseGarage1.jpg" alt="newfrontiers" /></a><br /> 
+          <br />-->
+     <!-- <a href="http://www.itb.ie/newsevents/newsdetail.asp?Item=16624"><img width="205" height="185" src="../images/bigidea1.jpg" alt="JumpStart" longdesc="http://www.thelinc.ie/jumpstart" /></a>-->
+          
+          <!--<hr />-->
+        <!-- <a href="../IndustryInnovation/enterprisegarage.html"><img width="205" height="131" src="../images/EnterpriseGarage1.jpg" alt="newfrontiers" /></a><br /> 
+          <br />-->
+     <!-- <a href="http://www.itb.ie/newsevents/newsdetail.asp?Item=16624"><img width="205" height="185" src="../images/bigidea1.jpg" alt="JumpStart" longdesc="http://www.thelinc.ie/jumpstart" /></a>-->
+    
+        </div>
+	<!-- <p align="center"><a href="http://www.itb.ie/IndustryInnovation/enterprise.html">Now Recruiting for Phase One</a> </p>-->
+			<!-- stop important links -->
+			<div align="center">
+			  <!-- stop important links -->
+			  
+ <!--<a href="http://www.thelinc.ie/jumpstart"><img src="../images/jumpstart2014.jpg" alt="JumpStart" width="192" height="192" longdesc="http://thelinc/jumpstart" /></a>	-->   </div>
+	  </div>
+		<!-- stop left column -->
+		<!-- start centre column -->
+		<div id="col_480">
+			<div class="grey_block">
+				<p class="font_11"><a href="javascript:window.print();"><img src="../images/icon_print.gif" alt="Print" width="25" height="17" class="vertical_align_images" /> Print Page</a> | <a href="javascript:setActiveStyleSheet('default');">A</a> | <a href="javascript:setActiveStyleSheet('large');" class="med">A</a> | <a href="javascript:setActiveStyleSheet('larger');" class="lrg">A</a></p>
+				<h2>Overview</h2>
+			</div>
+            <!-- start breadcrumb -->
+			<!-- InstanceBeginEditable name="breadcrumb" -->
+            <div id="breadcrumb">
+                 <p style="margin-bottom: 0"><a href="../homepage.asp">Home &gt;</a><a href="index.html">Industry &amp; Innovation </a></p>
+            </div>
+		  <!-- InstanceEndEditable -->
+            <!-- stop breadcrumb -->
+			<!-- start content area -->
+			<div class="pad_content"><div id="content">
+<!-- InstanceBeginEditable name="BodyText" -->
+<div class="feature">
+	<img src="../files/2008/images/how-to-apply.jpg" alt="Technology Transfer Office" width="150" height="80" />
+	<h3 style="margin-bottom: 0"><a href="technologytransfer.html">Technology Transfer Office</a></h3>
+	<p style="margin-top: 0; margin-bottom: 0;"> The Technology Transfer Office engages with researchers and industry to maximise the commercial potential of the institutes innovation. </p>
+<br />
+<br />
+
+</div>
+
+<div class="feature">
+	<img src="../files/2008/images/campus.jpg" alt="The College" width="150" height="80" />
+	<h3 style="margin-bottom: 0"><a href="progsupport.html">Start-up Business Supports</a></h3>
+	<p>The LINC assists start-up companies in the region through our <a href="incubationsupport.html">Incubation/Office Space and Supports</a> and the provision of the<a href="http://www.newfrontiersprogramme.com/index.html"> New Frontiers Programme.</a> We are also invoved in a number of initiatives to support the development of an <a href="entculture.html">Entrepreneurial Culture at ITB</a>. </p>
+</div>
+
+<div class="feature">
+	<img src="../files/2008/images/shopping.jpg" alt="Life in Blanchardstown" width="150" height="80" />
+	<h3 style="margin-bottom: 0"><a href="industrytraining.html">Industry Training</a><a href="#"></a></h3>
+	<p style="margin-top: 0; margin-bottom: 0;">The LINC has a range of bespoke training <u><a href="industrytrainingprog.html">Programmes Available</a></u> for industry. Have a look at our case studies to see how we are working closely with companies to meet their competence needs. </p>
+</div>
+
+<div class="feature">
+	<img src="../files/2008/images/student_services.jpg" alt="Student Services" width="150" height="80" />
+	<h3 style="margin-bottom: 0"><a href="researchdev.html">Research &amp; Development</a><a href="#"></a></h3>
+	<p style="margin-top: 0; margin-bottom: 0;">The<a href="researchgroups.html"> <u>Research Groups</u></a> based in the LINC are involved collaboratively with research projects with industry, community organisations and different agencies in the locality. Local industry have successfully been facilitated through the<a href="voucher.html"><u> Innovation Voucher Scheme</u></a> by the management team at the LINC. </p>
+</div>
+
+<div class="feature">
+	<img src="../files/2008/images/laptop.jpg" alt="Give us your feedback!!" width="150" height="80" />
+	<h3 style="margin-bottom: 0"><a href="facilities.html">Facilities</a><a href="#"></a></h3>
+	<p style="margin-top: 0; margin-bottom: 0;">The LINC has a wide range of facilities available for hire to local businesses and organisations. <u><a href="facilities.html">Rooms available</a></u> include boardrooms, meeting rooms, computer labs, lecture theatres and networking area. <u>Services available</u> include catering, IT infrastructure and audio visual equipment.</p>
+</div>
+
+	<!-- InstanceEndEditable -->
+			</div></div>
+			<!-- stop content area -->
+		</div>
+		<!-- stop centre column -->
+		<!-- start right column -->
+		<div id="col_220r">
+			<!-- start subpage banner -->
+			<div id="banner_sp">&nbsp;</div>
+			<!-- stop subpage banner -->
+			<!-- start what our students say -->
+						
+				<!-- InstanceBeginEditable name="StudentSays" -->				<!-- InstanceEndEditable -->
+	
+			<!-- start what our students say -->
+				<div class="call">
+			     <!--<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 220,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('thelinctweet').start();
+</script>-->
+                <center> <a href="http://thelincblog.wordpress.com/"><img src="../images/lincblog.gif" width="212" height="72" alt="The LINC Blog" longdesc="http://thelincblog.wordpress.com/" /></a> 
+                 </center>
+                 <br />
+<br />
+<a class="twitter-timeline"  href="https://twitter.com/theLINCtweet"  data-widget-id="377817962104639488">Tweets by @theLINCtweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+			
+			
+			
+			</div>
+			<br />
+		</div>
+		<!-- stop right column -->
+		<br class="clear" />
+	</div>
+	<!-- stop content area -->
+	<!-- start footer -->
+	<div id="footer">
+		<div class="foot_507">
+			<div style="float:right;width:249px;"><img src="../files/eu-sfp.gif" alt="Ireland's EU Structural Funds Programme" width="168" height="57" /><img src="../images/StructFund.jpg" alt="European Social Fund" width="76" height="70" style="margin-right:5px;" /></div>
+			<p>&copy; Institi&uacute;id Teicneola&iacute;ochta, Baile Bhlains&eacute;ir, B&oacute;thar Bhaile Bhlains&eacute;ir Thuaidh,<br />Baile &Aacute;tha Cliath 15</p>
+			<ul><li id="nav_disclaimer"><a title="Disclaimer" href="../Disclaimer/index.html">Disclaimer</a></li>
+			<li id="nav_sitemap"><a title="Sitemap" href="../Sitemap/index.html">Sitemap</a></li>
+			<li id="nav_access"><a title="Accessibility" href="../Accessibility/index.html">Accessibility</a></li>
+			</ul>
+		</div>
+		<div class="foot_427"><p>Institute of Technology Blanchardstown, Blanchardstown Road North, Dublin 15</p><p>Tel: +353 (1) 8851000 |  Fax: +353 (1) 8851001 | Email: <a href="mailto:info@itb.ie">info@itb.ie</a></p>
+		<p><a href="../Disclaimer/cookie.html">Cookie Policy</a></p>
+		</div>
+	</div>
+
+	<!-- stop footer -->
+</div>
+<!-- close page container -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6699818-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

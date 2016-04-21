@@ -1,0 +1,48 @@
+XML
+<salesOrder>
+	<customer>ITB</customer>
+	<ref>45221</ref>
+	<date>1/1/2002</date>	
+	
+	<details>
+		<product1>A4 paper</product1>
+		<quantity1>10 boxes</quantity1>
+		<price1>€40</price1>
+
+		<product2>A3 paper</product2>
+		<quantity2>5 boxes</quantity2>
+		<price2>€32</price2>
+	</details>
+	
+</salesOrder>
+
+
+
+
+DAVY CAN WE GO TO BURGER KING DURING THE BREAK????
+
+JSON
+{"salesOrder":
+	{
+	"Customer:" : "ITB",
+	"Ref:" : "45221",
+	"Date:" : "2/2/2012"
+		
+		{"Product Details:" :
+		[
+			{
+			"Product" : "A4 Paper",
+			"Quantity" : "10 Boxes",
+			"Price" : "€40"
+			},
+			
+			{
+			"Product" : "A3 Paper",
+			"Quantity" : "5 Boxes",
+			"Price" : "€32"
+			}
+		]
+		}
+	}
+}
+			

@@ -1,0 +1,33 @@
+Apr 19 19:06:46.251 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 19 19:06:46.251 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57093.
+Apr 19 19:06:46.321 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 19 19:06:46.351 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 19 19:06:46.384 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Michael\GNS3\projects\TSHOOT Lecture (Ticket 7)\project-files\dynamips 
+Apr 19 19:06:46.384 GENERAL: working_dir=C:\Users\Michael\GNS3\projects\TSHOOT Lecture (Ticket 7)\project-files\dynamips
+Apr 19 19:06:46.421 HYPERVISOR: exec_cmd: vm create FTPServer 7 c3725 
+Apr 19 19:06:46.424 VM: VM FTPServer created.
+Apr 19 19:06:46.456 HYPERVISOR: exec_cmd: vm set_con_tcp_port FTPServer 2003 
+Apr 19 19:06:46.471 HYPERVISOR: exec_cmd: vm set_aux_tcp_port FTPServer 2512 
+Apr 19 19:06:46.481 HYPERVISOR: exec_cmd: c3725 get_mac_addr FTPServer 
+Apr 19 19:06:46.484 HYPERVISOR: exec_cmd: vm set_ram FTPServer 192 
+Apr 19 19:06:46.489 HYPERVISOR: exec_cmd: vm set_ios FTPServer C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 19 19:06:46.491 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Apr 19 19:06:46.499 HYPERVISOR: exec_cmd: vm set_idle_pc FTPServer 0x6026b804 
+Apr 19 19:06:46.506 HYPERVISOR: exec_cmd: c3725 set_mac_addr FTPServer c207.1688.0000 
+Apr 19 19:06:46.514 HYPERVISOR: exec_cmd: vm set_config FTPServer configs/i7_startup-config.cfg 
+Apr 19 19:06:46.519 HYPERVISOR: exec_cmd: vm set_ghost_status FTPServer 2 
+Apr 19 19:06:46.526 HYPERVISOR: exec_cmd: vm set_ghost_file FTPServer C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 19 19:06:47.546 HYPERVISOR: exec_cmd: nio create_udp nio_udp23 10027 127.0.0.1 10026 
+Apr 19 19:06:47.606 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FTPServer 0 0 nio_udp23 
+Apr 19 19:06:47.619 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Apr 19 19:06:53.556 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Apr 19 19:06:53.561 HYPERVISOR: exec_cmd: vm start FTPServer 
+Apr 19 19:28:39.284 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Apr 19 19:28:39.289 HYPERVISOR: exec_cmd: vm stop FTPServer 
+Apr 19 19:28:39.429 VM: VM FTPServer shutdown.
+Apr 19 19:28:39.432 HYPERVISOR: exec_cmd: vm extract_config FTPServer 
+Apr 19 19:28:39.434 HYPERVISOR: exec_cmd: vm delete FTPServer 
+Apr 19 19:28:39.434 VM: VM FTPServer destroyed.
+Apr 19 19:28:39.437 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 19 19:28:39.771 HYPERVISOR: Stopped.
+Apr 19 19:28:39.776 GENERAL: reset done.

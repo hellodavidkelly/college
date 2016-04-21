@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;RMIProj02/src/Client&apos; to &apos;com.rmi.client&apos;" description="Rename resource &apos;Client&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Client" name="com.rmi.client" stamp="1429374695480" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;RMIProj02/src/com.rmi.client&apos; to &apos;Client&apos;" description="Rename resource &apos;com.rmi.client&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com.rmi.client" name="Client" stamp="1429374923796" updateReferences="true"/>
+</session>

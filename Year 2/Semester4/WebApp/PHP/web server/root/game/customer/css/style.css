@@ -1,0 +1,170 @@
+form{
+margin-left:1em;
+	
+width: 100%;
+
+
+}
+#footer
+{
+
+position:absolute;
+right:310px;
+position:absolute;
+top:10px;
+background-color:white;
+text-align:center; 
+font-size:140%;
+color:black;
+width:55%;
+border-style:solid;
+	border-color:black;
+}	
+body{
+	background-color:	#CCFFFF;
+background-image:url('paper.jpg');
+	
+
+
+
+
+
+	width: 100%;
+	font-style:italic
+	
+
+    }
+
+h1 {
+	
+	background-color:white
+;
+	text-align:center; 
+	color:black;
+	border-style:solid;
+	border-color:black;
+	
+	font-size:180%;
+	width: 98%;
+
+
+
+    }
+
+
+fieldset { 
+		
+border-style:solid;
+	border-color:black;
+		text-align:left; 
+		background-color:white;
+		
+		color:black;
+		font-size:90%;
+		width: 70%;
+position:absolute;
+right:200px;
+position:absolute;
+top:950px;
+margin-left:1em;
+	
+	 }
+
+
+
+table{
+
+
+position:absolute;
+right:240px;
+position:absolute;
+top:260px;
+background-color:white;
+text-align:center; 
+font-size:140%;
+color:black;
+width:55%;
+border-style:solid;
+	border-color:black;
+	
+}
+
+h2
+{
+position:absolute;
+right:-660px;
+position:absolute;
+top:-160px;
+font-style:bold;
+color:red;
+font-size:140%;
+}
+
+
+#buttons
+{
+
+position:absolute;
+right:592px;
+position:absolute;
+top:1200px;
+
+
+}
+span{
+	color: black;
+	font-style:bold;
+color:red;
+font-size:140%;
+
+    }
+
+p {
+	clear:left;
+	
+}
+     label {
+     	display:block;
+     	float:left;
+     	margin-left:1em;
+     	width:8em;
+     	color:black;
+    	height:2em;
+
+     	
+}
+
+textarea
+{
+
+
+position:absolute;
+right:392px;
+position:absolute;
+top:1300px;
+
+}
+
+#about
+{
+
+
+position:absolute;
+right:120px;
+position:absolute;
+top:300px;
+
+}
+
+
+#search
+{
+
+
+position:absolute;
+right:400px;
+position:absolute;
+top:230px;
+
+}
+

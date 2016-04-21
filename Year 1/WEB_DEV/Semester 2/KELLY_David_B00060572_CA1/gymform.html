@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>CA1</title>
+			<style>
+			@import url(css/style.css);
+			</style>
+			<meta charset= 'utf-8'>
+			
+			<!-- JavaScript to compare the password entries -->
+			<script ="text/JavaScript"> 
+				function compare()
+				{
+					var a = document.getElementById("password").value;
+					var b = document.getElementById("confirmpassword").value;
+					
+					if(a!=b)
+					{
+						alert("your password did not match, please try again.");
+						document.getElementById("confirmpassword").focus();
+					}
+				}
+			</script>		
+		
+		</head>
+		
+		<body>		
+		<!-- begining of form -->
+			<form action = "showForm.html" method = "post"> 
+				<p id="left">
+				<img src="images/gym1.jpg" alt="logo">
+				</p>
+				<p id="right">
+				<img src="images/gym2.jpg" alt="logo">
+				</p>
+				
+				<h1>
+				Total Fitness
+				</h1>
+				
+				<h3>
+				Please complete the following form: <strong>* indicates a required field</strong>
+				</h3>
+				
+				<fieldset>
+					<legend>Personal Details</legend>
+					<!-- All inputs in the fieldset are required to move on to the  -->
+							<label for="name">Name:</label> <input type="text" name="name" id="name" autofocus required>
+								<span class = "strong"><strong>*</strong></span>
+							<label for="address">Address:</label> <input type="text" name="address" id="address" required>
+								<span class = "strong"><strong>*</strong></span>
+							<label for="phone">Phone Number:</label> <input type="tel" name="phone" pattern="[0-9]{7}" id="phone" required>
+								<span class = "strong"><strong>*</strong></span>
+							<label for="usermail">Email:</label> <input type="email" name="usermail" id="usermail" required>				
+								<span class = "strong"><strong>*</strong></span>
+							<label for="age">Date of Birth:</label> <input  type="date" name="age" id="age" required>
+								<span class = "strong"><strong>*</strong></span>
+							<label>Gender:</label> 
+							<input type="radio" name="gender" value="Male" checked>
+								<span class = "radio"> Male </span> 
+							<input type="radio" name="gender" value="Female">
+								<span class = "strong"> Female </span>
+							<br>
+							<label for="password">Password:</label> <input type="password" name="password" id="password" required>
+								<span class = "strong"><strong>*</strong></span>
+							<label for="confirmpassword">Confirm Password:</label> <input type="password" name="confirmpassword" id="confirmpassword"  onchange="compare()" required>
+								<span class = "strong"><strong>*</strong></span>
+				</fieldset>
+				
+								
+				<fieldset>
+					<legend>Physical Condition</legend>
+						<div class="order">
+							<select name="condition" id="conditionMenu" size="1">
+								<option value="select">--SELECT--</option>
+								<option value="unfit">unfit</option>
+								<option value="fit">fit</option>
+								<option value="healthy">healthy</option>
+								<option value="unwell">unwell</option>
+								<option value="overweight">overweight</option>
+							</select>
+						</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Membership</legend>
+							<label for="name">Category:</label>
+								<input type="radio" name="cat" value="1" checked>
+									<span class = "radio"> Student </span>   
+								<input type="radio" name="cat" value="2">
+									<span class = "radio"> Adult </span>
+								<input type="radio" name="cat" value="3"> 
+									<span class = "radio"> Senior </span>
+								<input type="radio" name="cat" value="4">
+									<span class = "radio"> Off-Peak </span>
+								<br>
+								<label for="name">Term:</label> 
+								<input type="radio" name="term" value="5" checked>
+									<span class = "radio"> 3 months </span> 
+								<input type="radio" name="term" value="6">
+									<span class = "radio"> 6 months</span>
+								<input type="radio" name="term" value="7">
+									<span class = "radio"> 9 months </span>
+								<input type="radio" name="term" value="8">
+									<span class = "radio"> 12 months </span>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Exrcise Aims</legend>
+							<div class="order">
+								<input type="checkbox">
+									<span class = "check "> Health </span>
+								<input type="checkbox">
+									<span class = "check "> Energy </span> 
+								<input type="checkbox">
+									<span class = "check "> Fitness </span> 
+								<br>
+								<input type="checkbox">
+									<span class = "check "> toning </span>  
+								<input type="checkbox">
+									<span class = "check "> Weight Loss </span>  
+								<input type="checkbox">
+									<span class = "check "> Rehab </span> 
+							</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Payment</legend>
+								<label for="name">Payment type:</label>
+								<input type="radio" name="pay" value="1" checked>
+									<span class = "radio"> <img src="images/visa.jpg" alt="logo"> </span>  
+								<input type="radio" name="pay" value="2">
+									<span class = "radio"> <img src="images/master.gif" alt="logo"> </span>   
+								<input type="radio" name="pay" value="3">
+									<span class = "radio"> <img src="images/paypal.jpg" alt="logo"> </span>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Are you interested in other services?</legend>
+							<div class="order">
+								<input type="checkbox">
+									<span class = "check "> None </span>
+								<input type="checkbox">
+									<span class = "check "> Massage </span>
+								<input type="checkbox">
+									<span class = "check "> Personal Training </span>
+								<br>
+      							<input type="checkbox">
+      								<span class = "check "> Nutrition </span>
+								<input type="checkbox">
+									<span class = "check "> Steam Room </span>
+								<input type="checkbox">
+									<span class = "check "> Fitness Classes </span>
+							</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Other Details</legend>
+						<div class="order">
+							<textarea name="textArea" id="textArea" cols="50" rows="3"></textarea>
+						</div>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Upload a photo of yourself</legend>
+						<div class="order">
+							<input type="file" name="uploadfile">
+						</div>
+				</fieldset>
+							
+				<div id="buttons">
+					<input type ="submit" name="submit" id="submit" value="Send">
+					<input type ="reset" name="reset" id="reset" value="Reset">
+				</div>
+			
+			</form>
+		</body>
+	
+	</html>

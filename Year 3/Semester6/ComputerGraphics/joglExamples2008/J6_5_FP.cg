@@ -1,0 +1,14 @@
+// J6_5_FP.cg Fragment Program: color manipulation 
+
+void main(
+	float4 iColor 		: 	COLOR, 
+out float4 oColor 		: 	COLOR,
+uniform float4 				fColor
+) {
+float4 white = float4(1,1,1,1);
+
+   oColor =white;
+   //oColor=f; 
+}
+
+

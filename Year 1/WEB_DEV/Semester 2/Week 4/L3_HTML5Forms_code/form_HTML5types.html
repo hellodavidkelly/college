@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>Checkboxes</title>
+		<style>
+			@import url(css/checkbox.css);
+		</style>
+</head>
+
+<form  action="" method="post">
+<h2> Examples of HTML5 input types </h2>
+
+<h3> "Yourself" section uses Placeholder & input types - email, url </h3>
+<h3> It also uses a Pattern for the country code </h3>
+
+<fieldset>
+<legend> Yourself </legend>
+First name:
+	<input type="text" name="firstname" placeholder="enter first name" autofocus ><br>
+Last name:
+	<input  type="text" name="lastname" placeholder="enter last name" ><br>
+Email:
+	<input  type="email" name="usremail"><br>
+Your homepage:
+	<input  type="url" name="homepage" ><br>
+Country Code:
+	<input  type="text" name="country_code" placeholder="3 letter country code"
+				pattern="[a-za-z]{3}" title ="3 letter code"><br>
+</fieldset>
+
+<br>
+
+<h3> DATE </h3>
+
+<fieldset>
+<legend> Birthday </legend>
+When is your birthday?
+	<input  type="date" name="birthday" required>
+</fieldset>
+
+<br>
+<h3> TIME </h3>
+
+<fieldset>
+<legend> Next class </legend>
+Enter the time of your next class
+	<input  type="time" name="classtime" required>
+</fieldset>
+<br>
+
+<h3> NUMBER </h3>
+<fieldset>
+<legend> Select a number  </legend>
+What is your favourite number?
+	<input type="number" name="numbergetter"  required>
+</fieldset>
+<br>
+
+<h3> NUMBER + STEP </h3>
+<fieldset>
+<legend> Select a number between 10 and 100 (increment by 5) </legend>
+What is your favourite number?
+	<input  type="number" name="numberlimiter"  step="5" max="100" min="10" required>
+</fieldset>
+<br>
+
+<h3> SLIDER + RANGE  </h3>
+<fieldset>
+<legend>Select a number (use the slider to select)  </legend>
+ On a scale of 1 to 10, how do you like html5?
+	<input type="range" name="range1"  step="1" max="10" min="1" required>
+</fieldset>
+<br>
+
+<h3> COLOR </h3>
+<fieldset><legend>Select a colour  </legend>
+Pick your favourite colour
+	<input type="color"  name="colour" required>
+</fieldset>
+
+<br>
+
+	<input  type="submit" value="submit query">
+</form>
+</body>
+</html>

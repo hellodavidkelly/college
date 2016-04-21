@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Space Zone</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="generator" content="Social Likes: http://sapegin.github.com/social-likes/">
+	<link rel="stylesheet" href="css/styles.css"/>
+	<link rel="stylesheet" href="css/social-likes_classic.css"/>
+	<link rel="stylesheet" href="themes/our_themes.min.css"/>
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/>
+	<script src="javascript/jquery-1.11.1.min.js"></script> 
+	<script src="javascript/jquery.mobile-1.4.5.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+	<script src="javascript/script.js"></script>
+	<script src="javascript/social-likes.min.js"></script>
+</head>
+
+<body>
+	<!-- home page ***********************************************************************************-->	
+	<div data-role="page" id="home" data-theme="a">
+		
+		<!-- home page header -->
+		<div data-role="header" data-position="fixed">
+			<div class="align_center">
+				<img id="website_logo" class="header_image" src="images/website_logo.png" alt="logo">
+			</div>
+			<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+	    	<a href="#info" data-icon="info" data-iconpos="notext" data-rel="dialog" class="ui-btn-right">Info</a>
+		</div>
+		<!-- /home page header -->
+		
+		<!-- home page content -->
+		<div data-role="content">
+			<div data-role="controlgroup">
+      			<ul data-role="listview" data-inset="true">
+		            <li><a href="#learn" data-prefetch data-transition="slide">Facts Page</a></li>
+		            <li><a href="#videos" data-prefetch data-transition="slide">You Tube</a></li>
+		            <li><a href="#blog" data-prefetch data-transition="slide" class="to_blog_link">Blog</a></li>
+		            <li><a href="#historical" data-prefetch data-transition="slide">Historical Events</a></li>
+					<li><a href="#events" data-prefetch data-transition="slide">Upcoming Events</a></li>
+					<li><a href="#photos" data-prefetch data-transition="slide">Gallery</a></li>
+					<li><a href="#map" data-prefetch data-transition="slide">Directions</a></li>
+				</ul>
+    		</div>
+	        <hr/>
+			<br><br><br><br>
+	      	<div class="align_center">
+				<div class="social-likes social-likes_single" data-single-title="Share">
+				<div class="facebook" title="Share link on Facebook">Facebook</div>
+				<div class="twitter" title="Share link on Twitter">Twitter</div>
+				<div class="plusone" title="Share link on Google+">Google+</div></div>
+				<br><br>
+				<div id="fb-root"></div>
+				<fb:like href="https://www.facebook.com/1adfhgdfhfgh?skip_nax_wizard=true&amp;ref_type=page_profile_button" layout="button_count" show_faces="false" width="450" height="35" action="like" colorscheme="light" font="trebuchet ms" allowTransparency="true"></fb:like>
+			</div>
+		</div>
+		<!-- /home page content-->
+		
+		<!-- home page footer -->
+		<div data-role="footer" data-position="fixed">
+	      	<div class="align_center">&copy; Copyright 2014 Michael James & Martin Zuber</div>
+		</div>
+		<!-- /home page footer -->
+	</div>
+	<!-- / home page -->
+
+	<!-- info dialog page *****************************************************************************-->
+	<div data-role="page" id="info" data-theme="a">
+		<div data-role="header">
+			<h1>Why this application?</h1>
+		</div>
+    	<div data-role="content">
+    		<p>This website will help teach children about the wonders of the universe. It will give them a wide array of knowledge about the planets, stars and galaxies that we live among and the effects physics and chemistry has upon it all, it hopes to bring complex theories to life in a way not seen before, making them accessible to all!</p>
+    		<a data-role="button" href="#home" data-inline="true" data-rel="back">Home</a>
+    	</div>
+	</div>
+	<!-- /info dialog -->
+	
+	<!-- about page *********************************************************************************-->
+	<div data-role="page" id="learn" data-theme="a">
+		
+		<!-- about page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+			<h1>Weird Facts</h1>
+		</div>
+		<!-- /about page header -->
+		
+		<!-- about page content -->
+  		<div data-role="content">
+  			<div data-role="collapsible">
+  				<h4>Weird Fact 1 - The Planet From Hell</h4>
+  				<p>Gliese 581 c wants to kill you. Seriously. Scientists have determined that this hell of a planet is the most likely candidate for future colonization, despite the fact the entire planets out to get you.This planet orbits a red dwarf star, many times smaller than our Sun, with a luminosity of only 1.3% of our sun. This means that the planet is far closer to its star than we are to ours. Because of this, it is stuck in a state of tidal locking, meaning that one side of the planet is always facing the star, and one side is always facing away just like our moons relationship with Earth.The tidal locking of the planet alone results in some pretty odd features. Stepping out onto the star-side of the planet would immediately melt your face off, whereas standing on the opposite side of the planet, where there is no sun, would freeze you instantly. However, in between these two extremes is a small belt where life could theoretically exist</p>
+			</div>
+			<div data-role="collapsible">
+				<h4>Weird Fact 2 - Hypervelocity Stars</h4>
+				<p>Everyone knows that shooting stars are just meteors entering the atmosphere, right? If you didnt, congratulations you just failed the fourth grade. What some people dont know, however, is that real shooting stars exist as well; theyre called hypervelocity stars. These are big, fiery balls of gas rocketing through space at millions of miles per hour.When a binary star system is gobbled down by the supermassive black hole (thats the scientific term, by the way) at the center of a galaxy, one of the two partners is consumed, while the other is ejected at high speed. Just try to imagine a huge ball of gas, four times the size of our sun, hurtling out from our galaxy at millions of miles per hour</p>
+			</div>
+
+			<div data-role="collapsible">
+				<h4>Weird Fact 3 - The Castor System</h4>
+				<p>As if one or two giant, fiery balls of gas werent enough, here we have the Castor System. As one of the two bright stars from the Gemini constellation in our night sky, it has some serious luminosity. This is because the Castor System isnt one, or two, but six stars, all orbiting around a common central mass.Three binary star systems orbit each other here, with two hot and bright A-Type stars being stuck in the system, as well as four M-type red dwarves. All together, though, these six stars put out roughly 52.4 times more luminosity than that of our sun.</p>
+			</div>
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#planet" data-prefetch data-transition="slide">More About The Planets</a></li>
+		    </ul>
+		</div>
+		<!-- /about page content -->
+		
+		<!-- about page footer -->
+ 		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /about page footer -->
+  	</div>
+	<!-- /about page -->
+	
+	<!-- planet page *********************************************************************************-->
+	<div data-role="page" id="planet" data-theme="a">
+		
+		<!-- planet page header-->
+		<div data-role="header" data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+			<h1>Planets</h1>
+  		</div>
+		<!-- /planet page header-->
+
+	  	<!-- planet page content-->
+	  	<div data-role="content">
+			<div data-role="tabs">
+				<ul data-role="listview" data-inset="true" class="tablist-left">
+					<li><a href="#planets" data-ajax="false">Ringed Planets</a></li>
+					<li><a href="#two" data-ajax="false">Non Ringed planets</a></li>
+				</ul>
+				<ul id="two" class="tablist-content" data-role="listview" data-inset="true">
+					<li><a href="#">Mars</a></li>
+					<li><a href="#">Pluto</a></li>
+					<li><a href="#">Venus</a></li>
+					<li><a href="#">Mercury</a></li>
+				</ul>
+				<ul id="planets" class="tablist-content" data-role="listview" data-inset="true">
+					<li><a href="#">Jupiter</a></li>
+					<li><a href="#">Uranus</a></li>
+					<li><a href="#">Neptune</a></li>
+					<li><a href="#">Saturn</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- /planet page content-->
+		
+		<!-- planet page footer-->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+		<!-- /planet page footer-->
+  	</div>
+	<!-- /planet page -->
+	
+	<!-- blog page **********************************************************************************-->
+	<div data-role="page" id="blog" data-theme="a">
+		
+		<!-- blog page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+			<div class="align_center">
+      			<img class="header_image" src="images/wordpress_logo.png" alt="YouTube">
+      		</div>
+		</div>
+		<!-- /blog page header -->
+
+		<!-- blog page content -->
+		<div role="main" id="postlist" class="ui-content">
+			<!-- here the blog titles are getting injected -->
+		</div>
+		<!-- /blog page content -->
+
+		<!-- blog page footer -->
+		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+		<!-- /blog page footer -->
+	</div>
+	<!-- /blog page -->
+
+	<!-- blog post page **********************************************************************************-->
+	<div data-role="page" id="blogpost" data-theme="a">
+		<div data-role="header"	data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+			<h1>Post</h1>
+		</div>
+		<div data-role="content">
+			<div id="mypost"></div>
+		</div>
+		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+	</div>
+	<!-- /blog post page -->
+
+	<!-- historical page ***********************************************************************************-->
+	<div data-role="page" id="historical" data-theme="a">
+
+		<!-- historical page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+			<h1>Astronomical History</h1>
+		</div>
+		<!-- /historical page header -->
+		
+		<!-- historical page content -->
+  		<div data-role="content">
+  			<ul data-role="listview">
+				<li>1957	First intercontinental ballistic missile</li>
+				<li>1957	First artificial satellite</li>
+				<li>1957	First animal in orbit, the dog Laika</li>
+				<li>1958	Confirmed the existence of the Van Allen belts</li>
+				<li>1959	First firing of a rocket in Earth orbit</li>
+				<li>1959	First artificial satellite to reach the Moon vicinity</li>
+				<li>1959	First photograph of Earth from orbit</li>
+				<li>1959	First impact into another world (the Moon)</li>
+				<li>1960	First plants and animals to return alive from Earth orbit</li>
+				<li>1961	First Hominidae in space</li>
+				<li>1961	First human spaceflight–(Yuri Gagarin)</li>
+				<li>1963	First woman in space (Valentina Tereshkova)</li>
+				<li>1966	First soft landing on another world (the Moon)</li>
+				<li>1969	First human on the Moon </li>
+				<li>1971	First soft Mars landing</li>
+				<li>1975	First photos from the surface of another planet (Venus)</li>
+				<li>1981	First Reusable manned spacecraft (orbital)</li>
+				<li>1990	First photograph of the whole solar system </li>
+				<li>1995	First orbit of Jupiter</li>
+				<li>2001	First landing on an asteroid </li>
+				<li>2005	First soft landing on Titan</li>
+				<li>2010    First sample return from asteroid </li>
+				<li>2011	Radio orbital observatory.</li>
+				<li>2012	First man-made probe in interstellar space.</li>
+				<li>2014	First man-made probe to land on a comet </li>
+			</ul>
+ 		</div>
+		<!-- /historical page content -->
+
+		<!-- historical page footer -->
+		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+		<!-- /historical page footer -->
+  	</div>
+	<!-- / historical page -->
+	
+	<!-- events page ***********************************************************************************-->
+	<div data-role="page" id="events" data-theme="a">
+
+		<!-- events page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+			<h1>Upcoming Events</h1>
+		</div>
+		<!-- /events page header -->
+
+		<!-- events page content -->
+  		<div data-role="content">
+  			<form>
+				<input id="filter" data-type="search" placeholder="Type to search the events...">
+			</form>
+			
+			<div data-role="colapsible-set" data-inset="true" data-filter="true" data-input="#filter">
+				<div data-role="collapsible">
+					<h3>Galindi Shower</h3>
+					<p>A meteor shower visible in Asia in December</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>March Equinox</h3>
+					<p>This sun activity is visible in the northern hemisphere in late March</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Persied-Shower</h3>
+					<p>This meteor shower will be visible in Argentina in late December and August in Europe</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Solar Flares</h3>
+					<p>Major solar storm to happen in July</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Venus visible in sky</h3>
+					<p>Venus visible in the northern hemisphere all of April</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Quadrantids Meteor Shower</h3>
+					<p>The Quadrantids is an above average shower, with up to 40 meteors per hour at its peak. It is thought to be produced by dust grains left behind by an extinct comet known as 2003 EH1</p>
+				</div>
+					<div data-role="collapsible">
+						<h3>Dawn at Ceres</h3>
+						<p>NASA’s Dawn spacecraft will encounter the dwarf planet known as Ceres sometime in February 2015</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Jupiter at Opposition</h3>
+					<p>The giant planet will be at its closest approach	to Earth and its face will be fully illuminated by the Sun</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Conjunction of Venus and Mars</h3>
+					<p>Conjunctions are rare events where two or more objects will appear extremely close together in the night sky</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Total Solar Eclipse</h3>
+					<p>The path of totality will begin in the central Atlantic Ocean and move north across Greenland and into northern Siberia</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Total Lunar Eclipse</h3>
+					<p>The eclipse will be visible throughout most of North America, South America, eastern Asia, and Australia</p>
+				</div>
+				<div data-role="collapsible">
+					<h3> Lyrids Meteor Shower</h3>
+					<p>The Lyrids is an average shower, usually producing about 20 Thatcher, which was discovered in 1861</p>
+			 	</div>
+				<div data-role="collapsible">
+					<h3>Eta Aquarids Meteor Shower</h3>
+					<p>The Eta Aquarids is an above average shower, capable of producing up to 60 meteors per hour at its peak. Most of the activity is seen in
+				     the Southern Hemisphere. In the Northern Hemisphere, the rate can reach about 30 meteors per hour</p>
+					</div>
+				<div data-role="collapsible">
+					<h3> Saturn at Opposition</h3>
+					<p>The ringed planet will be at its closest approach to Earth and its face will be fully illuminated by the Sun</p>
+			 	</div>
+				<div data-role="collapsible">
+					<h3> New Horizons at Pluto</h3>
+					<p>The Delta Aquarids is an average shower that can produce up to 20 meteors per hour at its peak. It is produced by debris left behind by 
+			         comets Marsden and Kracht. The shower runs annually from July 12 to August 23</p>
+			 	</div>
+			</div>
+		</div>
+		<!-- /events page content -->
+
+		<!-- events page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- events page footer -->
+  	</div>
+	<!-- / events page -->
+	
+	<!-- photos page ***************************************************************************** -->
+	<div id="photos" data-role="page" data-theme="a">
+		
+		<!-- photos page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+			<div class="align_center">
+      			<img class="header_image" src="images/flickr_logo.png" alt="YouTube">
+      		</div>
+		</div>
+		<!-- /photos page header -->
+		
+		<!-- photos page content -->
+		<div data-role="content">
+			<div id="photolist"></div>
+		</div>
+		<!-- /photos page content -->
+
+		<!-- photos page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /photos page footer -->
+	</div><!-- photos page -->
+	
+	<!-- flickr image page ************************************************************************ -->
+	<div data-role="page" id="showphoto" data-theme="a">
+		<!-- flickr image page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+			<h1>heading</h1>
+		</div>
+		<!-- /flickr image page header -->
+
+		<!-- flickr image page content -->
+		<div data-role="content">
+			<div id="myphoto"></div>
+		</div>
+		<!-- /flickr image page content -->
+
+		<!-- flickr image page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /flicker page footer -->
+	</div>
+	<!-- /flickr image page -->
+	
+	<!-- youtube page ************************************************************************************ -->
+	<div data-role="page" id="videos" data-theme="a">
+		<!-- youtube image page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+      		<div class="align_center">
+      			<img class="header_image" src="images/youtube_logo.png" alt="YouTube">
+      		</div>
+		</div>
+		<!-- /youtube image page header -->
+		
+		<!-- youtube page content -->
+		<div data-role="content">
+			<div id="videolist"></div>
+		</div>
+		<!-- /youtube page content -->
+
+		<!-- youtube page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /youtube page footer -->
+	</div>
+	<!-- /youtube page -->
+
+	<!-- youtube player************************************************************************************ -->
+	<div data-role="page" id="video_player" data-theme="a">
+		<!-- youtube player header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+      		<div class="align_center">
+      			<img class="header_image" src="images/youtube_logo.png" alt="YouTube">
+      		</div>
+		</div>
+		<!-- /youtube player header -->
+		
+		<!-- youtube player content -->
+		<div data-role="content">
+			<div id="videoplayer"></div>
+		</div>
+		<!-- /youtube player content -->
+
+		<!-- youtube player footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /youtube player footer -->
+	</div>
+	<!-- /youtube player -->
+
+	<!-- map page************************************************************************************ -->
+	<div data-role="page" id="map" data-theme="a">
+		<!-- map page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#" data-icon="grid" data-iconpos="notext" class="theme_changer ui-btn-left">Theme Change</a>
+      		<div class="align_center">
+      			<img class="header_image" src="images/google_maps_logo.png" alt="YouTube">
+      		</div>
+		</div>
+		<!-- /map page header -->
+		
+		<!-- map page content -->
+		<div data-role="content">
+			<div id="map_canvas">
+				<!-- map loads here... -->
+			</div>
+		</div>
+		<!-- /map page content -->
+
+		<!-- map page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="back" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+					<li><a data-role="button" data-icon="home" data-transition="slide" data-direction="reverse" href="#home">Home</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /map page footer -->
+	</div>
+	<!-- /map page -->
+	
+	<script src="https://api.flickr.com/services/feeds/photos_public.gne?id=129536445@N08&amp;lang=en-us&amp;format=json"></script>
+	
+	<script src="http://ourspaceblog.azurewebsites.net/?json=1&amp;callback=listPosts"></script>
+	
+	<script src="http://gdata.youtube.com/feeds/users/SpaceRip/uploads?alt=json-in-script&amp;max-results=10&amp;callback=listVideos"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<salesOrder>
+	<invoiceNum>Invoice No: 1001</invoiceNum>
+	<date>1/1/2002</date>	
+
+	<customer>
+		<name>Joe Bloggs</name>
+		<address>Dublin 1</address>
+	</customer>
+	
+	<table>
+		<row>
+			<product>Name</product>
+			<quanitity>Quantity</quanitity>
+			<amount>Amount</amount>
+		</row>
+		<row>
+			<product>Table</product>
+			<quantity>1</quantity>
+			<amount>250</amount>
+		</row>
+		<row>
+			<product>chair</product>
+			<quantity>6</quantity>
+			<amount>200</amount>
+		</row>
+	</table>
+</salesOrder>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process version="7.0.001">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="6.0.002" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="read_excel" compatibility="6.0.003" expanded="true" height="68" name="Read Excel" width="90" x="112" y="136">
+        <parameter key="excel_file" value="/Users/geraldine/Documents/work ALL FOLDERS June 10th 2015/3 Honours Degree/2 Text Analysis/assessments/urlList.xls"/>
+        <parameter key="sheet_number" value="1"/>
+        <parameter key="imported_cell_range" value="A1:C21"/>
+        <parameter key="encoding" value="SYSTEM"/>
+        <parameter key="first_row_as_names" value="false"/>
+        <list key="annotations">
+          <parameter key="0" value="Name"/>
+        </list>
+        <parameter key="date_format" value=""/>
+        <parameter key="time_zone" value="SYSTEM"/>
+        <parameter key="locale" value="English (United States)"/>
+        <list key="data_set_meta_data_information">
+          <parameter key="0" value="Company.true.polynominal.attribute"/>
+          <parameter key="1" value="webAddress.true.file_path.attribute"/>
+          <parameter key="2" value="Label.true.binominal.label"/>
+        </list>
+        <parameter key="read_not_matching_values_as_missings" value="true"/>
+        <parameter key="datamanagement" value="double_array"/>
+      </operator>
+      <operator activated="true" class="web:retrieve_webpages" compatibility="7.0.000" expanded="true" height="68" name="Get Pages" width="90" x="246" y="165">
+        <parameter key="link_attribute" value="webAddress"/>
+        <parameter key="page_attribute" value="content"/>
+        <parameter key="random_user_agent" value="false"/>
+        <parameter key="connection_timeout" value="10000"/>
+        <parameter key="read_timeout" value="10000"/>
+        <parameter key="follow_redirects" value="true"/>
+        <parameter key="accept_cookies" value="none"/>
+        <parameter key="cookie_scope" value="global"/>
+        <parameter key="request_method" value="GET"/>
+        <parameter key="delay" value="none"/>
+        <parameter key="delay_amount" value="1000"/>
+        <parameter key="min_delay_amount" value="0"/>
+        <parameter key="max_delay_amount" value="1000"/>
+      </operator>
+      <operator activated="true" class="text:process_document_from_data" compatibility="7.0.000" expanded="true" height="82" name="Process Documents from Data" width="90" x="447" y="165">
+        <parameter key="create_word_vector" value="true"/>
+        <parameter key="vector_creation" value="TF-IDF"/>
+        <parameter key="add_meta_information" value="true"/>
+        <parameter key="keep_text" value="false"/>
+        <parameter key="prune_method" value="absolute"/>
+        <parameter key="prune_below_percent" value="3.0"/>
+        <parameter key="prune_above_percent" value="30.0"/>
+        <parameter key="prune_below_absolute" value="2"/>
+        <parameter key="prune_above_absolute" value="5"/>
+        <parameter key="prune_below_rank" value="0.05"/>
+        <parameter key="prune_above_rank" value="0.95"/>
+        <parameter key="datamanagement" value="double_sparse_array"/>
+        <parameter key="select_attributes_and_weights" value="false"/>
+        <list key="specify_weights"/>
+        <process expanded="true">
+          <operator activated="true" class="web:extract_html_text_content" compatibility="7.0.000" expanded="true" height="68" name="Extract Content" width="90" x="112" y="75">
+            <parameter key="extract_content" value="true"/>
+            <parameter key="minimum_text_block_length" value="5"/>
+            <parameter key="override_content_type_information" value="true"/>
+            <parameter key="neglegt_span_tags" value="true"/>
+            <parameter key="neglect_p_tags" value="true"/>
+            <parameter key="neglect_b_tags" value="true"/>
+            <parameter key="neglect_i_tags" value="true"/>
+            <parameter key="neglect_br_tags" value="true"/>
+            <parameter key="ignore_non_html_tags" value="true"/>
+          </operator>
+          <operator activated="true" class="text:tokenize" compatibility="7.0.000" expanded="true" height="68" name="Tokenize" width="90" x="246" y="85">
+            <parameter key="mode" value="non letters"/>
+            <parameter key="characters" value=".:"/>
+            <parameter key="language" value="English"/>
+            <parameter key="max_token_length" value="3"/>
+          </operator>
+          <operator activated="true" class="text:filter_stopwords_english" compatibility="7.0.000" expanded="true" height="68" name="Filter Stopwords (English)" width="90" x="380" y="85"/>
+          <operator activated="false" class="text:extract_information" compatibility="7.0.000" expanded="true" height="68" name="Extract Information" width="90" x="179" y="210">
+            <parameter key="query_type" value="String Matching"/>
+            <list key="string_machting_queries"/>
+            <parameter key="attribute_type" value="Nominal"/>
+            <list key="regular_expression_queries"/>
+            <list key="regular_region_queries"/>
+            <list key="xpath_queries"/>
+            <list key="namespaces"/>
+            <parameter key="ignore_CDATA" value="true"/>
+            <parameter key="assume_html" value="true"/>
+            <list key="index_queries"/>
+            <list key="jsonpath_queries"/>
+          </operator>
+          <connect from_port="document" to_op="Extract Content" to_port="document"/>
+          <connect from_op="Extract Content" from_port="document" to_op="Tokenize" to_port="document"/>
+          <connect from_op="Tokenize" from_port="document" to_op="Filter Stopwords (English)" to_port="document"/>
+          <connect from_op="Filter Stopwords (English)" from_port="document" to_port="document 1"/>
+          <portSpacing port="source_document" spacing="0"/>
+          <portSpacing port="sink_document 1" spacing="0"/>
+          <portSpacing port="sink_document 2" spacing="0"/>
+        </process>
+      </operator>
+      <connect from_op="Read Excel" from_port="output" to_op="Get Pages" to_port="Example Set"/>
+      <connect from_op="Get Pages" from_port="Example Set" to_op="Process Documents from Data" to_port="example set"/>
+      <connect from_op="Process Documents from Data" from_port="example set" to_port="result 1"/>
+      <connect from_op="Process Documents from Data" from_port="word list" to_port="result 2"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
+    </process>
+  </operator>
+</process>

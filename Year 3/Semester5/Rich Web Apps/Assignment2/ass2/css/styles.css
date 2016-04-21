@@ -1,0 +1,85 @@
+.align_center 
+{
+	text-align: center;
+}
+
+#foot
+{
+	font-size: 8px;
+	color: #808080;
+	text-align: right;
+}
+
+#logo 
+{
+	width:80px;
+	height:35px;
+	margin-top: 5px;
+}
+
+.portfolio_img 
+{
+	width:100%;
+}
+ 
+.blog_logo 
+{
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+#header_image 
+{
+	margin: 2px;
+}
+
+#photolist > div > a > img 
+{
+	margin-right: 3px;
+	margin-left: 3px;
+	width: 100%;
+}
+
+#myphoto > a > img 
+{
+	width: 100%;
+}
+
+#videolist > div 
+{
+	width: 100%;
+	overflow: auto;
+}
+
+#videolist > div > a > img 
+{
+ 	width: 40%;
+ 	display: inline;
+ 	float: left;
+	margin: 0px 10px 10px 0px;
+}
+
+#videolist > div > h3 
+{
+	font-size: 14px;
+	display: inline;
+}
+
+.youtube_video_title 
+{
+	font-size: 14px;
+}
+
+.youtube_video_description 
+{
+	font-size: 12px;
+}
+
+#map_canvas 
+{
+    position: absolute;
+    top: 43px;
+    bottom: 58px;
+    left: 0px;
+    right: 0px;
+}

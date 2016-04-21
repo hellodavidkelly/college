@@ -1,0 +1,233 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red255\green39\blue18;\red192\green237\blue254;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh14500\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc
+
+\f0\fs48 \cf0 ROLE BASED VIEW CREATION\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\fs36 \cf0 R1(config)# aaa new-model \
+R1(config)# exit\uc0\u8232 R1# enable view\
+R1(config)#parser view \cf2 \ul \ulc2 *view-name*\cf0 \ulnone \
+R1(config-view)#commands exec include all show \cf2 (include all commands)\cf0 \
+R1(config-view)#commands exec exclude show run \cf2 (Remove show commands)\
+\cf0 R1#show parser view\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic Screen Shot 2015-09-23 at 09.52.47.png \width12000 \height8490
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc
+
+\fs48 \cf0 \
+MESSAGE LOGGING\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic Screen Shot 2015-09-23 at 10.05.01.png \width12000 \height5220
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\fs36 \cf0 R1(config)#logging host \cf2 \ul *host-name | ip-address*\cf0 \ulnone \
+R1(config)#logging trap \cf2 \ul *level 0-7*\
+\cf0 \ulnone R1(config)#logging source-interface \cf2 \ul *interface-type interface-number 
+\i fa0/1
+\i0 *\cf0 \ulnone //Don\'92t know if this is needed\
+R1(config)#logging on\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic Screen Shot 2015-09-23 at 10.25.05.png \width12000 \height7830
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc
+
+\fs48 \cf0 \
+CONFIGURE LOCAL AAA\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\fs36 \cf0 R1(config)# aaa new-model\
+R1(config)# aaa authentication login default local\
+R1(config)# line vty 0 4\
+R1(config-line)# login authentication default\
+R1(config-line)# authentication debug AAA\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc
+
+\fs48 \cf0 TACACS+ V RADIUS
+\fs36 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic Screen Shot 2015-09-30 at 09.45.48.png \width12000 \height7840
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 R1(config)# tacacs-server host \cf2 \ul *ip-address*\
+\cf0 \ulnone R1(config)# tacacs-server key \cf2 \ul *password key*\
+\cf0 \ulnone R1(config)# radius-server host \cf2 \ul *ip-address*\
+\cf0 \ulnone R1(config)# radius-server key \cf2 \ul *password key*\cf0 \ulnone \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc
+
+\fs48 \cf0 6 Steps to configuring Firewall technology
+\fs36 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+1. Create a class map\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs28 \cf0 	-Define traffic\
+		\cf2 \cb3 Layers 3 & 4\cf0 \cb1 \
+		1 Access group \cb3 (ACL)\cb1 \
+		2 Protocol \cb3 (HTTP,ICMP,\'85.)\cb1 \
+		3 Class map\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 2. Define policy map
+\fs28 \
+	-Specifies the action to be taken when traffic matches the criteria in the class map\
+\
+
+\fs36 3. Define zones
+\fs28 \
+	-Create\
+		-Inside\
+		-Outside	\
+		-DMZ\
+\
+
+\fs36 4. Create zone pairs \cb3 (Policy map can\'92t be applied to a single zone)\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs28 \cf0 	-inside to outside\
+	-outside to inside\
+	-dmz to outside\'85\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 5. Assign a policy map \cb3 (To a zone pair)\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs28 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 6. Assign interfaces to zones\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs28 \cf0 	-Fa0/0 \cb3 (inside)\cb1 \
+	-Fa0/1 \cb3 (outside)\cb1 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 Step 1\
+R1(config)# class-map type ?\
+R1(config)# class-map type inspect ?\
+R1(config)# class-map type inspect match-all ?\
+R1(config)# class-map type inspect match-all ICMP <cr> We are trying to inspect ping traffic and imp is the ping protocol\
+\
+R1(config-cmap)# match ?\
+R1(config-cmap)# match access-group ?\
+R1(config-cmap)# match protocol ?\
+R1(config-cmap)# match protocol icmp\
+R1(config-cmap)# exit\
+\
+Step 2\
+R1(config)# policy-map type ?\
+R1(config)# policy-map type inspect ?\
+R1(config)# policy-map type inspect INSIDE_TO_OUTSIDE\
+\
+R1(config-pmap)# ?\
+R1(config-pmap)# class type ?\
+R1(config-pmap)# class type inspect ?\
+R1(config-pmap)# class type inspect ICMP\
+\
+R1(config-pmap-c)# ? (drop/inspect/pass)\
+R1(config-pmap-c)# inspect\
+R1(config-pmap-c)# exit\
+R1(config-pmap)# exit\
+\
+Step 3\
+R1(config)# zone security INSIDE\
+R1(config-sec-zone)# exit\
+R1(config)# zone security OUTSIDE\
+R1(config-sec-zone)# exit\
+\
+Step 4\
+R1(config)# zone-pair security INSIDE_ZONE_TO_OUTSIDE_ZONE ?\
+R1(config)# zone-pair security INSIDE_ZONE_TO_OUTSIDE_ZONE source ?\
+R1(config)# zone-pair security INSIDE_ZONE_TO_OUTSIDE_ZONE source INSIDE ?\
+R1(config)# zone-pair security INSIDE_ZONE_TO_OUTSIDE_ZONE source INSIDE destination OUTSIDE\
+\
+Step 5\
+R1(config-sec-zone-pair)# service-policy type inspect INSIDE_TO_OUTSIDE\
+\
+Step 6\
+R1(config)# int fa0/0\
+R1(config-if)# zone-member security INSIDE\
+R1(config)# int fa0/1\
+R1(config-if)# zone-member security OUTSIDE\
+\
+R1# show policy-map type inspect zone-pair INSIDE_ZONE_TO_OUTSIDE_ZONE\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs28 \cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc
+
+\fs48 \cf0 Intrusion Detection / Prevention
+\fs28 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic Screen Shot 2015-10-14 at 10.23.22.png \width12000 \height7600
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 IPS is an inline sensor\
+Examines all traffic coming in to network from one point\
+\
+IDS is an offline sensor\
+Examines packet upon detection
+\fs28 \
+\
+
+\fs36 Pattern based detection \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic Screen Shot 2015-10-14 at 10.40.06.png \width12000 \height3220
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 \
+Policy based detection\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic Screen Shot 2015-10-14 at 10.40.47.png \width12000 \height2770
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 \
+\
+Anomaly based detection\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic Screen Shot 2015-10-14 at 10.42.31.png \width12000 \height2770
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs36 \cf0 \
+\
+Honey Pot based \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\fs24 \cf0 {{\NeXTGraphic Screen Shot 2015-10-14 at 10.44.46.png \width12000 \height7970
+}¬}}

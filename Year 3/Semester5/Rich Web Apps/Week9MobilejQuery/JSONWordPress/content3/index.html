@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>View Source</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_/css/yellow.css" />
+	<link rel="stylesheet" href="_/css/structure.css" />
+	
+	<script src="_/js/jquery.js"></script>
+	<script src="_/js/jquery.mobile.js"></script>
+
+	<script src="_/js/myscript.js"></script>
+	<link rel="stylesheet" href="_/css/mystyles.css" />
+</head>
+<body>
+	<!-- Page: home -->
+	<div id="home"
+		data-role="page"
+		data-theme="a"
+		data-title="View Source: Home">
+
+		<div data-role="content">
+			<img src="images/viewsourcelogo.png" alt="View Source Logo" />
+		</div>
+		<div data-role="controlgroup">
+			<a href="#blog" 
+				data-role="button"
+				data-icon="vs_blog"
+			>Blog</a>
+			<a href="#videos" 
+				data-role="button"
+				data-icon="vs_video"
+			>Videos</a>
+			<a href="#photos" 
+				data-role="button"
+				data-icon="vs_photo"
+			>Photos</a>
+			<a href="#tweets" 
+				data-role="button"
+				data-icon="vs_twitter"
+			>Tweets</a>
+		</div><!-- links -->
+	</div><!-- page -->
+
+	<!-- Page: blog -->
+	<div id="blog"
+		data-theme="a"
+		data-role="page"
+		data-title="View Source: Blog">
+		<div data-role="header"
+			data-theme="a"
+			data-position="fixed"
+			data-id="vs_header">
+			<h1>Blog</h1>
+			<a href="#home"
+				data-icon="home"
+				data-iconpos="notext"
+				>Home</a>
+			<a href="#info"
+				data-icon="info"
+				data-iconpos="notext"
+				data-rel="dialog"
+				>Info</a>
+		</div><!-- header -->
+		<div data-theme="a"
+			data-role="content"
+			id="postlist">
+		</div><!-- content -->
+		<div data-role="footer"
+			data-position="fixed"
+			data-theme="a"
+			data-id="vs_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" 
+					data-role="button"
+					data-icon="home"
+					>Home</a></li>
+					<li><a href="#" 
+					data-role="button"
+					data-icon="vs_blog"
+					>Blog</a></li>
+					<li><a href="#videos" 
+					data-role="button"
+					data-icon="vs_video"
+					>Videos</a></li>
+					<li><a href="#photos" 
+					data-role="button"
+					data-icon="vs_photo"
+					>Photos</a></li>
+					<li><a href="#tweets" 
+					data-role="button"
+					data-icon="vs_twitter"
+					>Tweets</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+
+	<!-- Page: Videos -->
+	<div id="videos"
+		data-role="page"
+		data-title="View Source: Videos">
+		<div data-role="header"
+			data-position="fixed"
+			data-id="vs_header">
+			<h1>Videos</h1>
+			<a href="#home"
+				data-icon="home"
+				data-iconpos="notext"
+				>Home</a>
+			<a href="#info"
+				data-icon="info"
+				data-iconpos="notext"
+				data-rel="dialog"
+				>Info</a>
+		</div><!-- header -->
+		<div data-role="content">
+
+	<div data-role="content">
+		<div class="ui-grid-a" id="videolist">
+			<div class="ui-block-a">
+				<a href="http://youtu.be/rD4P69D0X4k">
+					<div class="movietitle">Adobe Edge</div>
+					<img src="images/video_whatisedge.jpg" alt="Video: What is Adobe Edge?">
+				</a>
+			</div>
+			<div class="ui-block-b">
+				<a href="http://youtu.be/MHdHKh4AswY">
+					<div class="movietitle">Edge UI</div>
+					<img src="images/video_edgeui.jpg" alt="Video: Understanding the Edge Interface">
+				</a>
+			</div>
+			<div class="ui-block-a">
+				<a href="http://youtu.be/MHdHKh4AswY">
+					<div class="movietitle">Toggle buttons</div>
+					<img src="images/video_toggle.jpg" alt="Video: Create Toggle button">
+				</a>
+			</div>
+			<div class="ui-block-b">
+				<a href="http://youtu.be/MHdHKh4AswY">
+					<div class="movietitle">Image uploader</div>
+					<img src="images/video_uploader.jpg" alt="Video: Build an image uploader">
+				</a>
+			</div>
+		</div>
+	</div>
+
+		</div><!-- content -->
+		
+		<div data-role="footer"
+			data-position="fixed"
+			data-id="vs_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" 
+					data-role="button"
+					data-icon="home"
+					>Home</a></li>
+					<li><a href="#blog" 
+					data-role="button"
+					data-icon="vs_blog"
+					>Blog</a></li>
+					<li><a href="#" 
+					data-role="button"
+					data-icon="vs_video"
+					>Videos</a></li>
+					<li><a href="#photos" 
+					data-role="button"
+					data-icon="vs_photo"
+					>Photos</a></li>
+					<li><a href="#tweets" 
+					data-role="button"
+					data-icon="vs_twitter"
+					>Tweets</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+	
+	<!-- Page: Photos -->
+	<div id="photos"
+		data-role="page"
+		data-title="View Source: Photos">
+		<div data-role="header"
+			data-position="fixed"
+			data-id="vs_header">
+			<h1>Photos</h1>
+			<a href="#home"
+				data-icon="home"
+				data-iconpos="notext"
+				>Home</a>
+			<a href="#info"
+				data-icon="info"
+				data-iconpos="notext"
+				data-rel="dialog"
+				>Info</a>
+		</div><!-- header -->
+		<p>Photos from Flickr</p>
+		<div data-role="footer"
+			data-position="fixed"
+			data-id="vs_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" 
+					data-role="button"
+					data-icon="home"
+					>Home</a></li>
+					<li><a href="#blog" 
+					data-role="button"
+					data-icon="vs_blog"
+					>Blog</a></li>
+					<li><a href="#videos" 
+					data-role="button"
+					data-icon="vs_video"
+					>Videos</a></li>
+					<li><a href="#" 
+					data-role="button"
+					data-icon="vs_photo"
+					>Photos</a></li>
+					<li><a href="#tweets" 
+					data-role="button"
+					data-icon="vs_twitter"
+					>Tweets</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+	
+	<!-- Page: Tweets -->
+	<div id="tweets"
+		data-role="page"
+		data-title="View Source: Tweets">
+		<div data-role="header"
+			data-position="fixed"
+			data-id="vs_header">
+			<h1>Tweets</h1>
+			<a href="#home"
+				data-icon="home"
+				data-iconpos="notext"
+				>Home</a>
+			<a href="#info"
+				data-icon="info"
+				data-iconpos="notext"
+				data-rel="dialog"
+				>Info</a>
+		</div><!-- header -->
+		<p>Tweets page.</p>
+		<div data-role="footer"
+			data-position="fixed"
+			data-id="vs_footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" 
+					data-role="button"
+					data-icon="home"
+					>Home</a></li>
+					<li><a href="#blog" 
+					data-role="button"
+					data-icon="vs_blog"
+					>Blog</a></li>
+					<li><a href="#videos" 
+					data-role="button"
+					data-icon="vs_video"
+					>Videos</a></li>
+					<li><a href="#photos" 
+					data-role="button"
+					data-icon="vs_photo"
+					>Photos</a></li>
+					<li><a href="#" 
+					data-role="button"
+					data-icon="vs_twitter"
+					>Tweets</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div><!-- footer -->
+	</div><!-- page -->
+	
+	<div data-role="page"
+		id="info"
+		data-theme="a"
+		>
+		<div data-role="header">
+			<h1>About View Source</h1>
+		</div>
+		<div data-role="content">
+			<p>View Source offers short projects on intermediate to advanced web design topics, covering technologies such as HTML, PHP, jQuery, and CSS, as well as content management solutions like WordPress and integration with Twitter, YouTube, and more.</p>
+			<a href="#"
+				data-role="button"
+				data-inline="true"
+				data-rel="back"
+				data-theme="a"
+			>cancel</a>
+			<a href="#home"
+				data-role="button"
+				data-inline="true"
+				data-theme="a"
+			>home</a>
+		</div>
+	</div>
+	
+<script src="http://iviewsource.com/?json=recentstories&callback=listPosts" type="text/javascript"></script>
+	
+</body>
+</html>

@@ -1,0 +1,23 @@
+body
+{
+font-family: Helvetica;
+}
+
+table, td
+{	
+border: 2px solid green;
+color: black;
+border-collapse: collapse;
+}
+
+th
+{
+color: white;
+background-color: olive;
+border: 2px solid green;
+}
+
+tr.even
+{
+background-color: #FFF273;
+}

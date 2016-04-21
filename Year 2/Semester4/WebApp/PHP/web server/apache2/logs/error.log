@@ -1,0 +1,8 @@
+[Mon Apr 28 23:39:58 2014] [notice] Apache/2.2.21 (Win32) PHP/5.3.9 configured -- resuming normal operations
+[Mon Apr 28 23:39:58 2014] [notice] Server built: Sep 10 2011 11:34:11
+[Mon Apr 28 23:39:58 2014] [notice] Parent: Created child process 1136
+[Mon Apr 28 23:39:58 2014] [notice] Child 1136: Child process is running
+[Mon Apr 28 23:39:58 2014] [notice] Child 1136: Acquired the start mutex.
+[Mon Apr 28 23:39:58 2014] [notice] Child 1136: Starting 64 worker threads.
+[Mon Apr 28 23:39:58 2014] [notice] Child 1136: Starting thread to listen on port 8080.
+[Mon Apr 28 23:39:58 2014] [notice] Child 1136: Starting thread to listen on port 8080.

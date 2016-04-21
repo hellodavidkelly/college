@@ -1,0 +1,880 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<!-- start of server/head-include-1.html -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<meta name="DC.title" content="gnu.org" />
+<!-- end of server/head-include-1.html -->
+
+<!-- end of server/header.html -->
+
+<!-- Parent-Version: 1.77 -->
+
+
+<title>Essays and Articles
+- GNU Project - Free Software Foundation</title>
+
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/essays-and-articles.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/essays-and-articles.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/philosophy/essays-and-articles.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/essays-and-articles.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="ca" hreflang="ca" href="/philosophy/essays-and-articles.ca.html" title="català" />
+<link rel="alternate" type="text/html" lang="da" hreflang="da" href="/philosophy/essays-and-articles.da.html" title="dansk" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/essays-and-articles.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/essays-and-articles.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/essays-and-articles.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="gl" hreflang="gl" href="/philosophy/essays-and-articles.gl.html" title="galego" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/essays-and-articles.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/essays-and-articles.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/essays-and-articles.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/philosophy/essays-and-articles.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/essays-and-articles.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sr" hreflang="sr" href="/philosophy/essays-and-articles.sr.html" title="српски" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/combo.css" media="screen" />
+<link rel="stylesheet" href="/mini.css" media="handheld" />
+<link rel="stylesheet" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" href="/print.min.css" media="print" />
+<style type="text/css" media="print,screen">
+
+
+.crm-amount-fill {
+  background: #f2cd5f;
+  color: black;
+  border-radius: 1em;
+  padding-right: .3em; padding-left: .3em;
+  width: 100%;
+}
+.crm-amount-high {
+  float: right;
+}
+div.donate_btn {
+  float: right;
+}
+</style>
+<style type="text/css" media="print,screen">
+<!--
+div.fundraiser {
+  font-family: "FreeSans", sans-serif;
+  padding: .5em 1.5% .5em 1.5%;
+  background-color: #ced7ff;
+  background: -webkit-linear-gradient(#b4c2ff, white);
+  background: -o-linear-gradient(#b4c2ff, white);
+  background: -moz-linear-gradient(#b4c2ff, white);
+  background: linear-gradient(#b4c2ff, white);
+  border-top: .2em solid #5272fd;
+}
+.fundraiser a {
+  color: black;
+}
+.crm-amount-high {
+  padding: 0 .3em;
+  background-color: #4a5a6a;
+  border-radius: 1em;
+}
+.crm-amount-bar {
+  border-radius: 1em;
+  background-color: #778796;
+  color: white;
+  border: .1em solid #4a5a6a;
+  margin-bottom: .5em;
+}
+div.donate_btn {
+  margin: 1.5em 0 0 1.5em;
+}
+.donate_btn a{
+  display: block;
+  text-decoration: none;
+  font-weight:bold;
+  padding: 0.4em 1em;
+  color: black;
+  background-color: #f2cd5f;
+  text-align: center;
+  border: .1em solid #CCA832;
+  border-radius: 1em;
+}
+@media (max-width: 30em) {
+   .fundraiser {
+    display: none;
+  }
+}
+-->
+</style>
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+
+
+
+
+
+<div id="toplinks">
+ <a href="#content">Skip to main text</a>
+ <span class="gnun-split"></span>
+ <a href="/server/select-language.html?callback=/philosophy/essays-and-articles.html" rel="nofollow">
+ Set language
+ <span class="gnun-split"></span>
+ </a>
+</div> <!-- /toplinks -->
+
+<div id="searcher">
+ <form method="get" action="//www.gnu.org/cgi-bin/estseek.cgi">
+  <div>
+  <input name="phrase" id="phrase" type="text" size="18" accesskey="s"
+         value="Why GNU/Linux?" onfocus="this.value=''" />
+  <input type="submit" value="Search" />
+  </div>
+ </form>
+</div><!-- /searcher -->
+
+<div id="translations">
+<p>
+<span dir="ltr" class="original"><a lang="en" hreflang="en" href="/philosophy/essays-and-articles.en.html">English</a>&nbsp;[en]</span> &nbsp;
+<span dir="ltr"><a lang="ar" hreflang="ar" href="/philosophy/essays-and-articles.ar.html">العربية</a>&nbsp;[ar]</span> &nbsp;
+<span dir="ltr"><a lang="bg" hreflang="bg" href="/philosophy/essays-and-articles.bg.html">български</a>&nbsp;[bg]</span> &nbsp;
+<span dir="ltr"><a lang="ca" hreflang="ca" href="/philosophy/essays-and-articles.ca.html">català</a>&nbsp;[ca]</span> &nbsp;
+<span dir="ltr"><a lang="da" hreflang="da" href="/philosophy/essays-and-articles.da.html">dansk</a>&nbsp;[da]</span> &nbsp;
+<span dir="ltr"><a lang="de" hreflang="de" href="/philosophy/essays-and-articles.de.html">Deutsch</a>&nbsp;[de]</span> &nbsp;
+<span dir="ltr"><a lang="es" hreflang="es" href="/philosophy/essays-and-articles.es.html">español</a>&nbsp;[es]</span> &nbsp;
+<span dir="ltr"><a lang="fr" hreflang="fr" href="/philosophy/essays-and-articles.fr.html">français</a>&nbsp;[fr]</span> &nbsp;
+<span dir="ltr"><a lang="gl" hreflang="gl" href="/philosophy/essays-and-articles.gl.html">galego</a>&nbsp;[gl]</span> &nbsp;
+<span dir="ltr"><a lang="ja" hreflang="ja" href="/philosophy/essays-and-articles.ja.html">日本語</a>&nbsp;[ja]</span> &nbsp;
+<span dir="ltr"><a lang="nl" hreflang="nl" href="/philosophy/essays-and-articles.nl.html">Nederlands</a>&nbsp;[nl]</span> &nbsp;
+<span dir="ltr"><a lang="pl" hreflang="pl" href="/philosophy/essays-and-articles.pl.html">polski</a>&nbsp;[pl]</span> &nbsp;
+<span dir="ltr"><a lang="ro" hreflang="ro" href="/philosophy/essays-and-articles.ro.html">română</a>&nbsp;[ro]</span> &nbsp;
+<span dir="ltr"><a lang="ru" hreflang="ru" href="/philosophy/essays-and-articles.ru.html">русский</a>&nbsp;[ru]</span> &nbsp;
+<span dir="ltr"><a lang="sr" hreflang="sr" href="/philosophy/essays-and-articles.sr.html">српски</a>&nbsp;[sr]</span> &nbsp;
+</p>
+</div>
+
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+<div id="header">
+<div id="fsf-frame">
+<p id="join-fsf"><a href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a></p>
+<div id="fssbox">
+<p><a href="http://www.fsf.org/fss">Free Software Supporter</a></p>
+<form action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31" method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+ </div>
+ <p>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </p>
+</form>
+</div><!-- /fssbox -->
+</div><!-- /fsf-frame -->
+
+<div id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.small.png" alt=" [A GNU head] " /><strong>GNU</strong> Operating System</a>
+</div><!-- /gnu-banner -->
+
+<p id="fsf-support">Sponsored by the <a href="#mission-statement">Free Software Foundation</a></p>
+
+</div><!-- /header -->
+
+<div id="navigation">
+
+ <ul>
+  <li id="tabAboutGNU"><a href="/gnu/gnu.html">About&nbsp;GNU</a></li>
+  <li id="tabPhilosophy"><a href="/philosophy/philosophy.html">Philosophy</a></li>
+  <li id="tabLicenses"><a href="/licenses/licenses.html">Licenses</a></li>
+  <li id="tabEducation"><a href="/education/education.html">Education</a></li>
+  <li id="tabSoftware"><a href="/software/software.html">Software</a></li>
+  <li id="tabDoc"><a href="/doc/doc.html">Documentation</a></li>
+  <li id="tabHelp"><a href="/help/help.html">Help&nbsp;GNU</a></li>
+ </ul>
+
+</div><!--  /navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content">
+<!-- end of server/banner.html -->
+
+
+<div id="education-content">
+
+<!-- begin philosophy/philosophy-menu.html -->
+
+<!-- begin edu navigation bar -->
+<ul id="edu-navigation">
+	<li><a href="/philosophy/philosophy.html">Introduction</a></li>
+	<li><a href="http://audio-video.gnu.org/">Audio and video</a></li>
+	<li><a href="/philosophy/essays-and-articles.html">Essays and articles</a></li>
+	<li><a href="/philosophy/speeches-and-interview.html">Speeches and interviews</a></li>
+	<li><a href="/philosophy/third-party-ideas.html">Third party ideas</a></li>
+	<li><a href="/server/sitemap.html#directory-philosophy">All philosophy articles</a></li>
+</ul>
+<!-- end edu navigation bar -->
+
+<!-- end philosophy/philosophy-menu.html -->
+
+
+</div> <!-- id="education-content" -->
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<h2>Essays and Articles</h2>
+
+<p>This page lists a series of articles describing the philosophy of the
+free software movement, which is the motivation for our development of
+the free software operating system GNU.</p>
+
+<p>A <a href="/philosophy/latest-articles.html">list of the latest 
+published articles</a> is also available.</p>
+
+<p>
+<!-- please leave both these ID attributes here. ... -->
+<a id="TOCFreedomOrganizations">We</a>
+<a id="FreedomOrganizations">also</a>
+<!-- ... we removed this as an H$ section as it was duplicating the  -->
+<!-- same information on links.html, but it's possible that some users -->
+<!-- have the URLs bookmarked or on their pages. -len -->
+keep a list of
+<a href="/links/links.html#FreedomOrganizations">Organizations
+that Work for Freedom in
+Computer Development and Electronic Communications</a>.</p>
+
+<h3 id="aboutfs">About Free Software</h3>
+<p>
+Free software is a matter of freedom: people should be free to use
+software in all the ways that are socially useful.  Software differs
+from material objects&mdash;such as chairs, sandwiches, and
+gasoline&mdash;in that it can be copied and changed much more easily.
+These possibilities make software as useful as it is; we believe
+software users should be able to make use of them.</p>
+
+<ul>
+  <li><a href="/philosophy/free-sw.html">What is Free Software?</a></li>
+  <li><a href="/philosophy/why-free.html">Why
+      Software Should Not Have Owners</a></li>
+  <li><a href="/philosophy/shouldbefree.html">Why
+      Software Should Be Free</a>  (This is an older and longer
+      essay about the same topic as the previous one)</li>
+  <li><a href="/philosophy/free-doc.html">Why Free Software Needs
+      Free Documentation</a></li>
+ <li><a href="/philosophy/when-free-depends-on-nonfree.html">
+  When Free Software Depends on Nonfree</a></li>
+  <li><a href="/philosophy/selling.html">Selling Free Software</a> is OK!</li>
+  <li><a href="/philosophy/categories.html">Categories of Free and
+      Non-Free Software</a></li>
+  <li><a href="/philosophy/floss-and-foss.html"> FLOSS and FOSS</a></li>
+  <li><a href="/software/reliability.html">Free Software is More Reliable!</a></li>
+  <li><a href="/philosophy/when-free-software-isnt-practically-superior.html">
+      When Free Software Isn't (Practically) Superior</a></li>
+  <li><a href="/philosophy/open-source-misses-the-point.html">Why
+       &ldquo;Open Source&rdquo; misses the point of Free Software</a></li>
+  <li><a href="/philosophy/free-open-overlap.html">How Free Software and 
+      Open Source Relate as Categories of Programs</a></li>
+  <li><a href="/philosophy/linux-gnu-freedom.html">Linux, GNU, and
+      Freedom</a></li>
+  <li><a href="/philosophy/gnutella.html"
+         id="Gnutella">Regarding Gnutella</a></li>
+  <li><a href="/philosophy/schools.html">Why Schools Should Use
+      Exclusively Free Software</a></li>
+  <li><a href="/philosophy/my_doom.html">MyDoom and You</a></li>
+  <li><a href="/philosophy/15-years-of-free-software.html">
+      15 Years of Free Software</a></li>
+  <li><a href="/philosophy/free-software-intro.html">Free Software movement</a></li>
+  <li><a href="/philosophy/your-freedom-needs-free-software.html">
+      Your Freedom Needs Free Software</a></li>
+  <li><a href="/philosophy/fs-motives.html">
+      Motives For Writing Free Software</a></li>
+  <li><a href="/philosophy/government-free-software.html">Measures 
+      Governments Can Use to Promote Free Software</a></li>
+  <li><a href="/philosophy/uruguay.html">Lesson from Uruguay</a>. The FSF
+      learned something from a bill presented in Uruguay.</li>
+  <li><a href="/philosophy/programs-must-not-limit-freedom-to-run.html">
+      Why programs must not limit the freedom to run them</a> &mdash;
+      Freedom 0 must not be limited.</li>
+  <li><a href="/philosophy/imperfection-isnt-oppression.html">
+      Imperfection is not the same as oppression</a></li> 
+  <li><a href="/philosophy/applying-free-sw-criteria.html">
+      Applying the Free Software Criteria</a></li>
+</ul>
+
+<h3 id="aboutgnu">About the GNU Operating System</h3>
+
+<ul>
+  <li><a href="/gnu/initial-announcement.html">Initial announcement of
+       the GNU Operating System</a></li>
+  <li><a href="/gnu/manifesto.html">The GNU Manifesto</a></li>
+  <li><a href="/gnu/gnu-history.html">Brief history of the GNU Project</a></li>
+  <li><a href="/gnu/thegnuproject.html">The GNU Project</a>,
+      a longer and more complete description of the project and its
+      history.</li>
+  <li><a href="/fsf/fsf.html">What is the Free Software Foundation?</a></li>
+  <li><a href="/gnu/why-gnu-linux.html">Why GNU/Linux?</a></li>
+</ul>
+
+<h3 id="LicensingFreeSoftware">Licensing Free Software</h3>
+
+<ul>
+  <li><a href="/licenses/licenses.html">General information on licensing 
+      and copyleft</a></li>
+  <li><a href="/licenses/license-list.html">A list of free and nonfree
+      licenses, with comments</a>.</li>
+  <li><a href="/licenses/gpl-faq.html">Frequently Asked Questions About 
+      the GNU Licenses</a></li>
+  <li><a href="/licenses/why-not-lgpl.html">Why You Shouldn't Use the 
+      Lesser GPL for Your Next Library</a></li>
+  <li><a href="/licenses/copyleft.html">Copyleft</a></li>
+  <li><a href="/philosophy/why-copyleft.html">Why Copyleft?</a></li>
+  <li><a href="/philosophy/university.html">Releasing Free Software if 
+      You Work at a University</a></li>
+  <li><a href="/philosophy/pragmatic.html">Copyleft: Pragmatic Idealism</a></li>
+  <li><a href="/philosophy/javascript-trap.html">Javascript Trap</a>. 
+         You may be running nonfree programs on your computer 
+         every day without realizing it&mdash;through your web browser.</li>
+  <li><a href="http://www.fsf.org/blogs/licensing/20050211.html">
+      Censorship envy and licensing</a></li>
+  <li><a href="/philosophy/x.html">The X Window System Trap</a></li>
+  <li><a href="/philosophy/apsl.html">The Problems of the Apple License</a></li>
+  <li><a href="/licenses/bsd.html">The BSD License Problem</a></li>
+  <li><a href="/philosophy/netscape-npl.html">The Netscape Public License 
+      Has Serious Problems</a>. An <a href="/philosophy/netscape-npl-old.html">
+      earlier version of this article</a> is also available.</li>
+  <li><a href="/philosophy/udi.html">The Free Software Movement and UDI</a></li>
+  <li><a href="/philosophy/gates.html">It's not the Gates, it's the 
+      bars</a>, an article by Richard Stallman published in BBC News in
+      2008.</li>
+  <li><a href="/philosophy/microsoft.html">Is Microsoft the Great Satan?</a>  
+      (An <a href="/philosophy/microsoft-old.html">older version</a> of 
+      this article is also available.)</li>
+  <li><a href="/philosophy/microsoft-antitrust.html">The Microsoft 
+      Antitrust Trial and Free Software</a></li>
+  <li><a href="/philosophy/microsoft-verdict.html">On the Microsoft Verdict</a></li>
+  <li><a href="/philosophy/microsoft-new-monopoly.html">
+       Microsoft's New Monopoly</a></li>
+  <li><a href="/philosophy/lest-codeplex-perplex.html">
+      Lest CodePlex perplex</a></li>
+  <li><a href="/philosophy/plan-nine.html" id="PlanNineLicense">
+      The Problems of the Plan 9 License</a></li>
+  <li><a href="/philosophy/motif.html" id="MotifLicense">
+      The New Motif License</a></li>
+  <li><a href="/philosophy/using-gfdl.html" id="UsingGFDL">Using the GNU FDL</a></li>
+  <li><a href="/philosophy/gpl-american-way.html" id="GPLAmericanWay">
+      The GNU GPL and the American Way</a></li>
+  <li><a href="/philosophy/gpl-american-dream.html" id="GPLAmericanDream">
+      The GNU GPL and the American Dream</a></li>
+  <li><a href="/philosophy/enforcing-gpl.html" id="EnforcingGPL">
+      Enforcing the GNU GPL</a></li>
+  <li><a href="/philosophy/selling-exceptions.html">
+      On Selling Exceptions to the GNU GPL</a></li>
+  <li><a href="/philosophy/freedom-or-power.html" id="FreedomOrPower">
+      Freedom or Power?</a></li>
+  <li><a href="/philosophy/no-word-attachments.html" id="NoWordAttachments">
+      We Can Put an End to Word Attachments</a></li>
+  <li><a href="/philosophy/java-trap.html" id="JavaTrap">
+      Free But Shackled - The Java Trap</a> (Although Sun has 
+      <a href="http://www.fsf.org/news/fsf-welcomes-gpl-java.html">
+      relicensed</a> most of its Java platform reference implementation
+      under the GNU General Public License, the issue described in this
+      article still remains important.)</li>  
+  <li><a href="/philosophy/rtlinux-patent.html">GPL-compliant version
+      of RTLinux Open Patent License in Works</a></li>
+</ul>
+
+<h3 id="Laws">Laws and Issues</h3>
+
+<p><a href="/philosophy/stallmans-law.html">Stallman's Law</a></p>
+
+<h4 id="patents">Patents</h4>
+
+<ul>  
+  <li><a href="/philosophy/limit-patent-effect.html">Giving the Software
+  Field Protection from Patents</a></li>
+
+  <li><a href="/philosophy/w3c-patent.html">FSF's Position on W3
+  Consortium &ldquo;Royalty-Free&rdquo; Patent Policy</a>
+  rewritten</li>
+
+  <li>How to Protect the <a href="/philosophy/protecting.html">Right
+  to Write Software</a> (whether it's free or not).</li>
+
+  <li>In <a href="https://www.eff.org/press/releases/princeton-scientists-sue-over-squelched-research">
+  Felten v. RIAA</a>, scientists are asking a court to rule that the
+  Digital Millennium Copyright Act (DMCA) does not prohibit them from
+  publishing their research.</li>
+
+  <li><a href="https://www.eff.org/search/site/dvd cases/">EFF
+  &ldquo;Intellectual Property&rdquo;: MPAA (Motion Picture Association of
+  America) DVD Cases Archive</a></li>
+
+  <li><a href="/philosophy/patent-reform-is-not-enough.html">Patent
+  Reform Is Not Enough</a></li>
+
+  <li><a href="/philosophy/savingeurope.html">Saving Europe from
+  Software Patents</a></li>
+
+  <li><a href="/philosophy/europes-unitary-patent.html">Europe's 
+  &ldquo;unitary patent&rdquo; could mean unlimited software patents</a></li>
+
+  <li><a href="/philosophy/amazon.html">Boycott Amazon!</a></li>
+  
+  <li><a href="/philosophy/amazon-nat.html">Amazon Boycott Success!</a>, a 
+  letter from Nat Friedman to Richard Stallman.</li>
+  
+  <li><a href="/philosophy/amazon-rms-tim.html">Letter from RMS to Tim 
+  O'Reilly</a> in regard to a statement by Jeff Bezos, CEO of Amazon, on 
+  the duration of software patents.</li>
+  
+  <li><a href="/philosophy/amazonpatent.html">Amazon's patent on a system 
+  for placing a purchase order over the internet</a>, with notes by Richard
+  Stallman.</li>
+
+  <li><a href="https://web.archive.org/web/20000815064858/http://www.researchoninnovation.org/patent.pdf"
+  id="SequentialIPandI">Sequential Innovation, Patents, and
+  Imitation</a> is a paper that presents a mathematical model showing
+  how patents can impede progress in fields like software.</li>
+
+  <li><a href="/philosophy/hague.html">Harm from the Hague</a>.</li>
+
+  <li><a href="/philosophy/guardian-article.html">Opposing The European
+  Software Patent Directive</a>, a slightly modified version of the 
+  article originally published in <a href="http://www.theguardian.com/international">
+  The Guardian</a> of London, by Richard Stallman and Nick Hill.</li>
+
+  <li><a href="http://www.theguardian.com/technology/2005/aug/02/comment.business">
+  Soft sell</a>. Richard Stallman's comments on the defeat of the EU 
+  software patenting directive. Published in <i>The Guardian</i> in 2005.</li>
+
+  <li><a href="http://www.theguardian.com/technology/2005/jun/23/onlinesupplement.insideit">
+  Patent absurdity</a>, an article by Richard M. Stallman published in
+  <i>The Guardian</i> in 2005.</li>
+
+  <li><a href="/philosophy/bill-gates-and-other-communists.html">Bill Gates
+  and Other Communists</a>. An article by Richard Stallman published
+  in CNET News.com in 2005.</li>
+
+  <li><a href="/philosophy/trivial-patent.html">The Anatomy of a
+  Trivial Patent</a>, by Richard M. Stallman.</li>
+
+  <li><a href="/philosophy/fighting-software-patents.html" id="FightingSoftwarePatents">
+  Fighting Software Patents - Singly and Together</a></li>
+
+  <li><a href="/philosophy/software-patents.html">Software patents &mdash; 
+  Obstacles to software development</a></li>
+  
+  <li><a href="/philosophy/software-literary-patents.html" id="SoftwareLiteraryPatents">
+      Software Patents and Literary Patents</a>, by Richard M. Stallman,
+      speaking of patenting artistic techniques, US patent (6,935,954)
+      covers making game characters start to hallucinate when (according to
+      the game) they are being driven insane. That is getting pretty close
+      to the hypothetical examples cited in this article.</li>  
+
+  <li><a href="/philosophy/gif.html">Why there are no GIF files on GNU web 
+  pages</a>, While this story is a historical illustration of the danger of 
+  software patents, these particular patents are now no longer a concern. 
+  For details of our website 
+  <a href="/server/fsf-html-style-sheet.html#UseofGraphics">
+  policies regarding GIFs</a>, see our web <a href="/server/standards/">
+  web guidelines</a>.</li> 
+</ul>
+
+<h4 id="copyright">Copyright</h4>
+
+<ul>
+  <li><a href="/philosophy/assigning-copyright.html">When a Company Asks 
+  For Your Copyright</a></li>
+
+  <li><a href="/philosophy/public-domain-manifesto.html">Why I Will Not Sign
+  the Public Domain Manifesto</a></li>
+
+  <li><a href="/philosophy/pirate-party.html">How the Swedish Pirate Party 
+  Platform Backfires on Free Software</a></li>
+
+  <li><a href="/philosophy/misinterpreting-copyright.html">Misinterpreting
+  Copyright</a> is another essay by Richard Stallman about the
+  flaws in popular defenses of copyright law.</li>
+
+  <li><a href="/philosophy/eldred-amicus.html">FSF's Brief Amicus
+  Curiae in the Eldred v. Ashcroft Supreme Court case</a></li>
+
+  <li><a href="/philosophy/push-copyright-aside.html">Science must
+  &ldquo;push copyright aside&rdquo;</a>, another work of <a
+  href="http://www.stallman.org">Richard Stallman</a> that appeared in
+  the <a
+  href="http://www.nature.com/nature/debates/e-access/Articles/stallman.html">
+  Nature Webdebates</a> in 2001, explains how copyright is impeding
+  progress in scientific research.  You may also be interested in <a
+  href="https://www.plos.org/">The Public Library of
+  Science</a>, which is dedicated to making scientific research freely
+  available to all on the Internet.</li>
+
+  <li><a href="/philosophy/reevaluating-copyright.html">Reevaluating
+  Copyright: The Public must prevail</a></li>
+
+  <li><a href="http://cyber.law.harvard.edu/openlaw/eldredvashcroft/cyber/complaint_orig.html">
+  Eldred v. Reno</a> is about a lawsuit to overturn a law that extends
+  copyright by 20 extra years.</li>
+
+  <li><a href="/philosophy/freedom-or-copyright.html">Freedom-Or
+  Copyright?</a>, by Richard Stallman (an <a
+  href="/philosophy/freedom-or-copyright-old.html">older version</a> of
+  this essay remains online as well.)</li>
+
+  <li>An English translation of the famous 
+  <a href="http://www.oii.ox.ac.uk/resources/feedback/OIIFB_GPL2_20040903.pdf">
+  decision of the District Court of Munich regarding the enforceability and 
+  validity of the GPL</a>. The translation was done by the Oxford Internet
+  Institute.</li>
+  <!-- This link is broken
+  <li><a href="http://www.humaninfo.org/copyrigh.htm">Examples of
+  Excellent Copyright Policies</a></li>
+  -->
+</ul>
+
+<h4 id="drm">Digital Restrictions Management</h4>
+
+<ul>
+  <li><a href="/philosophy/correcting-france-mistake.html">
+  Correcting My Mistake about French Law</a></li>
+  <li><a href="/philosophy/the-root-of-this-problem.html">The problem is
+  software controlled by its developer</a>, by Richard&nbsp;M. Stallman.</li>
+
+  <li><a href="/philosophy/computing-progress.html">Computing
+  &ldquo;progress&rdquo;: good and bad</a>, by Richard M. Stallman.</li>
+
+  <li><a href="/philosophy/opposing-drm.html">Opposing Digital Rights
+  Mismanagement</a>, by Richard M. Stallman, answers a few common
+  questions about DRM.</li>
+
+  <li><a href="/philosophy/ebooks.html">Ebooks: Freedom Or
+  Copyright</a> a slightly modified version of the article, originally
+  published in Technology Review in 2000, by Richard Stallman</li>
+
+  <li><a href="/philosophy/ebooks-must-increase-freedom.html">
+  Ebooks must increase our freedom, not decrease it</a></li>
+
+  <li><a href="/philosophy/can-you-trust.html">Can you trust your
+  computer?</a>, a work by Richard Stallman about the so-called 
+  &ldquo;trusted computing&rdquo; initiatives.</li>
+
+  <li><a href="/philosophy/right-to-read.html">The Right to Read: A
+  Dystopian Short Story</a> by Richard Stallman.</li>
+</ul>
+
+<h4 id="noip">The propaganda
+term <a href="/philosophy/words-to-avoid.html#IntellectualProperty">
+&ldquo;Intellectual Property&rdquo;</a></h4>
+
+<ul>
+  <li><a href="/philosophy/komongistan.html">The Curious History of 
+  Komongistan (Busting the term &ldquo;intellectual property&rdquo;)</a></li>
+  
+  <li><a href="/philosophy/no-ip-ethos.html">Don't Let
+  &ldquo;Intellectual Property&rdquo; Twist Your Ethos</a>, by
+  Richard Stallman.</li>
+
+  <li>Comments from Richard Stallman
+  on <a href="/philosophy/ipjustice.html">the ICLC's rejection of the
+  IP Enforcement Directive</a></li>
+
+  <li>Richard Stallman has
+  written <a href="/philosophy/boldrin-levine.html">a review of
+  Boldrin and Levine's &ldquo;The case against intellectual
+  property.&rdquo;</a></li>
+
+  <li><a href="/philosophy/not-ipr.html">Did You Say
+  &ldquo;Intellectual Property&rdquo;?  It's a Seductive Mirage</a>.
+  An essay on the true meaning of the phrase &ldquo;Intellectual
+  Property&rdquo;, by Richard M. Stallman.</li>
+</ul>
+
+<h4 id="ns">Network Services</h4>
+<ul>
+  <li><a href="/philosophy/network-services-arent-free-or-nonfree.html">
+  Network Services Aren't Free or Nonfree; They Raise Other Issues</a> an
+  article by Richard Stallman.</li>
+  <li><a href="/philosophy/who-does-that-server-really-serve.html">Who
+  does that server really serve?</a>  by Richard Stallman published
+  in <a href="http://www.bostonreview.net/richard-stallman-free-software-DRM">
+  Boston Review.</a></li>
+</ul>
+
+<h4 id="cultural">Cultural and Social Issues</h4>
+
+<ul>
+  <li><a href="/philosophy/technological-neutrality.html">
+  Technological Neutrality and Free Software</a>
+  by Richard Stallman</li>
+
+  <li><a href="/philosophy/surveillance-vs-democracy.html">How Much
+  Surveillance Can Democracy Withstand?</a> by Richard Stallman</li>
+
+  <li><a href="/philosophy/nonfree-games.html">Nonfree DRM'd Games on
+  GNU/Linux: Good or Bad?</a> by Richard Stallman.</li>
+
+  <li> <a href="http://www.theguardian.com/technology/blog/2010/apr/06/digital-economy-bill-richard-stallman">
+  Digital economy bill: One clown giveth and the other clown taketh 
+  away</a>, by Richard Stallman.</li>
+
+  <li><a href="/philosophy/digital-inclusion-in-freedom.html">
+  Is Digital Inclusion A Good Thing? How Can We Make Sure It Is?</a> 
+  By Richard Stallman.</li>
+
+  <li><a href="/philosophy/wsis.html">World Summit on the Information
+  Society</a></li>
+
+  <li><a href="/philosophy/wassenaar.html">Encryption software
+  volunteers needed in countries without export control</a>.</li>
+
+  <li>How to Protect the <a href="/philosophy/basic-freedoms.html">
+  Freedoms of Speech, Press, and Association</a> on the Internet.</li>
+
+  <li><a href="/philosophy/privacyaction.html">Protect Postal
+  Privacy</a>, a campaign to resist the proposed rule by the United
+  States Postal Service to collect private information from
+  customers.</li>
+
+  <li><a href="/philosophy/ucita.html">Why We Must Fight UCITA</a></li>
+
+  <li><a href="/philosophy/second-sight.html">Free Software and
+  (e-)Government</a> &mdash; an article from The Guardian, by Richard
+  Stallman (originally published under the title &ldquo;Second
+  Sight&rdquo;).</li>
+
+  <li><a href="https://web.archive.org/web/20060721162054/http://www.insnet.org/ins_headlines.rxml?cust=212&amp;id=967">
+  Free Software and Sustainable Development</a> &mdash; A short
+  article by Richard Stallman regarding the use of proprietary
+  software in cultural development.</li>
+
+  <li><a href="/philosophy/keep-control-of-your-computing.html">
+  Keep control of your computing, so it doesn't control you!</a></li>
+
+  <li><a href="/philosophy/judge-internet-usage.html">
+  A wise user judges each Internet usage scenario carefully</a></li>
+
+  <li><a href="/philosophy/the-danger-of-ebooks.html">The Danger of E-Books</a></li>
+
+  <li><a href="/philosophy/is-ever-good-use-nonfree-program.html">
+  Is It Ever a Good Thing to Use a Nonfree Program?</a> By
+  Richard Stallman.</li>
+</ul>
+
+
+<h4 id="misc">Misc</h4>
+
+<ul>
+  <li><a href="/philosophy/proprietary.html">Clearly established 
+  cases of proprietary software that does nasty things to the
+  users</a>.</li>
+
+  <li><a href="/philosophy/practical.html">The advantages of free 
+  software</a>.</li>
+
+  <li><a href="/philosophy/bug-nobody-allowed-to-understand.html">The
+  Bug Nobody is Allowed to Understand</a>, By Richard Stallman.</li>
+
+  <li><a href="/philosophy/sun-in-night-time.html">The Curious
+  Incident of Sun in the Night-Time</a>, by Richard M. Stallman.</li>
+
+  <li><a href="/philosophy/sco/sco-gnu-linux.html">SCO, GNU, and
+  Linux</a>, by Richard Stallman, discusses how SCO's lawsuit against
+  IBM pertains to the work of the GNU project.  Please see
+  the <a href="/philosophy/sco/sco.html">FSF SCO Response Page</a> for
+  more details on this subject.</li>
+
+  <li><a href="/philosophy/ms-doj-tunney.html">FSF's Statement in
+  Response to Proposed Revised Final Judgment in Microsoft vs. United
+  States, submitted to the US Department of Justice under the Tunney
+  Act</a>.</li>
+
+  <li><a href="/philosophy/new-monopoly.html">U.S. Congress Threatens
+  to Establish a New Kind of Monopoly</a>, an attempt of the Congress
+  to create a private monopoly over repeating publicly known
+  information.</li>
+
+  <li><a href="/philosophy/dat.html">The Right Way to Tax DAT</a></li>
+
+  <li><a href="/philosophy/censoring-emacs.html">Censoring My
+  Software</a>, by Richard Stallman.</li>
+  
+  <li><a href="/philosophy/funding-art-vs-funding-software.html">Funding
+  Art vs Funding Software</a>, by Richard Stallman.</li>
+
+  <li><a href="/philosophy/android-and-users-freedom.html">
+  Android and Users' Freedom</a></li>
+
+  <li><a href="/philosophy/ubuntu-spyware.html">Ubuntu Spyware: What to Do?</a></li>
+
+  <li><a href="/philosophy/whats-wrong-with-youtube.html">What's Wrong with 
+  YouTube</a></li>
+
+  <li><a href="/philosophy/netscape.html">Netscape and Free Software</a>,
+  an old article that clarifies some misunderstandings about an 
+  announcement by Netscape.</li>
+
+  <li><a href="/philosophy/rms-comment-longs-article.html">Comments on 
+  Roderick Long's Article</a>.</li>
+</ul>
+
+<h3 id="terminology">Terminology and Definitions</h3>
+
+<ul>
+  <li><a href="/philosophy/free-hardware-designs.html">
+      Free Hardware and Free Hardware Designs</a></li>
+  <li><a href="/philosophy/words-to-avoid.html">Confusing Words</a>
+      which You Might Want to Avoid</li>
+  <li><a href="/philosophy/wipo-PublicAwarenessOfCopyright-2002.html">
+      Public Awareness of Copyright, WIPO, June 2002</a>. On how WIPO 
+      recognizes that their system is designed to restrict the public, and
+      how they propose to modify terminology so that people won't notice.</li>
+  <li><a href="/philosophy/open-source-misses-the-point.html">Why
+      &ldquo;Open Source&rdquo; misses the point of Free Software</a></li>
+  <li><a href="/philosophy/free-software-for-freedom.html">&ldquo;Open
+      Source Software&rdquo; or &ldquo;Free Software&rdquo;?</a>
+      (This is an older essay about the same topic as the previous one.)</li>
+  <li>Richard Stallman wrote <a href="/philosophy/drdobbs-letter.html">
+      letter to the editor</a> of Dr. Dobb's Journal in June 2001 which further 
+      explains the distinction between the Free Software and Open Source 
+      movements.</li>
+  <li><a href="/philosophy/categories.html">Categories of Free and
+      Non-Free Software</a></li>
+  <li><a href="/philosophy/loyal-computers.html">
+      What Does It Mean for Your Computer to Be Loyal?</a></li>
+  <li><a href="/philosophy/fs-translations.html">Translations of the
+      term &ldquo;free software&rdquo;</a> into various languages.</li>
+  <li><a href="/philosophy/why-call-it-the-swindle.html">Why call it the
+      Swindle</a></li>
+</ul>
+
+<h3 id="upholding">Upholding Software Freedom</h3>
+
+<ul>
+  <li><a href="/philosophy/use-free-software.html">The Free Software 
+      Community After 20 Years</a>, With great but incomplete success, 
+      what now?</li>
+  <li><a href="/philosophy/mcvoy.html">Thank You, Larry McVoy</a>, 
+      by Richard M. Stallman.</li>
+  <li><a href="/philosophy/social-inertia.html">
+      Overcoming Social Inertia</a>, by Richard M. Stallman.</li>
+  <li><a href="/philosophy/compromise.html">Avoiding Ruinous Compromises</a></li>
+  <li><a href="/philosophy/free-software-even-more-important.html">
+      Free Software Is Even More Important Now</a></li>
+</ul>
+
+<h3>Philosophical humor</h3>
+
+<ul>
+<li><a href="/fun/humor.html#Philosophy">Philosophy Humor</a>.
+    We don't have to be serious <i>all</i> the time.</li>
+</ul>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+<div id="fsf-links">
+ <ul>
+  <li><a href="/">GNU&nbsp;home&nbsp;page</a></li>
+  <li><a href="http://www.fsf.org/">FSF&nbsp;home&nbsp;page</a></li>
+  <li><a href="/graphics/graphics.html">GNU&nbsp;Art</a></li>
+  <li><a href="/people/people.html">GNU's&nbsp;Who?</a></li>
+  <li><a href="http://directory.fsf.org">Free&nbsp;Software&nbsp;Directory</a></li>
+  <li><a href="https://h-node.org/">Hardware</a></li>
+  <li><a href="/server/sitemap.html">Site&nbsp;map</a></li>
+ </ul>
+</div><!-- /fsf-links -->
+
+<div id="mission-statement">
+
+<blockquote>
+<p><a href="http://www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext.png" alt=" [FSF logo] "/></a><strong>&ldquo;Our
+mission is to preserve, protect and promote the freedom to use, study,
+copy, modify, and redistribute computer software, and to defend the
+rights of Free Software users.&rdquo;</strong></p>
+</blockquote>
+
+<p>The <a href="http://www.fsf.org">Free Software Foundation</a> is
+the principal organizational sponsor of the GNU Operating System.
+<strong>Support GNU and the FSF</strong> by <a
+href="http://shop.fsf.org/">buying manuals and gear</a>, <a
+href="https://my.fsf.org/associate/support_freedom?referrer=4052">
+<strong>joining the FSF</strong></a> as an associate member, or making
+a <strong>donation</strong>, either <a
+href="http://donate.fsf.org/">directly to the FSF</a> or <a
+href="http://flattr.com/thing/313733/gnuproject-on-Flattr">via
+Flattr</a>.</p>
+
+<p id="backtotop"><a href="#header">back to top</a></p>
+
+</div><!-- /mission-statement -->
+<!-- end server/footer-text.html -->
+
+
+<div id="footer">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and submitting translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations README</a> for
+information on coordinating and submitting translations of this article.</p>
+</div>
+
+<p>Copyright &copy; 1996-2016 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div class="unprintable">
+<p><a href="http://www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+
+
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2016/04/09 05:35:57 $
+<!-- timestamp end -->
+</p>
+</div>
+</div>
+</body>
+</html>

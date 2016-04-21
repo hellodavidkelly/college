@@ -1,0 +1,51 @@
+Apr 20 14:53:03.393 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 20 14:53:03.393 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55547.
+Apr 20 14:53:03.517 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 20 14:53:03.517 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 20 14:53:03.517 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 1)\project-files\dynamips 
+Apr 20 14:53:03.517 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 1)\project-files\dynamips
+Apr 20 14:53:03.533 HYPERVISOR: exec_cmd: vm create ASW2 2 c3725 
+Apr 20 14:53:03.533 VM: VM ASW2 created.
+Apr 20 14:53:03.564 HYPERVISOR: exec_cmd: vm set_con_tcp_port ASW2 2005 
+Apr 20 14:53:03.564 HYPERVISOR: exec_cmd: vm set_aux_tcp_port ASW2 2503 
+Apr 20 14:53:03.564 HYPERVISOR: exec_cmd: c3725 get_mac_addr ASW2 
+Apr 20 14:53:03.564 HYPERVISOR: exec_cmd: vm slot_add_binding ASW2 0 16 WIC-1T 
+Apr 20 14:53:03.580 HYPERVISOR: exec_cmd: vm slot_add_binding ASW2 0 32 WIC-1T 
+Apr 20 14:53:03.580 HYPERVISOR: exec_cmd: vm get_status ASW2 
+Apr 20 14:53:03.580 HYPERVISOR: exec_cmd: vm set_idle_pc ASW2 0x6026b804 
+Apr 20 14:53:03.580 HYPERVISOR: exec_cmd: vm set_ram ASW2 192 
+Apr 20 14:53:03.580 HYPERVISOR: exec_cmd: vm set_ios ASW2 C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 20 14:53:03.595 HYPERVISOR: exec_cmd: vm slot_add_binding ASW2 0 48 WIC-1T 
+Apr 20 14:53:03.595 HYPERVISOR: exec_cmd: vm get_status ASW2 
+Apr 20 14:53:03.595 HYPERVISOR: exec_cmd: vm slot_add_binding ASW2 1 0 NM-16ESW 
+Apr 20 14:53:03.595 HYPERVISOR: exec_cmd: c3725 set_mac_addr ASW2 c202.1128.0000 
+Apr 20 14:53:03.595 HYPERVISOR: exec_cmd: vm set_config ASW2 configs/i2_startup-config.cfg 
+Apr 20 14:53:04.453 HYPERVISOR: exec_cmd: vm set_ghost_status ASW2 2 
+Apr 20 14:53:04.453 HYPERVISOR: exec_cmd: vm set_ghost_file ASW2 C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 20 14:53:05.046 HYPERVISOR: exec_cmd: nio create_udp nio_udp83 10004 127.0.0.1 10005 
+Apr 20 14:53:05.077 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW2 1 4 nio_udp83 
+Apr 20 14:53:05.093 HYPERVISOR: exec_cmd: vm get_status ASW2 
+Apr 20 14:53:05.140 HYPERVISOR: exec_cmd: nio create_udp nio_udp86 10006 127.0.0.1 10007 
+Apr 20 14:53:05.187 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW2 1 8 nio_udp86 
+Apr 20 14:53:05.187 HYPERVISOR: exec_cmd: vm get_status ASW2 
+Apr 20 14:53:05.233 HYPERVISOR: exec_cmd: nio create_udp nio_udp89 10008 127.0.0.1 10009 
+Apr 20 14:53:05.265 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW2 1 9 nio_udp89 
+Apr 20 14:53:05.280 HYPERVISOR: exec_cmd: vm get_status ASW2 
+Apr 20 14:53:05.374 HYPERVISOR: exec_cmd: nio create_udp nio_udp94 10014 127.0.0.1 10015 
+Apr 20 14:53:05.389 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW2 1 6 nio_udp94 
+Apr 20 14:53:05.389 HYPERVISOR: exec_cmd: vm get_status ASW2 
+Apr 20 14:53:05.452 HYPERVISOR: exec_cmd: nio create_udp nio_udp96 10016 127.0.0.1 10017 
+Apr 20 14:53:05.467 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ASW2 1 7 nio_udp96 
+Apr 20 14:53:05.467 HYPERVISOR: exec_cmd: vm get_status ASW2 
+Apr 20 14:53:10.132 HYPERVISOR: exec_cmd: vm get_status ASW2 
+Apr 20 14:53:10.132 HYPERVISOR: exec_cmd: vm start ASW2 
+Apr 20 15:27:45.749 HYPERVISOR: exec_cmd: vm get_status ASW2 
+Apr 20 15:27:45.749 HYPERVISOR: exec_cmd: vm stop ASW2 
+Apr 20 15:27:45.968 VM: VM ASW2 shutdown.
+Apr 20 15:27:57.044 HYPERVISOR: exec_cmd: vm get_status ASW2 
+Apr 20 15:27:57.059 HYPERVISOR: exec_cmd: vm extract_config ASW2 
+Apr 20 15:27:57.075 HYPERVISOR: exec_cmd: vm delete ASW2 
+Apr 20 15:27:57.075 VM: VM ASW2 destroyed.
+Apr 20 15:27:57.090 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 20 15:27:57.558 HYPERVISOR: Stopped.
+Apr 20 15:27:57.558 GENERAL: reset done.

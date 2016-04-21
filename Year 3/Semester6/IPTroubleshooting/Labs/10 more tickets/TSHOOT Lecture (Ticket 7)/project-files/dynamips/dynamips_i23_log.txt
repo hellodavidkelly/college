@@ -1,0 +1,33 @@
+Apr 18 14:21:15.045 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 18 14:21:15.048 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 65012.
+Apr 18 14:21:15.150 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 14:21:15.195 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 18 14:21:15.247 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 1)\project-files\dynamips 
+Apr 18 14:21:15.247 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 1)\project-files\dynamips
+Apr 18 14:21:15.252 HYPERVISOR: exec_cmd: vm create ISP 9 c3725 
+Apr 18 14:21:15.255 VM: VM ISP created.
+Apr 18 14:21:15.257 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 2012 
+Apr 18 14:21:15.265 HYPERVISOR: exec_cmd: vm set_aux_tcp_port ISP 2502 
+Apr 18 14:21:15.270 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
+Apr 18 14:21:15.270 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 18 14:21:15.275 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x6026b804 
+Apr 18 14:21:15.277 HYPERVISOR: exec_cmd: vm set_ram ISP 192 
+Apr 18 14:21:15.280 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c209.0e28.0000 
+Apr 18 14:21:15.285 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 0 16 WIC-2T 
+Apr 18 14:21:15.290 HYPERVISOR: exec_cmd: vm set_ios ISP C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 18 14:21:15.295 HYPERVISOR: exec_cmd: vm set_config ISP configs/i9_startup-config.cfg 
+Apr 18 14:21:15.385 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
+Apr 18 14:21:15.405 HYPERVISOR: exec_cmd: vm set_ghost_file ISP C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 18 14:21:17.010 HYPERVISOR: exec_cmd: nio create_udp nio_udp72 10030 127.0.0.1 10031 
+Apr 18 14:21:17.075 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 16 nio_udp72 
+Apr 18 14:21:17.107 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 18 14:21:17.172 HYPERVISOR: exec_cmd: nio create_udp nio_udp76 10032 127.0.0.1 10033 
+Apr 18 14:21:17.210 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 17 nio_udp76 
+Apr 18 14:21:17.285 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 18 14:21:20.840 HYPERVISOR: exec_cmd: vm get_status ISP 
+Apr 18 14:21:20.853 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Apr 18 14:21:20.875 HYPERVISOR: exec_cmd: vm delete ISP 
+Apr 18 14:21:20.875 VM: VM ISP destroyed.
+Apr 18 14:21:20.885 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 18 14:21:21.105 HYPERVISOR: Stopped.
+Apr 18 14:21:21.130 GENERAL: reset done.

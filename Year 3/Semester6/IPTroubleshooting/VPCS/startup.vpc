@@ -1,0 +1,9 @@
+# The startup file of VPC
+###########################################
+1
+set pcname PC-B
+dhcp
+2
+set pcname PC-C
+dhcp
+#######################################

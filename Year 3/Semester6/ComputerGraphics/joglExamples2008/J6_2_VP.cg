@@ -1,0 +1,14 @@
+// J6_2_VP.cg Vertex Program: transformation and viewing 
+
+void main(
+	float4 iPosition	: 	POSITION, 
+	float4 iColor 		: 	COLOR, 
+out float4 oPosition 	: 	POSITION, 
+out float4 oColor 		: 	COLOR, 
+uniform float4x4 			modelViewProjection
+) {
+   oPosition = mul(modelViewProjection, iPosition);
+   oColor = iColor; 
+ }
+
+

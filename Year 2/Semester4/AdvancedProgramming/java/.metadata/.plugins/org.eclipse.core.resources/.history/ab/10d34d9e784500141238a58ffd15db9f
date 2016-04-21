@@ -1,0 +1,6 @@
+
+public class ArrayList implements ListInterface
+{
+	private static final int MAX_LIST = 50;
+	private
+}

@@ -1,0 +1,10 @@
+// J6_3_FP.cg Fragment Program: color manipulation 
+
+void main(
+	float4 iColor 		: 	COLOR, 
+out float4 oColor 		: 	COLOR 
+) {
+   oColor.rgb =iColor.rgb/2;
+}
+
+

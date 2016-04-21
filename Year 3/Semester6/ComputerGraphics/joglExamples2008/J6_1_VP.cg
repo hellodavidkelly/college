@@ -1,0 +1,14 @@
+// Vertex Program: J6_1_VP.cg
+// update position and color
+
+void main(
+in	float4 iPosition	: 	POSITION, 
+in	float4 iColor 		: 	COLOR, 
+out float4 oPosition 	: 	POSITION, 
+out float4 oColor 		: 	COLOR 
+) {
+   oPosition.xyz = iPosition.xyz/100; // division operator on vector
+   oColor=iColor;
+}
+
+

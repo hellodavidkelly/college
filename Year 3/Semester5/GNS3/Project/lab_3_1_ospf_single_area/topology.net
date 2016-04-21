@@ -1,0 +1,54 @@
+autostart = False
+version = 0.8.5
+[127.0.0.1:7200]
+    workingdir = working
+    udp = 10001
+    [[2691]]
+        image = C:\Users\martin\Dropbox\itb\_semester_5\Advanced_Switching_and_Routing\gns3\Images\c2691-adventerprisek9-mz.124-23.bin
+        idlepc = 0x62378d10
+        sparsemem = True
+        ghostios = True
+    [[ETHSW SW1]]
+        1 = access 1 R1 f0/0
+        2 = access 1 R2 f0/0
+        3 = access 1 R3 f0/0
+        x = -112.5
+        y = -70.0
+        z = 1.0
+    [[ROUTER R1]]
+        model = 2691
+        console = 2103
+        aux = 2503
+        cnfg = configs\R1.cfg
+        wic0/0 = WIC-2T
+        s0/0 = R2 s0/0
+        f0/0 = SW1 1
+        x = -328.0
+        y = 27.0
+        z = 1.0
+    [[ROUTER R2]]
+        model = 2691
+        console = 2104
+        aux = 2504
+        cnfg = configs\R2.cfg
+        wic0/0 = WIC-2T
+        s0/0 = R1 s0/0
+        f0/0 = SW1 2
+        x = -96.0
+        y = -305.0
+        z = 1.0
+    [[ROUTER R3]]
+        model = 2691
+        console = 2105
+        aux = 2505
+        cnfg = configs\R3.cfg
+        wic0/0 = WIC-2T
+        f0/0 = SW1 3
+        x = 126.0
+        y = 37.0
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    workdir = working
+    m11 = 0.707106781187
+    m22 = 0.707106781187

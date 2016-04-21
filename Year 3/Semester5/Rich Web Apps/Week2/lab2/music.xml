@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<albums>
+	<row>
+		<artist>Michael Jackson</artist>
+		<albumName>Bad</albumName>
+		<date>1987</date>
+	</row>
+	<row>
+		<artist>The Rolling Stones</artist>
+		<albumName>40 Licks</albumName>
+		<date>2002</date>
+	</row>
+	<row>
+		<artist>The Beatles</artist>
+		<albumName>Let It Be</albumName>
+		<date>1970</date>
+	</row>
+	<row>
+		<artist>Neil Young</artist>
+		<albumName>Harvest</albumName>
+		<date>1972</date>
+	</row>
+</albums>

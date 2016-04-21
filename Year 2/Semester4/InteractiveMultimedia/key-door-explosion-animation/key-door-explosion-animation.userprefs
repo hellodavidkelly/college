@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../AlienHuntAssignment/Assets/Scripts/Player.cs">
+    <Files>
+      <File FileName="../AlienHuntAssignment/Assets/Scripts/ThirdPersonCamera.cs" Line="1" Column="1" />
+      <File FileName="../AlienHuntAssignment/Assets/Scripts/DestroyWhenHit.cs" Line="1" Column="1" />
+      <File FileName="../AlienHuntAssignment/Assets/Scripts/Player.cs" Line="1" Column="1" />
+      <File FileName="../AlienHuntAssignment/Assets/Scripts/PlayerEngineIcon.cs" Line="1" Column="1" />
+      <File FileName="../AlienHuntAssignment/Assets/Scripts/PlayerGUI.cs" Line="1" Column="1" />
+      <File FileName="../AlienHuntAssignment/Assets/Scripts/PlayerInventoryIcon.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,67 @@
+body {
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+#home {
+	text-align: center;
+	background: url('../../images/background_viewsource.png');
+}
+
+
+#home .ui-controlgroup {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 250px;
+}
+
+#home img {
+	width: 50%;
+	max-width: 200px;
+}
+
+#videolist img {
+	display: block;
+	width: 90%;
+}
+
+
+.ui-icon-vs_video {
+	background-image: url("../../images/icon_video.png");
+}
+
+.ui-icon-vs_photo {
+	background-image: url("../../images/icon_photo.png");
+}
+
+.ui-icon-vs_blog {
+	background-image: url("../../images/icon_blog.png");
+}
+
+.ui-icon-vs_twitter {
+	background-image: url("../../images/icon_twitter.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2) {
+
+	.ui-icon-vs_video {
+		background-image: url("../../images/icon_video_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_photo {
+		background-image: url("../../images/icon_photo_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_blog {
+		background-image: url("../../images/icon_blog_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_twitter {
+		background-image: url("../../images/icon_twitter_hr.png");
+		background-size:18px 18px;
+	}
+
+}

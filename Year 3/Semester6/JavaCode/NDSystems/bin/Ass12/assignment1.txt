@@ -1,0 +1,57 @@
+Sequence
+
+Start server Test
+Server takes Server port
+Server is initialized with Server port
+
+Start Client
+Client takes File name
+Client takes Server port
+Client is initialized with (fileName, Port)
+
+Client sends message request to server
+server acknowledges the client and adds to queue
+(if queue = 0) accept file transfer
+(if queue = !0) Client waits
+update queue.size
+server sends ready message or wait message back to client
+
+Client converts file to List<byte[]> to manage any size file
+Client creates socket, packet
+
+for loop Lise<>.getSize{
+Client loops packet to = byte[i]
+Client sends packet on socket
+Server receives packet
+Server saves byte as byte array stream
+Server reads byte array stream
+Server appends byte array to final byte array
+Client keeps count of number of byte[50000] are sent
+Server sends reply received message
+
+	if Client doesn't get received message /break;
+	
+Client Client Count = 100, 5mb has been transferred - send notification
+}
+
+Server converts final byte array to input stream
+Server converts input stream to object stream
+
+Server Saves object stream as file
+
+Client waits for reply from server to exit
+
+Server gets client address from received packet
+Server gets client port from received packet
+Server creates a reply packet and sends reply through socket
+Client exits
+
+housekeeping
+ 
+
+
+
+
+
+
+

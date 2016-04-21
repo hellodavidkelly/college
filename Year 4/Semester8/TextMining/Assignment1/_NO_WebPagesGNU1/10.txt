@@ -1,0 +1,596 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<!-- start of server/head-include-1.html -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<meta name="DC.title" content="gnu.org" />
+<!-- end of server/head-include-1.html -->
+
+<!-- end of server/header.html -->
+
+<!-- Parent-Version: 1.77 -->
+<title>Linux and GNU
+- GNU Project - Free Software Foundation</title>
+<meta http-equiv="Keywords" content="GNU, FSF, Free Software Foundation, Linux, Emacs, GCC, Unix, Free Software, Operating System, GNU Kernel, HURD, GNU HURD, Hurd" />
+<meta http-equiv="Description" content="Since 1983, developing the free Unix style operating system GNU, so that computer users can have the freedom to share and improve the software they use." />
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/gnu/linux-and-gnu.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/gnu/linux-and-gnu.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/gnu/linux-and-gnu.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/gnu/linux-and-gnu.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="ca" hreflang="ca" href="/gnu/linux-and-gnu.ca.html" title="català" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/gnu/linux-and-gnu.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/gnu/linux-and-gnu.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="el" hreflang="el" href="/gnu/linux-and-gnu.el.html" title="ελληνικά" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/gnu/linux-and-gnu.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fa" hreflang="fa" href="/gnu/linux-and-gnu.fa.html" title="فارسی" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/gnu/linux-and-gnu.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="he" hreflang="he" href="/gnu/linux-and-gnu.he.html" title="עברית" />
+<link rel="alternate" type="text/html" lang="hr" hreflang="hr" href="/gnu/linux-and-gnu.hr.html" title="hrvatski" />
+<link rel="alternate" type="text/html" lang="id" hreflang="id" href="/gnu/linux-and-gnu.id.html" title="Bahasa Indonesia" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/gnu/linux-and-gnu.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/gnu/linux-and-gnu.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="ko" hreflang="ko" href="/gnu/linux-and-gnu.ko.html" title="한국어" />
+<link rel="alternate" type="text/html" lang="lt" hreflang="lt" href="/gnu/linux-and-gnu.lt.html" title="lietuvių" />
+<link rel="alternate" type="text/html" lang="ml" hreflang="ml" href="/gnu/linux-and-gnu.ml.html" title="മലയാളം" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/gnu/linux-and-gnu.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/gnu/linux-and-gnu.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/gnu/linux-and-gnu.pt-br.html" title="português do Brasil" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/gnu/linux-and-gnu.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/gnu/linux-and-gnu.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sl" hreflang="sl" href="/gnu/linux-and-gnu.sl.html" title="slovenščina" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/gnu/linux-and-gnu.sq.html" title="Shqip" />
+<link rel="alternate" type="text/html" lang="sr" hreflang="sr" href="/gnu/linux-and-gnu.sr.html" title="српски" />
+<link rel="alternate" type="text/html" lang="ta" hreflang="ta" href="/gnu/linux-and-gnu.ta.html" title="தமிழ்" />
+<link rel="alternate" type="text/html" lang="tl" hreflang="tl" href="/gnu/linux-and-gnu.tl.html" title="Tagalog" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/gnu/linux-and-gnu.uk.html" title="українська" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/gnu/linux-and-gnu.zh-cn.html" title="简体中文" />
+<link rel="alternate" type="text/html" lang="zh-tw" hreflang="zh-tw" href="/gnu/linux-and-gnu.zh-tw.html" title="繁體中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/combo.css" media="screen" />
+<link rel="stylesheet" href="/mini.css" media="handheld" />
+<link rel="stylesheet" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" href="/print.min.css" media="print" />
+<style type="text/css" media="print,screen">
+
+
+.crm-amount-fill {
+  background: #f2cd5f;
+  color: black;
+  border-radius: 1em;
+  padding-right: .3em; padding-left: .3em;
+  width: 100%;
+}
+.crm-amount-high {
+  float: right;
+}
+div.donate_btn {
+  float: right;
+}
+</style>
+<style type="text/css" media="print,screen">
+<!--
+div.fundraiser {
+  font-family: "FreeSans", sans-serif;
+  padding: .5em 1.5% .5em 1.5%;
+  background-color: #ced7ff;
+  background: -webkit-linear-gradient(#b4c2ff, white);
+  background: -o-linear-gradient(#b4c2ff, white);
+  background: -moz-linear-gradient(#b4c2ff, white);
+  background: linear-gradient(#b4c2ff, white);
+  border-top: .2em solid #5272fd;
+}
+.fundraiser a {
+  color: black;
+}
+.crm-amount-high {
+  padding: 0 .3em;
+  background-color: #4a5a6a;
+  border-radius: 1em;
+}
+.crm-amount-bar {
+  border-radius: 1em;
+  background-color: #778796;
+  color: white;
+  border: .1em solid #4a5a6a;
+  margin-bottom: .5em;
+}
+div.donate_btn {
+  margin: 1.5em 0 0 1.5em;
+}
+.donate_btn a{
+  display: block;
+  text-decoration: none;
+  font-weight:bold;
+  padding: 0.4em 1em;
+  color: black;
+  background-color: #f2cd5f;
+  text-align: center;
+  border: .1em solid #CCA832;
+  border-radius: 1em;
+}
+@media (max-width: 30em) {
+   .fundraiser {
+    display: none;
+  }
+}
+-->
+</style>
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+
+
+
+
+
+<div id="toplinks">
+ <a href="#content">Skip to main text</a>
+ <span class="gnun-split"></span>
+ <a href="/server/select-language.html?callback=/gnu/linux-and-gnu.html" rel="nofollow">
+ Set language
+ <span class="gnun-split"></span>
+ </a>
+</div> <!-- /toplinks -->
+
+<div id="searcher">
+ <form method="get" action="//www.gnu.org/cgi-bin/estseek.cgi">
+  <div>
+  <input name="phrase" id="phrase" type="text" size="18" accesskey="s"
+         value="Why GNU/Linux?" onfocus="this.value=''" />
+  <input type="submit" value="Search" />
+  </div>
+ </form>
+</div><!-- /searcher -->
+
+<div id="translations">
+<p>
+<span dir="ltr" class="original"><a lang="en" hreflang="en" href="/gnu/linux-and-gnu.en.html">English</a>&nbsp;[en]</span> &nbsp;
+<span dir="ltr"><a lang="ar" hreflang="ar" href="/gnu/linux-and-gnu.ar.html">العربية</a>&nbsp;[ar]</span> &nbsp;
+<span dir="ltr"><a lang="bg" hreflang="bg" href="/gnu/linux-and-gnu.bg.html">български</a>&nbsp;[bg]</span> &nbsp;
+<span dir="ltr"><a lang="ca" hreflang="ca" href="/gnu/linux-and-gnu.ca.html">català</a>&nbsp;[ca]</span> &nbsp;
+<span dir="ltr"><a lang="cs" hreflang="cs" href="/gnu/linux-and-gnu.cs.html">čeština</a>&nbsp;[cs]</span> &nbsp;
+<span dir="ltr"><a lang="de" hreflang="de" href="/gnu/linux-and-gnu.de.html">Deutsch</a>&nbsp;[de]</span> &nbsp;
+<span dir="ltr"><a lang="el" hreflang="el" href="/gnu/linux-and-gnu.el.html">ελληνικά</a>&nbsp;[el]</span> &nbsp;
+<span dir="ltr"><a lang="es" hreflang="es" href="/gnu/linux-and-gnu.es.html">español</a>&nbsp;[es]</span> &nbsp;
+<span dir="ltr"><a lang="fa" hreflang="fa" href="/gnu/linux-and-gnu.fa.html">فارسی</a>&nbsp;[fa]</span> &nbsp;
+<span dir="ltr"><a lang="fr" hreflang="fr" href="/gnu/linux-and-gnu.fr.html">français</a>&nbsp;[fr]</span> &nbsp;
+<span dir="ltr"><a lang="he" hreflang="he" href="/gnu/linux-and-gnu.he.html">עברית</a>&nbsp;[he]</span> &nbsp;
+<span dir="ltr"><a lang="hr" hreflang="hr" href="/gnu/linux-and-gnu.hr.html">hrvatski</a>&nbsp;[hr]</span> &nbsp;
+<span dir="ltr"><a lang="id" hreflang="id" href="/gnu/linux-and-gnu.id.html">Bahasa&nbsp;Indonesia</a>&nbsp;[id]</span> &nbsp;
+<span dir="ltr"><a lang="it" hreflang="it" href="/gnu/linux-and-gnu.it.html">italiano</a>&nbsp;[it]</span> &nbsp;
+<span dir="ltr"><a lang="ja" hreflang="ja" href="/gnu/linux-and-gnu.ja.html">日本語</a>&nbsp;[ja]</span> &nbsp;
+<span dir="ltr"><a lang="ko" hreflang="ko" href="/gnu/linux-and-gnu.ko.html">한국어</a>&nbsp;[ko]</span> &nbsp;
+<span dir="ltr"><a lang="lt" hreflang="lt" href="/gnu/linux-and-gnu.lt.html">lietuvių</a>&nbsp;[lt]</span> &nbsp;
+<span dir="ltr"><a lang="ml" hreflang="ml" href="/gnu/linux-and-gnu.ml.html">മലയാളം</a>&nbsp;[ml]</span> &nbsp;
+<span dir="ltr"><a lang="nl" hreflang="nl" href="/gnu/linux-and-gnu.nl.html">Nederlands</a>&nbsp;[nl]</span> &nbsp;
+<span dir="ltr"><a lang="pl" hreflang="pl" href="/gnu/linux-and-gnu.pl.html">polski</a>&nbsp;[pl]</span> &nbsp;
+<span dir="ltr"><a lang="pt-br" hreflang="pt-br" href="/gnu/linux-and-gnu.pt-br.html">português&nbsp;do&nbsp;Brasil</a>&nbsp;[pt-br]</span> &nbsp;
+<span dir="ltr"><a lang="ro" hreflang="ro" href="/gnu/linux-and-gnu.ro.html">română</a>&nbsp;[ro]</span> &nbsp;
+<span dir="ltr"><a lang="ru" hreflang="ru" href="/gnu/linux-and-gnu.ru.html">русский</a>&nbsp;[ru]</span> &nbsp;
+<span dir="ltr"><a lang="sl" hreflang="sl" href="/gnu/linux-and-gnu.sl.html">slovenščina</a>&nbsp;[sl]</span> &nbsp;
+<span dir="ltr"><a lang="sq" hreflang="sq" href="/gnu/linux-and-gnu.sq.html">Shqip</a>&nbsp;[sq]</span> &nbsp;
+<span dir="ltr"><a lang="sr" hreflang="sr" href="/gnu/linux-and-gnu.sr.html">српски</a>&nbsp;[sr]</span> &nbsp;
+<span dir="ltr"><a lang="ta" hreflang="ta" href="/gnu/linux-and-gnu.ta.html">தமிழ்</a>&nbsp;[ta]</span> &nbsp;
+<span dir="ltr"><a lang="tl" hreflang="tl" href="/gnu/linux-and-gnu.tl.html">Tagalog</a>&nbsp;[tl]</span> &nbsp;
+<span dir="ltr"><a lang="uk" hreflang="uk" href="/gnu/linux-and-gnu.uk.html">українська</a>&nbsp;[uk]</span> &nbsp;
+<span dir="ltr"><a lang="zh-cn" hreflang="zh-cn" href="/gnu/linux-and-gnu.zh-cn.html">简体中文</a>&nbsp;[zh-cn]</span> &nbsp;
+<span dir="ltr"><a lang="zh-tw" hreflang="zh-tw" href="/gnu/linux-and-gnu.zh-tw.html">繁體中文</a>&nbsp;[zh-tw]</span> &nbsp;
+</p>
+</div>
+
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+<div id="header">
+<div id="fsf-frame">
+<p id="join-fsf"><a href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a></p>
+<div id="fssbox">
+<p><a href="http://www.fsf.org/fss">Free Software Supporter</a></p>
+<form action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31" method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+ </div>
+ <p>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </p>
+</form>
+</div><!-- /fssbox -->
+</div><!-- /fsf-frame -->
+
+<div id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.small.png" alt=" [A GNU head] " /><strong>GNU</strong> Operating System</a>
+</div><!-- /gnu-banner -->
+
+<p id="fsf-support">Sponsored by the <a href="#mission-statement">Free Software Foundation</a></p>
+
+</div><!-- /header -->
+
+<div id="navigation">
+
+ <ul>
+  <li id="tabAboutGNU"><a href="/gnu/gnu.html">About&nbsp;GNU</a></li>
+  <li id="tabPhilosophy"><a href="/philosophy/philosophy.html">Philosophy</a></li>
+  <li id="tabLicenses"><a href="/licenses/licenses.html">Licenses</a></li>
+  <li id="tabEducation"><a href="/education/education.html">Education</a></li>
+  <li id="tabSoftware"><a href="/software/software.html">Software</a></li>
+  <li id="tabDoc"><a href="/doc/doc.html">Documentation</a></li>
+  <li id="tabHelp"><a href="/help/help.html">Help&nbsp;GNU</a></li>
+ </ul>
+
+</div><!--  /navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content">
+<!-- end of server/banner.html -->
+
+<h2>Linux and the GNU System</h2>
+
+<p><strong>by <a href="http://www.stallman.org/">Richard Stallman</a></strong></p>
+
+<div class="announcement">
+  <blockquote><p>For more information see also
+the <a href="/gnu/gnu-linux-faq.html">GNU/Linux FAQ</a>,
+and <a href="/gnu/why-gnu-linux.html">Why GNU/Linux?</a></p>
+  </blockquote>
+</div>
+
+<p>
+Many computer users run a modified version of
+<a href="/philosophy/categories.html#TheGNUsystem">the GNU system</a>
+every day, without realizing it.  Through a peculiar turn of events,
+the version of GNU which is widely used today is often called
+&ldquo;Linux&rdquo;, and many of its users
+are <a href="/gnu/gnu-users-never-heard-of-gnu.html"> not aware</a>
+that it is basically the GNU system, developed by the
+<a href="/gnu/gnu-history.html">GNU Project</a>.</p>
+
+<p>
+There really is a Linux, and these people are using it, but it is just
+a part of the system they use.  Linux is the kernel: the program in
+the system that allocates the machine's resources to the other
+programs that you run.  The kernel is an essential part of an
+operating system, but useless by itself; it can only function in the
+context of a complete operating system.  Linux is normally used in
+combination with the GNU operating system: the whole system is
+basically GNU with Linux added, or GNU/Linux.  All the so-called
+&ldquo;Linux&rdquo; distributions are really distributions of
+GNU/Linux.</p>
+
+<p>
+Many users do not understand the difference between the kernel, which
+is Linux, and the whole system, which they also call
+&ldquo;Linux&rdquo;.  The ambiguous use of the name doesn't help
+people understand.  These users often think that Linus Torvalds
+developed the whole operating system in 1991, with a bit of help.</p>
+
+<p>
+Programmers generally know that Linux is a kernel.  But since they
+have generally heard the whole system called &ldquo;Linux&rdquo; as well, they
+often envisage a history that would justify naming the whole system
+after the kernel.  For example, many believe that once Linus Torvalds
+finished writing Linux, the kernel, its users looked around for other
+free software to go with it, and found that (for no particular reason)
+most everything necessary to make a Unix-like system was already
+available.</p>
+
+<p>
+What they found was no accident&mdash;it was the not-quite-complete GNU
+system.  The available <a href="/philosophy/free-sw.html">free
+software</a> added up to a complete system because the GNU Project
+had been working since 1984 to make one.  In
+the <a href="/gnu/manifesto.html"> The GNU Manifesto</a> we set forth
+the goal of developing a free Unix-like
+system, called GNU.  The <a href="/gnu/initial-announcement.html">
+Initial Announcement</a> of the GNU Project also outlines some of the
+original plans for the GNU system. By the time Linux was started, GNU
+was almost finished.</p>
+
+<p>
+Most free software projects have the goal of developing a particular
+program for a particular job.  For example, Linus Torvalds set out to
+write a Unix-like kernel (Linux); Donald Knuth set out to write a text
+formatter (TeX); Bob Scheifler set out to develop a window system (the
+X Window System). It's natural to measure the contribution of this
+kind of project by specific programs that came from the project.</p>
+
+<p>
+If we tried to measure the GNU Project's contribution in this way,
+what would we conclude?  One CD-ROM vendor found that in their &ldquo;Linux
+distribution&rdquo;, <a href="/philosophy/categories.html#GNUsoftware">GNU
+software</a> was the largest single contingent, around 28% of the
+total source code, and this included some of the essential major
+components without which there could be no system.  Linux itself was
+about 3%.  (The proportions in 2008 are similar: in the &ldquo;main&rdquo;
+repository of gNewSense, Linux is 1.5% and GNU packages are 15%.)
+So if you were going to pick a name for the system based on
+who wrote the programs in the system, the most appropriate single
+choice would be &ldquo;GNU&rdquo;.</p>
+
+<p>
+But that is not the deepest way to consider the question.  The GNU
+Project was not, is not, a project to develop specific software
+packages.  It was not a project <a href="/software/gcc/"> to
+develop a C compiler</a>, although we did that.  It was not a project
+to develop a text editor, although we developed one.  The GNU Project
+set out to develop <em>a complete free Unix-like system</em>: GNU.</p>
+
+<p>
+Many people have made major contributions to the free software in the
+system, and they all deserve credit for their software.  But the
+reason it is <em>an integrated system</em>&mdash;and not just a
+collection of useful programs&mdash;is because the GNU Project set out
+to make it one.  We made a list of the programs needed to make
+a <em>complete</em> free system, and we systematically found, wrote,
+or found people to write everything on the list.  We wrote essential
+but unexciting
+<a href="#unexciting">(1)</a> components because you can't have a system
+without them.  Some of our system components, the programming tools,
+became popular on their own among programmers, but we wrote many
+components that are not tools  <a href="#nottools">(2)</a>.  We even
+developed a chess game, GNU Chess, because a complete system needs
+games too.</p>
+
+<p>
+By the early 90s we had put together the whole system aside from the
+kernel.  We had also started a kernel, the
+<a href="/software/hurd/hurd.html">GNU Hurd</a>, which runs on top of
+Mach.  Developing this kernel has been a lot harder than we expected;
+<a href="/software/hurd/hurd-and-linux.html">the
+GNU Hurd started working reliably in 2001</a>, but it is a long way
+from being ready for people to use in general.</p>
+
+<p>
+Fortunately, we didn't have to wait for the Hurd, because of Linux.
+Once Torvalds freed Linux in 1992, it fit into the last major gap in
+the GNU system.  People could
+then <a href="http://ftp.funet.fi/pub/linux/historical/kernel/old-versions/RELNOTES-0.01">
+combine Linux with the GNU system</a> to make a complete free system
+&mdash; a version of the GNU system which also contained Linux.  The
+GNU/Linux system, in other words.</p>
+
+<p>
+Making them work well together was not a trivial job.  Some GNU
+components<a href="#somecomponents">(3)</a> needed substantial change
+to work with Linux.  Integrating a complete system as a distribution
+that would work &ldquo;out of the box&rdquo; was a big job, too.  It
+required addressing the issue of how to install and boot the
+system&mdash;a problem we had not tackled, because we hadn't yet
+reached that point.  Thus, the people who developed the various system
+distributions did a lot of essential work.  But it was work that, in
+the nature of things, was surely going to be done by someone.</p>
+
+<p>
+The GNU Project supports GNU/Linux systems as well as <em>the</em> GNU
+system.  The <a href="http://fsf.org/">FSF</a> funded the rewriting of
+the Linux-related extensions to the GNU C library, so that now they
+are well integrated, and the newest GNU/Linux systems use the current
+library release with no changes.  The FSF also funded an early stage
+of the development of Debian GNU/Linux.</p>
+
+<p>
+Today there are many different variants of the GNU/Linux system (often
+called &ldquo;distros&rdquo;).  Most of them include non-free
+software&mdash;their developers follow the philosophy associated with
+Linux rather than that of GNU.  But there are also
+<a href="/distros/">completely free GNU/Linux distros</a>.  The FSF
+supports computer facilities
+for <a href="http://gnewsense.org/">gNewSense</a>.</p>
+
+<p>Making a free GNU/Linux distribution is not just a matter of
+eliminating various non-free programs.  Nowadays, the usual version of
+Linux contains non-free programs too.  These programs are intended to
+be loaded into I/O devices when the system starts, and they are
+included, as long series of numbers, in the "source code" of Linux.
+Thus, maintaining free GNU/Linux distributions now entails maintaining
+a <a href="http://directory.fsf.org/project/linux"> free version of
+Linux</a> too.</p>
+
+<p>Whether you use GNU/Linux or not, please don't confuse the public
+by using the name &ldquo;Linux&rdquo; ambiguously.  Linux is the
+kernel, one of the essential major components of the system.  The
+system as a whole is basically the GNU system, with Linux added.  When
+you're talking about this combination, please call it
+&ldquo;GNU/Linux&rdquo;.</p>
+
+<p>
+If you want to make a link on &ldquo;GNU/Linux&rdquo; for further
+reference, this page and <a href="/gnu/the-gnu-project.html">
+http://www.gnu.org/gnu/the-gnu-project.html</a> are good choices.  If
+you mention Linux, the kernel, and want to add a link for further
+reference, <a href="http://foldoc.org/linux">http://foldoc.org/linux</a> 
+is a good URL to use.</p>
+
+<h3>Postscripts</h3>
+
+<p>
+Aside from GNU, one other project has independently produced
+a free Unix-like operating system.  This system is known as BSD, and
+it was developed at UC Berkeley.  It was non-free in the 80s, but
+became free in the early 90s.  A free operating system that exists
+today<a href="#newersystems">(4)</a> is almost certainly either a
+variant of the GNU system, or a kind of BSD system.</p>
+
+<p>
+People sometimes ask whether BSD too is a version of GNU, like
+GNU/Linux.  The BSD developers were inspired to make their code free
+software by the example of the GNU Project, and explicit appeals from
+GNU activists helped persuade them, but the code had little overlap
+with GNU.  BSD systems today use some GNU programs, just as the GNU
+system and its variants use some BSD programs; however, taken as
+wholes, they are two different systems that evolved separately.  The
+BSD developers did not write a kernel and add it to the GNU system,
+and a name like GNU/BSD would not fit the situation.<a
+href="#gnubsd">(5)</a></p>
+
+<h3>Notes:</h3>
+<ol>
+<li>
+<a id="unexciting"></a>These unexciting but essential components
+include the GNU assembler (GAS) and the linker (GLD), both
+are now part of the <a href="/software/binutils/">GNU Binutils</a>
+package, <a href="/software/tar/">GNU tar</a>, and many more.</li>
+
+<li>
+<a id="nottools"></a>For instance, The Bourne Again SHell (BASH),
+the PostScript interpreter
+<a href="/software/ghostscript/ghostscript.html">Ghostscript</a>, and the
+<a href="/software/libc/libc.html">GNU C library</a> are not
+programming tools.  Neither are GNUCash, GNOME, and GNU Chess.</li>
+
+<li>
+<a id="somecomponents"></a>For instance, the
+<a href="/software/libc/libc.html">GNU C library</a>.</li>
+
+<li>
+<a id="newersystems"></a>Since that was written, a nearly-all-free
+Windows-like system has been developed, but technically it is not at
+all like GNU or Unix, so it doesn't really affect this issue.  Most of
+the kernel of Solaris has been made free, but if you wanted to make a
+free system out of that, aside from replacing the missing parts of the
+kernel, you would also need to put it into GNU or BSD.</li>
+
+<li>
+<a id="gnubsd"></a>On the other hand, in the years since this article
+was written, the GNU C Library has been ported to several versions of
+the BSD kernel, which made it straightforward to combine the GNU system
+with that kernel.  Just as with GNU/Linux, these are indeed variants of
+GNU, and are therefore called, for instance, GNU/kFreeBSD and
+GNU/kNetBSD depending on the kernel of the system.  Ordinary users on
+typical desktops can hardly distinguish between GNU/Linux and
+GNU/*BSD.</li>
+
+</ol>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+<div id="fsf-links">
+ <ul>
+  <li><a href="/">GNU&nbsp;home&nbsp;page</a></li>
+  <li><a href="http://www.fsf.org/">FSF&nbsp;home&nbsp;page</a></li>
+  <li><a href="/graphics/graphics.html">GNU&nbsp;Art</a></li>
+  <li><a href="/people/people.html">GNU's&nbsp;Who?</a></li>
+  <li><a href="http://directory.fsf.org">Free&nbsp;Software&nbsp;Directory</a></li>
+  <li><a href="https://h-node.org/">Hardware</a></li>
+  <li><a href="/server/sitemap.html">Site&nbsp;map</a></li>
+ </ul>
+</div><!-- /fsf-links -->
+
+<div id="mission-statement">
+
+<blockquote>
+<p><a href="http://www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext.png" alt=" [FSF logo] "/></a><strong>&ldquo;Our
+mission is to preserve, protect and promote the freedom to use, study,
+copy, modify, and redistribute computer software, and to defend the
+rights of Free Software users.&rdquo;</strong></p>
+</blockquote>
+
+<p>The <a href="http://www.fsf.org">Free Software Foundation</a> is
+the principal organizational sponsor of the GNU Operating System.
+<strong>Support GNU and the FSF</strong> by <a
+href="http://shop.fsf.org/">buying manuals and gear</a>, <a
+href="https://my.fsf.org/associate/support_freedom?referrer=4052">
+<strong>joining the FSF</strong></a> as an associate member, or making
+a <strong>donation</strong>, either <a
+href="http://donate.fsf.org/">directly to the FSF</a> or <a
+href="http://flattr.com/thing/313733/gnuproject-on-Flattr">via
+Flattr</a>.</p>
+
+<p id="backtotop"><a href="#header">back to top</a></p>
+
+</div><!-- /mission-statement -->
+<!-- end server/footer-text.html -->
+
+
+<div id="footer">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and submitting translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and submitting translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 1997, 1998, 1999, 2000, 2001, 2002,
+2007, 2014, 2015, 2016 Richard M. Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div class="unprintable">
+<p><a href="http://www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+
+
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2016/03/19 15:07:00 $
+<!-- timestamp end -->
+</p>
+</div>
+</div>
+</body>
+</html>

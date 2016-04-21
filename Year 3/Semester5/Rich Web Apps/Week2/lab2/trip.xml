@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<travelDocument>
+	<destination>Rome, Italy</destination>
+	
+	<passangers>
+		<passanger1>David Kelly</passanger1>
+		<passanger2>Orla McMahon</passanger2>
+	</passangers>
+	
+	<flights>
+		<outgoing>
+			<date>4/3/15</date>
+			<airport>Dublin T1</airport>
+			<departureTime>12:15</departureTime>
+			<arrivalTime>15:25</arrivalTime>
+		</outgoing>
+		<incoming>
+			<date>11/3/15</date>
+			<airport>Rome Termini2</airport>
+			<departureTime>16:05</departureTime>
+			<arrivalTime>17:20</arrivalTime>
+		</incoming>
+	</flights>
+	
+	<hotelDetails>
+		<hotelName>Radisson</hotelName>
+			<guests>
+				<guest1>David Kelly</guest1>
+				<guest2>Orla McMahon</guest2>
+			</guests>
+		<checkIn>4/3/15</checkIn>
+		<checkOut>11/3/15</checkOut>
+	</hotelDetails>
+</travelDocument>

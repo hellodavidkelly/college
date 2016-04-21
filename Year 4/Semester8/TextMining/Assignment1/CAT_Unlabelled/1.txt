@@ -1,0 +1,15 @@
+Since it began to escape from AT&T's Bell Laboratories in the early 1970's, the success of the UNIX operating system has led to many different versions: recipients of the (at that time free) UNIX system code all began developing their own different versions in their own, different, ways for use and sale. Universities, research institutes, government bodies and computer companies all began using the powerful UNIX system to develop many of the technologies which today are part of a UNIX system.
+
+Computer aided design, manufacturing control  systems, laboratory simulations, even the Internet itself, all began life with and because of UNIX systems. Today, without UNIX systems, the Internet would come to a screeching halt. Most telephone calls could not be made, electronic commerce would grind to a halt and there would have never been "Jurassic Park"!
+
+By the late 1970's, a ripple effect had come into play. By now the under- and post-graduate students whose lab work had pioneered these new applications of technology were attaining management and decision-making positions inside the computer system suppliers and among its customers. And they wanted to continue using UNIX systems.
+
+Soon all the large vendors, and many smaller ones, were marketing their own, diverging, versions of the UNIX system optimized for their own computer architectures and boasting many different strengths and features. Customers found that, although UNIX systems were available everywhere, they seldom were able to interwork or co-exist without significant investment of time and effort to make them work effectively. The trade mark UNIX was ubiquitous, but it was applied to a multitude of different, incompatible products.
+
+In the early 1980's, the market for UNIX systems had grown enough to be noticed  by industry analysts and researchers. Now the question was no longer "What is a UNIX system?" but "Is a UNIX system suitable for business and commerce?"
+
+Throughout the early and mid-1980's, the debate about the strengths and weaknesses of UNIX systems raged, often fuelled by the utterances of the vendors themselves who sought to protect their profitable proprietary system sales by talking UNIX systems down. And, in an effort to further differentiate their competing UNIX system products, they kept developing and adding features of their own.
+
+In 1984, another factor brought added attention to UNIX systems. A group of vendors concerned about the continuing encroachment into their markets and control of system interfaces by the larger companies, developed the concept of "open systems."
+
+Open systems were those that would meet agreed specifications or standards. This resulted in the formation of X/Open Company Ltd whose remit was, and today in the guise of The Open Group remains, to define a comprehensive open systems environment. Open systems, they declared, would save on costs, attract a wider portfolio of applications and competition on equal terms. X/Open chose the UNIX system as the platform for the basis of open systems.

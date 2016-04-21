@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="../Templates/research_at_itb_index_page.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Institute of Technology Blanchardstown :: Research at ITB</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="meta" -->
+<meta name="description" content="Details of the research and applied research activities at ITB" />
+<meta name="keywords" content="Research, applied research, research projects, technology transfer, commercialisation of research, licensing, innovation partnership, proof of concept, enterprise Ireland, innovation voucher, graphics and gaming, Graphics and Gaming, Network Security &amp; Forensics, Flexible teaching &amp; learning, Bio-engineering, Intelligent Transport Infrastucture, Diversity Language Learning" />
+<meta name="author" content="Strata3 - http://www.strata3.com/" />
+<!-- InstanceEndEditable -->
+<link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="../ssi/css/screen.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/large.css" title="large" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="../ssi/css/lib/larger.css" title="larger" />
+<link rel="stylesheet" type="text/css" media="print" href="../ssi/css/print.css" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie7.css" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen,projection" href="ssi/css/ie6.css" /><![endif]-->
+
+<script type="text/javascript" src="../ssi/js/styleswitcher.js"></script>
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body id="research" class="bg_sp">
+
+<!-- open page container -->
+<div id="contain">
+	<!-- start header -->
+		<!--this is the top menu bar and banner -->
+
+	
+	<!-- start header -->
+	<div id="header">
+		<div id="logo"><a href="../homepage.asp" title="ITB homepage" accesskey="0"><img src="../images/itb_logo.gif" alt="Institute of Technology Blanchardstown" width="300" height="83" border="0" /></a></div>
+		<div id="top">
+			<div class="hd_250"><ul><li id="nav_cf"><a title="Course Finder" href="../CourseFinder/index.html">Course Finder</a></li>
+			<li id="nav_hta"><a title="How to Apply" href="../HowtoApply/howtoapply.html">How to Apply</a></li>
+			</ul></div>
+			<br class="clear" />
+			<div class="hd_660">
+				<ul>
+					<li id="nav_home"><a title="Home" href="../homepage.asp">Home</a></li>
+					<li id="nav_about"><a title="About ITB" href="../AboutITB/index.html">About ITB</a></li>
+					<!--<li id="nav_cs"><a title="Current Students" href="../CurrentStudents/index.html">Current Students</a></li>-->
+					<li id="nav_ns"><a title="News & Events" href="../NewsEvents/newsdetailmore.asp">News &amp; Events</a></li>
+					<li id="nav_library"><a title="Library" href="http://www.blanchlib.itb.ie/" target="_blank">Library</a></li>
+					<li id="nav_intranet"><a title="Intranet" href="http://elan:8888" target="_blank">Intranet</a></li>
+					<li id="nav_careers"><a title="Careers at ITB" href="../Vacancies/index.html">Careers at ITB</a></li>
+					<li id="nav_map"><a title="Our Location" href="../Location/howtogetthere.html">Our Location</a></li>
+					<li id="nav_sd"><a title="Staff Directory" href="../StaffDirectory/staffdirectory.asp">Staff Directory</a></li>
+				</ul>
+			</div>
+			<br class="clear" />
+		</div>
+	</div>
+	<!-- stop header -->
+	<!-- start nav/search -->
+	<div id="nav_search">
+        <!-- start navigation -->
+        <div id="navigation">
+            <ul>
+                <li id="nav_study"><a title="Study at ITB" href="../StudyatITB/index.html">Study at ITB</a></li>
+                 <li id="nav_cs"><a title="Study at ITB" href="../CurrentStudents/index.html">Current Students</a></li>
+                <li id="nav_cslife"><a title="Campus & Student Life" href="../CampusStudentLife/index.html">Campus  Life</a></li>
+                <li id="nav_research"><a title="Research at ITB" href="../ResearchatITB/index.html">Research</a></li>
+                <li id="nav_ii"><a title="Industry & Innovation" href="../IndustryInnovation/index.html">Industry &amp; Innovation</a></li>
+            </ul>
+        </div>
+        <!-- stop navigation -->
+        <!-- start search -->
+        <div id="search">
+        <!--<form action="#" method="get" class="frmSearch">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="search_term" name="search_term" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>-->
+		
+		<!--<form action="../search/search.asp" method="get" class="frmSearch" name="form1">-->
+		<form action="../search/search.asp" method="get" class="frmSearch" name="form1">
+        <fieldset>
+            <label for="search_term">Enter Keywords:</label><input type="text" id="strp" name="target" value="Search the site" onfocus="if(this.value=='Search the site')this.value='';" onblur="if(this.value=='')this.value='Search the site';" /><input type="submit" value="Go" class="btn" />
+        </fieldset>
+        </form>
+		
+		
+		
+        </div>
+        <!-- stop search -->
+        <br class="clear" />
+	</div>
+	
+	
+	<!-- end of virtual directory -->
+	<!-- stop nav/search -->
+	<div class="hr_block"><hr /></div>
+	<!-- start content area -->
+	<div id="content_sub">
+		<!-- start left column -->
+		<div id="col_220l">
+			<h1>Research at ITB</h1>
+			<!-- start secondary nav -->
+			<div id="subnav">
+				<ul>
+                    <li><a href="collaborative.html">Collaborative Research </a></li>
+                    <li><a href="researchprojects.html">Research Projects </a></li>
+					<li><a href="itbjournal.html">ITB Journal </a></li>
+					<li><a href="conferencesworkshops.html">Conferences / Workshops </a></li>
+					<li><a href="postgrad.html">Post Graduate Opportunities </a></li>
+					<li><a href="science.html">Science without Borders</a></li>
+				</ul>
+			</div>
+			<!-- stop secondary nav -->
+			<!-- start important links -->
+			<ul class="keylinks">
+				
+				<li><a href="contactus.html">Contact Us </a></li>
+			</ul>
+			<!-- stop important links -->
+			<br />
+		</div>
+		<!-- stop left column -->
+		<!-- start centre column -->
+		<div id="col_480">
+			<div class="grey_block">
+				<p class="font_11"><a href="javascript:window.print();"><img src="../images/icon_print.gif" alt="Print" width="25" height="17" class="vertical_align_images" /> Print Page</a> | <a href="javascript:setActiveStyleSheet('default');">A</a> | <a href="javascript:setActiveStyleSheet('large');" class="med">A</a> | <a href="javascript:setActiveStyleSheet('larger');" class="lrg">A</a></p>
+				<h2><!-- InstanceBeginEditable name="PageTitle" -->Overview<!-- InstanceEndEditable --></h2>
+			</div>
+            <!-- start breadcrumb -->
+			<!-- InstanceBeginEditable name="breadcrumb" -->
+            <div id="breadcrumb">
+                 <p style="margin-bottom: 0"><a href="../homepage.asp">Home &gt;</a><a href="index.html"> Research at ITB</a></p>
+            </div>
+			<!-- InstanceEndEditable -->
+            <!-- stop breadcrumb -->
+			<!-- start content area -->
+			<div class="pad_content"><div id="content">
+<!-- InstanceBeginEditable name="BodyText" -->
+<div class="feature">
+	<img src="../files/banners/sections/collabative-research.jpg" alt="Collaborative Research" width="150" height="80" />
+	<h3><a href="collaborative.html">Collaborative Research </a></h3>
+	<p style="margin-bottom: 0;">The research community at ITB is involved collaboratively with research projects with industry, community organisations and different agencies in the locality. Some of these include the National Road Authorities, IBM, Intel, ESB and the Health Service Execituve. <a href="collaborative.html" title="Read more about collaborative research"><strong>Read more</strong></a>.</p>
+</div>
+
+<div class="feature">
+	<img src="../files/banners/sections/research-projects.jpg" alt="Research Projects" width="150" height="80" />
+	<h3><a href="researchprojects.html">Research Projects </a></h3>
+	<p style="margin-bottom: 0;">ITB recognizes that one of its core activities is Research and has established itself as a significant member of the research community within the third level education sector in Ireland since it opened in 1999.  The LINC Centre (Learning and Innovation Centre) at ITB is the centre which supports the research activities taking place in the Institute supporting technology transfer activities, applied research links with industry and links to the funding agencies for the research activities in the Institute. <a href="researchprojects.html" title="Read more about research projects"><strong>Read more</strong></a>.</p>
+</div>
+
+<div class="feature">
+	<img src="../files/banners/sections/itb-journal.jpg" alt="ITB Journal " width="150" height="80" />
+	<h3><a href="itbjournal.html">ITB Journal </a></h3>
+	<p style="margin-bottom: 0;">The ITB Journal uniquely offers the opportunity for the members of ITB, visitors and guest contributors to publish an article on their research in a multidisciplinary journal. The hope is that by offering the chance to bring their work out of their specialised area into a wider forum, they will share their work with the broader community at ITB and other academic institutions. <a href="itbjournal.html" title="Read the ITB journal"><strong>Journal archive</strong></a>.</p>
+</div>
+
+<div class="feature">
+	<img src="../files/banners/sections/contact-research-dept.jpg" alt="Contact our Research Dept." width="150" height="80" />
+	<h3><a href="contactus.html">Contact our Research Department</a></h3>
+	<p style="margin-bottom: 0;">Further information on any aspect of R&D or knowledge transfer activities contact </p>
+<p style="margin-top: 0; margin-bottom: 0;">ITB's Industrial Liaison Manager, Assumpta Harvey at (01) 8851186 or <a href="mailto:assumpta.harvey@itb.ie">assumpta.harvey@itb.ie</a>. <a href="contactus.html"><strong>Read more</strong></a>.</p>
+</div>
+<!-- InstanceEndEditable -->
+
+			</div></div>
+			<!-- stop content area -->
+		</div>
+		<!-- stop centre column -->
+		<!-- start right column -->
+		<div id="col_220r">
+			<!-- start subpage banner -->
+			<div id="banner_sp">&nbsp;</div>
+			<!-- stop subpage banner -->
+			<!-- start what our students say -->
+			<div class="callout">
+				<h2 class="call">What our students say...</h2>				<!-- InstanceBeginEditable name="StudentSays" --><img src="../files/testimonials/karen-shaw.jpg" alt="Karen Shaw" width="150" height="100" />
+<p class="font_11"><em>"I was interested in developing research skills too – it’s great to be able to go out on your own with a problem and come back with a solution<br />I did my primary degree here so I knew the lecturers would be excellent help. Also the subject range interested me greatly, and I wanted to learn new technologies and gain new skills."</em><br /><br /><strong>Karen Shaw</strong>,<br />MSc Computing</p>
+				<!-- InstanceEndEditable -->
+			</div>
+			<!-- start what our students say -->
+			<!-- start map link -->
+			<div class="callout">
+				<a href="../Location/howtogetthere.html"><img src="../files/area_map.gif" alt="Area / Transport Map" width="150" height="106" class="imageblock" /></a>			</div>
+			<!-- start map link -->
+			<br />
+		</div>
+		<!-- stop right column -->
+		<br class="clear" />
+	</div>
+	<!-- stop content area -->
+	<!-- start footer -->
+	<div id="footer">
+		<div class="foot_507">
+			<div style="float:right;width:249px;"><img src="../files/eu-sfp.gif" alt="Ireland's EU Structural Funds Programme" width="168" height="57" /><img src="../images/StructFund.jpg" alt="European Social Fund" width="76" height="70" style="margin-right:5px;" /></div>
+			<p>&copy; Institi&uacute;id Teicneola&iacute;ochta, Baile Bhlains&eacute;ir, B&oacute;thar Bhaile Bhlains&eacute;ir Thuaidh,<br />Baile &Aacute;tha Cliath 15</p>
+			<ul><li id="nav_disclaimer"><a title="Disclaimer" href="../Disclaimer/index.html">Disclaimer</a></li>
+			<li id="nav_sitemap"><a title="Sitemap" href="../Sitemap/index.html">Sitemap</a></li>
+			<li id="nav_access"><a title="Accessibility" href="../Accessibility/index.html">Accessibility</a></li>
+			</ul>
+		</div>
+		<div class="foot_427"><p>Institute of Technology Blanchardstown, Blanchardstown Road North, Dublin 15</p><p>Tel: +353 (1) 8851000 |  Fax: +353 (1) 8851001 | Email: <a href="mailto:info@itb.ie">info@itb.ie</a></p>
+		<p><a href="../Disclaimer/cookie.html">Cookie Policy</a></p>
+		</div>
+	</div>
+
+	<!-- stop footer -->
+</div>
+<!-- close page container -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6699818-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+<!-- InstanceEnd --></html>

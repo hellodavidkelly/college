@@ -1,0 +1,401 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>ITB Library Services</title>
+<link rel="StyleSheet" href="../Alpha3.css" type="text/css" media="screen">
+<style type="text/css">
+<!--
+.style1 {color: #336633}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000000" alink="#000000" topmargin="0" leftmargin="0">
+
+
+
+<center>
+<br>
+
+<table width="640" border="1" cellpadding="5" cellspacing="0" bordercolor="#FFFFFF" bgcolor="#FFFFFF">
+  <tr>
+    <td valign="top" align="left">&nbsp; </td>
+    <td valign="bottom" align="right"> <a href="http://blanchlib.itb.ie"><img src="img/itbhomelogo.gif" border="0" alt="Library Home" width="100" height="33"></a></td>
+</tr>
+
+  <tr> 
+    <td colspan="2"> <img src="img/m03a.jpg" width="100" height="150" align="right"> 
+      <p> <br>
+      <ul>
+        <li><a href="#access"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Access 
+          to other libraries</font></a></li>
+        <li><a href="#alumni"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Alumni 
+          Association</font></a></li>
+        <li><a href="#borrowing"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Borrowing</font></a></li>
+        <li><a href="#computers"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">PCs</font></a>        </li>
+        <li><a href="#external"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">External 
+          Readers</font></a></li>
+        <li><a href="#finding"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Finding 
+          what you want</font></a></li>
+        <li><a href="#illoans"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Inter-Library 
+          Loans</font></a></li>
+        <li><a href="#Laptops"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Laptops</font></a></li>
+        <li><a href="#collections"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Library 
+          Collections</font></a></li>
+        <li><a href="#seminar"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Noise zones</font></a></li>
+        <li><a href="#photocopying"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Photocopying</font></a></li>
+        <li><a href="#printing"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Printing</font></a></li>
+        <li><a href="#Tablets"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Tablets</font></a></li>
+      </ul>
+      <p><a href="#computers"></a> <br>
+      </p>
+      <p><font face="Arial, Helvetica, sans-serif"><a name="access"></a><br>
+        </font><font color="#336633" face="Arial, Helvetica, sans-serif"><strong>Access 
+        to other Libraries</strong></font></p>
+      <p><font color="#336633" face="Arial, Helvetica, sans-serif"><em><strong>Increased Library access for ITB students and staff:</strong></em></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Did you know you can now visit any DIT campus Library or ITT (Tallaght) Library with your ITB student or staff card? On production of your ITB student or staff card, you may visit any of these libraries and use their print materials for reference purposes. No letter of introduction is required. While you are there, you may also access ITB Library's online databases using Eduroam on your own mobile device, laptop, mobile phone etc.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Some terms and conditions apply! Books may not be borrowed and the Library may refuse admission during busy times, for example during exams. </font></p>
+      <p>
+        <font size="2" face="Arial, Helvetica, sans-serif">Staff/students can also
+          gain access to other Institute of Technology libraries (Partner libraries), excluding DIT, 
+          by obtaining a reader card from the Library Circulation Desk. This is 
+          for reference purposes only.<br>
+        Staff/students may also be granted access to other college libraries if 
+        the information they require is not available through the Library in ITB. 
+        This access is for one specific day and for reference purposes only. <span style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA" lang="EN-IE">Requests 
+            must be made in person to the Librarian, whereupon a letter of introduction 
+            may be given. This letter must be presented to the librarian in the other 
+        college library.</span></font></p>
+      <p><font color="#336633" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA" lang="EN-IE"><strong><a name="alumni"></a><br>
+        Alumni Association</strong></span></font><font size="2" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA" lang="EN-IE"><br>
+        ITB Alumni have reading rights (reference only) to the Institute Library 
+        at no charge. There is a charge of &euro;80 per annum for borrowing rights. 
+        Graduates who wish to use the Library will need to download and complete 
+        the following form, and return it to the Library with any payments. Please 
+      download the form <a href="PDF/Alumni.pdf"><font color="#336633">here</font></a>.</span></font><font size="2" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA" lang="EN-IE"><br>
+        <br>
+        </span></font><a name="borrowing"></a><br>
+        <b style="mso-bidi-font-weight:normal"><span lang="EN-IE" style="font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><font color="#336633" face="Arial, Helvetica, sans-serif"><strong> 
+        <font size="3">Borrowing</font></strong><br>
+        </font></span></b><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><font size="2" face="Arial, Helvetica, sans-serif">I</font></span><font size="2" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE">f 
+            you wish to borrow books from the Library, you must bring the book and 
+            your ID card to the Issue Desk. You will not be allowed to borrow without 
+            your ID card. Most books, except those marked <b style="mso-bidi-font-weight:normal">Reference, 
+            <span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE"> 
+            Periodicals, </span></b><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE">and 
+            <strong>Library Use Only,</strong> may be borrowed. </span></span></font>      </p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><o:p> 
+        </o:p></span></font><font size="2" face="Arial, Helvetica, sans-serif">Different 
+        types of loans available:</font></p>
+      <table width="75%" border="1" cellpadding="0" cellspacing="1">
+        <tr> 
+          <td><font color="#336633" face="Arial, Helvetica, sans-serif"><em><strong>Long 
+            Loan</strong></em></font><font size="2" face="Arial, Helvetica, sans-serif"> 
+            can be borrowed for:</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">2 weeks</font></td>
+        </tr>
+        <tr> 
+          <td><font color="#336633" face="Arial, Helvetica, sans-serif"><em><strong>Short 
+            Loan</strong></em></font><font size="2" face="Arial, Helvetica, sans-serif"> 
+            can be borrowed for:</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">1 week</font></td>
+        </tr>
+        <tr> 
+          <td><font color="#336633" face="Arial, Helvetica, sans-serif"><em><strong>Day 
+            Loan</strong></em></font><font size="2" face="Arial, Helvetica, sans-serif"> 
+            can be borrowed for:</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">1 day</font></td>
+        </tr>
+      </table>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Borrowing entitlements 
+        are as follows:</font></p>
+      <table width="75%" border="1" cellpadding="0" cellspacing="1">
+        <tr> 
+          <td>&nbsp;</td>
+          <td><b><em><font color="#336633" face="Arial, Helvetica, sans-serif">Borrower 
+            Type </font></em></b></td>
+          <td><font color="#336633" face="Arial, Helvetica, sans-serif"><b><em>Items</em></b></font></td>
+          <td><font color="#336633" face="Arial, Helvetica, sans-serif"><b><em>Loan 
+            Period</em></b></font></td>
+        </tr>
+        <tr> 
+          <td><font color="#336633" face="Arial, Helvetica, sans-serif"><b><em>Staff</em></b></font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">Academic Full-time</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">20</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif"> 90 days, 1 week, 
+            1 day</font></td>
+        </tr>
+        <tr> 
+          <td>&nbsp;</td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">Academic Part-time</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">10</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">90 days, 1 week, 
+            1 day</font></td>
+        </tr>
+        <tr> 
+          <td>&nbsp;</td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">Other staff</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">6</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">2 weeks, 1 week, 1 day</font></td>
+        </tr>
+        <tr> 
+          <td><font color="#336633" face="Arial, Helvetica, sans-serif"><b><em>Students</em></b></font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">Full and part-time</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">6</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">2 weeks, 1 week, 1 day</font></td>
+        </tr>
+        <tr> 
+          <td><font color="#336633" face="Arial, Helvetica, sans-serif"><b><em>Postgraduates</em></b></font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">Full and part-time</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">10</font></td>
+          <td><font size="2" face="Arial, Helvetica, sans-serif">2 weeks, 1 week, 1 day but may vary by individual course </font></td>
+        </tr>
+      </table>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">There is a security 
+        system in operation in the Library, so before leaving please ensure that 
+        all books have been checked out properly at the Issue Desk. </font></p>
+      <p><font color="#336633" size="3" face="Arial, Helvetica, sans-serif">Self-Issue<br>
+        <font color="#000000" size="2">The Library has a self-service system whereby 
+        students may issue books to their own account, and also return books. It is located at the end of the  Issue Desk on Level 1. User instructions are given on the touch-screen, or feel free to ask a member of the Library 
+        staff to demonstrate.</font></font></p>
+      <p><font color="#336633" face="Arial, Helvetica, sans-serif">Fines</font><b><font color="#336633"><br>
+        </font></b><font size="2" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE">Fines 
+        are charged for any items that are overdue, they are as follows:</span></font><font color="#336633"><b><br>
+        </b></font><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE"><font size="2" face="Arial, Helvetica, sans-serif">Long 
+        loans (2 weeks)<span style="mso-spacerun: yes; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE">&nbsp; 
+        </span>- 40c per day<br>
+        </font></span><font size="2" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE">Short 
+        loans (1 week) - 70c per day<br>
+        Day loans -<span style="mso-spacerun: yes; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE">&nbsp; 
+        </span>�1 per day.</span></font></p>
+      <p><font color="#336633" face="Arial, Helvetica, sans-serif">Renewals</font><br>
+        <font size="2" face="Arial, Helvetica, sans-serif">Books may be renewed 
+        continuously, provided you have no books overdue and no other person has requested 
+        them.</font> <font color="#336633" face="Arial, Helvetica, sans-serif"><br>
+        <br>
+        Reservations</font><br>
+        <span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE"><font size="2" face="Arial, Helvetica, sans-serif">Students 
+        may wish to borrow books that are already out on loan. A request can be 
+        placed on these books so that they are held for the student on their return. 
+        Only items which are on loan may be requested. You can do this on the 
+        online catalogue (OPAC) using your PIN (students can self-assign a PIN 
+        during the requesting process), Issue Desk staff will be pleased to show 
+        you how. As soon as the book becomes available, borrowers are notified 
+        by email. The book is held behind the Issue Desk for 5 days only.<span style="mso-spacerun: yes; mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE">&nbsp; 
+        </span>A maximum of 5 reservations per person is allowed at any one time.</font></span>      </p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="computers"></a><br>
+        </font><font color="#336633" face="Arial, Helvetica, sans-serif"><strong>PCs</strong></font><br>
+        <font size="2" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE">There 
+        are 30 PCs and two scanners in the Library for students to use. The computers have 
+         Internet access,  online databases, and networked software. 
+        These PCs must be booked for an hour at a time. You can do this via the 
+        online catalogue, or please ask at the Circulation Desk. Other computers 
+        are available in various labs around the Institute. Please note that the PCs in the Group Study area do not take USB keys..</span></font><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE">
+        <o:p></o:p>
+        </span></p>
+      <p><o:p><font size="2" face="Arial, Helvetica, sans-serif"><a name="external"></a><br>
+        </font><font color="#336633" face="Arial, Helvetica, sans-serif"><strong>External 
+        Readers<br>
+        </strong></font><font size="2" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE">A 
+        limited number of external users are permitted to become Library members. 
+        Membership is granted at the discretion of the Librarian, and is for a 
+        3 month period. There is a charge for this service: �10 for a reference 
+        card (no borrowing rights), or �30 for a borrower's card. Please download 
+        the application form for external readership <a href="PDF/Ext.%20User%20APPLICATION.pdf"><font color="#336633">here</font></a>. 
+        Please download more information <a href="PDF/Ext. Reader INFO.pdf"><font color="#336633">here</font></a>.</span></font></o:p>
+      </p>
+      <a name="finding"></a><br> <font color="#336633"><strong><font face="Arial, Helvetica, sans-serif">Finding 
+      What You Want</font></strong><br>
+      </font><font size="2" face="Arial, Helvetica, sans-serif">To check if the 
+      Library has the book you want, use the Library <a href="http://www.blanchlib.itb.ie/" class="style1">Catalogue</a>. This lists all the books that are 
+      available in the Library, and can be accessed on the PCs in the Library, 
+      from any other college PC and from home if you have internet access. 
+      The catalogue will tell you if the book is available in the Library and 
+      whether or not it is on loan. </font>
+      <p><font face="Arial, Helvetica, sans-serif"><a name="illoans"></a><br>
+        </font><font color="#336633" face="Arial, Helvetica, sans-serif"><strong>Inter-Library 
+        Loans</strong></font><font face="Arial, Helvetica, sans-serif"><br>
+        <font size="2">Books and journal articles which are not available in the 
+        Library may be obtained from external libraries in the UK and Ireland. 
+        Students may request up to 5 Inter-Library Loans (ILLs) free of charge 
+        in the academic year, providing the request has been sanctioned beforehand 
+        by your lecturer. Any extra ILLs are charged at &euro;14 each. Staff and 
+        researchers: each School has been allocated 40 free ILLs per academic 
+        year. Once this allocation has been filled, ILLs will be charged at &euro;14 
+        each. </font></font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><font size="2">An ILL request 
+        can be made via the Library Catalogue using your PIN (you can self-assign a PIN when 
+        requesting an ILL). You will be notified by e-mail when the item becomes 
+        available. It will be kept at the Issue Desk for 1 week only.<br>
+        <br>
+        Please apply for Inter-Library Loans by using the <a href="http://www.blanchlib.itb.ie/screens/ill.html"><font color="#336633">online 
+        form</font></a>.<br>
+        <br>
+      </font></font><font color="#336633" face="Arial, Helvetica, sans-serif"><strong><a name="Laptops"></a><br>
+      Laptops</strong></font><br>  
+      <font size="2" face="Arial, Helvetica, sans-serif">The Library has twenty three laptops for students to borrow. They can be borrowed for one day and renewed twice. If they are borrowed on a Friday, students can keep them until the following Monday. They are ITB wi-fi enabled and have Microsoft Office. Please see the borrowing rules and regulations for laptops <a href="PDF/Laptops.pdf" class="style1">here</a>. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><font size="2"><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><o:p> </o:p></span></font><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><o:p></o:p> </span> </font><a name="collections"><br>
+        </a><font color="#336633" face="Arial, Helvetica, sans-serif"><strong>Library 
+        Collections<br>
+        </strong></font><font color="#336633"><font face="Arial, Helvetica, sans-serif">Books</font><br>
+        </font><font size="2" face="Arial, Helvetica, sans-serif">All of the books 
+        in the Library, including reference books, are arranged according to the 
+        Dewey Decimal Classification system and so are shelved in following order:</font>      </p>
+      <p> <font color="#336633" size="2" face="Arial, Helvetica, sans-serif">000</font><font size="2" face="Arial, Helvetica, sans-serif"> 
+        Computer Science<br>
+        <font color="#336633">100</font> Philosophy & Psychology <br>
+        <font color="#336633">200</font> Religion <br>
+        <font color="#336633">300</font> Social Sciences/Economics <br>
+        <font color="#336633">400</font> Languages <br>
+        <font color="#336633">500</font> Natural Sciences & Mathematics<br>
+        <font color="#336633">600</font> Technology/Management<br>
+        <font color="#336633">700</font> The Arts/Design<br>
+        <font color="#336633">800</font> Literature<br>
+        <font color="#336633">900</font> Geography & History <br>
+        </font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Books in the Library 
+        cover all the subjects taught at ITB as well as other subject areas, such 
+        as English and Irish literature, travel, hobbies, biography and fiction.</font></p>
+      <p><font color="#336633" face="Arial, Helvetica, sans-serif">Audio-visual<strong><br>
+            </strong></font><font size="2" face="Arial, Helvetica, sans-serif">The 
+                Library holds audio and video cassettes, and CDs. There is a wide selection of 
+                language learning material e.g. French, German, Spanish, Italian, Danish 
+                etc. which may be borrowed for the short loan period of <span style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA" lang="EN-IE">1 
+                  week.</span></font></p>
+      <p class="MsoNormal" style="text-align:justify"><font size="2" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE">The 
+        Library also houses a collection of videos/DVDs. These cover topics such 
+        as business, management, language learning and popular home-grown films, 
+        as well as international cinema. These may be borrowed for 1 week. The 
+        videos can also be viewed in the Library using the TV/Video unit located 
+        by the PCs on Level 1. Headphones may be borrowed from the Issue Desk 
+        on presentation of a valid student ID card. Students may not bring their 
+        own videos for viewing in the Library.</span></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><strong><font color="#336633"><br>
+        </font></strong> </font><font color="#336633"><font face="Arial, Helvetica, sans-serif">Reference</font><br>
+        </font><span lang="EN-IE" style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE"><font size="2" face="Arial, Helvetica, sans-serif">The 
+                Reference section is located near the Circulation Desk on Level 1. Books 
+                from this section may not be taken out of the Library. In this area you will find maps 
+                and atlases of Dublin,</font></span> <font size="2" face="Arial, Helvetica, sans-serif"><span lang="EN-IE" style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE">Ireland, 
+                  Europe</span> <span lang="EN-IE" style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE">and 
+                    the World. Language dictionaries such as French, German, Spanish and Italian 
+                    are located here, as are dictionaries of computing, marketing, music and 
+                    electronics. Almanacs, directories and encyclopaedias, such as the Guinness 
+                    Book of Records are also found here.</span></font></p>
+      <p><font color="#336633" face="Arial, Helvetica, sans-serif">Journals</font><br>
+        <font size="2" face="Arial, Helvetica, sans-serif">The Library Periodicals 
+        Collection includes print and electronic journals (also known as serials 
+        or magazines), as well as daily and weekly newspapers. The printed journal 
+        collection includes approximately 80 titles, which cover the range of 
+        subjects taught at ITB.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Periodicals are shelved 
+        alphabetically by title. Current issues are displayed on the front of 
+        the periodical stand, while back issues are stacked on the shelf immediately 
+        behind. Periodicals cannot be borrowed from the Library as they are for 
+        reference use only. They can be searched for on the <a href="http://www.blanchlib.itb.ie/"><font color="#336633">Catalogue</font></a> 
+        by entering the journal title.</font></p>
+      <p><font color="#336633" face="Arial, Helvetica, sans-serif">Newspapers</font><br>
+        <font size="2" face="Arial, Helvetica, sans-serif">The Library holds a 
+        good selection of daily and weekly newspapers which are shelved on the 
+        newspaper display stand. These are for reference only. Most of these newspapers 
+        are also available on the web and through the online database Infotrac. 
+        Back issues of the newspapers are held for 3 months only and are shelved 
+        on Level 1 of the Library, near the Refence section.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Newspapers held are:</font></p>
+      <ul>
+        <li><a href="http://www.ft.com"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">The 
+          Financial Times</font></a></li>
+        <li><a href="http://www.guardian.co.uk"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">The 
+          Guardian</font></a></li>
+        <li><a href="http://www.independent.ie"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">The 
+          Irish Independent and Sunday Independent</font></a></li>
+        <li><a href="http://www.ireland.com"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">The 
+          Irish Times</font></a></li>
+        <li><a href="http://www.sbpost.ie"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Sunday 
+          Business Post</font></a></li>
+        <li><a href="http://www.zeit.de/"><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Die 
+          Zeit</font></a><a href="http://www.sbpost.ie"></a></li>
+        <li><font color="#336633" size="2" face="Arial, Helvetica, sans-serif">Articles 
+          from The Financial Times, The Guardian and The Independent can also 
+          be searched on the <a href="http://www.blanchlib.itb.ie/screens/databases5.html"><font color="#336633" size="2"face="Arial, Helvetica, sans-serif" >Infotrac</font></a> 
+          database </font><br>
+        </li>
+      </ul>
+      <p><font color="#336633"><font face="Arial, Helvetica, sans-serif">Annual 
+        Reports</font><strong><br>
+        </strong></font><font size="2" face="Arial, Helvetica, sans-serif">Annual 
+        reports and financial statements of Irish financial institutions and Irish 
+        public limited companies are available through the Library. Some of these are shelved 
+        in alphabetical order in the Annual Reports section on Level 1. These 
+        may be borrowed from the Library for the loan period of 2 weeks. Many annual reports can be accessed online. To see 
+        if the Library holds a particular report, simply check the catalogue. 
+        </font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="seminar"></a></font><font color="#336633" face="Arial, Helvetica, sans-serif"><strong><br>
+Noise Zones </strong></font><br>
+<font size="2" face="Arial, Helvetica, sans-serif">The Library is divided into three distinct noise zones - green, orange and red. The Green Zones are the group study areas. Students can study together here in small groups, and group around PCs. However, noise must be kept to a minumum. The Orange Zones are quiet areas. These zones are for quiet, individual study, with one person to a PC. The Red Zone is for totally quiet study with no noise whatsoever.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Students are asked to respect these zones and will be asked to leave the Library if this is not adhered to.</font><strong><font color="#336633" face="Arial, Helvetica, sans-serif"><br>
+      </font></strong> </p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="photocopying"></a><br>
+        </font><font color="#336633" face="Arial, Helvetica, sans-serif"><strong>Photocopying</strong></font><br>
+        <font size="2" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE" lang="EN-IE">There 
+        are two student photocopiers in the Library which also function as printers.  
+        <SPAN lang="EN-IE">Students can top up their   credit using a credit or debit card. Please see the information sheet at the   Student Information Desk or top up <A href="/cashless" class="style1">here</A>. </SPAN>Full instructions on their use is posted on   the walls above the copiers. Users are required to take note of the Copyright Law regulations displayed 
+        at the photocopiers.</span><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><b style="mso-bidi-font-weight:normal">
+        <o:p> 
+        <br>
+        <br>
+        <a name="printing"></a> </o:p><br>
+        <o:p><font color="#336633">Printing</font> <br>
+        </o:p></b></span></font><font face="Arial, Helvetica, sans-serif"><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><o:p></o:p>
+        </span></font><font size="2" face="Arial, Helvetica, sans-serif"><span style="mso-bidi-font-size: 10.0pt; mso-bidi-font-family: Times New Roman; mso-ansi-language: EN-IE">There   are three student printers in the Library, one of which prints in colour.   Students can top up their credit using a credit or debit card. Please see the   information sheet at the Student Information Desk or top up <A href="/cashless" class="style1">here</A>. Colour printing is 18c per A4 sheet, black and white printing is 6c per A4 sheet. Full instructions   on their use is posted on the walls above the printers.</span><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><b style="mso-bidi-font-weight:normal">
+        <o:p><br>
+      </o:p></b></span></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><b style="mso-bidi-font-weight:normal">
+        <a name="#Tablets" id="#Tablets"></a>
+        <o:p></o:p>
+        <br>
+        <o:p></o:p></b></span></font><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><b style="mso-bidi-font-weight:normal"><o:p><font color="#336633">Tablets</font></o:p>
+        </b></span><font size="2"><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><b style="mso-bidi-font-weight:normal"><o:p></o:p></b></span></font><font size="2" face="Arial, Helvetica, sans-serif"><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE"><b style="mso-bidi-font-weight:normal"><o:p></o:p><o:p> <br>
+        </o:p>
+      </b></span></font><font face="Arial, Helvetica, sans-serif"><span lang="EN-IE" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:Arial;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-ansi-language:EN-IE">
+      <o:p></o:p>
+      </span></font><font size="2" face="Arial, Helvetica, sans-serif">The Library has ten Samsung Galaxy Tab2 10.1&quot; 16GB tablets for students to borrow. They can be borrowed for three hours only and renewed twice. They are for library use only and cannot be removed from the library. They are ITB wi-fi enabled and have Polaris installed which is compatible with Microsoft Word, Powerpoint and Excel, and several other apps. They also have USB connectors and SD card connecters. Please see the borrowing rules and regulations for tablets <a href="PDF/Tablets.pdf" class="style1">here</a>. </font></p>
+      <p>
+        <font size="2" face="Arial, Helvetica, sans-serif"><br>
+        </font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"> <br>
+        </font> </p></td>
+</tr>
+
+  <tr> 
+    <td align="left" colspan="2"><div align="center"><font face="Verdana, Arial, Helvetica" size="1" color="#000000"><a href="http://www.blanchlib.itb.ie/"><font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1">Online 
+        Catalogue</font></a> | <a href="geninfo.html"> <font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+        General Information</font></a> | <a href="libserv.html" target="_self"><font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+        Library Services</font></a><br>
+        <a href="remotecats.htm"><font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1">Other Libraries</font></a> | <a href="contacts.html"><font color="#663333" face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+        Library Contacts</font></a></font></div></td>
+</tr>
+<tr>
+    <td valign="top" align="left" colspan="2"><div align="center"><font color="#663333" face="Verdana, Arial"
+    size="1"><strong>ITB Library</strong>, Blanchardstown Road North, Dublin 15, 
+        Ireland. <br>
+        Telephone: Tel: +353 (0)1 885 1047&nbsp; Fax: +353 (0)1 885 1001 <br>
+        Email: <a href="mailto:library@itb.ie">library@itb.ie</a><font color="#000000" face="Verdana, Arial" size="1">&nbsp;</font></font></div></td>
+</tr>
+</table>
+</body>
+</html>

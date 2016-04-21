@@ -1,0 +1,430 @@
+Apr 20 12:28:10.677 VTTY: Console port: waiting connection on tcp port 2003 for protocol IPv4 (FD 10)
+Apr 20 12:28:10.677 VTTY: AUX port: waiting connection on tcp port 2512 for protocol IPv4 (FD 11)
+Apr 20 12:28:10.677 slot0: C/H/S settings = 256/4/32
+Apr 20 12:28:10.677 slot1: C/H/S settings = 0/4/32
+Apr 20 12:28:11.067 C3725_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x6026b804,JIT on)
+Apr 20 12:28:11.067 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Apr 20 12:28:11.114 ROM: Microcode has started.
+Apr 20 12:28:11.114 ROM: trying to read bootvar 'WARM_REBOOT'
+Apr 20 12:28:11.332 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x22, pc=0x602774fc (size=2)
+Apr 20 12:28:11.332 ROM: unhandled syscall 0x00000047 at pc=0x60c00c34 (a1=0x80007df4,a2=0x639511f8,a3=0x0000011c)
+Apr 20 12:28:12.939 ROM: trying to read bootvar 'RANDOM_NUM'
+Apr 20 12:28:13.064 CPU0: PCI: read request for device 'gt96100' at pc=0x602830f8: bus=0,device=0,function=0,reg=0x00
+Apr 20 12:28:13.064 CPU0: PCI: read request for device 'gt96100' at pc=0x602830fc: bus=0,device=0,function=0,reg=0x00
+Apr 20 12:28:13.064 CPU0: PCI: read request for device 'gt96100' at pc=0x60282eac: bus=0,device=0,function=0,reg=0x08
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x10
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x10
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x90
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x90
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x14
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x14
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x94
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x10000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x94
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x20
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x20
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0xa0
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x14000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0xa0
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x04
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x04
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x84
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000146) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x84
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x0c
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x0c
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x8c
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000007) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x8c
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x10
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x10
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x90
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x00000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x90
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x14
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x14
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x60282ff4: bus=0,device=0,function=0,reg=0x94
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0x20000000) for device 'gt96100' at pc=0x60282ff8: bus=0,device=0,function=0,reg=0x94
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60282ff4 (bus=0,device=0,function=1,reg=0x10).
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60282ff8 (bus=0,device=0,function=1,reg=0x10).
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60282ff4 (bus=0,device=0,function=1,reg=0x90).
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x60282ff8 (bus=0,device=0,function=1,reg=0x90).
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x60282ff4 (bus=0,device=0,function=1,reg=0x14).
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x60282ff8 (bus=0,device=0,function=1,reg=0x14).
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x60282ff4 (bus=0,device=0,function=1,reg=0x94).
+Apr 20 12:28:13.064 CPU0: PCI: write request (data=0xe0000000) for unknown device at pc=0x60282ff8 (bus=0,device=0,function=1,reg=0x94).
+Apr 20 12:28:13.064 CPU0: IO_FPGA: write to unknown addr 0x32, value=0x40, pc=0x60280458 (size=2)
+Apr 20 12:28:13.064 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60298ce8 (size=2)
+Apr 20 12:28:13.064 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60298d14 (size=2)
+Apr 20 12:28:13.064 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x0, pc=0x60298d28 (size=2)
+Apr 20 12:28:13.064 CPU0: MTS: read  access to undefined address 0x3c080000 at pc=0x60298d5c (size=1)
+Apr 20 12:28:13.064 ROM: unhandled syscall 0x0000003e at pc=0x60c00c34 (a1=0x80007de4,a2=0x639511d4,a3=0x000000f8)
+Apr 20 12:28:13.064 ROM: unhandled syscall 0x00000047 at pc=0x60c00c34 (a1=0x80007dec,a2=0x639511f8,a3=0x0000011c)
+Apr 20 12:28:16.496 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 12:28:16.745 CPU0: JIT: flushing data structures (compiled pages=224)
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'BOOT'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'CONFIG_FILE'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'BOOTLDR'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'RSHELF'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'DSHELF'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'DSHELFINFO'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'RESET_COUNTER'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'CHRG_ID'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'SLOTCACHE'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'OVERTEMP'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'DIAG'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'DIAMETER_ORIGIN_ID'
+Apr 20 12:28:16.917 ROM: trying to read bootvar 'WARM_REBOOT'
+Apr 20 12:28:16.917 CPU0: JIT: partial JIT flush (count=180)
+Apr 20 12:28:17.151 CPU0: JIT: flushing data structures (compiled pages=227)
+Apr 20 12:28:17.463 CPU0: JIT: partial JIT flush (count=174)
+Apr 20 12:28:17.712 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60916cac (size=2)
+Apr 20 12:28:17.712 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x6091689c (size=1)
+Apr 20 12:28:17.712 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x60916924 (size=1)
+Apr 20 12:28:17.712 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x60916930, value=0x00000000 (size=1)
+Apr 20 12:28:17.712 CPU0: MTS: read  access to undefined address 0x3c080023 at pc=0x6091693c (size=1)
+Apr 20 12:28:17.712 CPU0: MTS: write access to undefined address 0x3c080023 at pc=0x6091694c, value=0x00000080 (size=1)
+Apr 20 12:28:17.712 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918734 (size=1)
+Apr 20 12:28:17.712 CPU0: MTS: write access to undefined address 0x3c000002 at pc=0x60918740, value=0x00000080 (size=1)
+Apr 20 12:28:17.712 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918744 (size=1)
+Apr 20 12:28:18.009 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 12:28:18.305 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 12:28:18.586 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 12:28:18.976 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 12:28:19.272 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 12:28:19.662 CPU0: MTS: read  access to undefined address 0x3c000002 at pc=0x60918770 (size=1)
+Apr 20 12:28:19.662 CPU0: MTS: write access to undefined address 0x3c080007 at pc=0x60916a38, value=0x00000002 (size=1)
+Apr 20 12:28:19.662 CPU0: MTS: write access to undefined address 0x3c080008 at pc=0x60916a40, value=0x00000002 (size=1)
+Apr 20 12:28:19.662 CPU0: MTS: write access to undefined address 0x3c080009 at pc=0x60916a48, value=0x00000002 (size=1)
+Apr 20 12:28:19.662 CPU0: MTS: write access to undefined address 0x3c08000a at pc=0x60916a4c, value=0x00000002 (size=1)
+Apr 20 12:28:19.662 CPU0: MTS: write access to undefined address 0x3c08000b at pc=0x60916a50, value=0x00000002 (size=1)
+Apr 20 12:28:19.662 CPU0: MTS: write access to undefined address 0x3c08000c at pc=0x60916a54, value=0x00000002 (size=1)
+Apr 20 12:28:19.662 CPU0: MTS: read  access to undefined address 0x3c080022 at pc=0x60917960 (size=1)
+Apr 20 12:28:19.803 CPU0: JIT: flushing data structures (compiled pages=228)
+Apr 20 12:28:19.974 CPU0: JIT: partial JIT flush (count=186)
+Apr 20 12:28:20.240 CPU0: JIT: flushing data structures (compiled pages=233)
+Apr 20 12:28:21.893 CPU0: IO_FPGA: write to unknown addr 0x34, value=0x33, pc=0x602749e8 (size=2)
+Apr 20 12:28:21.909 CPU0: JIT: partial JIT flush (count=174)
+Apr 20 12:28:22.049 CPU0: JIT: flushing data structures (compiled pages=239)
+Apr 20 12:28:22.314 CPU0: JIT: partial JIT flush (count=193)
+Apr 20 12:28:22.470 CPU0: JIT: flushing data structures (compiled pages=234)
+Apr 20 12:28:22.736 CPU0: JIT: partial JIT flush (count=191)
+Apr 20 12:28:22.907 CPU0: JIT: flushing data structures (compiled pages=234)
+Apr 20 12:28:23.141 CPU0: JIT: partial JIT flush (count=203)
+Apr 20 12:28:23.313 CPU0: JIT: flushing data structures (compiled pages=237)
+Apr 20 12:28:23.718 CPU0: JIT: partial JIT flush (count=169)
+Apr 20 12:28:24.842 CPU0: JIT: flushing data structures (compiled pages=233)
+Apr 20 12:28:25.091 CPU0: JIT: partial JIT flush (count=199)
+Apr 20 12:28:25.247 CPU0: JIT: flushing data structures (compiled pages=240)
+Apr 20 12:28:25.544 CPU0: JIT: partial JIT flush (count=171)
+Apr 20 12:28:25.731 CPU0: JIT: flushing data structures (compiled pages=234)
+Apr 20 12:28:26.090 CPU0: JIT: partial JIT flush (count=185)
+Apr 20 12:28:26.277 CPU0: JIT: flushing data structures (compiled pages=239)
+Apr 20 12:28:26.792 CPU0: JIT: partial JIT flush (count=174)
+Apr 20 12:28:27.150 CPU0: JIT: flushing data structures (compiled pages=233)
+Apr 20 12:28:27.369 CPU0: JIT: partial JIT flush (count=189)
+Apr 20 12:28:27.712 CPU0: JIT: flushing data structures (compiled pages=246)
+Apr 20 12:28:27.915 CPU0: JIT: partial JIT flush (count=191)
+Apr 20 12:28:28.258 CPU0: JIT: flushing data structures (compiled pages=257)
+Apr 20 12:28:28.461 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 12:28:29.818 CPU0: JIT: flushing data structures (compiled pages=273)
+Apr 20 12:28:30.005 CPU0: JIT: partial JIT flush (count=190)
+Apr 20 12:28:30.333 CPU0: JIT: flushing data structures (compiled pages=272)
+Apr 20 12:28:31.971 CPU0: JIT: partial JIT flush (count=161)
+Apr 20 12:28:33.063 CPU0: JIT: flushing data structures (compiled pages=274)
+Apr 20 12:28:33.250 ROM: trying to read bootvar 'PMDEBUG'
+Apr 20 12:28:33.266 ROM: trying to read bootvar 'MONDEBUG'
+Apr 20 12:28:33.437 CPU0: JIT: partial JIT flush (count=187)
+Apr 20 12:28:34.139 CPU0: JIT: flushing data structures (compiled pages=269)
+Apr 20 12:28:35.808 CPU0: JIT: partial JIT flush (count=175)
+Apr 20 12:28:36.947 CPU0: JIT: flushing data structures (compiled pages=274)
+Apr 20 12:28:37.665 CPU0: JIT: partial JIT flush (count=177)
+Apr 20 12:28:37.696 ROM: unhandled syscall 0x0000001a at pc=0x60c00c34 (a1=0x662e77b4,a2=0x63951144,a3=0x00000068)
+Apr 20 12:28:37.696 ROM: unhandled syscall 0x00000009 at pc=0x60c00c34 (a1=0x662e77b4,a2=0x63951100,a3=0x00000024)
+Apr 20 12:28:37.868 CPU0: JIT: flushing data structures (compiled pages=273)
+Apr 20 12:28:38.211 CPU0: JIT: partial JIT flush (count=185)
+Apr 20 12:28:38.570 CPU0: JIT: flushing data structures (compiled pages=277)
+Apr 20 12:28:38.772 CPU0: JIT: partial JIT flush (count=204)
+Apr 20 12:28:38.960 CPU0: JIT: flushing data structures (compiled pages=267)
+Apr 20 12:28:39.303 CPU0: JIT: partial JIT flush (count=209)
+Apr 20 12:28:39.490 CPU0: JIT: flushing data structures (compiled pages=266)
+Apr 20 12:28:40.036 CPU0: JIT: partial JIT flush (count=167)
+Apr 20 12:28:40.208 CPU0: JIT: flushing data structures (compiled pages=273)
+Apr 20 12:28:40.754 CPU0: JIT: partial JIT flush (count=180)
+Apr 20 12:28:41.097 CPU0: JIT: flushing data structures (compiled pages=271)
+Apr 20 12:28:41.112 ROM: trying to read bootvar 'RANDOM_NUM'
+Apr 20 12:28:41.471 CPU0: JIT: partial JIT flush (count=180)
+Apr 20 12:28:41.674 CPU0: JIT: flushing data structures (compiled pages=279)
+Apr 20 12:28:42.017 CPU0: JIT: partial JIT flush (count=194)
+Apr 20 12:28:42.329 CPU0: JIT: flushing data structures (compiled pages=276)
+Apr 20 12:28:42.501 CPU0: JIT: partial JIT flush (count=189)
+Apr 20 12:28:42.860 CPU0: JIT: flushing data structures (compiled pages=276)
+Apr 20 12:28:43.203 CPU0: JIT: partial JIT flush (count=196)
+Apr 20 12:28:43.374 CPU0: JIT: flushing data structures (compiled pages=276)
+Apr 20 12:28:43.577 CPU0: JIT: partial JIT flush (count=216)
+Apr 20 12:28:43.920 CPU0: JIT: flushing data structures (compiled pages=270)
+Apr 20 12:28:44.123 CPU0: JIT: partial JIT flush (count=200)
+Apr 20 12:28:44.326 CPU0: JIT: flushing data structures (compiled pages=280)
+Apr 20 12:28:44.654 CPU0: JIT: partial JIT flush (count=192)
+Apr 20 12:28:44.856 CPU0: JIT: flushing data structures (compiled pages=279)
+Apr 20 12:28:45.044 CPU0: JIT: partial JIT flush (count=191)
+Apr 20 12:28:45.231 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:28:45.574 CPU0: JIT: partial JIT flush (count=199)
+Apr 20 12:28:45.761 CPU0: JIT: flushing data structures (compiled pages=282)
+Apr 20 12:28:45.980 CPU0: JIT: partial JIT flush (count=196)
+Apr 20 12:28:46.292 CPU0: JIT: flushing data structures (compiled pages=282)
+Apr 20 12:28:46.479 CPU0: JIT: partial JIT flush (count=209)
+Apr 20 12:28:46.666 CPU0: JIT: flushing data structures (compiled pages=277)
+Apr 20 12:28:47.009 CPU0: JIT: partial JIT flush (count=203)
+Apr 20 12:28:47.212 CPU0: JIT: flushing data structures (compiled pages=282)
+Apr 20 12:28:47.555 CPU0: JIT: partial JIT flush (count=203)
+Apr 20 12:28:47.758 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:28:48.304 CPU0: JIT: partial JIT flush (count=171)
+Apr 20 12:28:48.647 CPU0: JIT: flushing data structures (compiled pages=289)
+Apr 20 12:28:49.022 CPU0: JIT: partial JIT flush (count=165)
+Apr 20 12:28:49.209 CPU0: JIT: flushing data structures (compiled pages=289)
+Apr 20 12:28:49.536 CPU0: IO_FPGA: read from unknown addr 0x16, pc=0x60916c6c (size=2)
+Apr 20 12:28:49.536 CPU0: IO_FPGA: write to unknown addr 0x16, value=0x1, pc=0x60916c74 (size=2)
+Apr 20 12:28:49.536 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:28:49.848 ROM: trying to read bootvar 'ROM_PERSISTENT_UTC'
+Apr 20 12:28:50.223 CPU0: JIT: flushing data structures (compiled pages=296)
+Apr 20 12:28:50.426 CPU0: JIT: partial JIT flush (count=206)
+Apr 20 12:28:50.597 CPU0: JIT: flushing data structures (compiled pages=278)
+Apr 20 12:28:50.800 CPU0: JIT: partial JIT flush (count=213)
+Apr 20 12:28:51.330 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:28:51.705 CPU0: JIT: partial JIT flush (count=187)
+Apr 20 12:28:51.892 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:28:52.235 CPU0: JIT: partial JIT flush (count=187)
+Apr 20 12:28:52.563 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:28:52.937 CPU0: JIT: partial JIT flush (count=185)
+Apr 20 12:28:53.296 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:28:53.686 CPU0: JIT: partial JIT flush (count=191)
+Apr 20 12:28:53.951 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:28:54.201 CPU0: JIT: partial JIT flush (count=198)
+Apr 20 12:28:54.326 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:28:54.482 CPU0: JIT: partial JIT flush (count=193)
+Apr 20 12:28:54.575 ROM: trying to set bootvar 'BSI=0'
+Apr 20 12:28:54.575 ROM: trying to read bootvar 'RET_2_RCALTS'
+Apr 20 12:28:54.575 ROM: trying to set bootvar 'RET_2_RCALTS='
+Apr 20 12:28:54.716 CPU0: JIT: flushing data structures (compiled pages=293)
+Apr 20 12:28:55.371 CPU0: JIT: partial JIT flush (count=171)
+Apr 20 12:28:55.761 CPU0: JIT: flushing data structures (compiled pages=292)
+Apr 20 12:28:59.099 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:29:11.330 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:29:24.605 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 12:29:33.981 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:29:38.131 CPU0: JIT: partial JIT flush (count=176)
+Apr 20 12:29:47.428 CPU0: JIT: flushing data structures (compiled pages=283)
+Apr 20 12:30:53.572 CPU0: JIT: partial JIT flush (count=149)
+Apr 20 12:31:00.998 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:31:06.411 CPU0: JIT: partial JIT flush (count=184)
+Apr 20 12:31:36.987 ROM: trying to set bootvar 'RANDOM_NUM=1886307028'
+Apr 20 12:31:36.987 CPU0: JIT: flushing data structures (compiled pages=290)
+Apr 20 12:31:46.737 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:32:28.982 VTTY: Console port is now connected (accept_fd=10,conn_fd=18)
+Apr 20 12:32:30.105 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:32:34.333 CPU0: JIT: partial JIT flush (count=177)
+Apr 20 12:32:38.638 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:32:43.231 CPU0: JIT: partial JIT flush (count=173)
+Apr 20 12:32:51.202 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:33:07.697 CPU0: JIT: partial JIT flush (count=163)
+Apr 20 12:33:11.191 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:33:31.845 CPU0: JIT: partial JIT flush (count=166)
+Apr 20 12:33:38.912 CPU0: JIT: flushing data structures (compiled pages=289)
+Apr 20 12:33:45.215 CPU0: JIT: partial JIT flush (count=172)
+Apr 20 12:33:50.375 VTTY: Console port is now connected (accept_fd=10,conn_fd=18)
+Apr 20 12:33:53.230 CPU0: JIT: flushing data structures (compiled pages=282)
+Apr 20 12:34:07.707 CPU0: JIT: partial JIT flush (count=169)
+Apr 20 12:34:11.139 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:34:31.840 CPU0: JIT: partial JIT flush (count=166)
+Apr 20 12:34:41.138 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:34:46.099 CPU0: JIT: partial JIT flush (count=174)
+Apr 20 12:35:07.689 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:35:12.073 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:35:31.854 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:35:37.844 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:35:45.738 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:36:07.702 CPU0: JIT: partial JIT flush (count=158)
+Apr 20 12:36:09.808 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:36:31.820 CPU0: JIT: partial JIT flush (count=165)
+Apr 20 12:36:38.949 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:36:46.531 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:37:07.685 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:37:11.117 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 12:37:31.833 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:37:38.916 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:37:46.529 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:38:07.698 CPU0: JIT: partial JIT flush (count=158)
+Apr 20 12:38:11.114 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:38:31.831 CPU0: JIT: partial JIT flush (count=166)
+Apr 20 12:38:37.853 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:38:43.266 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:38:51.284 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:39:07.696 CPU0: JIT: partial JIT flush (count=160)
+Apr 20 12:39:11.174 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:39:31.844 CPU0: JIT: partial JIT flush (count=166)
+Apr 20 12:39:37.866 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:39:46.540 CPU0: JIT: partial JIT flush (count=177)
+Apr 20 12:40:07.709 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:40:11.110 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 12:40:31.842 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:40:37.848 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:40:43.246 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:40:56.584 CPU0: JIT: partial JIT flush (count=168)
+Apr 20 12:41:07.707 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:41:11.295 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 12:41:31.824 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:41:38.938 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:41:43.259 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:42:07.689 CPU0: JIT: partial JIT flush (count=157)
+Apr 20 12:42:12.103 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:42:31.822 CPU0: JIT: partial JIT flush (count=167)
+Apr 20 12:42:38.936 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:42:43.288 CPU0: JIT: partial JIT flush (count=182)
+Apr 20 12:43:07.702 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:43:11.571 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:43:31.835 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:43:37.841 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:43:43.254 CPU0: JIT: flushing data structures (compiled pages=289)
+Apr 20 12:43:56.577 CPU0: JIT: partial JIT flush (count=172)
+Apr 20 12:44:07.700 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:44:13.238 CPU0: JIT: partial JIT flush (count=177)
+Apr 20 12:44:31.833 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:44:37.855 CPU0: JIT: partial JIT flush (count=176)
+Apr 20 12:44:43.283 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:44:52.097 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:45:07.713 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:45:13.251 CPU0: JIT: partial JIT flush (count=178)
+Apr 20 12:45:31.815 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:45:37.852 CPU0: JIT: partial JIT flush (count=177)
+Apr 20 12:45:43.250 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:45:51.331 CPU0: JIT: partial JIT flush (count=173)
+Apr 20 12:46:07.711 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:46:11.314 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 12:46:31.828 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:46:38.926 CPU0: JIT: partial JIT flush (count=178)
+Apr 20 12:46:43.263 CPU0: JIT: flushing data structures (compiled pages=289)
+Apr 20 12:47:07.693 CPU0: JIT: partial JIT flush (count=157)
+Apr 20 12:47:11.172 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:47:31.826 CPU0: JIT: partial JIT flush (count=166)
+Apr 20 12:47:37.863 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:47:46.521 CPU0: JIT: partial JIT flush (count=177)
+Apr 20 12:48:07.706 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:48:11.123 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 12:48:31.839 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:48:37.861 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:48:43.227 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:49:00.575 CPU0: JIT: partial JIT flush (count=167)
+Apr 20 12:49:07.704 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:49:31.837 CPU0: JIT: partial JIT flush (count=165)
+Apr 20 12:49:37.827 CPU0: JIT: flushing data structures (compiled pages=289)
+Apr 20 12:49:43.241 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:49:48.810 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:50:07.702 CPU0: JIT: partial JIT flush (count=160)
+Apr 20 12:50:11.134 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:50:31.819 CPU0: JIT: partial JIT flush (count=166)
+Apr 20 12:50:37.825 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:50:43.238 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:50:57.544 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:51:07.684 CPU0: JIT: partial JIT flush (count=168)
+Apr 20 12:51:13.721 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:51:31.864 CPU0: JIT: partial JIT flush (count=165)
+Apr 20 12:51:37.838 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:51:43.236 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:51:53.423 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:52:07.681 CPU0: JIT: partial JIT flush (count=163)
+Apr 20 12:52:13.235 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:52:31.861 CPU0: JIT: partial JIT flush (count=165)
+Apr 20 12:52:37.821 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:52:43.234 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:52:56.587 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:53:07.710 CPU0: JIT: partial JIT flush (count=166)
+Apr 20 12:53:13.279 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:53:31.828 CPU0: JIT: partial JIT flush (count=164)
+Apr 20 12:53:37.849 CPU0: JIT: flushing data structures (compiled pages=289)
+Apr 20 12:53:43.232 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:53:56.585 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:54:07.692 CPU0: JIT: partial JIT flush (count=168)
+Apr 20 12:54:13.230 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:54:31.872 CPU0: JIT: partial JIT flush (count=165)
+Apr 20 12:54:37.847 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:54:43.229 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:54:57.550 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:55:07.706 CPU0: JIT: partial JIT flush (count=168)
+Apr 20 12:55:15.786 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 12:55:31.823 CPU0: JIT: partial JIT flush (count=167)
+Apr 20 12:55:37.845 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:55:43.289 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:55:54.319 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:56:07.688 CPU0: JIT: partial JIT flush (count=164)
+Apr 20 12:56:11.494 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:56:31.868 CPU0: JIT: partial JIT flush (count=163)
+Apr 20 12:56:37.843 CPU0: JIT: flushing data structures (compiled pages=289)
+Apr 20 12:56:43.225 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:56:51.898 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:57:07.701 CPU0: JIT: partial JIT flush (count=161)
+Apr 20 12:57:11.507 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:57:31.850 CPU0: JIT: partial JIT flush (count=163)
+Apr 20 12:57:37.825 CPU0: JIT: flushing data structures (compiled pages=289)
+Apr 20 12:57:43.238 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:57:48.121 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:58:07.699 CPU0: JIT: partial JIT flush (count=164)
+Apr 20 12:58:11.568 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:58:31.832 CPU0: JIT: partial JIT flush (count=163)
+Apr 20 12:58:37.822 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:58:43.236 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:58:54.015 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 12:59:07.681 CPU0: JIT: partial JIT flush (count=164)
+Apr 20 12:59:13.250 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 12:59:31.830 CPU0: JIT: partial JIT flush (count=164)
+Apr 20 12:59:37.836 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 12:59:43.249 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 12:59:53.623 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 13:00:07.679 CPU0: JIT: partial JIT flush (count=163)
+Apr 20 13:00:12.561 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 13:00:31.843 CPU0: JIT: partial JIT flush (count=167)
+Apr 20 13:00:38.910 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 13:00:45.103 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 13:01:07.692 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 13:01:11.155 CPU0: JIT: partial JIT flush (count=181)
+Apr 20 13:01:31.810 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 13:01:38.923 CPU0: JIT: partial JIT flush (count=179)
+Apr 20 13:01:46.458 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 13:02:07.705 CPU0: JIT: partial JIT flush (count=158)
+Apr 20 13:02:11.106 CPU0: JIT: flushing data structures (compiled pages=285)
+Apr 20 13:02:31.838 CPU0: JIT: partial JIT flush (count=166)
+Apr 20 13:02:37.844 CPU0: JIT: flushing data structures (compiled pages=287)
+Apr 20 13:02:43.226 CPU0: JIT: partial JIT flush (count=171)
+Apr 20 13:02:48.140 CPU0: JIT: flushing data structures (compiled pages=288)
+Apr 20 13:03:07.687 CPU0: JIT: partial JIT flush (count=165)
+Apr 20 13:03:12.555 CPU0: JIT: flushing data structures (compiled pages=286)
+Apr 20 13:03:18.406 C3725_STOP: stopping simulation.
+Apr 20 13:03:18.406 CPU0: CPU_STATE: Halting CPU (old state=0)...
+Apr 20 13:03:18.515 VM: shutdown procedure engaged.
+Apr 20 13:03:18.515 VM_OBJECT: Shutdown of object "slot1"
+Apr 20 13:03:18.515 DEVICE: Removal of device slot1, fd=-1, host_addr=0x0, flags=2
+Apr 20 13:03:18.515 VM_OBJECT: Shutdown of object "slot0"
+Apr 20 13:03:18.515 DEVICE: Removal of device slot0, fd=-1, host_addr=0x0, flags=2
+Apr 20 13:03:18.515 VM_OBJECT: Shutdown of object "ns16552"
+Apr 20 13:03:18.515 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Apr 20 13:03:18.515 VM_OBJECT: Shutdown of object "mem_bswap"
+Apr 20 13:03:18.515 DEVICE: Removal of device mem_bswap, fd=-1, host_addr=0x0, flags=0
+Apr 20 13:03:18.515 VM_OBJECT: Shutdown of object "rom"
+Apr 20 13:03:18.515 DEVICE: Removal of device rom, fd=14, host_addr=0xf1910000, flags=1
+Apr 20 13:03:18.515 MMAP: unmapping of device 'rom', fd=14, host_addr=0xf1910000, len=0x200000
+Apr 20 13:03:18.515 VM_OBJECT: Shutdown of object "ram"
+Apr 20 13:03:18.515 DEVICE: Removal of device ram, fd=13, host_addr=0xf1b10000, flags=34
+Apr 20 13:03:18.515 MMAP: unmapping of device 'ram', fd=13, host_addr=0xf1b10000, len=0xc000000
+Apr 20 13:03:18.547 VM_OBJECT: Shutdown of object "gt96100"
+Apr 20 13:03:18.547 DEVICE: Removal of device gt96100, fd=-1, host_addr=0x0, flags=0
+Apr 20 13:03:18.547 VM_OBJECT: Shutdown of object "io_fpga"
+Apr 20 13:03:18.547 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Apr 20 13:03:18.547 VM_OBJECT: Shutdown of object "ssa"
+Apr 20 13:03:18.547 DEVICE: Removal of device ssa, fd=12, host_addr=0xfdb10000, flags=2
+Apr 20 13:03:18.547 MMAP: unmapping of device 'ssa', fd=12, host_addr=0xfdb10000, len=0x7000
+Apr 20 13:03:18.547 VM_OBJECT: Shutdown of object "remote_ctrl"
+Apr 20 13:03:18.547 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Apr 20 13:03:18.547 VM: removing PCI busses.
+Apr 20 13:03:18.547 VM: deleting VTTY.
+Apr 20 13:03:18.547 VTTY: Console port: closing FD 10
+Apr 20 13:03:18.547 VTTY: AUX port: closing FD 11
+Apr 20 13:03:18.547 VM: deleting system CPUs.
+Apr 20 13:03:18.547 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Apr 20 13:03:18.562 VM: shutdown procedure completed.
+Apr 20 13:03:18.578 VM: trying to shutdown an inactive VM.

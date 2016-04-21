@@ -1,0 +1,23 @@
+// J7_3_VP.cg Vertex Program: fragment texture mapping  
+
+void main(
+	float4 iPosition	: 	POSITION, 
+	float4 iNormal    	: 	NORMAL,
+	float2 iTexCoord 	: 	TEXCOORD0,
+	
+out float4 oPosition 	: 	POSITION, 
+out float4 vPosition 	: 	TEXCOORD0,
+out float4 vNormal      : 	TEXCOORD1,
+out float2 oTexCoord 	: 	TEXCOORD2,
+
+uniform float4x4 			modelView,
+uniform float4x4 			modelViewProjection,
+uniform float4x4 			inverseTranspose
+) {
+  vPosition = mul(modelView, iPosition); 
+  vNormal = mul(inverseTranspose, iNormal);
+  vNormal.xyz = normalize(vNormal.xyz); 
+  oTexCoord = iTexCoord; 
+  oPosition = mul(modelViewProjection, iPosition);
+}
+

@@ -1,0 +1,11 @@
+The Single UNIX Specification benefits the whole IT industry. For users, products that support the Single UNIX Specification provide a powerful open platform for the development, implementation and management of mission-critical computer systems. The specification will facilitate freedom of choice across the widest possible range of systems therefore protecting investment in existing software and data. 
+
+For software vendows, the Single UNIX Specification offers an opportunity to cut significantly the cost of developing and maintaining their products. It also expands the market opportunity by expanding the market, cutting time-to-market and reducing product development costs.
+
+For system vendors, the Single UNIX Specification unifies a previously fragmented market and offers the chance for all to compete on equal terms, while reducing the investment required to maintain technical incompatibilities.
+
+From now on, system vendors have a standard specification and a branding program underpinning a widely recognized brand through which they can bring to market their UNIX system products.
+
+Under the UNIX certification program, products that implement the services as specified in the Single UNIX Specification are able to carry the UNIX trade mark.
+
+As a result, customers will be assured that, by asking for a UNIX certified system, they will derive the associated business benefits of the guarantee. The development and quality assurance of UNIX certified systems is aided by the availability of a suite of software testing tools. These have been developed to cover all aspects of the Single UNIX Specification: core system calls; commands and utilities; UNIX extensions; and networking interfaces. 

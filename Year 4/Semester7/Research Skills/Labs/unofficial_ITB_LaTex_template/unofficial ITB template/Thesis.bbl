@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[DB(2005)]{DUB05}
+DB.
+\newblock {{Dublin Bus - Mission Statement}}.
+\newblock online, http://www.dublinbus.ie, (last accessed: October 2005), 2005.
+
+\end{thebibliography}

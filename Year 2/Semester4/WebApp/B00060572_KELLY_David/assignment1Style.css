@@ -1,0 +1,111 @@
+body
+{
+	background-color: beige;
+}
+
+form
+{
+	margin: 0 auto;
+	width: 80%;
+	border: 2px solid red;
+	padding: 30px;
+}
+
+fieldset
+{
+	border-color: green;
+}
+
+legend
+{
+	color: brown;
+}
+
+.inputBottom
+{
+	position: bottom;
+}
+
+h1
+{
+ color: red;
+ text-align: center;
+}
+
+#horseTitle
+{
+	float: left;
+	text-align: center;
+	padding-left: 30%;
+}
+
+#comments
+{
+	margin-left: 30px;
+}
+
+#buttons
+{
+	margin-left: 40%;
+}
+
+
+label
+{
+	width:250px;
+	margin-left: 50px;
+	text-align: left;
+	color: blue;
+}
+	
+label, input, select
+{
+	float: left;
+}
+
+.details
+{
+	float: left;
+	clear: left;
+	display: block;
+	margin-left: 50px;
+}
+
+table
+{
+	margin: 0 auto;
+	border: 2px solid grey;
+	border-collapse: collapse;
+}
+
+td
+{
+	border-right: 2px solid grey;
+	padding-right: 20px;
+} 
+	
+.info
+{
+	float: left;
+	clear: left;
+	display: block;
+	margin-left: 120px;
+}
+
+.option
+{
+	float: left;
+	display: block;
+	margin-left: 50px;
+}
+
+.radio 
+{
+	float:left;
+	width:80px;
+}
+
+.check 
+{
+	float:left;
+}

@@ -1,0 +1,28 @@
+{"album":
+	{
+		"row":
+		{
+		"artist": "Michael Jackson",
+		"albumName": "Bad",
+		"date": "1987"
+		}
+		"row":
+		{
+		"artist": "The Rolling Stones",
+		"albumName": "Forty Licks",
+		"date": "2002"
+		}
+		"row":
+		{
+		"artist": "The Beatles",
+		"albumName": "Let It Be",
+		"date": "1970"
+		}
+		"row":
+		{
+		"artist": "Neil Young",
+		"albumName": "Harvest",
+		"date": "1972"
+		}
+	}
+}

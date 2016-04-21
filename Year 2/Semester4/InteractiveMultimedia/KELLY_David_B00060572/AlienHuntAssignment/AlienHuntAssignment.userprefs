@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Level3/ShipSensor.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Level2/L2ShipSensor.cs" Line="48" Column="4" />
+      <File FileName="Assets/Scripts/GameWonBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level1/L1PlayerScript.cs" Line="52" Column="3" />
+      <File FileName="Assets/Scripts/InstructionsRolloverMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayRolloverMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameWonRollover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level3/ShipSensor.cs" Line="46" Column="2" />
+      <File FileName="Assets/Scripts/Level2/L2Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level2/L2ShipSensor.cs" Line="75" Column="2" />
+      <File FileName="Assets/Scripts/Level3/DoorSensorScript.cs" Line="41" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

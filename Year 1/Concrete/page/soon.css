@@ -1,0 +1,31 @@
+	body
+	{
+	background-color: black;
+	}
+	
+	#pic
+	{
+	padding-left: 30%;
+	}
+	
+	#pic2
+	{
+	position: absolute;
+	bottom: 0px;
+	left: 0px
+	}
+	
+	h1
+	{
+	color: white;
+	font-family: helvetica;
+	color: #F8ED3D;
+	}		
+	
+	#wrap
+	{
+	width: 960px;
+	background-color: ;
+	margin-left: auto;
+	margin-right: auto;
+	}

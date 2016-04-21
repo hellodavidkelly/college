@@ -1,0 +1,38 @@
+Engine: Cart
+InputVariable: angle
+  enabled: true
+  range: -4.000 4.000
+  term: N Trapezoid -4.000 -4.000 -1.000 0.000
+  term: Z Triangle -2.000 0.000 2.000
+  term: P Trapezoid 0.000 1.000 4.000 4.000
+InputVariable: angular_velocity
+  enabled: true
+  range: -8.000 8.000
+  term: N Trapezoid -8.000 -8.000 -3.000 -2.000
+  term: Z Trapezoid -3.000 -2.000 2.000 3.000
+  term: P Trapezoid 2.000 3.000 8.000 8.000
+OutputVariable: force
+  enabled: true
+  range: -32.000 32.000
+  accumulation: Maximum
+  defuzzifier: Centroid 200
+  default: nan
+  lock-valid: false
+  lock-range: false
+  term: N Trapezoid -32.000 -32.000 -5.000 -1.000
+  term: Z Trapezoid -3.000 -1.000 1.000 3.000
+  term: P Trapezoid 1.000 5.000 32.000 32.000
+RuleBlock: 
+  enabled: true
+  conjunction: Minimum
+  disjunction: Maximum
+  activation: Minimum
+  rule: if angle is N and angular_velocity is N then force is N
+  rule: if angle is Z and angular_velocity is N then force is N
+  rule: if angle is P and angular_velocity is N then force is Z
+  rule: if angle is N and angular_velocity is Z then force is N
+  rule: if angle is Z and angular_velocity is Z then force is Z
+  rule: if angle is P and angular_velocity is Z then force is P
+  rule: if angle is N and angular_velocity is P then force is Z
+  rule: if angle is Z and angular_velocity is P then force is P
+  rule: if angle is P and angular_velocity is P then force is P

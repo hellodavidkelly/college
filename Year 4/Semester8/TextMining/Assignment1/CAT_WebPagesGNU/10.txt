@@ -1,0 +1,523 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<!-- start of server/head-include-1.html -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<meta name="DC.title" content="gnu.org" />
+<!-- end of server/head-include-1.html -->
+
+<!-- end of server/header.html -->
+
+<!-- Parent-Version: 1.77 -->
+<title>Selling Free Software
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/selling.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/selling.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/philosophy/selling.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/selling.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="ca" hreflang="ca" href="/philosophy/selling.ca.html" title="català" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/selling.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/selling.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="el" hreflang="el" href="/philosophy/selling.el.html" title="ελληνικά" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/selling.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fa" hreflang="fa" href="/philosophy/selling.fa.html" title="فارسی" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/selling.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="hr" hreflang="hr" href="/philosophy/selling.hr.html" title="hrvatski" />
+<link rel="alternate" type="text/html" lang="id" hreflang="id" href="/philosophy/selling.id.html" title="Bahasa Indonesia" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/selling.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/selling.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="lt" hreflang="lt" href="/philosophy/selling.lt.html" title="lietuvių" />
+<link rel="alternate" type="text/html" lang="ml" hreflang="ml" href="/philosophy/selling.ml.html" title="മലയാളം" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/selling.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/selling.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/selling.pt-br.html" title="português do Brasil" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/selling.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sr" hreflang="sr" href="/philosophy/selling.sr.html" title="српски" />
+<link rel="alternate" type="text/html" lang="sv" hreflang="sv" href="/philosophy/selling.sv.html" title="svenska" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/selling.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/philosophy/selling.uk.html" title="українська" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/selling.zh-cn.html" title="简体中文" />
+<link rel="alternate" type="text/html" lang="zh-tw" hreflang="zh-tw" href="/philosophy/selling.zh-tw.html" title="繁體中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="/combo.css" media="screen" />
+<link rel="stylesheet" href="/mini.css" media="handheld" />
+<link rel="stylesheet" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" href="/print.min.css" media="print" />
+<style type="text/css" media="print,screen">
+
+
+.crm-amount-fill {
+  background: #f2cd5f;
+  color: black;
+  border-radius: 1em;
+  padding-right: .3em; padding-left: .3em;
+  width: 100%;
+}
+.crm-amount-high {
+  float: right;
+}
+div.donate_btn {
+  float: right;
+}
+</style>
+<style type="text/css" media="print,screen">
+<!--
+div.fundraiser {
+  font-family: "FreeSans", sans-serif;
+  padding: .5em 1.5% .5em 1.5%;
+  background-color: #ced7ff;
+  background: -webkit-linear-gradient(#b4c2ff, white);
+  background: -o-linear-gradient(#b4c2ff, white);
+  background: -moz-linear-gradient(#b4c2ff, white);
+  background: linear-gradient(#b4c2ff, white);
+  border-top: .2em solid #5272fd;
+}
+.fundraiser a {
+  color: black;
+}
+.crm-amount-high {
+  padding: 0 .3em;
+  background-color: #4a5a6a;
+  border-radius: 1em;
+}
+.crm-amount-bar {
+  border-radius: 1em;
+  background-color: #778796;
+  color: white;
+  border: .1em solid #4a5a6a;
+  margin-bottom: .5em;
+}
+div.donate_btn {
+  margin: 1.5em 0 0 1.5em;
+}
+.donate_btn a{
+  display: block;
+  text-decoration: none;
+  font-weight:bold;
+  padding: 0.4em 1em;
+  color: black;
+  background-color: #f2cd5f;
+  text-align: center;
+  border: .1em solid #CCA832;
+  border-radius: 1em;
+}
+@media (max-width: 30em) {
+   .fundraiser {
+    display: none;
+  }
+}
+-->
+</style>
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+
+
+
+
+
+<div id="toplinks">
+ <a href="#content">Skip to main text</a>
+ <span class="gnun-split"></span>
+ <a href="/server/select-language.html?callback=/philosophy/selling.html" rel="nofollow">
+ Set language
+ <span class="gnun-split"></span>
+ </a>
+</div> <!-- /toplinks -->
+
+<div id="searcher">
+ <form method="get" action="//www.gnu.org/cgi-bin/estseek.cgi">
+  <div>
+  <input name="phrase" id="phrase" type="text" size="18" accesskey="s"
+         value="Why GNU/Linux?" onfocus="this.value=''" />
+  <input type="submit" value="Search" />
+  </div>
+ </form>
+</div><!-- /searcher -->
+
+<div id="translations">
+<p>
+<span dir="ltr" class="original"><a lang="en" hreflang="en" href="/philosophy/selling.en.html">English</a>&nbsp;[en]</span> &nbsp;
+<span dir="ltr"><a lang="ar" hreflang="ar" href="/philosophy/selling.ar.html">العربية</a>&nbsp;[ar]</span> &nbsp;
+<span dir="ltr"><a lang="bg" hreflang="bg" href="/philosophy/selling.bg.html">български</a>&nbsp;[bg]</span> &nbsp;
+<span dir="ltr"><a lang="ca" hreflang="ca" href="/philosophy/selling.ca.html">català</a>&nbsp;[ca]</span> &nbsp;
+<span dir="ltr"><a lang="cs" hreflang="cs" href="/philosophy/selling.cs.html">čeština</a>&nbsp;[cs]</span> &nbsp;
+<span dir="ltr"><a lang="de" hreflang="de" href="/philosophy/selling.de.html">Deutsch</a>&nbsp;[de]</span> &nbsp;
+<span dir="ltr"><a lang="el" hreflang="el" href="/philosophy/selling.el.html">ελληνικά</a>&nbsp;[el]</span> &nbsp;
+<span dir="ltr"><a lang="es" hreflang="es" href="/philosophy/selling.es.html">español</a>&nbsp;[es]</span> &nbsp;
+<span dir="ltr"><a lang="fa" hreflang="fa" href="/philosophy/selling.fa.html">فارسی</a>&nbsp;[fa]</span> &nbsp;
+<span dir="ltr"><a lang="fr" hreflang="fr" href="/philosophy/selling.fr.html">français</a>&nbsp;[fr]</span> &nbsp;
+<span dir="ltr"><a lang="hr" hreflang="hr" href="/philosophy/selling.hr.html">hrvatski</a>&nbsp;[hr]</span> &nbsp;
+<span dir="ltr"><a lang="id" hreflang="id" href="/philosophy/selling.id.html">Bahasa&nbsp;Indonesia</a>&nbsp;[id]</span> &nbsp;
+<span dir="ltr"><a lang="it" hreflang="it" href="/philosophy/selling.it.html">italiano</a>&nbsp;[it]</span> &nbsp;
+<span dir="ltr"><a lang="ja" hreflang="ja" href="/philosophy/selling.ja.html">日本語</a>&nbsp;[ja]</span> &nbsp;
+<span dir="ltr"><a lang="lt" hreflang="lt" href="/philosophy/selling.lt.html">lietuvių</a>&nbsp;[lt]</span> &nbsp;
+<span dir="ltr"><a lang="ml" hreflang="ml" href="/philosophy/selling.ml.html">മലയാളം</a>&nbsp;[ml]</span> &nbsp;
+<span dir="ltr"><a lang="nl" hreflang="nl" href="/philosophy/selling.nl.html">Nederlands</a>&nbsp;[nl]</span> &nbsp;
+<span dir="ltr"><a lang="pl" hreflang="pl" href="/philosophy/selling.pl.html">polski</a>&nbsp;[pl]</span> &nbsp;
+<span dir="ltr"><a lang="pt-br" hreflang="pt-br" href="/philosophy/selling.pt-br.html">português&nbsp;do&nbsp;Brasil</a>&nbsp;[pt-br]</span> &nbsp;
+<span dir="ltr"><a lang="ru" hreflang="ru" href="/philosophy/selling.ru.html">русский</a>&nbsp;[ru]</span> &nbsp;
+<span dir="ltr"><a lang="sr" hreflang="sr" href="/philosophy/selling.sr.html">српски</a>&nbsp;[sr]</span> &nbsp;
+<span dir="ltr"><a lang="sv" hreflang="sv" href="/philosophy/selling.sv.html">svenska</a>&nbsp;[sv]</span> &nbsp;
+<span dir="ltr"><a lang="tr" hreflang="tr" href="/philosophy/selling.tr.html">Türkçe</a>&nbsp;[tr]</span> &nbsp;
+<span dir="ltr"><a lang="uk" hreflang="uk" href="/philosophy/selling.uk.html">українська</a>&nbsp;[uk]</span> &nbsp;
+<span dir="ltr"><a lang="zh-cn" hreflang="zh-cn" href="/philosophy/selling.zh-cn.html">简体中文</a>&nbsp;[zh-cn]</span> &nbsp;
+<span dir="ltr"><a lang="zh-tw" hreflang="zh-tw" href="/philosophy/selling.zh-tw.html">繁體中文</a>&nbsp;[zh-tw]</span> &nbsp;
+</p>
+</div>
+
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+<div id="header">
+<div id="fsf-frame">
+<p id="join-fsf"><a href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a></p>
+<div id="fssbox">
+<p><a href="http://www.fsf.org/fss">Free Software Supporter</a></p>
+<form action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31" method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+ </div>
+ <p>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </p>
+</form>
+</div><!-- /fssbox -->
+</div><!-- /fsf-frame -->
+
+<div id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.small.png" alt=" [A GNU head] " /><strong>GNU</strong> Operating System</a>
+</div><!-- /gnu-banner -->
+
+<p id="fsf-support">Sponsored by the <a href="#mission-statement">Free Software Foundation</a></p>
+
+</div><!-- /header -->
+
+<div id="navigation">
+
+ <ul>
+  <li id="tabAboutGNU"><a href="/gnu/gnu.html">About&nbsp;GNU</a></li>
+  <li id="tabPhilosophy"><a href="/philosophy/philosophy.html">Philosophy</a></li>
+  <li id="tabLicenses"><a href="/licenses/licenses.html">Licenses</a></li>
+  <li id="tabEducation"><a href="/education/education.html">Education</a></li>
+  <li id="tabSoftware"><a href="/software/software.html">Software</a></li>
+  <li id="tabDoc"><a href="/doc/doc.html">Documentation</a></li>
+  <li id="tabHelp"><a href="/help/help.html">Help&nbsp;GNU</a></li>
+ </ul>
+
+</div><!--  /navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content">
+<!-- end of server/banner.html -->
+
+<h2>Selling Free Software</h2>
+
+<p><em><a href="/philosophy/selling-exceptions.html">Some views on the
+ideas of selling exceptions to free software licenses, such as the GNU
+GPL</a> are also available.</em></p>
+
+<p>
+Many people believe that the spirit of the GNU Project is that you
+should not charge money for distributing copies of software, or that
+you should charge as little as possible&mdash;just enough to cover
+the cost.  This is a misunderstanding.</p>
+
+<p>
+Actually, we encourage people who redistribute
+<a href="/philosophy/free-sw.html">free software</a> to charge as much
+as they wish or can.  If a license does not permit users to make
+copies and sell them, it is a nonfree license.  If this seems
+surprising to you, please read on.</p>
+
+<p>
+The word &ldquo;free&rdquo; has two legitimate general meanings; it can refer
+either to freedom or to price.  When we speak of &ldquo;free software&rdquo;,
+we're talking about freedom, not price.  (Think of &ldquo;free speech&rdquo;,
+not &ldquo;free beer&rdquo;.)  Specifically, it means that a user is free to run
+the program, change the program, and redistribute the program with or
+without changes.</p>
+
+<p>
+Free programs are sometimes distributed gratis, and sometimes for a
+substantial price.  Often the same program is available in both ways
+from different places.  The program is free regardless of the price,
+because users have freedom in using it.</p>
+
+<p>
+<a href="/philosophy/categories.html#ProprietarySoftware">Nonfree programs</a>
+are usually sold for a high price, but sometimes a store will give you
+a copy at no charge.  That doesn't make it free software, though.
+Price or no price, the program is nonfree because its users are denied
+freedom.</p>
+
+<p>
+Since free software is not a matter of price, a low price doesn't make
+the software
+free, or even closer to free.  So if you are redistributing copies of free
+software, you might as well charge a substantial fee and <em>make
+some money</em>.  Redistributing free software is a good and
+legitimate activity; if you do it, you might as well make a profit
+from it.</p>
+
+<p>
+Free software is a community project, and everyone who depends on it
+ought to look for ways to contribute to building the community.  For a
+distributor, the way to do this is to give a part of the profit to free software development projects or to the
+<a href="/fsf/fsf.html">Free Software Foundation</a>.  This way you can
+advance the world of free software.</p>
+
+<p>
+<strong>Distributing free software is an opportunity to raise
+funds for development.  Don't waste it!</strong></p>
+
+<p>
+In order to contribute funds, you need to have some extra.  If you
+charge too low a fee, you won't have anything to spare to support
+development.</p>
+
+
+<h3>Will a higher distribution price hurt some users?</h3>
+
+<p>
+People sometimes worry that a high distribution fee will put free
+software out of range for users who don't have a lot of money.  With
+<a href="/philosophy/categories.html#ProprietarySoftware">proprietary
+software</a>, a high price does exactly that&mdash;but free software
+is different.</p>
+
+<p>
+The difference is that free software naturally tends to spread around,
+and there are many ways to get it.</p>
+
+<p>
+Software hoarders try their damnedest to stop you from running a
+proprietary program without paying the standard price.  If this price
+is high, that does make it hard for some users to use the program.</p>
+
+<p>
+With free software, users don't <em>have</em> to pay the
+distribution fee in order to use the software.  They can copy the
+program from a friend who has a copy, or with the help of a friend who
+has network access.  Or several users can join together, split the
+price of one CD-ROM, then each in turn can install the software.  A high
+CD-ROM price is not a major obstacle when the software is free.</p>
+
+
+<h3>Will a higher distribution price discourage use of free software?</h3>
+
+<p>
+Another common concern is for the popularity of free software.  People
+think that a high price for distribution would reduce the number of
+users, or that a low price is likely to encourage users.</p>
+
+<p>
+This is true for proprietary software&mdash;but free software is
+different.  With so many ways to get copies, the price of distribution
+service has less effect on popularity.</p>
+
+<p>
+In the long run, how many people use free software is determined
+mainly by <em>how much free software can do</em>, and how easy it
+is to use.  Many users do not make freedom their priority; they
+may continue to use proprietary software if
+free software can't do all the jobs they want done.  Thus, if we want
+to increase the number of users in the long run, we should above all
+<em>develop more free software</em>.</p>
+
+<p>
+The most direct way to do this is by writing needed
+<a href="http://savannah.gnu.org/projects/tasklist">free software</a>
+or
+<a href="/doc/doc.html">manuals</a> yourself.  But if you do
+distribution rather than writing, the best way you can help is by
+raising funds for others to write them.</p>
+
+
+<h3>The term &ldquo;selling software&rdquo; can be confusing too</h3>
+
+<p>
+Strictly speaking, &ldquo;selling&rdquo; means trading goods for
+money.  Selling a copy of a free program is legitimate, and we
+encourage it.</p>
+
+<p>
+However, when people think of
+<a href="/philosophy/words-to-avoid.html#SellSoftware">&ldquo;selling software&rdquo;</a>,
+they usually imagine doing it the way most companies do it: making the
+software proprietary rather than free.</p>
+
+<p>
+So unless you're going to draw distinctions carefully, the way this
+article does, we suggest it is better to avoid using the term
+&ldquo;selling software&rdquo; and choose some other wording instead.
+For example, you could say &ldquo;distributing free software for a
+fee&rdquo;&mdash;that is unambiguous.</p>
+
+
+<h3>High or low fees, and the GNU GPL</h3>
+
+<p>
+Except for one special situation, the
+<a href="/copyleft/gpl.html">GNU General Public License</a> (GNU GPL)
+has no requirements about how much you can charge for distributing a
+copy of free software.  You can charge nothing, a penny, a dollar, or
+a billion dollars.  It's up to you, and the marketplace, so don't
+complain to us if nobody wants to pay a billion dollars for a
+copy.</p>
+
+<p>
+The one exception is in the case where binaries are distributed
+without the corresponding complete source code.  Those who do this are
+required by the GNU GPL to provide source code on subsequent request.
+Without a limit on the fee for the source code, they would be able set
+a fee too large for anyone to pay&mdash;such as a billion
+dollars&mdash;and thus pretend to release source code while in truth
+concealing it.  So <a href="/licenses/gpl.html#section6">in this case we
+have to limit the fee</a> for source in order
+to ensure the user's freedom.  In ordinary situations, however, there
+is no such justification for limiting distribution fees, so we do not
+limit them.</p>
+
+<p>
+Sometimes companies whose activities cross the line stated in the GNU
+GPL plead for permission, saying that they &ldquo;won't charge
+money for the GNU software&rdquo; or such like.  That won't get them anywhere
+with us.  Free software is about freedom, and enforcing the GPL is
+defending freedom.  When we defend users' freedom, we are not
+distracted by side issues such as how much of a distribution fee is
+charged.  Freedom is the issue, the whole issue, and the only issue.</p>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+<div id="fsf-links">
+ <ul>
+  <li><a href="/">GNU&nbsp;home&nbsp;page</a></li>
+  <li><a href="http://www.fsf.org/">FSF&nbsp;home&nbsp;page</a></li>
+  <li><a href="/graphics/graphics.html">GNU&nbsp;Art</a></li>
+  <li><a href="/people/people.html">GNU's&nbsp;Who?</a></li>
+  <li><a href="http://directory.fsf.org">Free&nbsp;Software&nbsp;Directory</a></li>
+  <li><a href="https://h-node.org/">Hardware</a></li>
+  <li><a href="/server/sitemap.html">Site&nbsp;map</a></li>
+ </ul>
+</div><!-- /fsf-links -->
+
+<div id="mission-statement">
+
+<blockquote>
+<p><a href="http://www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext.png" alt=" [FSF logo] "/></a><strong>&ldquo;Our
+mission is to preserve, protect and promote the freedom to use, study,
+copy, modify, and redistribute computer software, and to defend the
+rights of Free Software users.&rdquo;</strong></p>
+</blockquote>
+
+<p>The <a href="http://www.fsf.org">Free Software Foundation</a> is
+the principal organizational sponsor of the GNU Operating System.
+<strong>Support GNU and the FSF</strong> by <a
+href="http://shop.fsf.org/">buying manuals and gear</a>, <a
+href="https://my.fsf.org/associate/support_freedom?referrer=4052">
+<strong>joining the FSF</strong></a> as an associate member, or making
+a <strong>donation</strong>, either <a
+href="http://donate.fsf.org/">directly to the FSF</a> or <a
+href="http://flattr.com/thing/313733/gnuproject-on-Flattr">via
+Flattr</a>.</p>
+
+<p id="backtotop"><a href="#header">back to top</a></p>
+
+</div><!-- /mission-statement -->
+<!-- end server/footer-text.html -->
+
+
+<div id="footer">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and submitting translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and submitting translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 1996, 1997, 1998, 2001, 2007, 2015, 2016
+Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div class="unprintable">
+<p><a href="http://www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+
+
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2016/01/01 05:55:21 $
+<!-- timestamp end -->
+</p>
+</div>
+</div>
+</body>
+</html>

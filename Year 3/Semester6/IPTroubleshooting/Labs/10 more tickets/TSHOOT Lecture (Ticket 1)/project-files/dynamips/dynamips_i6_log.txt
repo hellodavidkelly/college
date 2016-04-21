@@ -1,0 +1,36 @@
+Apr 21 13:04:16.050 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 21 13:04:16.050 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50064.
+Apr 21 13:04:16.175 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 21 13:04:16.175 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 21 13:04:16.175 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 1)\project-files\dynamips 
+Apr 21 13:04:16.175 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 1)\project-files\dynamips
+Apr 21 13:04:16.175 HYPERVISOR: exec_cmd: vm create R1 10 c3725 
+Apr 21 13:04:16.175 VM: VM R1 created.
+Apr 21 13:04:16.191 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 2011 
+Apr 21 13:04:16.191 HYPERVISOR: exec_cmd: vm set_aux_tcp_port R1 2508 
+Apr 21 13:04:16.191 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Apr 21 13:04:16.191 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c20a.06a4.0000 
+Apr 21 13:04:16.191 HYPERVISOR: exec_cmd: vm set_ios R1 C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 21 13:04:16.191 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 16 WIC-2T 
+Apr 21 13:04:16.191 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Apr 21 13:04:16.191 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 21 13:04:16.191 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x6026b804 
+Apr 21 13:04:16.206 HYPERVISOR: exec_cmd: vm set_config R1 configs/i10_startup-config.cfg 
+Apr 21 13:04:17.251 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Apr 21 13:04:17.251 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 21 13:04:17.844 HYPERVISOR: exec_cmd: nio create_udp nio_udp5 10007 127.0.0.1 10006 
+Apr 21 13:04:17.860 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 16 nio_udp5 
+Apr 21 13:04:17.860 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 21 13:04:18.187 HYPERVISOR: exec_cmd: nio create_udp nio_udp17 10019 127.0.0.1 10018 
+Apr 21 13:04:18.203 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 17 nio_udp17 
+Apr 21 13:04:18.219 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 21 13:04:22.914 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 21 13:04:22.914 HYPERVISOR: exec_cmd: vm start R1 
+Apr 21 13:04:59.247 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 21 13:04:59.247 HYPERVISOR: exec_cmd: vm stop R1 
+Apr 21 13:04:59.543 VM: VM R1 shutdown.
+Apr 21 13:04:59.621 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 21 13:04:59.637 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 21 13:04:59.731 HYPERVISOR: Stopped.
+Apr 21 13:04:59.731 VM: VM R1 destroyed.
+Apr 21 13:04:59.733 GENERAL: reset done.

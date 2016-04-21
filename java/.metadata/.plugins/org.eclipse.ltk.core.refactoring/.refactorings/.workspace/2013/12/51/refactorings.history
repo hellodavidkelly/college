@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;task9/src/inputDialog.java&apos;" deleteContents="false" description="Delete resource &apos;task9/src/inputDialog.java&apos;" element1="/task9/src/inputDialog.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1387192770171"/>
+</session>

@@ -1,0 +1,86 @@
+LIAR1
+#(#JVDiagramSpec 
+	#name: 'FlyFolders' 
+	#creationDateSeconds: 3098727474 
+	#modificationDateSeconds: 3130428367 
+	#author: #(#AD2Identity 
+		#nickName: '' 
+		#name: '' 
+		#company: '' ) 
+	#state: #(#AD2DiagramState 
+		#bits: 135 
+		#zoom: '100%' 
+		#translation: #(#Point 0 0 ) ) 
+	#settings: #(#AD2DiagramSettings 
+		#colors: 
+		#(#AD2Paint 
+			#symbolicColorDictionary: #(#classBackground #(#ColorValue #lightYellow ) #textForeground #(#ColorValue #black ) #interfaceBackground #(#ColorValue #salmon ) #classForeground #(#ColorValue #black ) #textBackground #(#ColorValue 4096 6553 8191 ) #diagramBackground #(#ColorValue #white ) #abstractClassBackground #(#ColorValue 8191 6553 4096 ) #freeLine #(#ColorValue #black ) #finalClassBackground #(#ColorValue 6553 8191 4096 ) #implementation #(#ColorValue #red ) #association #(#ColorValue #black ) #inheritance #(#ColorValue #black ) ) 
+			#indexedColors: #(#(#ColorValue #white ) #(#ColorValue 6143 6143 6143 ) #(#ColorValue #gray ) #(#ColorValue #black ) #(#ColorValue 8191 4096 6151 ) #(#ColorValue #salmon ) #(#ColorValue 8191 6553 4096 ) #(#ColorValue #lightYellow ) #(#ColorValue 6553 8191 4096 ) #(#ColorValue #paleGreen ) #(#ColorValue 4096 8191 6152 ) #(#ColorValue #lightCyan ) #(#ColorValue 4096 6553 8191 ) #(#ColorValue #royalBlue ) #(#ColorValue 6553 4096 8191 ) #(#ColorValue #orchid ) #(#ColorValue 4096 2048 2106 ) #(#ColorValue 4096 4096 2048 ) #(#ColorValue 2048 4096 2562 ) #(#ColorValue 2048 2048 4096 ) ) 
+			#coloredPrinting: true ) 
+		#notation: 
+		#(#AD2NotationPreferences 
+			#notationType: #UML 
+			#useColorScheme: true 
+			#useStereotypes: true 
+			#displayInheritanceSymbol: true 
+			#displayVisibilitySymbols: true 
+			#displayNavigabilitySymbol: false 
+			#suppressMissingCompartments: true 
+			#displayFullyQualifiedName: false 
+			#displayDynamicRelations: false ) 
+		#layout: 
+		#(#AD2LayoutPreferences 
+			#relationLayoutType: #straight 
+			#inheritanceLayoutType: #straight 
+			#implementsLayoutType: #straight 
+			#inheritanceOrientation: #topToBottom 
+			#equalizeClassSize: false ) ) 
+	#filter: #(#JVMethodFilter 
+		#attributesFilter: 
+		#(#JVFilter 
+			#bits: 0 
+			#negativeBits: 0 
+			#individuals: #() ) 
+		#servicesFilter: 
+		#(#JVFilter 
+			#bits: 0 
+			#negativeBits: 0 
+			#individuals: #() ) 
+		#dynamicRelationsFilter: 
+		#(#JVFilter 
+			#bits: 0 
+			#negativeBits: 0 
+			#individuals: #() ) ) 
+	#classes: #(
+		#(#'default.Folder' 'd:\Projects\PatternJava\Programs\Flyweight\FlyFolders\folder.class' 496 144 1 nil 
+			#showAttributes: false 
+			#showServices: true ) 
+		#(#'default.FlyCanvas' 'd:\Projects\PatternJava\Programs\Flyweight\FlyFolders\FlyCanvas.class' 336 315 1 nil 
+			#layouts: #(
+				#(#JVLayoutSpec #'default.Folder' 
+					#attribute: 'folder' 
+					#layout2: #(0.308824 1.0 ) 
+					#lineLayout: #(#(#Point 359 315 ) #(#Point 483 224 ) ) 
+					#symbol: #plain ) 
+				#(#JVLayoutSpec #'default.FolderFactory' 
+					#attribute: 'fact' 
+					#layout2: #(0.45283 1.0 ) 
+					#lineLayout: #(#(#Point 317 315 ) #(#Point 201 224 ) ) 
+					#symbol: #plain ) ) 
+			#showAttributes: false ) 
+		#(#'default.FolderFactory' 'd:\Projects\PatternJava\Programs\Flyweight\FlyFolders\FolderFactory.class' 206 144 1 nil 
+			#layouts: #(
+				#(#JVLayoutSpec #'default.Folder' 
+					#attribute: 'Selected' 
+					#layout1: #(1.0 0.65 ) 
+					#layout2: #(0.0 0.6375 ) 
+					#lineLayout: #(#(#Point 259 196 ) #(#Point 274.0 195.0 ) #(#Point 462 195 ) ) 
+					#symbol: #plain ) 
+				#(#JVLayoutSpec #'default.Folder' 
+					#attribute: 'unSelected' 
+					#layout1: #(1.0 0.225 ) 
+					#layout2: #(0.0 0.2 ) 
+					#lineLayout: #(#(#Point 259 162 ) #(#Point 462 160 ) ) 
+					#symbol: #plain ) ) 
+			#showAttributes: false 
+			#showServices: true ) ) )

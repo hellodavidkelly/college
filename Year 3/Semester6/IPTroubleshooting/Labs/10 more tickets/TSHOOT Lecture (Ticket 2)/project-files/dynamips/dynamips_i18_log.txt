@@ -1,0 +1,47 @@
+Apr 20 14:49:18.081 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Apr 20 14:49:18.081 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55499.
+Apr 20 14:49:18.222 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 20 14:49:18.222 HYPERVISOR: exec_cmd: hypervisor uuid 
+Apr 20 14:49:18.237 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 2)\project-files\dynamips 
+Apr 20 14:49:18.237 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture (Ticket 2)\project-files\dynamips
+Apr 20 14:49:18.237 HYPERVISOR: exec_cmd: vm create FTPServer 7 c3725 
+Apr 20 14:49:18.253 VM: VM FTPServer created.
+Apr 20 14:49:18.253 HYPERVISOR: exec_cmd: vm set_con_tcp_port FTPServer 2003 
+Apr 20 14:49:18.300 HYPERVISOR: exec_cmd: vm set_aux_tcp_port FTPServer 2512 
+Apr 20 14:49:18.300 HYPERVISOR: exec_cmd: c3725 get_mac_addr FTPServer 
+Apr 20 14:49:18.300 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Apr 20 14:49:18.300 HYPERVISOR: exec_cmd: vm set_idle_pc FTPServer 0x6026b804 
+Apr 20 14:49:18.300 HYPERVISOR: exec_cmd: vm set_ram FTPServer 192 
+Apr 20 14:49:18.300 HYPERVISOR: exec_cmd: vm set_ios FTPServer C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 20 14:49:18.315 HYPERVISOR: exec_cmd: c3725 set_mac_addr FTPServer c207.1688.0000 
+Apr 20 14:49:18.315 HYPERVISOR: exec_cmd: vm set_config FTPServer configs/i7_startup-config.cfg 
+Apr 20 14:49:18.315 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Apr 20 14:49:18.315 VM: VM Ghost created.
+Apr 20 14:49:18.331 HYPERVISOR: exec_cmd: vm set_ios Ghost C:\Users\Michael\GNS3\images\IOS\C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Apr 20 14:49:18.331 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 20 14:49:18.331 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 20 14:49:18.331 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Apr 20 14:49:18.331 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 20 14:49:18.347 HYPERVISOR: exec_cmd: vm start Ghost 
+Apr 20 14:49:18.752 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 20 14:49:18.752 HYPERVISOR: exec_cmd: vm stop Ghost 
+Apr 20 14:49:19.033 VM: VM Ghost shutdown.
+Apr 20 14:49:19.033 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Apr 20 14:49:19.033 VM: VM Ghost destroyed.
+Apr 20 14:49:19.033 HYPERVISOR: exec_cmd: vm set_ghost_status FTPServer 2 
+Apr 20 14:49:19.033 HYPERVISOR: exec_cmd: vm set_ghost_file FTPServer C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Apr 20 14:49:20.156 HYPERVISOR: exec_cmd: nio create_udp nio_udp56 10017 127.0.0.1 10016 
+Apr 20 14:49:20.156 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FTPServer 0 0 nio_udp56 
+Apr 20 14:49:20.203 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Apr 20 14:49:24.119 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Apr 20 14:49:24.134 HYPERVISOR: exec_cmd: vm start FTPServer 
+Apr 20 14:52:49.852 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Apr 20 14:52:49.852 HYPERVISOR: exec_cmd: vm stop FTPServer 
+Apr 20 14:52:49.961 VM: VM FTPServer shutdown.
+Apr 20 14:53:01.443 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Apr 20 14:53:01.458 HYPERVISOR: exec_cmd: vm extract_config FTPServer 
+Apr 20 14:53:01.458 HYPERVISOR: exec_cmd: vm delete FTPServer 
+Apr 20 14:53:01.458 VM: VM FTPServer destroyed.
+Apr 20 14:53:01.489 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 20 14:53:01.645 HYPERVISOR: Stopped.
+Apr 20 14:53:01.645 GENERAL: reset done.

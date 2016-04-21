@@ -1,0 +1,53 @@
+// J7_4_FP.cg Fragment Program: fragment bump mapping 
+
+void main(
+	float2 iTexCoord			: 	TEXCOORD0, 
+	float4 iPosition			: 	TEXCOORD1, 
+	float3 nNormal	   	 		: 	TEXCOORD2,
+	float3 tNormal	 	 		: 	TEXCOORD3,
+	float3 bNormal	   	 		: 	TEXCOORD4,
+out float4 oColor 				: 	COLOR, 
+uniform sampler2D imgTexture 	: 	TEX0, 
+uniform sampler2D normalMap		: 	TEX0, 
+              uniform float3 La,
+              uniform float3 Ld,
+              uniform float3 Ls,
+              uniform float3 lightPosition,
+              uniform float3 eyePosition,
+              uniform float3 Me,
+              uniform float3 Ma,
+              uniform float3 Md,
+              uniform float3 Ms,
+              uniform float  shininess
+) {  
+   // retrieve bump map vector at iTexCoord
+   float4 texColor1 = tex2D(normalMap, iTexCoord); 
+   float4 texColor2 = tex2D(imgTexture, iTexCoord); 
+ 
+   // retrieve pixel position and normal
+   float3 N = texColor1.xzy*2 - 1; 
+   float3 P = iPosition.xyz;
+	
+  // transform light source direction to tangent space 
+  float3 Lg = normalize(lightPosition - P);
+  float3 L = float3(dot(tNormal, Lg),dot(nNormal, Lg),dot(bNormal, Lg)) ; 
+ 
+  // calculate emission and ambient components
+  float3 Ie = Me; 
+  float3 Ia = La*Ma; 
+  
+  // calculate diffuse component
+  float cosNL = max(dot(N, L), 0); 
+  float3 Id = Md * Ld * cosNL;
+  
+  // calculate specular component
+  float3 V = normalize(eyePosition - P);
+  float3 H = normalize(L + V);
+  float cosNH = max(dot(N, H), 0); 
+  if (cosNL==0) cosNH = 0; 
+  float3 Is = Ms * Ls * pow(cosNH, shininess); 
+
+  oColor.xyz = Ie + Ia + Id + Is;
+  oColor = lerp(oColor, texColor2, 0.5); 
+}
+

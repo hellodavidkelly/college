@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jonathan Kelly</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="generator" content="Social Likes: http://sapegin.github.com/social-likes/">
+		<link rel="stylesheet" href="css/styles.css"/>
+		<link rel="stylesheet" href="css/social-likes_classic.css"/>
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+		<link rel="stylesheet" href="themes/jonathanKelly.min.css"/>
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/>
+		<script src="javascript/jquery-1.11.1.min.js"></script> 
+		<script src="javascript/jquery.mobile-1.4.5.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+		<script src="javascript/script.js"></script>
+		<script src="javascript/social-likes.min.js"></script>
+	</head>
+	
+	
+	<body>
+<!-- home page ***********************************************************************************-->	
+		<div data-role="page" id="home" data-theme="a">
+		
+			<!-- home page header -->
+			<div data-role="header" data-position="fixed">
+				<div class="align_center">
+					<img id="logo" id="header_image" src="images/logo.png" alt="logo">
+				</div>
+				<a href="#info" data-icon="info" data-iconpos="notext" data-rel="dialog" class="ui-btn-left">Info</a>
+				<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			</div>
+			<!-- /home page header -->
+		
+			<!-- home page content -->
+			<div data-role="content">
+				<div data-role="controlgroup">
+					<ul data-role="listview" data-inset="true">
+						<li><a href="#about" data-prefetch data-transition="slide">About</a></li>
+						<li><a href="#portfolio" data-prefetch data-transition="slide">Portfolio</a></li>
+						<li><a href="#brands" data-prefetch data-transition="slide">Brands</a></li>
+						<li><a href="#videos" data-prefetch 
+data-transition="slide">YouTube</a></li>
+						<li><a href="#blog" data-prefetch 
+data-transition="slide" class="to_blog_link">Blog</a></li>
+						<li><a href="#photos" data-prefetch data-transition="slide">Gallery</a></li>
+						<li><a href="#map" data-prefetch data-transition="slide">Location</a></li>
+					</ul>
+				</div>
+				<br>
+				
+			<!-- Facebook like-->
+				<div id="foot">
+					<div class="social-likes social-likes_single" data-single-title="Share">
+					<div class="facebook" title="Share link on Facebook">Facebook</div>
+					<div class="twitter" title="Share link on Twitter">Twitter</div>
+					<div class="plusone" title="Share link on Google+">Google+</div>
+				</div>
+				
+				<div id="fb-root"></div>
+					<fb:like href="https://www.facebook.com/1adfhgdfhfgh?skip_nax_wizard=true&amp;ref_type=page_profile_button" layout="button_count" show_faces="false" width="450" height="35" action="like" colorscheme="light" font="trebuchet ms" allowTransparency="true">
+					</fb:like>
+				</div>
+			<!-- /Facebook like-->
+
+			</div>
+			<!-- /home page content-->
+		
+			<!-- home page footer -->
+			<div data-role="footer" data-position="fixed">
+					<div id="foot">David Kelly/Malone 2014</div>
+			</div>
+			<!-- /home page footer -->
+		</div>
+<!-- / home page ************************************************************************************ -->
+
+
+<!-- info page 		
+*****************************************************************************-->
+	<div data-role="page" id="info" data-theme="a">
+		<div data-role="header">
+			<h1>Information</h1>
+		</div>
+    	<div data-role="content">
+    		<p>This website was created to display the work of graphic designer Jonathan Kelly.</p>
+    	</div>
+	</div>
+<!-- /info dialog ************************************************************************************ -->
+
+
+<!-- about page *********************************************************************************-->
+	<div data-role="page" id="about" data-theme="a">
+		
+		<!-- about page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-left">home</a>
+      		<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			<h1>About</h1>
+		</div>
+		<!-- /about page header -->
+		
+		<!-- about page content -->
+  		<div data-role="content">
+  			<div data-role="collapsible">
+  				<h4>Education</h4>
+  					<ul data-role="listview">
+						<li>Confey Community College</li>
+						<li>Colaiste Dhulaigh</li>
+						<li>University of Wolverhampton</li>
+					</ul>
+			</div>
+			<div data-role="collapsible">
+				<h4>Career</h4>
+				<p>
+				Jonathan began his career as a junior designer at PrintRun. PrintRun is a small Irish graphic design firm that deals with many big named clients. Jonathan gained importance at his role and moved up in the company. After many years at PrintRun Jonathan decided to explore different avenues of graphic design, ultimately leaving the company. Two Squares was formed in 2011 and proved to be Jonathan's biggest challenge. The company took on a number of clients and pushed the boundaries of contemporary design and advertising. 
+				</p>
+			</div>
+
+			<div data-role="collapsible">
+				<h4>Graphic Design</h4>
+				<p>
+				A big career move arrived when Jonathan decided to move to London. Opting to retain the clients acquired by Two Squares and take on some free lance work. Progressing his knowledge in the field of graphic communication, typography & marketing design. An established designer in his own right with many brands developed and clients acquired.
+				</p>
+			</div>
+
+		</div>
+		<!-- /about page content -->
+		
+		<!-- about page footer -->
+ 		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="carat-l" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /about page footer -->
+  	</div>
+<!-- /about page ************************************************************************************ -->
+	
+	
+<!-- portfolio page *********************************************************************************-->
+	<div data-role="page" id="portfolio" data-theme="a">
+		
+		<!-- portfolio page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-left">home</a>
+      		<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			<h1>Portfolio</h1>
+		</div>
+		<!-- /portfolio page header -->
+		
+		<!-- portfolio page content -->
+  		<div data-role="content">
+  			<div data-role="collapsible">
+  				<h4>Mr.Smith</h4>
+					<h4>Date</h4>
+					<p>Jun. 2012 - Dec. 2012</p>
+					<h4>Information</h4>
+					<p>Kelvyn Laurence Smith runs the well-oiled 'Mr Smith Letterpress Workshop' in Kennington, London. Mr Smith is a Polymath — a craftsman, designer, typographer, printmaker, wordsmith & maker. He is of strong temperament & is chiefly concerned with problem solving, attention to detail, good practice & quality workmanship. He creates exquisitely crafted contemporary typographic printed matter using an collection of English traditional wood and metal types in his Letterpress workshop.</p>
+					<h4>Project</h4>
+					<p>The project began as an induction in to a craft. Learning the equipment and tools required to create an individual type face. Using analog equipment and no computers in the workshop, The instruments used are all hand carved from wood and made from metal. Through a series of visits to Mr.Smith and his workshop, getting hands on with the equipment and learning spacing, fonts, font sizes and complimentary designs and layouts for print. Jonathan left the workshop with a catalogue of prints.</p>
+						
+  				<div data-role="collapsible">
+					<h4>Images</h4>
+					<img class="portfolio_img" src="images/portfolio/1.1_905.jpg" alt="portfolio">			
+					<img class="portfolio_img" src="images/portfolio/2_905copy.jpg" alt="portfolio">			
+					<img class="portfolio_img" src="images/portfolio/1.2_905.jpg" alt="portfolio">			
+  				</div>			
+  			</div>
+			
+  			<div data-role="collapsible">
+  				<h4>Times New Romans?</h4>
+					<h4>Date</h4>
+					<p>Jan. 2013 - Nov. 2013</p>
+					<h4>Information</h4>
+					<p>Times New Romans? is a project Jonathan undertook at the beginning of 2013. The idea of the project was to question the beauty within type face and the literal ability of creating faces related to certain fonts.Times New Roman gets its name from the Times of London, the British newspaper. In 1929, the Times hired typographer Stanley Morison of Monotype, a British font foundry, to create a new text font.</p>
+					<h4>Project</h4>
+					<p>The project stemmed form the use 'face' in typeface... Jonathan can see the individual style and 'face' in each font. The idea was to incorporate and capture each subtle nuance for each font. The project Began with Times New Roman and the finished work is open to interpretation, However Jonathan feels that the image is pretty and clear. It depicts a certain biblical figure who had trouble with Romans of his own.</p>			
+					
+				<div data-role="collapsible">
+					<h4>Images</h4>
+					<img class="portfolio_img" src="images/portfolio/DSC_0004_905.jpg" alt="logo">	
+					<img class="portfolio_img" src="images/portfolio/DSC_0088_905.jpg" alt="logo">  				
+					<img class="portfolio_img" src="images/portfolio/roman_4_905.jpg" alt="logo">
+				</div>
+			</div>
+		</div>
+		<!-- /portfolio page content -->
+		
+		<!-- portfolio page footer -->
+ 		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="carat-l" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /portfolio page footer -->
+  	</div>
+<!-- /portfolio page ************************************************************************************ -->
+
+
+<!-- brands page *********************************************************************************-->
+	<div data-role="page" id="brands" data-theme="a">
+		
+		<!-- brands page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-left">home</a>
+      		<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			<h1>Brands</h1>
+		</div>
+		<!-- /brands page header -->
+		
+		<!-- brands page content -->
+  		<div data-role="content">
+  			<div data-role="collapsible">
+  				<h4>Luth</h4>
+   				<img class="portfolio_img" src="images/brands/luth_logo_905.jpg" alt="brands">			
+ 				<img class="portfolio_img" src="images/brands/luth_tag1_905.jpg" alt="brands">			
+  				<img class="portfolio_img" src="images/brands/luth_tag2_905.jpg" alt="brands">			
+  				<img class="portfolio_img" src="images/brands/luth_logos2_905.jpg" alt="brands">						
+  			</div>
+			<div data-role="collapsible">
+				<h4>Battersea Park Antique Fair</h4>
+  				<img class="portfolio_img" src="images/brands/TDF_new_905copy.jpg" alt="brands">
+  				<img class="portfolio_img" src="images/brands/TDF_mobile_905.jpg" alt="brands">
+  				<img class="portfolio_img" src="images/brands/decorative_3_905.jpg" alt="brands">
+			</div>
+			<div data-role="collapsible">
+				<h4>Colly Ahern</h4>
+  				<img class="portfolio_img" src="images/brands/ca_colour1_905.jpg" alt="brands">
+  				<img class="portfolio_img" src="images/brands/CA_logo_905.jpg" alt="brands">
+  				<img class="portfolio_img" src="images/brands/CA_vinyl_905.jpg" alt="brands">
+  				<img class="portfolio_img" src="images/brands/colly_905.jpg" alt="brands">
+			</div>
+			<div data-role="collapsible">
+				<h4>Dyslexia Trust</h4>
+  				<img class="portfolio_img" src="images/brands/dyslexiawebsite_905.jpg" alt="brands">
+  				<img class="portfolio_img" src="images/brands/logo_poster5_905.jpg" alt="brands">
+  				<img class="portfolio_img" src="images/brands/logoDuo_905px_905.jpg" alt="brands">
+			</div>
+			<div data-role="collapsible">
+				<h4>Vodafone</h4>
+  				<img class="portfolio_img" src="images/brands/Voda_guy1_905.jpg" alt="brands">
+  				<img class="portfolio_img" src="images/brands/vodapitch-2_905_905.jpg" alt="brands">
+  				<img class="portfolio_img" src="images/brands/vodapitch-3_905copy.jpg" alt="brands">  				
+  				<img class="portfolio_img" src="images/brands/vodapitch-5_905_905.jpg" alt="brands">
+			</div>			
+		</div>
+		<!-- /brands page content -->
+		
+		<!-- brands page footer -->
+ 		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="carat-l" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /brands page footer -->
+  	</div>
+<!-- /brands page ************************************************************************************ -->
+
+
+
+<!-- map page ************************************************************************************ -->
+	<div data-role="page" id="map" data-theme="a">
+		
+		<!-- map page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-left">home</a>
+      		<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			<h1>Map</h1>
+		</div>
+		<!-- /map page header -->
+		
+		<!-- map page content -->
+		<div data-role="content">
+			<div id="map_canvas">
+				<!-- map -->
+			</div>
+		</div>
+		<!-- /map page content -->
+
+		<!-- map page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="carat-l" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /map page footer -->
+	</div>
+<!-- /map page ************************************************************************************ -->
+
+
+<!-- blog page **********************************************************************************-->
+	<div data-role="page" id="blog" data-theme="a">
+		
+		<!-- blog page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-left">home</a>
+      		<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			<h1>Blog</h1>
+		</div>
+		<!-- /blog page header -->
+
+		<!-- blog page content -->
+		<div role="main" id="postlist" class="ui-content">
+			<!-- here the blog titles are getting injected -->
+		</div>
+		<!-- /blog page content -->
+
+		<!-- blog page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="carat-l" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+				</ul>
+    		</div>
+  		</div>
+  		<!-- /blog page footer -->
+	</div>
+<!-- /blog page **********************************************************************************-->
+
+<!-- blog content page **********************************************************************************-->
+	<div data-role="page" id="blogpost" data-theme="a">
+		
+		<!-- blog content page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-left">home</a>
+      		<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			<h1>Blog</h1>
+		</div>
+		<!-- /blog content page header -->
+
+		<!-- blog content -->		
+		<div data-role="content">
+			<div id="mypost"></div>
+		</div>
+		<!-- /blog content -->		
+		
+		<!-- blog content page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="carat-l" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+				</ul>
+    		</div>
+		</div>
+  		<!-- /blog content page footer -->
+  	</div>
+<!-- /blog content page **********************************************************************************-->
+
+
+<!-- YouTube page ************************************************************************************ -->
+	<div data-role="page" id="videos" data-theme="a">
+		<!-- YouTube image page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-left">home</a>
+      		<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			<h1>YouTube</h1>
+		</div>
+		<!-- /YouTube image page header -->
+		
+		<!-- YouTube page content -->
+		<div data-role="content">
+			<div id="videolist"></div>
+		</div>
+		<!-- /YouTube page content -->
+
+		<!-- YouTube page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="carat-l" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+				</ul>
+    		</div>
+		</div>
+  		<!-- /YouTube page footer -->
+	</div>
+<!-- /YouTube page ************************************************************************************ -->
+
+
+<!-- youtube player ************************************************************************************ -->
+	<div data-role="page" id="video_player" data-theme="a">
+		
+		<!-- YouTube page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-left">home</a>
+      		<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			<h1>YouTube</h1>
+		</div>
+		<!-- /YouTube page header -->
+		
+		<!-- YouTube player content -->
+		<div data-role="content">
+			<div id="videoplayer"></div>
+		</div>
+		<!-- /YouTube player content -->
+
+		<!-- YouTube player footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="carat-l" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+				</ul>
+    		</div>
+		</div>
+  		<!-- /YouTube player footer -->
+	</div>
+<!-- /youtube player ************************************************************************************ -->
+
+
+
+<!-- gallery page ***************************************************************************** -->
+	<div id="photos" data-role="page" data-theme="a">
+		
+		<!-- gallery page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-left">home</a>
+      		<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			<h1>Gallery</h1>
+		</div>
+		<!-- /gallery page header -->
+		
+		<!-- gallery page content -->
+		<div data-role="content">
+			<div id="photolist"></div>
+		</div>
+		<!-- /gallery page content -->
+
+		<!-- gallery page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="carat-l" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+				</ul>
+    		</div>
+		</div>
+  		<!-- /gallery page footer -->
+	</div>
+<!-- gallery page ************************************************************************************-->
+
+
+<!-- flickr page *************************************************************************** -->
+	<div data-role="page" id="showphoto" data-theme="a">
+		
+		<!-- flickr page header -->
+		<div data-role="header" data-position="fixed">
+      		<a href="#home" data-icon="home" data-iconpos="notext" class="ui-btn-left">home</a>
+      		<a href="#" data-icon="bars" data-iconpos="notext" class="theme_changer ui-btn-right">Theme</a>
+			<h1>flickr</h1>
+		</div>
+		<!-- /flickr page header -->
+
+		<!-- flickr page content -->
+		<div data-role="content">
+			<div id="myphoto"></div>
+		</div>
+		<!-- /flickr page content -->
+
+		<!-- flickr page footer -->
+  		<div data-role="footer" data-position="fixed">
+    		<div data-role="navbar">
+      			<ul>
+					<li><a data-role="button" data-icon="carat-l" data-transition="slide" data-direction="reverse" data-rel="back">Back</a></li>
+				</ul>
+    		</div>
+		</div>
+  		<!-- /flickr footer -->
+	</div>
+<!-- flickr page *************************************************************************** -->
+
+<!--*************************flickr script*************************--!>
+	<script src="https://api.flickr.com/services/feeds/photos_public.gne?id=64075419@N06&amp;lang=en-us&amp;format=json"></script>
+
+<!--*************************YouTube script*************************--!>
+	<script src="http://gdata.youtube.com/feeds/users/PESfilm/uploads?alt=json-in-script&amp;max-results=10&amp;callback=listVideos"></script>
+		
+<!--*************************Wordpress script*************************--!>
+	<script src="http://bronchaus.com/wordpress/?json=1&amp;callback=listPosts"></script>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+form{
+	background-color:AntiqueWhite;
+	width: 100%;
+	
+	}
+	
+
+h1 {
+	text-align:center; 
+	color:blue;}
+	
+h2 {
+	text-align: center;}
+	
+span {
+	color: red; }
+	
+
+
+
+
+textarea { margin-left: 10%; 
+	 text-align: left;}
+
+	#buttons{
+	margin-left: 51%;
+	}
+	
+	#bluetext
+	{
+	color:blue;
+	}
+

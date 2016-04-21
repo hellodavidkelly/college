@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesisStructure.aux
+A level-1 auxiliary file: introduction/intro.aux
+A level-1 auxiliary file: literatureReview/literatureReview.aux
+The style file: plain.bst
+A level-1 auxiliary file: analysis/analysis.aux
+A level-1 auxiliary file: implementation/implementation.aux
+A level-1 auxiliary file: testing/testing.aux
+Database file #1: bibPaper1.bib
+Warning--there's a number but no volume in patterns
+Warning--empty journal in experteoneonone
+You've used 12 entries,
+            2118 wiz_defined-function locations,
+            570 strings with 5769 characters,
+and the built_in function-call counts, 3838 in all, are:
+= -- 379
+> -- 163
+< -- 4
++ -- 65
+- -- 52
+* -- 238
+:= -- 645
+add.period$ -- 36
+call.type$ -- 12
+change.case$ -- 62
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 159
+empty$ -- 290
+format.name$ -- 52
+if$ -- 819
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 12
+newline$ -- 63
+num.names$ -- 24
+pop$ -- 57
+preamble$ -- 1
+purify$ -- 50
+quote$ -- 0
+skip$ -- 131
+stack$ -- 0
+substring$ -- 223
+swap$ -- 43
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 48
+warning$ -- 2
+while$ -- 35
+width$ -- 14
+write$ -- 129
+(There were 2 warnings)

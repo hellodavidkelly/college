@@ -1,0 +1,72 @@
+form{
+	background-color:#FAEBFF;
+	width:60%;
+	margin-left:1em;
+	border-style:solid;
+	border-color:#7A0A85;
+	font-size:80%
+     }
+     
+     label {
+     	display:block;
+     	float:left;
+     	margin-left:1em;
+     	width:8em;
+     	color:black;
+    	height:2em;
+
+     	
+}
+     
+     
+	
+body{
+	background-color:White;
+	width: 80%;
+	
+    }
+
+h1 {
+	padding:8px;
+	background-color:White;
+	text-align:center; 
+	color:#7A0A85;
+	border: 2px solid black;
+	font-style:italic;
+	font-size:90%
+
+    }
+	
+h2 {
+	background-color:AntiqueWhite;
+	text-align: center;
+   }
+	
+span{
+	color: red;
+	
+
+    }
+	
+
+textarea { 
+		margin-left: 10%; 
+		text-align: left;
+	 }
+
+
+
+#buttons{
+		margin-left: 31%;
+	}
+	
+
+
+fieldset { 
+		border: 2px solid Fuchsia;
+	 }
+
+p {
+	clear:left;
+	
+}

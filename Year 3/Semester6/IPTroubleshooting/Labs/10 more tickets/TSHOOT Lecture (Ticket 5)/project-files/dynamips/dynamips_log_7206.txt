@@ -1,0 +1,30 @@
+Mar 24 20:05:25.314 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Mar 24 20:05:25.315 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 7206.
+Mar 24 20:05:25.781 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 24 20:05:25.782 HYPERVISOR: exec_cmd: hypervisor uuid 
+Mar 24 20:05:25.782 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/Michael/GNS3/projects/TSHOOT Lecture  Demo2/TSHOOT Lecture  Demo2-files\dynamips 
+Mar 24 20:05:25.783 GENERAL: working_dir=C:/Users/Michael/GNS3/projects/TSHOOT Lecture  Demo2/TSHOOT Lecture  Demo2-files\dynamips
+Mar 24 20:05:25.784 HYPERVISOR: exec_cmd: vm create FTPServer 7 c3725 
+Mar 24 20:05:25.793 VM: VM FTPServer created.
+Mar 24 20:05:25.794 HYPERVISOR: exec_cmd: vm set_con_tcp_port FTPServer 2003 
+Mar 24 20:05:25.796 HYPERVISOR: exec_cmd: vm set_aux_tcp_port FTPServer 2501 
+Mar 24 20:05:25.796 HYPERVISOR: exec_cmd: c3725 get_mac_addr FTPServer 
+Mar 24 20:05:25.797 HYPERVISOR: exec_cmd: vm set_ram FTPServer 192 
+Mar 24 20:05:25.798 HYPERVISOR: exec_cmd: vm set_ios FTPServer C:/Users/Michael/GNS3/images/IOS/C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN 
+Mar 24 20:05:25.798 HYPERVISOR: exec_cmd: vm set_sparse_mem FTPServer 1 
+Mar 24 20:05:25.799 HYPERVISOR: exec_cmd: vm set_ram_mmap FTPServer 1 
+Mar 24 20:05:25.800 HYPERVISOR: exec_cmd: vm set_aux_tcp_port FTPServer 2512 
+Mar 24 20:05:25.800 HYPERVISOR: exec_cmd: c3725 set_mac_addr FTPServer c207.1688.0000 
+Mar 24 20:05:25.801 HYPERVISOR: exec_cmd: vm set_ghost_status FTPServer 2 
+Mar 24 20:05:25.801 HYPERVISOR: exec_cmd: vm set_ghost_file FTPServer C3725-adventerprisek9-mz.124.15.T10.IMAGE.BIN-192.ghost 
+Mar 24 20:05:29.316 HYPERVISOR: exec_cmd: vm set_config FTPServer configs/i7_startup-config.cfg 
+Mar 24 20:05:29.317 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Mar 24 20:05:29.317 HYPERVISOR: exec_cmd: vm set_idle_pc FTPServer 0x6026b804 
+Mar 24 20:05:29.558 HYPERVISOR: exec_cmd: nio create_udp_auto nio_udp_auto25 127.0.0.1 10001 20000 
+Mar 24 20:05:30.106 HYPERVISOR: exec_cmd: nio connect_udp_auto nio_udp_auto25 127.0.0.1 10025 
+Mar 24 20:05:30.106 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FTPServer 0 0 nio_udp_auto25 
+Mar 24 20:05:30.107 HYPERVISOR: exec_cmd: vm get_status FTPServer 
+Mar 24 20:11:20.115 HYPERVISOR: exec_cmd: vm extract_config FTPServer 
+Mar 24 20:11:20.305 HYPERVISOR: Stopped.
+Mar 24 20:11:20.306 VM: VM FTPServer destroyed.
+Mar 24 20:11:20.318 GENERAL: reset done.

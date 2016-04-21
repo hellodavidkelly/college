@@ -1,0 +1,85 @@
+form{
+	background-color:#FAEBFF;
+	width: 100%;
+border-style:solid;
+border-color:#7A0A85;
+	
+	}
+	
+body
+{
+background-color:White;
+;
+width: 80%;
+}
+h1 {
+	padding:10px;
+	background-color:White;
+	text-align:center; 
+	color:#7A0A85;
+	border: 2px solid black;
+font-style:italic;
+			}
+	
+h2 {background-color:AntiqueWhite;
+	text-align: center;}
+	
+span {
+	color: black; }
+	
+
+
+
+
+textarea { margin-left: 10%; 
+	 text-align: left;}
+
+
+	
+	#bluetext
+	{
+	color:blue;
+	
+	}
+#buttons{
+	margin-left: 41%;
+	}
+	
+	
+	#nameinfo
+	{
+	color:#7A0A85;
+	display:inline-block;margin-right:40px;
+	}
+
+	#webinfo
+	{
+	color:#7A0A85;
+	display:inline-block;margin-right:14px;
+	}
+
+	#addressinfo
+	{
+	color:#7A0A85;
+	display:inline-block;margin-right:60px;
+	
+	}
+	
+	#horseinfo
+	{
+	
+	display:inline-block;margin-right:40px;
+	padding:15px;
+	}
+
+	#additionalinfo
+	{
+	
+	display:inline-block;margin-right:40px;
+	padding:15px;
+	}
+	fieldset  { border: 2px solid Fuchsia;
+	
+	}
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title>Contact Form</title>
+		<style>
+		@import url(style2.css);
+		</style>
+		<meta charset= 'utf-8'>
+	
+	</head>
+
+	<body>
+		<form action = "showForm.html" method = "post">
+		
+			<h1> Contact us </h1>
+			
+			<fieldset>
+				<legend> Use the following form to contact us</legend>
+			
+			Your Email
+			<br>
+			
+			<input type="text" size="20" maxlength="30" name="Email" id="Email"> 
+			
+			<br>
+			
+			Message
+			
+			<br>
+				
+			<textarea name="textArea" id="textArea" cols="50" rows="10"></textarea>
+			
+			<br>
+			How did you hear about us?
+			<select name="How" id="How">
+				<option value="google"> Google </option>
+				<option value="local"> Local Newspaper ad </option>
+				<option value="friend"> Friend </option>
+				<option value="other"> Other </option>
+			</select>
+			
+			<br>
+			
+			Newsletter:<input type="checkbox" name="Newsletter" id="Newsletter" value="Newsletter" checked>
+			<span id="check">*Ensure this box is checked if you would like to receive email updates</span>
+			<br><br>
+			
+			</fieldset>
+			
+				<div id="buttons">
+				<input type="Submit" name="Submit" id="Submit" value="Submit">
+				
+				<input type="Reset" name="reset" id = "Reset">	
+				</div>
+		</form>
+	
+	</body>
+
+</html>
